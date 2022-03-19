@@ -1,7 +1,12 @@
 ---
 title: Where Does My Code Run? - Compilers, Interpreters, Transpilers and Virtual Machines
-date: "2021-01-21T12:12:03.284Z"
-description: Making Code Happen
+date: "2021-01-21"
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - tooling
+    - computer science
 ---
 
 ## Machine Code

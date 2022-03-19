@@ -1,7 +1,13 @@
 ---
 title: Understanding and Using Environment Variables in React
-date: "2021-01-16T12:12:03.284Z"
-description: Learning How to hide Data
+date: "2021-01-16"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - react
+    - frontend
+    - javascript
 ---
 
 ## Why do you care?

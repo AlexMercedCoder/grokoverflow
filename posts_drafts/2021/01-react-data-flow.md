@@ -1,6 +1,6 @@
 ---
 title: React Data Flow - Understanding State and Props
-date: "2021-01-15T12:12:03.284Z"
+date: "2021-01-15"
 author: "Alex Merced"
 category: "frontend"
 bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"

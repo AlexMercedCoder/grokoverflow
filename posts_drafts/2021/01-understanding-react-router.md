@@ -1,8 +1,16 @@
 ---
 title: Understanding React Router
-date: "2021-01-15T12:12:03.284Z"
-description: Learn the Pre-Hypertext Processor Language
+date: "2021-01-15"
+author: "Alex Merced"
+category: "frontend"
+bannerImage: "/images/postbanner/2021/frontend-crud-plain-vanilla.png"
+tags:
+    - react
+    - frontend
+    - javascript
 ---
+
+*Note: this article is about React Router 5 and earlier, search for the more recent article on React Router 6 for syntax differences*
 
 ## What is Routing?
 
