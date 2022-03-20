@@ -135,6 +135,7 @@ export async function getStaticPaths(...args) {
 
   const addPost = (fileName) => {
     const slug = fileName.replace(".md", "");
+    console.log(fileName)
     const readFile = fs.readFileSync(`posts/${fileName}`, "utf-8");
     const { data: frontmatter } = matter(readFile);
 
