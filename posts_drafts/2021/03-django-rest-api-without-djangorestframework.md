@@ -1,7 +1,13 @@
 ---
 title: Django Rest API without DjangoRestFramework
-date: "2021-03-01T12:12:03.284Z"
-description: In case you were wondering
+date: "2021-03-01"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - backend
+  - other languages
+  - python
 ---
 
 **Find tutorials for django at my website, devNursery.com**

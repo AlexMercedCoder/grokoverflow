@@ -1,7 +1,12 @@
 ---
 title: More on Python Virtual Environments
-date: "2021-03-02T12:12:03.284Z"
-description: Using Pythons Built in venv module
+date: "2021-03-02"
+author: "Alex Merced"
+category: "python"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - python
+  - tooling
 ---
 
 **My Original Article on [Virtual Environments](https://tuts.alexmercedcoder.com/2021/1/pythonvirtualenv/)**

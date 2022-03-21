@@ -1,7 +1,13 @@
 ---
 title: merced-express - Express with a Ruby on Rails Feel
-date: "2021-03-22T12:12:03.284Z"
-description: Express... on Rails...
+date: "2021-03-22"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - backend
+  - node
+  - javascript
 ---
 
 If you've ever used Ruby on Rails it provides many awesome benefits with its command-line interface:

@@ -1,7 +1,15 @@
 ---
 title: Ultimate Express & Mongo Reference
-date: "2021-03-18T12:12:03.284Z"
-description: Building Backends with NodeJS
+date: "2021-03-18"
+author: "Alex Merced"
+category: "reference"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - backend
+  - mongo
+  - database
+  - node
+  - javascript
 ---
 
 This is not a guide on how to use express and mongo, but a useful reference especially for those starting to learn these technologies. This guide will serve as documentation of the basics of all the main functions and patterns in these libraries.

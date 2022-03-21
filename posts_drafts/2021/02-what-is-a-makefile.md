@@ -1,7 +1,11 @@
 ---
 title: What is a Makefile and how do I use them?
-date: "2021-02-14T12:12:03.284Z"
-description: Automating all the things
+date: "2021-02-14"
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - tooling
 ---
 
 ## The beauty of scripting and automation
@@ -39,13 +43,14 @@ publish:
 
 With the above make file we can run either of the chain of terminal commands like so.
 
-```make express```
+`make express`
 
-```make publish```
+`make publish`
 
 What if for some reason you wanted to use a different filename other than Makefile, this is doable. Take the following file.
 
 MakeMore
+
 ```
 website:
     mkdir website
@@ -55,7 +60,7 @@ website:
 
 You can then run this file with the following command.
 
-```make website --makefile=MakeMore```
+`make website --makefile=MakeMore`
 
 ## Conclusion
 

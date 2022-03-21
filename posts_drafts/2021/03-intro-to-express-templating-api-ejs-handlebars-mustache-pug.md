@@ -1,7 +1,13 @@
 ---
 title: Intro to Express, Templating and API's (EJS, Handlebars, Mustache, Pug)
-date: "2021-03-04T12:12:03.284Z"
-description: Tales of PHP's Demise are Exaggerated
+date: "2021-03-04"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - javascript
+  - node
+  - backend
 ---
 
 Express is by far the most popular backend web framework in the NodeJS world. It is a right of passage for every javascript developer to learn how to create full-stack applications and APIs. 

@@ -1,7 +1,11 @@
 ---
 title: Many Useful Javascript Tricks
-date: "2021-02-21T12:12:03.284Z"
-description: Upping Your Javascript Gains
+date: "2021-02-21"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - javascript
 ---
 
 **Learn more Javascript with my Javascript Video Playlist => [Javascript Playlist](https://www.youtube.com/playlist?list=PLY6oTPmKnKbZDZ9cRrRby4Wnr4GIJj5O3)**

@@ -1,7 +1,13 @@
 ---
 title: Hello World - Laravel 101 (From Start to Deploy)
-date: "2021-03-03T12:12:03.284Z"
-description: Tales of PHP's Demise are Exaggerated
+date: "2021-03-03"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - backend
+  - other languages
+  - php
 ---
 
 PHP has come a long way from the PHP 3 days. You may run into people who criticize PHP based on those days when security and speed critiques were legitimate but a lot has changed from PHP 3 to today's PHP 8.

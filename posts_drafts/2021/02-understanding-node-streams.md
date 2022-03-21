@@ -1,7 +1,12 @@
 ---
 title: Understanding Node Streams with Https.get
-date: "2021-02-08T12:12:03.284Z"
-description: Learn How to use Streams
+date: "2021-02-08"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - javascript
+  - node
 ---
 
 ## What are Streams?

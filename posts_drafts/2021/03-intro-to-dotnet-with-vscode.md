@@ -1,7 +1,12 @@
 ---
 title: Intro to .Net 5 with VSCode - Zero to Deploy
-date: "2021-03-11T12:12:03.284Z"
-description: Microsoft Goes Cross Platform
+date: "2021-03-11"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - other languages
+  - backend
 ---
 
 .Net is Microsoft's platform for application development and for a long time it has been a "Windows Only" platform. With .Net 5, Microsoft is going cross-platform enabling dotnet development in Linux and MacOS. This makes sense since Microsoft's bread and butter is no longer operating systems but the cloud, and more developers using their development platform will increase the added value of their cloud platform.

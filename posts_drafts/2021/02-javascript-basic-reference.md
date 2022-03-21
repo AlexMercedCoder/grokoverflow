@@ -1,7 +1,12 @@
 ---
 title: Javascript Basic Reference
-date: "2021-02-07T12:12:03.284Z"
-description: Quickly find what you need
+date: "2021-02-07"
+author: "Alex Merced"
+category: "reference"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - javascript
+  - reference
 ---
 
 ## Declaring Variables

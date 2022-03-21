@@ -1,13 +1,20 @@
 ---
 title: How to create an One to Many Relationship with Auth in Python with Masonite
-date: "2021-12-07T12:12:03.284Z"
-description: Using A Developer Friendly Web Framework in Python
+date: "2021-12-07"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - backend
+  - python
 ---
 
 ## To Get Started with Masonite, Start Here
 
 - [Working with Masonite Blog](https://tuts.alexmercedcoder.com/2021/5/Masonite-Python-Web-Framework-101/)
 - [Video: Masonite from Zero to Deploy](https://www.youtube.com/watch?v=ayUGmt-YgkQ)
+
+**Since this blog was created, Masonite 4 was released, [here](https://www.youtube.com/playlist?list=PLY6oTPmKnKbYrrQQG2AKLYaXgn0W4ixWB) is a video playlist to learn the changes in Mastonite 4**
 
 ## Let's Get Started
 

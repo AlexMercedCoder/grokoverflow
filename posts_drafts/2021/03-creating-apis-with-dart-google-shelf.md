@@ -1,7 +1,12 @@
 ---
 title: Creating APIs with Dart & Google Shelf - Zero to Deploy
-date: "2021-03-14T12:12:03.284Z"
-description: Using the Fast Growing Dart Language
+date: "2021-03-14"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - other languages
+  - backend
 ---
 
 Dart has been a quickly growing language cause of the Flutter compiler which allows you to compile your code to Android and iOS platforms. Flutter has just released a new version that has expanded its reach into compiling the same codebase in Web Apps and Desktop Apps. That's a pretty killer value proposition to use the same codebase for mobile, desktop, and web apps!
