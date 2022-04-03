@@ -1,7 +1,13 @@
 ---
 title: Ultimate 2021 Reference for React Functional Components
-date: "2021-04-21T12:12:03.284Z"
-description: React for Everyone
+date: "2021-04-21"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - frontend
+  - react
+  - javascript
 ---
 
 [I will Continue to Expand on Guide in this Gist](https://gist.github.com/AlexMercedCoder/b4d86790176f2f5c7b374235cf3dc23c)

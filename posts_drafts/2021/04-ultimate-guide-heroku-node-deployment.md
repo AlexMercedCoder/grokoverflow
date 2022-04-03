@@ -1,7 +1,14 @@
 ---
 title: Ultimate 2021 Guide to Deploying NodeJS (And DenoJS) Apps to Heroku
-date: "2021-04-01T12:12:03.284Z"
-description: Heroku CLI, Continuous Integration and more
+date: "2021-04-01"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - javascript
+  - node
+  - backend
+  - deployment
 ---
 
 Heroku is a great platform for deploying full-stack applications (if your application is frontend-only then Netlify, Vercel or Render may be a better alternative). In this guide, I will be focusing on the different ways to deploy a node js app. If you are using DenoJS I'll link a video below on deploying a Deno app.
