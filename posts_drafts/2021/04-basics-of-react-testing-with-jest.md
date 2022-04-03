@@ -1,7 +1,13 @@
 ---
 title: The Basics of React Testing With Jest
-date: "2021-04-22T12:12:03.284Z"
-description: Making Sure React Works
+date: "2021-04-22"
+author: "Alex Merced"
+category: "testing"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - javascript
+  - node
+  - testing
 ---
 
 [MY VIDEO ON REACT TESTING](https://youtu.be/Qpp67fEqtxo)

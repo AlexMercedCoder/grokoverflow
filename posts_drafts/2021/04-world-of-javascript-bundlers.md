@@ -1,7 +1,13 @@
 ---
 title: The Wonderful World of Javascript Bundlers
-date: "2021-04-19T12:12:03.284Z"
-description: Yay! Javascript Build Tools.
+date: "2021-04-19"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - javascript
+  - node
+  - tooling
 ---
 
 ## Problem #1 - Too Many Script Tags

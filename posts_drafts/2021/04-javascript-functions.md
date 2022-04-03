@@ -1,7 +1,12 @@
 ---
 title: Ultimate Guide to Javascript Functions
-date: "2021-04-11T12:12:03.284Z"
-description: What's your function?
+date: "2021-04-11"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
+tags:
+  - javascript
+  - node
 ---
 
 Functions are one of the most important concepts in programming, and Javascript gives functions first-class support meaning there is a lot to learn but a lot of great ways to use functions in javascript. This article is a reference on functions in javascript. Enjoy.
