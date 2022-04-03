@@ -45,7 +45,7 @@ export default function Post({ frontmatter, content }) {
         <meta name="description" content={`"${title}" an article written by ${author} touching on ${tags.join(", ")}`} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <img src={bannerImage} className={styles.img} alt={title} />
+      <h1 className={styles.title}>{title}</h1>
       <div className={styles.details}>
       <h2>
         <Link href={`/blog/author/${author.toLowerCase().replace(" ", "-")}`}>{author}</Link> || {date}
