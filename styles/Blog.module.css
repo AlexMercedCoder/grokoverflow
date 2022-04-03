@@ -5,8 +5,8 @@
     display: grid;
     grid-template-areas: 
     "f f f c"
-    "b b b c"
-    "b b b c"
+    "s s s c"
+    "s s s c"
     "b b b c"
     "b b b c"
     "b b b c"
@@ -90,8 +90,34 @@
 
 .searchBox {
     text-align: center;
-    width: 70%;
     margin: auto;
+    grid-area: s;
+}
+
+.article {
+    width: 30%;
+    min-width: 290px;
+    background-color: var(--main-color-1);
+    color: white;
+    padding: 8px;
+    margin: 5px auto;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.article h2 {
+    font-size: .9em;
+    cursor: pointer;
+    transition: font-size .3s, color .3s;
+}
+
+.article h2:hover {
+    font-size: 1em;
+    color: bisque;
+}
+
+.article h3 {
+    font-size: .7em;
 }
 
 
@@ -124,6 +150,7 @@
         grid-template-areas: 
         "f "
         "c"
+        "s"
         "b"
         "b"
         "n";

@@ -47,16 +47,26 @@ export default function Blog({ posts, categories }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <aside className={styles.featured}>
+        <div className={styles.article}>
         <h1>Featured Post</h1>
         <Link href={`/posts/${posts[0].slug}`}>
-          <Image
-            src={posts[0].frontmatter.bannerImage}
-            alt={posts[0].frontmatter.title}
-            width={285}
-            height={160}
-          />
+                <h2>{posts[0].frontmatter.title}</h2>
         </Link>
+              <h3>{posts[0].frontmatter.date} - {posts[0].frontmatter.author}</h3>
+              </div>
       </aside>
+      <div className={styles.searchBox}>
+          <h4 className={styles.rtitle}>Post Search</h4>
+          <input
+            type="text"
+            name="search"
+            placeholder="search titles and tags"
+            ref={searchRef}
+          />
+          <button onClick={search} className={styles.searchButton}>
+            Search
+          </button>
+        </div>
       <aside className={styles.blogs}>
         {postSlice.slice.map((post) => {
           //extract slug and frontmatter
@@ -67,10 +77,11 @@ export default function Blog({ posts, categories }) {
 
           //JSX for individual blog listing
           return (
-            <article key={slug}>
+            <article key={slug} className={styles.article}>
               <Link href={`/posts/${slug}`}>
-                <Image src={bannerImage} alt={title} width={285} height={160} />
+                <h2>{title}</h2>
               </Link>
+              <h3>{date} - {author}</h3>
             </article>
           );
         })}
@@ -95,18 +106,6 @@ export default function Blog({ posts, categories }) {
         </button>
       </div>
       <aside className={styles.c}>
-        <div className={styles.searchBox}>
-          <h4 className={styles.rtitle}>Post Search</h4>
-          <input
-            type="text"
-            name="search"
-            placeholder="search titles and tags"
-            ref={searchRef}
-          />
-          <button onClick={search} className={styles.searchButton}>
-            Search
-          </button>
-        </div>
         <div className={styles.categories}>
           <h4 className={styles.rtitle}>Categories</h4>
           {categories.map((c) => {

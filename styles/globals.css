@@ -6,7 +6,7 @@
   --code-color: #C0DFD9
 }
 
-code {
+p > code {
   background-color: rgb(44, 14, 14);
   color: white;
   padding: 6px;
