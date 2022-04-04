@@ -1,7 +1,13 @@
 ---
 title: FoalTS - Building a Typescript Based API
-date: "2021-05-27T12:12:03.284Z"
-description: Making an API with this Typescript Based Framework
+date: "2021-05-27"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - backend
+  - typescript
 ---
 
 Bottom Line, like bow-ties... Typescript is cool!

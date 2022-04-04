@@ -1,7 +1,12 @@
 ---
 title: Basics of Building a CRUD API with Flask or FASTApi
-date: "2021-07-23T12:12:03.284Z"
-description: Learning REST conventions with Python Frameworks
+date: "2021-07-23"
+author: "Alex Merced"
+category: "python"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - python
+  - backend
 ---
 
 Flask and FASTApi are two very popular Python frameworks for creating an API in python. In this tutorial we will walk through making an API with both with full CRUD. We will not be using a database or ORM. Although using the patterns below you can adapt your preferred data layer into your API. So instead of a database we will define our model using a class and use a list to create, read, update and delete our data.

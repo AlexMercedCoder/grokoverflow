@@ -1,7 +1,14 @@
 ---
 title: Basic Intro to NextJS
-date: "2021-06-07T12:12:03.284Z"
-description: The next generation of Frontend Frameworks
+date: "2021-06-07"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - frontend
+  - backend
+  - react
 ---
 
 Some people will call NextJS a Static Site Generator like GatsbyJS but it's so much more. Essentially NextJS allows you to create an Isomorphic Application, meaning:

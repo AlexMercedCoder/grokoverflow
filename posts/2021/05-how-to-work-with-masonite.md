@@ -1,7 +1,12 @@
 ---
 title: How to Work with Masonite - Python Web Framework
-date: "2021-05-28T12:12:03.284Z"
-description: Batteries Included Python Web Framework
+date: "2021-05-28"
+author: "Alex Merced"
+category: "python"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - python
+  - backend
 ---
 
 We all love Ruby on Rails and how easy it makes creating APIs and websites. In python, Django has generally been the main batteries included framework used for many projects. The problem is Django has a lot of quirks that make its patterns quite different than the more railsesque approach frameworks for other languages have taken. Masonite provides a much more rails like experience in the Python language, let's try it out!

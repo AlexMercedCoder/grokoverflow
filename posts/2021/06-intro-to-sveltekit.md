@@ -1,7 +1,14 @@
 ---
 title: Intro to SvelteKit
-date: "2021-06-14T12:12:03.284Z"
-description: The new Svelte Based Application Builder
+date: "2021-06-14"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - frontend
+  - backend
+  - svelte
 ---
 
 Kind of like React is a Frontend Framework and Next wraps it in a more robust set of features, the people at Svelte has Sapper (Svelte APP Maker) play the same role of providing Server Side and Static rendering along with file based routing.

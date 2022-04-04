@@ -1,7 +1,14 @@
 ---
 title: Creating Deno Scripts Like Node NPM Scripts
-date: "2021-05-19T12:12:03.284Z"
-description: Replicating One of Nodes Greatest Features
+date: "2021-05-19"
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - tooling
+  - javascript
+  - deno
+
 ---
 
 One of the greatest features of NodeJS is the package.json file. The file not only tracks dependencies but also allows us to easily create scripts as easy as writing some JSON.

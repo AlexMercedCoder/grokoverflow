@@ -1,7 +1,14 @@
 ---
 title: Basics of Building a CRUD API with NodeJS - Express, Koa and Fastify
-date: "2021-07-25T12:12:03.284Z"
-description: Learning REST conventions with Javascript
+date: "2021-07-25"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - express
+  - koa
+  - fastify
 ---
 
 NodeJS is an amazing tool that allows us to bring Javascript to backend development. When it comes to creating web servers, there are dozens of frameworks in the Node ecosystem. The most popular minimalist unopinionated frameworks are Express, Koa and Fastify. In this tutorial we will build a basic API that follows RESTful conventions with each one. We will not be using a database but instead an array of objects to simulate data from a database so we can focus on the RESTful patterns. 

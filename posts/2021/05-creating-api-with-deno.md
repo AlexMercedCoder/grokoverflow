@@ -1,7 +1,14 @@
 ---
 title: Creating an API with Deno (import maps, deps.ts, etc.)
-date: "2021-05-10T12:12:03.284Z"
+date: "2021-05-10"
 description: Using that Cool New Javascript Runtime
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - tooling
+  - javascript
+  - deno
 ---
 
 - In this tutorial, I'm using Deno version 1.9.2
