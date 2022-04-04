@@ -1,7 +1,15 @@
 ---
 title: 10 Programming Languages Side by Side (JS, Python, Ruby, PHP, GO, Rust, Dart, C Sharp, Java, Ballerina)
-date: "2021-06-02T12:12:03.284Z"
-description: Learn Languages by see what's similar and different
+date: "2021-06-02"
+author: "Alex Merced"
+category: "other languages"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - other languages
+  - javascript
+  - ruby
+  - python
+  - php
 ---
 
 Using the below you can see the basics of 10 different languages. For most of these langauges you should be able to try them out by [generating a REPL](https//www.repl.it).
