@@ -1,7 +1,12 @@
 ---
 title: Ruby Sinatra with Postgres using Sequel
-date: "2021-06-04T12:12:03.284Z"
-description: Connecting a Sinatra App to a Database
+date: "2021-06-04"
+author: "Alex Merced"
+category: "ruby"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - ruby
+  - backend
 ---
 
 In Ruby on Rails we use ActiveRecord as our ORM (Object Relationship Mapper). Sinatra, being a minimalist framework is unopinionated about what Ruby ORM you use to work with to connect to the database of your choice. We will use the ORM, sequel, to connect our small application to a database.
