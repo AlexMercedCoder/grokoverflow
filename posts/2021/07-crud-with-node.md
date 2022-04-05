@@ -1,7 +1,13 @@
 ---
 title: Basics of Building a CRUD API with Node (no framework)
-date: "2021-07-30T12:12:03.284Z"
-description: Learning the Node HTTP/HTTPS library
+date: "2021-07-30"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - node
+  - backend
 ---
 
 In this tutorial we once again create a full CRUD api without a database. In this article we won't use a pre-existing framework but the standard node libraries that underpin all our favorite frameworks.

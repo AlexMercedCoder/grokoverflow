@@ -1,7 +1,14 @@
 ---
 title: Basics of Building a CRUD API with Typescript (NestJS and FoalTS)
-date: "2021-07-27T12:12:03.284Z"
-description: Backend Frameworks with Typescript Support
+date: "2021-07-27"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - express
+  - koa
+  - fastify
 ---
 
 Using Typescript for development for frontend and backend development keep growing. Typescript allows for better IDE hints and less runtime errors due to type errors with its typing system. On top of that Typescript makes popular OOP patterns like dependency injection more applicable vs when typing doesn't exist like in plain javascript. (In DI, you use typing in class constructor to instantiate and inject services throughout your application)

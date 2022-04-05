@@ -1,7 +1,12 @@
 ---
 title: The Concepts of JAMStack 101
-date: "2021-07-11T12:12:03.284Z"
-description: Speed, SEO and Security with JAMStack
+date: "2021-07-11"
+author: "Alex Merced"
+category: "jamstack"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - jamstack
 ---
 
 JAMStack is a set of technologies to create fast, SEO friendly, and secure websites. To really appreciate what these set of technologies provide us (Static Site Generators and Headless CMS's) let's discuss the evolution of web development.
