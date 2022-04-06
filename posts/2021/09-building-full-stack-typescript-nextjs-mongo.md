@@ -1,7 +1,13 @@
 ---
 title: Building a Full-Stack Todo App with Typescript, NextJS and Mongo - 0 To Deploy
-date: "2021-09-09T12:12:03.284Z"
-description: Trying out the hottest framework around
+date: "2021-09-09"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - backend
+  - frontend
 ---
 
 ## What are we going to build

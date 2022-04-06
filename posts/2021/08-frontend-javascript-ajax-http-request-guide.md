@@ -1,7 +1,12 @@
 ---
 title: Frontend Javascript Ajax/Http Request Guide
-date: "2021-08-25T12:12:03.284Z"
-description: Getting Data from an external API
+date: "2021-08-25"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - ajax
 ---
 
 ## What is AJAX?

@@ -1,7 +1,13 @@
 ---
 title: Basic Authentication with Node/Express and Mongo
-date: "2021-08-20T14:12:03.284Z"
-description: A Beginning oriented dive into databases
+date: "2021-08-20"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - backend
+  - authentication
 ---
 
 [REPO OF CODE FROM THIS LESSON HERE AS A TEMPLATE](https://github.com/AlexMercedCoder/Express-Mongo-Auth-Template)

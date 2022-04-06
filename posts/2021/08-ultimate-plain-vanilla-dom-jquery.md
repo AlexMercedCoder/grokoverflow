@@ -1,7 +1,12 @@
 ---
 title: Ultimate Plain Vanilla DOM JS & JQuery Cheatsheet
-date: "2021-08-04T14:12:03.284Z"
-description: A Beginning oriented dive into databases
+date: "2021-08-04"
+author: "Alex Merced"
+category: "jamstack"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - frontend
 ---
 
 While for larger projects using one of the main frontend frameworks is usually the way to go:

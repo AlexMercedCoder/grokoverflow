@@ -1,7 +1,14 @@
 ---
 title: How to use Neo4j Graph Database in your Node Project (Express, Koa, Fastify, etc.)
-date: "2021-09-25T12:12:03.284Z"
-description: Graph Databases are Cool
+date: "2021-09-25"
+author: "Alex Merced"
+category: "database"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - database
+  - backend
+  - node
 ---
 
 If you haven't seen it before, I highly recommend first watch this video from fireship on [7 Different Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw).
