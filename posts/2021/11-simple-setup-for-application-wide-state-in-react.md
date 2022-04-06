@@ -1,7 +1,12 @@
 ---
 title: Simple Setup for Application Wide State in React
-date: "2021-11-20T12:12:03.284Z"
-description: Sharing State Across Your React App with just React (No Redux or Recoil)
+date: "2021-11-20"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - react
 ---
 
 ![Blog Title Image - React Application Wide State](https://i.imgur.com/shntfak.jpg)

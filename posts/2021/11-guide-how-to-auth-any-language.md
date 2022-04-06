@@ -1,7 +1,14 @@
 ---
 title: The Guide to How to Implement Authorization in any language and framework
-date: "2021-11-18T12:12:03.284Z"
-description: Having Users Login
+date: "2021-11-18"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - backend
+  - authentication
+  - other languages
 ---
 ![Title Image](https://i.imgur.com/XbV0EzX.jpg)
 

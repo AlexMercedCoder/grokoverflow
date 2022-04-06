@@ -1,7 +1,13 @@
 ---
 title: Creating a GraphQL Based Habit Tracker with Hasura and React (GraphQL/Hasura 101)
-date: "2021-11-16T12:12:03.284Z"
-description: GraphQL Made Easy
+date: "2021-11-16"
+author: "Alex Merced"
+category: "backend"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - backend
+  - graphql
 ---
 
 ## What is GraphQL?

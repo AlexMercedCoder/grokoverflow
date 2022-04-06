@@ -1,7 +1,12 @@
 ---
 title: Methods of Starting a Quick HTTP Server from the Command Line (alternatives to liveserver)
-date: "2021-10-03T12:12:03.284Z"
-description: For simple web development
+date: "2021-10-03"
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - tooling
+  - backend
 ---
 
 If you are developing in VSCode it's quite typical that you'd be using the live-server extension to spin-up a quick development server. A few reasons sometimes you may not want to use liveserver.

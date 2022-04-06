@@ -1,7 +1,12 @@
 ---
 title: My First React App - 2021 Intro to React
-date: "2021-10-29T12:12:03.284Z"
-description: The Basics of React
+date: "2021-10-29"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - react
 ---
 
 ## Before Starting this tutorial

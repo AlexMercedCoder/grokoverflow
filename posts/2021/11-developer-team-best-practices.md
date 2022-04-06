@@ -1,7 +1,13 @@
 ---
 title: Developer Team Work Best Practices (Git, Agile/Scrum/Kanban, CI/CD)
-date: "2021-11-16T12:12:03.284Z"
-description: How to be part of a developer team
+date: "2021-11-16"
+author: "Alex Merced"
+category: "tooling"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - tooling
+  - github
+  - git
 ---
 
 ## The Why?

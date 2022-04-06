@@ -1,7 +1,12 @@
 ---
 title: Comparing React Router 5, 6, and React Location
-date: "2021-10-21T12:12:03.284Z"
-description: For simple web development
+date: "2021-10-21"
+author: "Alex Merced"
+category: "javascript"
+bannerImage: "/images/postbanner/2021/understanding-git.png"
+tags:
+  - javascript
+  - react
 ---
 ![Comparing React Router 5, 6, and React Location](https://i.imgur.com/YxqmEmR.jpg)
 
