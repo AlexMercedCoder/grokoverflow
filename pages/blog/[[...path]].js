@@ -25,10 +25,10 @@ export default function Blog({ posts, categories }) {
   const [postSlice, setPostSlice] = useState(getPostSlice(1));
 
   const search = () => {
-    const term = searchRef.current.value;
+    const term = searchRef.current.value.toLowerCase();
     const results = posts.filter(
       (p) =>
-        p.frontmatter.tags.includes(term) || p.frontmatter.title.includes(term)
+        p.frontmatter.tags.toLowerCase().includes(term) || p.frontmatter.title.toLowerCase().includes(term)
     );
     setPostSlice({
       page: 1,
