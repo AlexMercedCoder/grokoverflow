@@ -12,8 +12,8 @@ export default function Podcasts() {
     <h3>Make sure to subscribe to my podcasts on iTunes/Stitcher/Spotify</h3>
 
     <ul>
-      <a href="https://open.spotify.com/show/1kMcquypdIElTu4Nu98XPM"><li>Web Dev 101 Podcast</li></a>
-      <a href="https://open.spotify.com/show/3v0FiFQ4cssESk9SxKmVfJ"><li>DataNation (data engineering, analytics and science)</li></a>
+      <a href="https://open.spotify.com/show/04ZuSb96sicLYm9xb3NpXC"><li>Web Dev 101 Podcast</li></a>
+      <a href="https://open.spotify.com/show/3KHzqR9eFW6bJ1Tqoh2juM"><li>DataNation (data engineering, analytics and science)</li></a>
     </ul>
 
     <h4>Other Great Podcasts (Start your own easily using Anchor.fm)</h4>
