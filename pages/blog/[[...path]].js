@@ -28,7 +28,7 @@ export default function Blog({ posts, categories }) {
     const term = searchRef.current.value.toLowerCase();
     const results = posts.filter(
       (p) =>
-        p.frontmatter.tags.toLowerCase().includes(term) || p.frontmatter.title.toLowerCase().includes(term)
+        p.frontmatter.tags.some(t => t.toLowerCase().includes(term))|| p.frontmatter.title.toLowerCase().includes(term)
     );
     setPostSlice({
       page: 1,
