@@ -12,7 +12,7 @@ tags:
 
 ## What is GraphQL?
 
-[My GraphQL Article for Further Reading](https://tuts.alexmercedcoder.com/2020/graphql/)
+[My GraphQL Article for Further Reading](https://tuts.alexmercedcoder.dev/2020/graphql/)
 
 GraphQL is an alternative to Rest API created by Facebook:
 
@@ -244,38 +244,45 @@ reportWebVitals();
 Now you can use the `useQuery` and `useMutation` hooks where needed!
 
 ```js
-import {useQuery, useMutation, gql} from "@apollo/client"
+import { useQuery, useMutation, gql } from "@apollo/client";
 
 function App() {
-
   // GraphQL Query String
-  const QUERY_STRING = gql`{
-    habits {
-      id
-      habit
-      count
+  const QUERY_STRING = gql`
+    {
+      habits {
+        id
+        habit
+        count
+      }
     }
-  }`
+  `;
 
   // run query using the useQuery Hook
   // refetch is a function to repeat the request when needed
-  const {data, loading, refetch, error} = useQuery(QUERY_STRING)
+  const { data, loading, refetch, error } = useQuery(QUERY_STRING);
 
   // return value if the request errors
-  if (error){
-    return <h1>There is an Error</h1>
+  if (error) {
+    return <h1>There is an Error</h1>;
   }
 
   // return value if the request is pending
   if (loading) {
-    return <h1>The Data is Loading</h1>
+    return <h1>The Data is Loading</h1>;
   }
 
   // return value if the request is completed
-  if (data){
-    return <div>
-      {data.habits.map(h => <h1 key={h.id}>{h.habit} {h.count}</h1>)}
-    </div>
+  if (data) {
+    return (
+      <div>
+        {data.habits.map((h) => (
+          <h1 key={h.id}>
+            {h.habit} {h.count}
+          </h1>
+        ))}
+      </div>
+    );
   }
 }
 
@@ -333,14 +340,20 @@ function App() {
   }, []);
 
   // pre-query completion jsx
-  if (!query){
-    return <h1>Loading</h1>
-  };
+  if (!query) {
+    return <h1>Loading</h1>;
+  }
 
   // post-query completion jsx
-  return <div>
-    {query.habits.map((h) => <h2 key={h.id}>{h.habit} - {h.count}</h2>)}
-  </div>
+  return (
+    <div>
+      {query.habits.map((h) => (
+        <h2 key={h.id}>
+          {h.habit} - {h.count}
+        </h2>
+      ))}
+    </div>
+  );
 }
 
 export default App;
@@ -359,87 +372,107 @@ mutation add_habit ($objects: [habits_insert_input!]!){
       }
     }
 ```
-* Note the type of the variable must be an exact match as to where you use it, use GraphiQL to determine the necessary types when making your own queries.
+
+- Note the type of the variable must be an exact match as to where you use it, use GraphiQL to determine the necessary types when making your own queries.
 
 #### Apollo Client Updated Code
 
 App.js
 
 ```js
-import {useQuery, useMutation, gql} from "@apollo/client"
-import { useState } from "react"
+import { useQuery, useMutation, gql } from "@apollo/client";
+import { useState } from "react";
 
 function App() {
-
   // GraphQL Query String
-  const QUERY_STRING = gql`{
-    habits {
-      id
-      habit
-      count
+  const QUERY_STRING = gql`
+    {
+      habits {
+        id
+        habit
+        count
+      }
     }
-  }`
+  `;
 
-  const MUTATION_STRING = gql`mutation add_habit ($objects: [habits_insert_input!]!){
-    insert_habits(objects: $objects){
-      affected_rows
+  const MUTATION_STRING = gql`
+    mutation add_habit($objects: [habits_insert_input!]!) {
+      insert_habits(objects: $objects) {
+        affected_rows
+      }
     }
-  }`
+  `;
 
   // run query using the useQuery Hook
   // refetch is a function to repeat the request when needed
-  const {data, loading, refetch, error} = useQuery(QUERY_STRING)
+  const { data, loading, refetch, error } = useQuery(QUERY_STRING);
 
   // create function to run mutation
-  const [add_habit, response] = useMutation(MUTATION_STRING)
+  const [add_habit, response] = useMutation(MUTATION_STRING);
 
   // state to hold form data
-  const [form, setForm] = useState({habit: "", count: 0})
+  const [form, setForm] = useState({ habit: "", count: 0 });
 
   // handleChange function for form
-  const handleChange = (event) => setForm({...form, [event.target.name]: event.target.value})
+  const handleChange = (event) =>
+    setForm({ ...form, [event.target.name]: event.target.value });
 
   // handleSubmit function for when form is submitted
   const handleSubmit = async (event) => {
     // prevent refresh
-    event.preventDefault()
+    event.preventDefault();
     // add habit, pass in variables
-    await add_habit({variables: {objects: [form]}})
+    await add_habit({ variables: { objects: [form] } });
     // refetch query to get new data
-    refetch()
-  }
+    refetch();
+  };
 
   // check if mutation failed
-  if(response.error){
-    <h1>Failed to Add Habit</h1>
+  if (response.error) {
+    <h1>Failed to Add Habit</h1>;
   }
 
   // return value if the request errors
-  if (error){
-    return <h1>There is an Error</h1>
+  if (error) {
+    return <h1>There is an Error</h1>;
   }
 
   // return value if the request is pending
   if (loading) {
-    return <h1>The Data is Loading</h1>
+    return <h1>The Data is Loading</h1>;
   }
 
   // return value if the request is completed
-  if (data){
-    return <div>
-      <form onSubmit={handleSubmit}>
-        <input type="text" name="habit" value={form.habit} onChange={handleChange}/>
-        <input type="number" name="count" value={form.count} onChange={handleChange}/>
-        <input type="submit" value="track habit"/>
-      </form>
-      {data.habits.map(h => <h1 key={h.id}>{h.habit} {h.count}</h1>)}
-    </div>
+  if (data) {
+    return (
+      <div>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            name="habit"
+            value={form.habit}
+            onChange={handleChange}
+          />
+          <input
+            type="number"
+            name="count"
+            value={form.count}
+            onChange={handleChange}
+          />
+          <input type="submit" value="track habit" />
+        </form>
+        {data.habits.map((h) => (
+          <h1 key={h.id}>
+            {h.habit} {h.count}
+          </h1>
+        ))}
+      </div>
+    );
   }
 }
 
 export default App;
 ```
-
 
 #### MGQ Updated Code
 
@@ -454,7 +487,7 @@ function App() {
   const [query, setQuery] = useState(null);
 
   // state to hold form data
-  const [form, setForm] = useState({habit: "", count: 0})
+  const [form, setForm] = useState({ habit: "", count: 0 });
 
   // function to get habits
   const getHabits = async () => {
@@ -479,14 +512,14 @@ function App() {
       insert_habits(objects: $objects){
         affected_rows
       }
-    }`
+    }`;
 
     // run query with variables
-    await graphQLQuery({query: q, variables})
+    await graphQLQuery({ query: q, variables });
 
     // get updated list of habits
-    getHabits()
-  }
+    getHabits();
+  };
 
   // useState to fetch data on load
   useEffect(() => {
@@ -494,15 +527,16 @@ function App() {
   }, []);
 
   // handleChange function for form
-  const handleChange = (event) => setForm({...form, [event.target.name]: event.target.value})
+  const handleChange = (event) =>
+    setForm({ ...form, [event.target.name]: event.target.value });
 
   // handleSubmit function for when form is submitted
   const handleSubmit = (event) => {
     // prevent refresh
-    event.preventDefault()
+    event.preventDefault();
     // add habit, pass in variables
-    addHabit({objects: [form]})
-  }
+    addHabit({ objects: [form] });
+  };
 
   // pre-query completion jsx
   if (!query) {
@@ -513,9 +547,19 @@ function App() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input type="text" name="habit" value={form.habit} onChange={handleChange}/>
-        <input type="number" name="count" value={form.count} onChange={handleChange}/>
-        <input type="submit" value="track habit"/>
+        <input
+          type="text"
+          name="habit"
+          value={form.habit}
+          onChange={handleChange}
+        />
+        <input
+          type="number"
+          name="count"
+          value={form.count}
+          onChange={handleChange}
+        />
+        <input type="submit" value="track habit" />
       </form>
       {query.habits.map((h) => (
         <h2 key={h.id}>

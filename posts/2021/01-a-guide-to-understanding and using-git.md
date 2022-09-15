@@ -140,7 +140,7 @@ So long as always push my changes I can switch computers easily and pull down th
 
 ## Branches
 
-I've now written three chapters but I have an idea for an alternate chapter 3 but I don't want to erase the current chapter 3 I've written. Git offers a feature to create alternate paths called branches. By default when you create a repo you start with a repo called "master" although many in the software development industry have been changing it to "main", [here is how to do it.](https://tuts.alexmercedcoder.com/2021/1/mastertomain/)
+I've now written three chapters but I have an idea for an alternate chapter 3 but I don't want to erase the current chapter 3 I've written. Git offers a feature to create alternate paths called branches. By default when you create a repo you start with a repo called "master" although many in the software development industry have been changing it to "main", [here is how to do it.](https://tuts.alexmercedcoder.dev/2021/1/mastertomain/)
 
 What I will do is create a new branch called new_chapter_3 with the command:
 

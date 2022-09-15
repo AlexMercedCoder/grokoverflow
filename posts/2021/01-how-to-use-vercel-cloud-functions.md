@@ -12,7 +12,7 @@ tags:
 
 ## Context
 
-[First Read My Article on Cloud Functions to understand why you should learn about them!](https://tuts.alexmercedcoder.com/2021/1/cloudfunctions/)
+[First Read My Article on Cloud Functions to understand why you should learn about them!](https://tuts.alexmercedcoder.dev/2021/1/cloudfunctions/)
 
 ## Getting Started
 

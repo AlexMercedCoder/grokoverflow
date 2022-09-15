@@ -5,16 +5,16 @@ author: "Alex Merced"
 category: "frontend"
 bannerImage: "/images/postbanner/2020/web-components-styling-slots.png"
 tags:
-    - frontend
-    - web components
-    - javascript
+  - frontend
+  - web components
+  - javascript
 ---
 
 ## What is a Web Component
 
 In the major frontend frameworks (Angular, Vue, React) you are able to encapsulate parts of your user interface into tags like `<component/>`. In recent years, the ability to do so natively has been added to the Javascript browser API in the form of the Native Web Components API. In this series we'll explore the different aspects of building web components. I have created a few libraries that makes this process even easier such as MercedUI, ComponentZoo, FunComponent, and AMPonent.
 
-**Find my libraries at** http://alexmercedcoder.com/jslib/
+**Find my libraries at** http://alexmercedcoder.dev/jslib/
 
 **My Web Components Video Playlist:** https://www.youtube.com/watch?v=qV7jh7ctALg&list=PLY6oTPmKnKbaNVkXHOHWxgdKEZLGKuFP9
 
@@ -44,18 +44,18 @@ In the first part of this tutorial the end result was the follow
 ```js
 class HelloWorld extends HTMLElement {
   constructor() {
-    super()
+    super();
     //Grabbing our Prop
-    const myProp = this.getAttribute("myProp")
-    console.log(myProp)
+    const myProp = this.getAttribute("myProp");
+    console.log(myProp);
     //Add ShadowDOM to Component
-    this.attachShadow({ mode: "open" })
+    this.attachShadow({ mode: "open" });
     //Add template to shadowDOM
-    this.shadowRoot.innerHTML = `<h1>Hello World</h1><h2>${myProp}</h2>`
+    this.shadowRoot.innerHTML = `<h1>Hello World</h1><h2>${myProp}</h2>`;
   }
 }
 
-customElements.define("hello-world", HelloWorld)
+customElements.define("hello-world", HelloWorld);
 ```
 
 ## Styling
@@ -83,19 +83,19 @@ In your app.js
 ```js
 class HelloWorld extends HTMLElement {
   constructor() {
-    super()
+    super();
     //Grabbing our Prop
-    const myProp = this.getAttribute("myProp")
-    console.log(myProp)
+    const myProp = this.getAttribute("myProp");
+    console.log(myProp);
     //Add ShadowDOM to Component
-    this.attachShadow({ mode: "open" })
+    this.attachShadow({ mode: "open" });
     //Add template to shadowDOM
     this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="ext.css"><h1>Hello World</h1><h2>${myProp}</h2>`
+        <link rel="stylesheet" href="ext.css"><h1>Hello World</h1><h2>${myProp}</h2>`;
   }
 }
 
-customElements.define("hello-world", HelloWorld)
+customElements.define("hello-world", HelloWorld);
 ```
 
 ### Style Tag
@@ -107,19 +107,19 @@ Your app.js
 ```js
 class HelloWorld extends HTMLElement {
   constructor() {
-    super()
+    super();
     //Grabbing our Prop
-    const myProp = this.getAttribute("myProp")
-    console.log(myProp)
+    const myProp = this.getAttribute("myProp");
+    console.log(myProp);
     //Add ShadowDOM to Component
-    this.attachShadow({ mode: "open" })
+    this.attachShadow({ mode: "open" });
     //Add template to shadowDOM
     this.shadowRoot.innerHTML = `
-        <style>h1 {color: red;}</style><h1>Hello World</h1><h2>${myProp}</h2>`
+        <style>h1 {color: red;}</style><h1>Hello World</h1><h2>${myProp}</h2>`;
   }
 }
 
-customElements.define("hello-world", HelloWorld)
+customElements.define("hello-world", HelloWorld);
 ```
 
 ### Parts
@@ -131,19 +131,19 @@ You can allow the styling to be done using parts by global style sheets. So if c
 ```js
 class HelloWorld extends HTMLElement {
   constructor() {
-    super()
+    super();
     //Grabbing our Prop
-    const myProp = this.getAttribute("myProp")
-    console.log(myProp)
+    const myProp = this.getAttribute("myProp");
+    console.log(myProp);
     //Add ShadowDOM to Component
-    this.attachShadow({ mode: "open" })
+    this.attachShadow({ mode: "open" });
     //Add template to shadowDOM
     this.shadowRoot.innerHTML = `
-        <h1 part="h1">Hello World</h1><h2>${myProp}</h2>`
+        <h1 part="h1">Hello World</h1><h2>${myProp}</h2>`;
   }
 }
 
-customElements.define("hello-world", HelloWorld)
+customElements.define("hello-world", HelloWorld);
 ```
 
 **Create a style.css and link to it in your index.html**
@@ -181,19 +181,19 @@ Slots are places where children tags will render. Watch what happens when we mak
 ```js
 class HelloWorld extends HTMLElement {
   constructor() {
-    super()
+    super();
     //Grabbing our Prop
-    const myProp = this.getAttribute("myProp")
-    console.log(myProp)
+    const myProp = this.getAttribute("myProp");
+    console.log(myProp);
     //Add ShadowDOM to Component
-    this.attachShadow({ mode: "open" })
+    this.attachShadow({ mode: "open" });
     //Add template to shadowDOM
     this.shadowRoot.innerHTML = `
-        <h1 part="h1">Hello World</h1><slot></slot><h2>${myProp}</h2>`
+        <h1 part="h1">Hello World</h1><slot></slot><h2>${myProp}</h2>`;
   }
 }
 
-customElements.define("hello-world", HelloWorld)
+customElements.define("hello-world", HelloWorld);
 ```
 
 **index.html**
@@ -213,19 +213,19 @@ You can have multiple slots, just have to give them a name.
 ```js
 class HelloWorld extends HTMLElement {
   constructor() {
-    super()
+    super();
     //Grabbing our Prop
-    const myProp = this.getAttribute("myProp")
-    console.log(myProp)
+    const myProp = this.getAttribute("myProp");
+    console.log(myProp);
     //Add ShadowDOM to Component
-    this.attachShadow({ mode: "open" })
+    this.attachShadow({ mode: "open" });
     //Add template to shadowDOM
     this.shadowRoot.innerHTML = `
-        <h1 part="h1">Hello World</h1><slot></slot><h2>${myProp}</h2><slot name="other"></slot>`
+        <h1 part="h1">Hello World</h1><slot></slot><h2>${myProp}</h2><slot name="other"></slot>`;
   }
 }
 
-customElements.define("hello-world", HelloWorld)
+customElements.define("hello-world", HelloWorld);
 ```
 
 **index.html**
@@ -248,20 +248,20 @@ Since slotted elements don't exist in the ShadowDOM to style them require some s
 ```js
 class HelloWorld extends HTMLElement {
   constructor() {
-    super()
+    super();
     //Grabbing our Prop
-    const myProp = this.getAttribute("myProp")
-    console.log(myProp)
+    const myProp = this.getAttribute("myProp");
+    console.log(myProp);
     //Add ShadowDOM to Component
-    this.attachShadow({ mode: "open" })
+    this.attachShadow({ mode: "open" });
     //Add template to shadowDOM
     this.shadowRoot.innerHTML = `
         <style>::slotted(*){color: red;}</style>
-        <h1 part="h1">Hello World</h1><slot></slot><h2>${myProp}</h2><slot name="other"></slot>`
+        <h1 part="h1">Hello World</h1><slot></slot><h2>${myProp}</h2><slot name="other"></slot>`;
   }
 }
 
-customElements.define("hello-world", HelloWorld)
+customElements.define("hello-world", HelloWorld);
 ```
 
 The \* passed in the slotted selector applies the style to any slotted element, you can replace it with h3 or h4 and see it only apply to specific elements.
@@ -275,9 +275,9 @@ Couple of things to keep in mind...
 **example**
 
 ```js
-const lightStyle = document.createElement("style")
-lightStyle.innerText = `.cheese {color: red;}`
-document.querySelector("body").appendChild(lightStyle)
+const lightStyle = document.createElement("style");
+lightStyle.innerText = `.cheese {color: red;}`;
+document.querySelector("body").appendChild(lightStyle);
 ```
 
 ## Bottom Line

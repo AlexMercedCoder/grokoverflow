@@ -11,7 +11,7 @@ tags:
 
 ## To Get Started with Masonite, Start Here
 
-- [Working with Masonite Blog](https://tuts.alexmercedcoder.com/2021/5/Masonite-Python-Web-Framework-101/)
+- [Working with Masonite Blog](https://tuts.alexmercedcoder.dev/2021/5/Masonite-Python-Web-Framework-101/)
 - [Video: Masonite from Zero to Deploy](https://www.youtube.com/watch?v=ayUGmt-YgkQ)
 
 **Since this blog was created, Masonite 4 was released, [here](https://www.youtube.com/playlist?list=PLY6oTPmKnKbYrrQQG2AKLYaXgn0W4ixWB) is a video playlist to learn the changes in Mastonite 4**
@@ -385,7 +385,7 @@ class DogOwnerController(Controller):
 
     def get_user_owners(self):
         return self.request.user().owners
-        
+
     def get_user_dogs(self):
         return self.request.user().dogs
 

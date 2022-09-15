@@ -45,29 +45,29 @@ So we don't have to write the connection code over and over again, let's write i
 
 ```ts
 //IMPORT MONGOOSE
-import mongoose, { Model } from "mongoose"
+import mongoose, { Model } from "mongoose";
 
 // CONNECTING TO MONGOOSE (Get Database Url from .env.local)
-const { DATABASE_URL } = process.env
+const { DATABASE_URL } = process.env;
 
 // connection function
 export const connect = async () => {
   const conn = await mongoose
     .connect(DATABASE_URL as string)
-    .catch(err => console.log(err))
-  console.log("Mongoose Connection Established")
+    .catch((err) => console.log(err));
+  console.log("Mongoose Connection Established");
 
   // OUR TODO SCHEMA
   const TodoSchema = new mongoose.Schema({
     item: String,
     completed: Boolean,
-  })
+  });
 
   // OUR TODO MODEL
-  const Todo = mongoose.models.Todo || mongoose.model("Todo", TodoSchema)
+  const Todo = mongoose.models.Todo || mongoose.model("Todo", TodoSchema);
 
-  return { conn, Todo }
-}
+  return { conn, Todo };
+};
 ```
 
 ## Step 2 - Create Our API
@@ -86,17 +86,17 @@ Create a file /utils/types.ts
 ```ts
 // Interface to defining our object of response functions
 export interface ResponseFuncs {
-  GET?: Function
-  POST?: Function
-  PUT?: Function
-  DELETE?: Function
+  GET?: Function;
+  POST?: Function;
+  PUT?: Function;
+  DELETE?: Function;
 }
 
 // Interface to define our Todo model on the frontend
 export interface Todo {
-  _id?: number
-  item: string
-  completed: boolean
+  _id?: number;
+  item: string;
+  completed: boolean;
 }
 ```
 
@@ -108,38 +108,38 @@ We need to define two possibilities here based on the method:
 - If the request is a POST request it should create a new todo (create route)
 
 ```ts
-import { NextApiRequest, NextApiResponse } from "next"
-import { connect } from "../../../utils/connection"
-import { ResponseFuncs } from "../../../utils/types"
+import { NextApiRequest, NextApiResponse } from "next";
+import { connect } from "../../../utils/connection";
+import { ResponseFuncs } from "../../../utils/types";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   //capture request method, we type it as a key of ResponseFunc to reduce typing later
-  const method: keyof ResponseFuncs = req.method as keyof ResponseFuncs
+  const method: keyof ResponseFuncs = req.method as keyof ResponseFuncs;
 
   //function for catch errors
-  const catcher = (error: Error) => res.status(400).json({ error })
+  const catcher = (error: Error) => res.status(400).json({ error });
 
   // Potential Responses
   const handleCase: ResponseFuncs = {
     // RESPONSE FOR GET REQUESTS
     GET: async (req: NextApiRequest, res: NextApiResponse) => {
-      const { Todo } = await connect() // connect to database
-      res.json(await Todo.find({}).catch(catcher))
+      const { Todo } = await connect(); // connect to database
+      res.json(await Todo.find({}).catch(catcher));
     },
     // RESPONSE POST REQUESTS
     POST: async (req: NextApiRequest, res: NextApiResponse) => {
-      const { Todo } = await connect() // connect to database
-      res.json(await Todo.create(req.body).catch(catcher))
+      const { Todo } = await connect(); // connect to database
+      res.json(await Todo.create(req.body).catch(catcher));
     },
-  }
+  };
 
   // Check if there is a response for the particular method, if so invoke it, if not response with an error
-  const response = handleCase[method]
-  if (response) response(req, res)
-  else res.status(400).json({ error: "No Response for This Request" })
-}
+  const response = handleCase[method];
+  if (response) response(req, res);
+  else res.status(400).json({ error: "No Response for This Request" });
+};
 
-export default handler
+export default handler;
 ```
 
 Test the routes by making GET and POST requests to /api/todos (make sure to include a json body in the post request)
@@ -153,48 +153,48 @@ Now to create the remaining routes in /pages/api/todos/[id].ts
 - DELETE REQUEST TO DELETE ONE TODO (DELETE ROUTE)
 
 ```ts
-import { NextApiRequest, NextApiResponse } from "next"
-import { connect } from "../../../utils/connection"
-import { ResponseFuncs } from "../../../utils/types"
+import { NextApiRequest, NextApiResponse } from "next";
+import { connect } from "../../../utils/connection";
+import { ResponseFuncs } from "../../../utils/types";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   //capture request method, we type it as a key of ResponseFunc to reduce typing later
-  const method: keyof ResponseFuncs = req.method as keyof ResponseFuncs
+  const method: keyof ResponseFuncs = req.method as keyof ResponseFuncs;
 
   //function for catch errors
-  const catcher = (error: Error) => res.status(400).json({ error })
+  const catcher = (error: Error) => res.status(400).json({ error });
 
   // GRAB ID FROM req.query (where next stores params)
-  const id: string = req.query.id as string
+  const id: string = req.query.id as string;
 
   // Potential Responses for /todos/:id
   const handleCase: ResponseFuncs = {
     // RESPONSE FOR GET REQUESTS
     GET: async (req: NextApiRequest, res: NextApiResponse) => {
-      const { Todo } = await connect() // connect to database
-      res.json(await Todo.findById(id).catch(catcher))
+      const { Todo } = await connect(); // connect to database
+      res.json(await Todo.findById(id).catch(catcher));
     },
     // RESPONSE PUT REQUESTS
     PUT: async (req: NextApiRequest, res: NextApiResponse) => {
-      const { Todo } = await connect() // connect to database
+      const { Todo } = await connect(); // connect to database
       res.json(
         await Todo.findByIdAndUpdate(id, req.body, { new: true }).catch(catcher)
-      )
+      );
     },
     // RESPONSE FOR DELETE REQUESTS
     DELETE: async (req: NextApiRequest, res: NextApiResponse) => {
-      const { Todo } = await connect() // connect to database
-      res.json(await Todo.findByIdAndRemove(id).catch(catcher))
+      const { Todo } = await connect(); // connect to database
+      res.json(await Todo.findByIdAndRemove(id).catch(catcher));
     },
-  }
+  };
 
   // Check if there is a response for the particular method, if so invoke it, if not response with an error
-  const response = handleCase[method]
-  if (response) response(req, res)
-  else res.status(400).json({ error: "No Response for This Request" })
-}
+  const response = handleCase[method];
+  if (response) response(req, res);
+  else res.status(400).json({ error: "No Response for This Request" });
+};
 
-export default handler
+export default handler;
 ```
 
 Test all the endpoints, make sure to leave some sample todos
@@ -208,24 +208,24 @@ So our main page would be /pages/index.tsx, we will be using server side renderi
 index.tsx
 
 ```tsx
-import { Todo } from "../utils/types"
-import Link from "next/link"
+import { Todo } from "../utils/types";
+import Link from "next/link";
 
 // Define the components props
 interface IndexProps {
-  todos: Array<Todo>
+  todos: Array<Todo>;
 }
 
 // define the page component
 function Index(props: IndexProps) {
-  const { todos } = props
+  const { todos } = props;
 
   return (
     <div>
       <h1>My Todo List</h1>
       <h2>Click On Todo to see it individually</h2>
       {/* MAPPING OVER THE TODOS */}
-      {todos.map(t => (
+      {todos.map((t) => (
         <div key={t._id}>
           <Link href={`/todos/${t._id}`}>
             <h3 style={{ cursor: "pointer" }}>
@@ -235,22 +235,22 @@ function Index(props: IndexProps) {
         </div>
       ))}
     </div>
-  )
+  );
 }
 
 // GET PROPS FOR SERVER SIDE RENDERING
 export async function getServerSideProps() {
   // get todo data from API
-  const res = await fetch(process.env.API_URL as string)
-  const todos = await res.json()
+  const res = await fetch(process.env.API_URL as string);
+  const todos = await res.json();
 
   // return props
   return {
     props: { todos },
-  }
+  };
 }
 
-export default Index
+export default Index;
 ```
 
 Head over to localhost:3000 and see our project at work!
@@ -264,29 +264,29 @@ Using the param we can fetch the individual todo inside getServerSideProps for t
 `/pages/todos/[id].tsx`
 
 ```tsx
-import { Todo } from "../../utils/types"
-import { useRouter } from "next/router"
-import { useState } from "react"
+import { Todo } from "../../utils/types";
+import { useRouter } from "next/router";
+import { useState } from "react";
 
 // Define Prop Interface
 interface ShowProps {
-  todo: Todo
-  url: string
+  todo: Todo;
+  url: string;
 }
 
 // Define Component
 function Show(props: ShowProps) {
   // get the next router, so we can use router.push later
-  const router = useRouter()
+  const router = useRouter();
 
   // set the todo as state for modification
-  const [todo, setTodo] = useState<Todo>(props.todo)
+  const [todo, setTodo] = useState<Todo>(props.todo);
 
   // function to complete a todo
   const handleComplete = async () => {
     if (!todo.completed) {
       // make copy of todo with completed set to true
-      const newTodo: Todo = { ...todo, completed: true }
+      const newTodo: Todo = { ...todo, completed: true };
       // make api call to change completed in database
       await fetch(props.url + "/" + todo._id, {
         method: "put",
@@ -295,21 +295,21 @@ function Show(props: ShowProps) {
         },
         // send copy of todo with property
         body: JSON.stringify(newTodo),
-      })
+      });
       // once data is updated update state so ui matches without needed to refresh
-      setTodo(newTodo)
+      setTodo(newTodo);
     }
     // if completed is already true this function won't do anything
-  }
+  };
 
   // function for handling clicking the delete button
   const handleDelete = async () => {
     await fetch(props.url + "/" + todo._id, {
       method: "delete",
-    })
+    });
     //push user back to main page after deleting
-    router.push("/")
-  }
+    router.push("/");
+  };
 
   //return JSX
   return (
@@ -320,27 +320,27 @@ function Show(props: ShowProps) {
       <button onClick={handleDelete}>Delete</button>
       <button
         onClick={() => {
-          router.push("/")
+          router.push("/");
         }}
       >
         Go Back
       </button>
     </div>
-  )
+  );
 }
 
 // Define Server Side Props
 export async function getServerSideProps(context: any) {
   // fetch the todo, the param was received via context.query.id
-  const res = await fetch(process.env.API_URL + "/" + context.query.id)
-  const todo = await res.json()
+  const res = await fetch(process.env.API_URL + "/" + context.query.id);
+  const todo = await res.json();
 
   //return the serverSideProps the todo and the url from out env variables for frontend api calls
-  return { props: { todo, url: process.env.API_URL } }
+  return { props: { todo, url: process.env.API_URL } };
 }
 
 // export component
-export default Show
+export default Show;
 ```
 
 From this show page we can now:
@@ -372,31 +372,31 @@ This page will always be the same since it's just a form, so we will NOT export 
 `/pages/todos/create.tsx`
 
 ```tsx
-import { useRouter } from "next/router"
-import { FormEvent, FormEventHandler, useRef } from "react"
-import { Todo } from "../../utils/types"
+import { useRouter } from "next/router";
+import { FormEvent, FormEventHandler, useRef } from "react";
+import { Todo } from "../../utils/types";
 
 // Define props
 interface CreateProps {
-  url: string
+  url: string;
 }
 
 // Define Component
 function Create(props: CreateProps) {
   // get the next route
-  const router = useRouter()
+  const router = useRouter();
 
   // since there is just one input we will use a uncontrolled form
-  const item = useRef<HTMLInputElement>(null)
+  const item = useRef<HTMLInputElement>(null);
 
   // Function to create new todo
-  const handleSubmit: FormEventHandler<HTMLFormElement> = async event => {
-    event.preventDefault()
+  const handleSubmit: FormEventHandler<HTMLFormElement> = async (event) => {
+    event.preventDefault();
 
     // construct new todo, create variable, check it item.current is not null to pass type checks
-    let todo: Todo = { item: "", completed: false }
+    let todo: Todo = { item: "", completed: false };
     if (null !== item.current) {
-      todo = { item: item.current.value, completed: false }
+      todo = { item: item.current.value, completed: false };
     }
 
     // Make the API request
@@ -406,11 +406,11 @@ function Create(props: CreateProps) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(todo),
-    })
+    });
 
     // after api request, push back to main page
-    router.push("/")
-  }
+    router.push("/");
+  };
 
   return (
     <div>
@@ -420,7 +420,7 @@ function Create(props: CreateProps) {
         <input type="submit" value="create todo"></input>
       </form>
     </div>
-  )
+  );
 }
 
 // export getStaticProps to provie API_URL to component
@@ -429,11 +429,11 @@ export async function getStaticProps(context: any) {
     props: {
       url: process.env.API_URL,
     },
-  }
+  };
 }
 
 // export component
-export default Create
+export default Create;
 ```
 
 ## So far...
@@ -455,4 +455,4 @@ This is the awesome part, usually deploying a website with backend features requ
 
 Learn More [HERE](https://nextjs.org/docs/deployment)
 
-If you enjoyed this tuturial find more of my work at http://resources.alexmercedcoder.com
+If you enjoyed this tuturial find more of my work at http://resources.alexmercedcoder.dev

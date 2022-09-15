@@ -25,7 +25,7 @@ When you type a URL into the address bar of a browser and hit enter the browser 
 
 So we know we are just sending text back forth between computers all over the world, but how do these requests know where they are going and how they should be handled?
 
-`http://www.alexmercedcoder.com/cheese?type=gouda&taste=good`
+`http://www.alexmercedcoder.dev/cheese?type=gouda&taste=good`
 
 Let's break down this url
 
@@ -33,7 +33,7 @@ Let's break down this url
 
   - IP Ports are places where internet requests can be received by a computer, imagine them like the different piers in a seaport and the boats docking the piers being internet requests. Servers can listen to requests on port numbers up to 65535 (not that you'd ever want that many servers running on one computer).
 
-- **www.alexmercedcoder.com** this is the host made of the domain (alexmercedcoder.com) and the subdomain (www.). When the request is made your browser sends the request to your internet router who then sends it to your internet service provider. The ISP then consults DNS Servers(Domain Name Service) which are like giant phone books matching up the domain/subdomain with the IP address of the server that has the content.
+- **www.alexmercedcoder.dev** this is the host made of the domain (alexmercedcoder.dev) and the subdomain (www.). When the request is made your browser sends the request to your internet router who then sends it to your internet service provider. The ISP then consults DNS Servers(Domain Name Service) which are like giant phone books matching up the domain/subdomain with the IP address of the server that has the content.
 
   - Once the request arrives at the IP address the destination server is usually running web server software like Nginx or Apache which listens for http/ws requests on port 80 and https/wss traffic on 443 then directs it to other applications that are running at different ports on the machine (many hosting providers referred to this as "shared hosting").
 

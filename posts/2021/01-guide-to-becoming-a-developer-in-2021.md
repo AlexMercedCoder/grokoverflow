@@ -126,7 +126,7 @@ There are several other fields such as desktop software development, Quality Ass
 
 - Learning how git and github work in-depth also a must
 
-- [Read this article on building your brand](https://tuts.alexmercedcoder.com/2020/branding/)
+- [Read this article on building your brand](https://tuts.alexmercedcoder.dev/2020/branding/)
 
 - subscribe to a lot of development podcasts, listening to people talk about code will help immerse you and get more comfortable hearing it
 
