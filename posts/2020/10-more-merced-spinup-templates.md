@@ -5,10 +5,10 @@ author: "Alex Merced"
 category: "tooling"
 bannerImage: "/images/postbanner/2020/more-spinup-templates.png"
 tags:
-    - tooling
+  - tooling
 ---
 
-**To See me list my prior templates go here**: https://tuts.alexmercedcoder.com/2020/mercedspinuptut/
+**To See me list my prior templates go here**: https://tuts.alexmercedcoder.dev/2020/mercedspinuptut/
 
 ## What's New
 

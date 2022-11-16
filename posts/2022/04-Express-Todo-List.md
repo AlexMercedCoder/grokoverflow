@@ -43,15 +43,15 @@ As I mentioned, we can write a web server in any language and that includes java
 
 ```js
 // import dependencies
-const express = require("express")
+const express = require("express");
 
 // Create a new express application object
-const app = express()
+const app = express();
 
 // run your application, so it listens on port 4444
 app.listen(4444, () => {
-    console.log("Server is Listening on port 4444")
-})
+  console.log("Server is Listening on port 4444");
+});
 ```
 
 In this code we create a new express application and turn it on. A web application listens for incoming messages to a particular port number (4444) on the host (the domain name, when running on our computer it will be "localhost" which is a psuedonym for 127.0.0.1 the IP address that always points to the computer you are currently on).
@@ -71,7 +71,7 @@ That's a lot to type so we can take that whole command and give an easy to run a
   },
 ```
 
-Convention holds that the start script is used for the command to run the application in production, reason being is that start is the only script that can be run two ways `npm start` or `npm run start`. All other scripts must always be prefixed by `npm run` so the dev script would be run with `npm run dev`. Convention for "dev" is usually the command to run the application in "development" mode. 
+Convention holds that the start script is used for the command to run the application in production, reason being is that start is the only script that can be run two ways `npm start` or `npm run start`. All other scripts must always be prefixed by `npm run` so the dev script would be run with `npm run dev`. Convention for "dev" is usually the command to run the application in "development" mode.
 
 For our purposes that means running the script with nodemon which watches for changes in our javascript files and will re-start the server whenever they change to allow updates to work right away, instead of us tediously having to turn off the server and restart it with each update (you wouldn't want this in production).
 
@@ -87,8 +87,8 @@ Http requests can have different methods (GET, PUT, POST, DELETE, etc.) so expre
 
 ```js
 app.get("/test", (req, res) => {
-    res.send("Hello")
-})
+  res.send("Hello");
+});
 ```
 
 The above is a pretty simple example of a route:
@@ -99,28 +99,28 @@ The above is a pretty simple example of a route:
 
 - The function often referred to as a controller or action dicates how the server should respond. This function is always passed two arguments:
 
-    * `req`: This is the request object which has several properties with details on the incoming request
+  - `req`: This is the request object which has several properties with details on the incoming request
 
-    * `res`: The response object which has several help methods for sending responses.
+  - `res`: The response object which has several help methods for sending responses.
 
 Routes should be defined after your application object is created but before your call to the listen method. Your server.js should look like this after adding the route above:
 
 ```js
 // import dependencies
-const express = require("express")
+const express = require("express");
 
 // Create a new express application object
-const app = express()
+const app = express();
 
 //Routes
 app.get("/test", (req, res) => {
-    res.send("Hello")
-})
+  res.send("Hello");
+});
 
 // run your application, so it listens on port 4444
 app.listen(4444, () => {
-    console.log("Server is Listening on port 4444")
-})
+  console.log("Server is Listening on port 4444");
+});
 ```
 
 When you make the change you'll see nodemon restart the server in terminal and you can then visit localhost:4444/test in the browser.
@@ -135,25 +135,26 @@ Then update your server.js like so:
 
 ```js
 // import dependencies
-const express = require("express")
+const express = require("express");
 
 // Create a new express application object
-const app = express()
+const app = express();
 
 //middleware
-app.use("/static", express.static("static"))
+app.use("/static", express.static("static"));
 
 //Routes
 app.get("/test", (req, res) => {
-    res.send("Hello")
-})
+  res.send("Hello");
+});
 
 // run your application, so it listens on port 4444
 app.listen(4444, () => {
-    console.log("Server is Listening on port 4444")
-})
+  console.log("Server is Listening on port 4444");
+});
 ```
-The app.use function is for registering middleware which can literally be anything we want to happen after a request comes in but before a response is sent (in the middle). app.use can take two arguments, the endpoint and the middleware function. If the endpoint isn't given it will just default to "/". What this means is on any request to the specified endpoint occurs that middleware will run, in this case the built in static file serving middleware in express. 
+
+The app.use function is for registering middleware which can literally be anything we want to happen after a request comes in but before a response is sent (in the middle). app.use can take two arguments, the endpoint and the middleware function. If the endpoint isn't given it will just default to "/". What this means is on any request to the specified endpoint occurs that middleware will run, in this case the built in static file serving middleware in express.
 
 So any request to a url that begins with "/static" will trigger this middleware to see if there is a file in the static folder to fulfill the request. To test this out in the static folder create an index.html and a cheese.html each with a basic h1.
 
@@ -171,7 +172,7 @@ Although wouldn't it be fun to do something a little more... dynamic?
 
 An html file won't change, so how about use code to create the HTML on the fly, this is called templating or server side rendering. To do this we usually use a specialized language for expressing the dynamic aspects of our html, these are called templating languages and there are probably dozens you can use with express such as EJS, Handlebars, Liquid, Mustache, Pug, express-react-views and so many more.
 
-[Cheatsheet for Javascript Templating Libraries](https://tuts.alexmercedcoder.com/2021/10/express_templating_cheatsheet/)
+[Cheatsheet for Javascript Templating Libraries](https://tuts.alexmercedcoder.dev/2021/10/express_templating_cheatsheet/)
 
 For this tutorial we will use EJS as it is the easiest to configure and it pretty just let's you use javascript to express your templating logic. All we really need to use EJS is just... install it.
 
@@ -186,7 +187,7 @@ So following the following steps:
 
 - create a `views` folder
 
-- in the `views` folder  and in create a file called index.ejs
+- in the `views` folder and in create a file called index.ejs
 
 (by default express assumes the file extension is the name of the engine, so by calling them ejs files we don't have to do any special configuration for all this to work.)
 
@@ -195,6 +196,7 @@ In the index.ejs put in the following html.
 ```html
 <h1><%= name %>'s todo list</h1>
 ```
+
 Notice this syntax `<% ---- %>`, that's EJS syntax. Essentially the server when we use `res.render` will pass the ejs file and javascript object we'll give it to be rendered into a finished html file. Anywhere with EJS syntax will be replaced with the result of the logic we put in the file, and that result is the html sent to the end user, they never see the templating langauge or know that it was used.
 
 Quick Summary
@@ -207,29 +209,29 @@ Now let's see this template at work and update your server.js like so then run y
 
 ```js
 // import dependencies
-const express = require("express")
+const express = require("express");
 
 // Create a new express application object
-const app = express()
+const app = express();
 
 //middleware
-app.use("/static", express.static("static"))
+app.use("/static", express.static("static"));
 
 //Routes
 app.get("/test", (req, res) => {
-    res.send("Hello")
-})
+  res.send("Hello");
+});
 
 app.get("/", (req, res) => {
-    res.render("index.ejs", {
-        name: "Alex Merced"
-    })
-})
+  res.render("index.ejs", {
+    name: "Alex Merced",
+  });
+});
 
 // run your application, so it listens on port 4444
 app.listen(4444, () => {
-    console.log("Server is Listening on port 4444")
-})
+  console.log("Server is Listening on port 4444");
+});
 ```
 
 You can change the name in the Javascript object to your name, but now if you visit `localhost:4444` you should see the name variable being replaced by the content of name property in the object, how cool is that!
@@ -242,7 +244,7 @@ Notice we don't have a `<head>` tag in our html, but wouldn't it be tedious to h
 
 ```html
 <head>
-    <title><%= name %>'s todo list</title>
+  <title><%= name %>'s todo list</title>
 </head>
 ```
 
@@ -277,9 +279,10 @@ You have a few choices on you may want to style the page.
 This is fine if you only have a few pages on the site, but having to copy and paste the same styles from page to page is not maintainable if you have a lot of pages, you'll want to use a CSS file.
 
 `static/styles.css`
+
 ```css
 h1 {
-    color: red
+  color: red;
 }
 ```
 
@@ -289,7 +292,7 @@ h1 {
 
 ```css
 h1 {
-    color: red
+  color: red;
 }
 ```
 
@@ -318,41 +321,41 @@ The result should look like this:
 
 ```js
 // import dependencies
-const express = require("express")
+const express = require("express");
 
 // Create a new express application object
-const app = express()
+const app = express();
 
 // Array for Todos
-const todos = []
+const todos = [];
 
 //middleware
-app.use("/static", express.static("static"))
-app.use(express.urlencoded({extended: true}))
+app.use("/static", express.static("static"));
+app.use(express.urlencoded({ extended: true }));
 
 //Routes
 app.get("/test", (req, res) => {
-    res.send("Hello")
-})
+  res.send("Hello");
+});
 
 app.get("/", (req, res) => {
-    res.render("index.ejs", {
-        name: "Alex Merced",
-        todos: todos
-    })
-})
+  res.render("index.ejs", {
+    name: "Alex Merced",
+    todos: todos,
+  });
+});
 
 app.post("/", (req, res) => {
-    // push new todo into array
-    todos.push(req.body)
-    // redirect back to main page (refresh page)
-    res.redirect("/")
-})
+  // push new todo into array
+  todos.push(req.body);
+  // redirect back to main page (refresh page)
+  res.redirect("/");
+});
 
 // run your application, so it listens on port 4444
 app.listen(4444, () => {
-    console.log("Server is Listening on port 4444")
-})
+  console.log("Server is Listening on port 4444");
+});
 ```
 
 Update index.ejs like so:
@@ -398,23 +401,23 @@ We may want to use some frontend javascript to add some interactivity to the pag
 
 ```html
 <head>
-    <title><%= name %>'s todo list</title>
-    <link rel="stylesheet" href="/static/styles.css">
-    <script src="/static/app.js" defer></script>
+  <title><%= name %>'s todo list</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+  <script src="/static/app.js" defer></script>
 </head>
-````
+```
 
 - add the following to the app.js
 
 ```js
 // grab all the todos by class
-const todos = document.querySelectorAll(".todo")
+const todos = document.querySelectorAll(".todo");
 
 // add a click event to each of them
-for (todo of todos){
-    todo.addEventListener("click", () => {
-        todo.style.textDecoration = "line-through"
-    })
+for (todo of todos) {
+  todo.addEventListener("click", () => {
+    todo.style.textDecoration = "line-through";
+  });
 }
 ```
 

@@ -5,16 +5,16 @@ author: "Alex Merced"
 category: "web components"
 bannerImage: "/images/postbanner/2020/amponent.png"
 tags:
-    - javascript
-    - web components
-    - frontend
+  - javascript
+  - web components
+  - frontend
 ---
 
 ## What is AMPonent?
 
 AMPonent is my newest Web Component library that allows you to create Web Components with super powers with ease. It bakes in things like reactive data, reducers, styled components and lifecycle functions in a nice function based approach.
 
-*You can find this and my other libraries at AlexMercedCoder.com
+*You can find this and my other libraries at alexmercedcoder.dev
 *AMPonent github page: https://github.com/AlexMercedCoder/Ponent
 
 ## Setup
@@ -35,7 +35,7 @@ AMPonent is my newest Web Component library that allows you to create Web Compon
     <title>Document</title>
     <!-- AMPONENT LIBRARY -->
     <script
-      src="http://www.alexmercedcoder.com/ponent.js"
+      src="http://www.alexmercedcoder.dev/ponent.js"
       charset="utf-8"
       defer
     ></script>
@@ -55,7 +55,7 @@ Let's start out by creating the simplest component possible... Hello World!
 ```js
 AMPonent.make("hello-world", {
   render: (box, props) => `Hello World`,
-})
+});
 ```
 
 then back in your HTML
@@ -75,7 +75,7 @@ So let's test out using props. Unlike react, all props are strings so you can't 
 ```js
 AMPonent.make("hello-world", {
   render: (box, props) => `${props.hello}`,
-})
+});
 ```
 
 then back in your HTML
@@ -100,12 +100,12 @@ AMPonent.make("hello-world", {
     hello: "hello world",
   },
   after: function () {
-    const component = this
+    const component = this;
     component.$s("#testbox").addEventListener("click", function () {
-      component.stuffBox({ hello: "goodbye world" })
-    })
+      component.stuffBox({ hello: "goodbye world" });
+    });
   },
-})
+});
 ```
 
 So when planning to use this or the stuffBox function it is wise to use the function(){} syntax vs arrow function syntax. To keep things simple I bind this immediately to a variable (I usually use c, but for clarity I used component). Things to notice...
@@ -125,12 +125,12 @@ AMPonent.make("hello-world", {
     hello: "hello world",
   },
   after: function () {
-    const component = this
+    const component = this;
     component.$s("#testbox").addEventListener("click", function () {
-      component.stuffBox({ hello: "goodbye world" })
-    })
+      component.stuffBox({ hello: "goodbye world" });
+    });
   },
-})
+});
 ```
 
 ```html
@@ -148,7 +148,7 @@ Now you'll see that the hello world is in different color depending what you pas
 If you want create components that style their children you can use the makeStyle function, check out the code below.
 
 ```js
-AMPonent.makeStyle("colored-h1", "h1", "color: red;")
+AMPonent.makeStyle("colored-h1", "h1", "color: red;");
 ```
 
 this basic line above allow you to use the follow element that will style direct child which are h1's.

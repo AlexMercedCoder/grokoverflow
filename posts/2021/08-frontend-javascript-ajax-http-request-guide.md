@@ -18,20 +18,12 @@ AJAX stands for (Asynchronous Javascript and XML) which is a throw back term whe
 ```html
 <users>
   <user>
-    <name>
-      Alex Merced
-    </name>
-    <age>
-      36
-    </age>
+    <name> Alex Merced </name>
+    <age> 36 </age>
   </user>
   <user>
-    <name>
-      Bob Smith
-    </name>
-    <age>
-      55
-    </age>
+    <name> Bob Smith </name>
+    <age> 55 </age>
   </user>
 </users>
 ```
@@ -59,7 +51,7 @@ After practicing a little try building some basic applications with free public 
 
 Or you can create your own data and have an API made from it using a Headless CMS!
 
-- [List of Headless CMS services with a free tier](https://tuts.alexmercedcoder.com/2021/1/freeheadless/)
+- [List of Headless CMS services with a free tier](https://tuts.alexmercedcoder.dev/2021/1/freeheadless/)
 
 ## What's a Promise
 
@@ -78,22 +70,22 @@ What if we have code that we want to run when promise is no longer pending (reso
 some illustrative code...
 
 ```js
-const theReturnedPromise = functionThatReturnsAPromise()
+const theReturnedPromise = functionThatReturnsAPromise();
 
 theReturnedPromise
-  .then(data => {
-    console.log(`The Promise resolved and gave me ${data}`)
+  .then((data) => {
+    console.log(`The Promise resolved and gave me ${data}`);
   })
-  .catch(error => {
-    console.log(`The Promise failed and the error is ${error}`)
+  .catch((error) => {
+    console.log(`The Promise failed and the error is ${error}`);
   })
   .finally(() => {
-    console.log("I run whether the promise succeeds or fails")
-  })
+    console.log("I run whether the promise succeeds or fails");
+  });
 
 console.log(
   "This line of code is synchronous so it'll run before all the above has a chance to"
-)
+);
 ```
 
 In the above snippet we saved the promise to variable, but typically we developers don't do that and instead just chain the methods of the return value of the function directly like so...
@@ -101,7 +93,7 @@ In the above snippet we saved the promise to variable, but typically we develope
 ```js
 console.log(
   "This line of code is synchronous so it'll run before all the above has a chance to"
-)
+);
 ```
 
 #### Async/Await
@@ -111,17 +103,17 @@ Sometimes these methods can be a little messy looking so there is an alternative
 ```js
 //define the async function
 async function thisAsyncFunction() {
-  const data = await functionThatReturnsAPromise().catch(error =>
+  const data = await functionThatReturnsAPromise().catch((error) =>
     console.log(`The Promise failed and the error is ${error}`)
-  )
-  console.log(`The Promise resolved and gave me ${data}`)
+  );
+  console.log(`The Promise resolved and gave me ${data}`);
 }
 
-thisAsyncFunction() // call the async function
+thisAsyncFunction(); // call the async function
 
 console.log(
   "This line of code is synchronous so it'll run before all the above has a chance to"
-)
+);
 ```
 
 So while that's a little clear, error handling still required us to use .catch or to wrap the code in a try/catch block. If we wanted to setup a finally scenario we would need a .finally to. So really, Async/Await really just cleans the need for a .then.
@@ -142,15 +134,15 @@ To use this function you need to add the jQuery script tag inside your html docu
 
 ```js
 $.ajax("https://jsonplaceholder.typicode.com/users")
-  .then(data => {
-    console.log(`The Promise resolved and gave me:`, data)
+  .then((data) => {
+    console.log(`The Promise resolved and gave me:`, data);
   })
-  .catch(error => {
-    console.log(`The Promise failed and the error is ${error}`)
+  .catch((error) => {
+    console.log(`The Promise failed and the error is ${error}`);
   })
   .finally(() => {
-    console.log("I run whether the promise succeeds or fails")
-  })
+    console.log("I run whether the promise succeeds or fails");
+  });
 ```
 
 #### Async/Await Version (with a try/catch block for error handling)
@@ -178,16 +170,16 @@ This is always available in the browser but it does not exist in node, to use fe
 
 ```js
 fetch("https://jsonplaceholder.typicode.com/users")
-  .then(response => response.json()) // <== convert the response into a javascript object which is received by the next .then
-  .then(data => {
-    console.log(`The Promise resolved and gave me:`, data)
+  .then((response) => response.json()) // <== convert the response into a javascript object which is received by the next .then
+  .then((data) => {
+    console.log(`The Promise resolved and gave me:`, data);
   })
-  .catch(error => {
-    console.log(`The Promise failed and the error is ${error}`)
+  .catch((error) => {
+    console.log(`The Promise failed and the error is ${error}`);
   })
   .finally(() => {
-    console.log("I run whether the promise succeeds or fails")
-  })
+    console.log("I run whether the promise succeeds or fails");
+  });
 ```
 
 #### Async/Await Version (with a try/catch block for error handling)
@@ -220,15 +212,15 @@ To use Axios just add it in your head tag.
 
 ```js
 axios("https://jsonplaceholder.typicode.com/users")
-  .then(response => {
-    console.log(`The Promise resolved and gave me:`, response.data)
+  .then((response) => {
+    console.log(`The Promise resolved and gave me:`, response.data);
   })
-  .catch(error => {
-    console.log(`The Promise failed and the error is ${error}`)
+  .catch((error) => {
+    console.log(`The Promise failed and the error is ${error}`);
   })
   .finally(() => {
-    console.log("I run whether the promise succeeds or fails")
-  })
+    console.log("I run whether the promise succeeds or fails");
+  });
 ```
 
 #### Async/Await Version (with a try/catch block for error handling)

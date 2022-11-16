@@ -5,10 +5,10 @@ author: "Alex Merced"
 category: "frontend"
 bannerImage: "/images/postbanner/2020/react-cheat-sheet.png"
 tags:
-    - reference
-    - react
-    - frontend
-    - javascript
+  - reference
+  - react
+  - frontend
+  - javascript
 ---
 
 **MY SET OF REACT TUTORIAL VIDEOS** => https://www.youtube.com/playlist?list=PLY6oTPmKnKbba6LlpF7kcnsyWdlwePt_V
@@ -52,11 +52,11 @@ Express/Mongo using Express-React-Views `npx create-ervmongo-app projectname`
 ```js
 class MyComponent extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   render() {
-    return <h1>Hello World</h1>
+    return <h1>Hello World</h1>;
   }
 }
 ```
@@ -85,17 +85,17 @@ function MyComponent(props){
 ### Class Components
 
 ```js
-;<MyComponent myProp="Hello World" />
+<MyComponent myProp="Hello World" />;
 
 /////////////////////////////////////////////
 
 class MyComponent extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   render() {
-    return <h1>{this.props.myProp}</h1>
+    return <h1>{this.props.myProp}</h1>;
   }
 }
 ```
@@ -103,11 +103,11 @@ class MyComponent extends React.Component {
 ### Function Components
 
 ```js
-;<MyComponent myProp="Hello World" />
+<MyComponent myProp="Hello World" />;
 
 /////////////////////////////////////////////
 
-const MyComponent = props => <h1>{props.myProp}</h1>
+const MyComponent = (props) => <h1>{props.myProp}</h1>;
 ```
 
 ## Using State
@@ -117,10 +117,10 @@ const MyComponent = props => <h1>{props.myProp}</h1>
 ```js
 class MyComponent extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       count: 0,
-    }
+    };
   }
 
   render() {
@@ -128,12 +128,12 @@ class MyComponent extends React.Component {
       <div>
         <h1>{this.state.count}</h1>
         <button
-          onClick={event => this.setState({ count: this.state.count + 1 })}
+          onClick={(event) => this.setState({ count: this.state.count + 1 })}
         >
           Click Me
         </button>
       </div>
-    )
+    );
   }
 }
 ```
@@ -141,16 +141,16 @@ class MyComponent extends React.Component {
 ### Function Components
 
 ```js
-const MyComponent = props => {
-  const [count, setCount] = React.useState(0)
+const MyComponent = (props) => {
+  const [count, setCount] = React.useState(0);
 
   return (
     <div>
       <h1>{count}</h1>
-      <button onClick={event => setCount(count + 1)}>Click Me</button>
+      <button onClick={(event) => setCount(count + 1)}>Click Me</button>
     </div>
-  )
-}
+  );
+};
 ```
 
 ## Lifecycle
@@ -160,23 +160,23 @@ const MyComponent = props => {
 ```js
 class MyComponent extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   render() {
-    return <h1>{this.props.myProp}</h1>
+    return <h1>{this.props.myProp}</h1>;
   }
 
   componentDidMount() {
-    console.log("I happen when the component first mounts")
+    console.log("I happen when the component first mounts");
   }
 
   componentDidUpdate() {
-    console.log("I happen when the component updates")
+    console.log("I happen when the component updates");
   }
 
   componentWillUnmount() {
-    console.log("I happen before the component is removed")
+    console.log("I happen before the component is removed");
   }
 }
 ```
@@ -184,17 +184,17 @@ class MyComponent extends React.Component {
 ### Function Components
 
 ```js
-const MyComponent = props => {
+const MyComponent = (props) => {
   React.useEffect(() => {
     console.log(
       "I happen when the component first mounts or when any value in the dependency array changes"
-    )
+    );
 
-    return () => console.log("I run when the component is removed")
-  }, [dependency1, dependency2])
+    return () => console.log("I run when the component is removed");
+  }, [dependency1, dependency2]);
 
-  return <h1> Hello World </h1>
-}
+  return <h1> Hello World </h1>;
+};
 ```
 
 ## Handling Forms
@@ -286,4 +286,4 @@ const MyComponent = props => {
 
 ## React Function Component Hooks
 
-Read my hooks article here: https://tuts.alexmercedcoder.com/2020/reacthooks/
+Read my hooks article here: https://tuts.alexmercedcoder.dev/2020/reacthooks/

@@ -16,7 +16,7 @@ tags:
 - [Video: Docker 101](https://www.youtube.com/watch?v=3107womjZIo)
 - [Video: Using Neo4j Database using Docker](https://www.youtube.com/watch?v=EO041uKuUvI)
 - [Video: Create a VSCode dev environment with Docker](https://www.youtube.com/watch?v=jHKevKjp9C8)
-- [Blog: Building a C# API and Deploying to Heroku with Docker](https://tuts.alexmercedcoder.com/2021/3/dotnet5/)
+- [Blog: Building a C# API and Deploying to Heroku with Docker](https://tuts.alexmercedcoder.dev/2021/3/dotnet5/)
 - [Deploying a Deno App using Docker and Fly.io](https://www.youtube.com/watch?v=Fe4XdAiqaxI)
 
 ## What we will do
@@ -31,7 +31,7 @@ This is exactly what we'll do today.
 
 ## Setup
 
-- Must have nodeJS, Docker, and Docker Compose installed 
+- Must have nodeJS, Docker, and Docker Compose installed
 
 - start a new folder and create the following folder structure and files
 
@@ -54,18 +54,18 @@ ROOT FOLDER
 
 ```js
 // import dependencies
-import express from "express"
+import express from "express";
 
 // create application object
-const app = express()
+const app = express();
 
 //home route
 app.get("/", (req, res) => {
-    res.send("<h1>Hello World</h1>")
-})
+  res.send("<h1>Hello World</h1>");
+});
 
 // Server Listener
-app.listen(5000, () => console.log("listening on 5000"))
+app.listen(5000, () => console.log("listening on 5000"));
 ```
 
 - test this out locally by running the command `npm start` and going to localhost:5000, once confirmed, turn off the server with ctrl+c
@@ -125,25 +125,25 @@ ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
 6. add the following to docker-compose.yml
 
 ```yml
-version: '3.7'
+version: "3.7"
 
 # The different services that make up our "network" of containers
 services:
-    # Express is our first service
-    express:
-        # The location of dockerfile to build this service
-        build: ./services/express
-        # Command to run once the Dockerfile completes building
-        command: npm start
-        # Volumes, mounting our files to parts of the container
-        volumes:
-            - ./services/express:/usr/src/app/
-        # Ports to map, mapping our port 5000, to the port 5000 on the container
-        ports: 
-            - 5000:5000
-        # designating a file with environment variables
-        env_file:
-            - ./.env.express
+  # Express is our first service
+  express:
+    # The location of dockerfile to build this service
+    build: ./services/express
+    # Command to run once the Dockerfile completes building
+    command: npm start
+    # Volumes, mounting our files to parts of the container
+    volumes:
+      - ./services/express:/usr/src/app/
+    # Ports to map, mapping our port 5000, to the port 5000 on the container
+    ports:
+      - 5000:5000
+    # designating a file with environment variables
+    env_file:
+      - ./.env.express
 ```
 
 7. Open terminal up to the root folder and run the command `docker-compose up --build` this tells Docker to build the network detailed in the docker-compose.yml and build any images specified in the different services.
@@ -157,45 +157,45 @@ services:
 - Update `docker-compose.yml`
 
 ```yml
-version: '3.7'
+version: "3.7"
 
 # The different services that make up our "network" of containers
 services:
-    # Express is our first service
-    express:
-        # The location of dockerfile to build this service
-        build: ./services/express
-        # Command to run once the Dockerfile completes building
-        command: npm start
-        # Volumes, mounting our files to parts of the container
-        volumes:
-            - ./services/express:/usr/src/app/
-        # Ports to map, mapping our port 5000, to the port 5000 on the container
-        ports: 
-            - 5000:5000
-        # designating a file with environment variables
-        env_file:
-            - ./.env.express
-        # Tell docker this container depends on the neo service so they can communicate, the neo4j server will be located at neo:7474
-        depends_on:
-            - neo
-    ## Defining the Neo4j Database Service        
-    neo:
-        # The image to use
-        image: neo4j:latest
-        # map the ports so we can check the db server is up
-        ports: 
-            - 7474:7474
-            - 7687:7687
-        # mounting a named volume to the container to track db data
-        volumes:
-            - neo4j_data:/data/
-        env_file:
-            - .env.neo4j
+  # Express is our first service
+  express:
+    # The location of dockerfile to build this service
+    build: ./services/express
+    # Command to run once the Dockerfile completes building
+    command: npm start
+    # Volumes, mounting our files to parts of the container
+    volumes:
+      - ./services/express:/usr/src/app/
+    # Ports to map, mapping our port 5000, to the port 5000 on the container
+    ports:
+      - 5000:5000
+    # designating a file with environment variables
+    env_file:
+      - ./.env.express
+    # Tell docker this container depends on the neo service so they can communicate, the neo4j server will be located at neo:7474
+    depends_on:
+      - neo
+  ## Defining the Neo4j Database Service
+  neo:
+    # The image to use
+    image: neo4j:latest
+    # map the ports so we can check the db server is up
+    ports:
+      - 7474:7474
+      - 7687:7687
+    # mounting a named volume to the container to track db data
+    volumes:
+      - neo4j_data:/data/
+    env_file:
+      - .env.neo4j
 
 ## volumes to be generated, these are saved somewhere for repeated use by docker
 volumes:
-    neo4j_data:
+  neo4j_data:
 ```
 
 2. create a `.env.neo4j` file in the root with the following:

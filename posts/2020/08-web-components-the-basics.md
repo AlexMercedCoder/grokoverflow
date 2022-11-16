@@ -5,17 +5,17 @@ author: "Alex Merced"
 category: "frontend"
 bannerImage: "/images/postbanner/2020/web-components-the-basics.png"
 tags:
-    - frontend
-    - web components
-    - javascript
-    - backend
+  - frontend
+  - web components
+  - javascript
+  - backend
 ---
 
 ## What is a Web Component
 
 In the major frontend frameworks (Angular, Vue, React) you are able to encapsulate parts of your user interface into tags like `<component/>`. In recent years, the ability to do so natively has been added to the Javascript browser API in the form of the Native Web Components API. In this series we'll explore the different aspects of building web components. I have created a few libraries that makes this process even easier such as MercedUI, ComponentZoo, FunComponent, and AMPonent.
 
-**Find my libraries at** http://alexmercedcoder.com/jslib/
+**Find my libraries at** http://alexmercedcoder.dev/jslib/
 
 **My Web Components Video Playlist:** https://www.youtube.com/watch?v=qV7jh7ctALg&list=PLY6oTPmKnKbaNVkXHOHWxgdKEZLGKuFP9
 
@@ -48,12 +48,12 @@ Add this code to your app.js and we'll explain what it does...
 ```js
 class HelloWorld extends HTMLElement {
   constructor() {
-    super()
-    this.innerHTML = `<h1>Hello World</h1>`
+    super();
+    this.innerHTML = `<h1>Hello World</h1>`;
   }
 }
 
-customElements.define("hello-world", HelloWorld)
+customElements.define("hello-world", HelloWorld);
 ```
 
 So when you create a component the first thing you need to do is create a new class that inherits from HTMLElement or from a class that is a child of HTMLElement. We then create the constructor where we as always need to first invoke the parent constructor using `super()`. At this point the absolute simplest thing we can do is put some html in the component by passing a string to `this.innerHTML`.
@@ -77,15 +77,15 @@ The ShadowDOM is a feature we can add to our web component that allows us to cre
 ```js
 class HelloWorld extends HTMLElement {
   constructor() {
-    super()
+    super();
     //Add ShadowDOM to Component
-    this.attachShadow({ mode: "open" })
+    this.attachShadow({ mode: "open" });
     //Add template to shadowDOM
-    this.shadowRoot.innerHTML = `<h1>Hello World</h1>`
+    this.shadowRoot.innerHTML = `<h1>Hello World</h1>`;
   }
 }
 
-customElements.define("hello-world", HelloWorld)
+customElements.define("hello-world", HelloWorld);
 ```
 
 If you open up the elements section of chrome you'll notice the components element shows up under a special section that is its shadowDOM.
@@ -97,18 +97,18 @@ You can grab attributes on the element like props in react to use in your compon
 ```js
 class HelloWorld extends HTMLElement {
   constructor() {
-    super()
+    super();
     //Grabbing our Prop
-    const myProp = this.getAttribute("myProp")
-    console.log(myProp)
+    const myProp = this.getAttribute("myProp");
+    console.log(myProp);
     //Add ShadowDOM to Component
-    this.attachShadow({ mode: "open" })
+    this.attachShadow({ mode: "open" });
     //Add template to shadowDOM
-    this.shadowRoot.innerHTML = `<h1>Hello World</h1><h2>${myProp}</h2>`
+    this.shadowRoot.innerHTML = `<h1>Hello World</h1><h2>${myProp}</h2>`;
   }
 }
 
-customElements.define("hello-world", HelloWorld)
+customElements.define("hello-world", HelloWorld);
 ```
 
 Here is the prop in the HTML

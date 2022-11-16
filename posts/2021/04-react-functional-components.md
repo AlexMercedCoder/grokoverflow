@@ -60,18 +60,18 @@ Basically any function that returns JSX (HTML Like Syntax) React will treat as a
 ```js
 // Function Declaration
 function Component1(props) {
-  return <h1> Hello World </h1>
+  return <h1> Hello World </h1>;
 }
 
 // Function Expression
 const Component2 = function (props) {
-  return <h1>Hello World</h1>
-}
+  return <h1>Hello World</h1>;
+};
 
 // Arrow Function
-const Component3 = props => {
-  return <h1> Hello World </h1>
-}
+const Component3 = (props) => {
+  return <h1> Hello World </h1>;
+};
 
 // Showing them in use
 function App(props) {
@@ -81,7 +81,7 @@ function App(props) {
       <Component2 />
       <Component3 />
     </div>
-  )
+  );
 }
 ```
 
@@ -152,7 +152,7 @@ But JSX is NOT HTML it is just an HTML like abstraction over Javascripts DOM API
 You can pass arrays of JSX if you want.
 
 ```jsx
-return [<h1>Hello World</h1>, <h1>Hello World</h1>, <h1>Hello World</h1>]
+return [<h1>Hello World</h1>, <h1>Hello World</h1>, <h1>Hello World</h1>];
 ```
 
 Is the same as me writing
@@ -164,7 +164,7 @@ return (
     <h1>Hello World</h1>
     <h1>Hello World</h1>
   </>
-)
+);
 ```
 
 ### 5. INJECTING JAVASCRIPT EXPRESSIONS
@@ -172,7 +172,7 @@ return (
 Your JSX is treated as html, and anything in curly brackets are treated as Javascript expressions in the functions scope. Any valid javascript expression can be used this way.
 
 ```jsx
-return <h1> I am {30 + 5} years old </h1>
+return <h1> I am {30 + 5} years old </h1>;
 ```
 
 ## Props
@@ -187,25 +187,25 @@ Some rules
 
 ```jsx
 //The Child Component
-const Child = props => {
+const Child = (props) => {
   //change the value of someVariable using function sent via props
-  props.setter(8)
+  props.setter(8);
 
-  return <h1>{props.stuff}</h1>
-}
+  return <h1>{props.stuff}</h1>;
+};
 
 // THe Parent Component
-const Parent = props => {
-  let someVariable
+const Parent = (props) => {
+  let someVariable;
 
   //function to set someVariable
-  const setSV = data => {
-    someVariable = data
-  }
+  const setSV = (data) => {
+    someVariable = data;
+  };
 
   // send down two props, stuff and setter
-  return <Child stuff="hello world" setter={setSV} />
-}
+  return <Child stuff="hello world" setter={setSV} />;
+};
 ```
 
 ## Using Arrays in React
@@ -220,21 +220,21 @@ const Component = () => {
     { name: "Spot", age: 5 },
     { name: "Ralph", age: 5 },
     { name: "Fido", age: 5 },
-  ]
+  ];
   // map over the dogs array and create an array of JSX for each dog
-  const dogJSX = dogs.map(dog => {
+  const dogJSX = dogs.map((dog) => {
     // we return JSX for each dog in the array which we store in the dog variable, essentially we are looping over dog of dogs
     return (
       <div>
         <h1>{dog.name}</h1>
         <h2>{dog.age}</h2>
       </div>
-    )
-  })
+    );
+  });
 
   // the component returns JSX that uses the dogJSX array
-  return <div>{dogJSX}</div>
-}
+  return <div>{dogJSX}</div>;
+};
 ```
 
 ## Iterating Over an Object in React
@@ -242,21 +242,21 @@ const Component = () => {
 Using Objects.keys to generate an array of strings that are the keys of the objects properties. You can then map over the array to generate JSX for each property.
 
 ```jsx
-const Component = props => {
+const Component = (props) => {
   const Alex = {
     name: "Alex Merced",
     age: "35",
     email: "alex@alexmerced.dev",
-  }
+  };
 
   return Object.keys(Alex).map((key, index) => {
     return (
       <h2>
         {key}: {Alex[key]}
       </h2>
-    )
-  })
-}
+    );
+  });
+};
 ```
 
 ## The useState Hook
@@ -266,7 +266,7 @@ The useState hook allows us to generate variables that are special, as updating 
 First step is always importing the useState hook.
 
 ```js
-import { useState } from "react"
+import { useState } from "react";
 ```
 
 Inside the body of your component function you can then initiate a state variable. The name convention is "state" for the variable and "setState" for the function that updates the states value.
@@ -275,23 +275,23 @@ If I wanted to create state for a counter it would look like this.
 
 ```js
 // initiate counter at 0, setCounter let's me update counter
-const [counter, setCounter] = useState(0)
+const [counter, setCounter] = useState(0);
 ```
 
 So a simple counter component would look like this...
 
 ```jsx
-import { useState } from "react"
+import { useState } from "react";
 
-const Counter = props => {
+const Counter = (props) => {
   // Declare the state
-  const [counter, setCounter] = useState(0)
+  const [counter, setCounter] = useState(0);
 
   // Function to add one to the state
   const addOne = () => {
     // sets counter to its current value + 1
-    setCounter(counter + 1)
-  }
+    setCounter(counter + 1);
+  };
 
   // The h1 display the counter and button runs addOne function
   return (
@@ -299,8 +299,8 @@ const Counter = props => {
       <h1>{counter}</h1>
       <button onClick={addOne}>Click Me to Add One</button>
     </div>
-  )
-}
+  );
+};
 ```
 
 That's as simple as it gets. What happens when the button is clicked.
@@ -321,20 +321,20 @@ Don't do this
 
 ```js
 // modify the existing state
-state[0] = 6
+state[0] = 6;
 // then setState as the existing state, triggering NO update
-setState(state)
+setState(state);
 ```
 
 Do this
 
 ```js
 // create a unique copy of the array
-const updatedState = [...state]
+const updatedState = [...state];
 // modify the new array
-updatedState[0] = 6
+updatedState[0] = 6;
 // set the State to the updatedArray, DOM will update
-setState(updatedState)
+setState(updatedState);
 ```
 
 ## The useEffect Hook
@@ -342,25 +342,25 @@ setState(updatedState)
 Here is our counter component from earlier with a console.log and second piece of state.
 
 ```jsx
-import { useState } from "react"
+import { useState } from "react";
 
-const Counter = props => {
+const Counter = (props) => {
   // Declare the state
-  const [counter, setCounter] = useState(0)
+  const [counter, setCounter] = useState(0);
   // second piece of state
-  const [evenCounter, setEvenCounter] = useState(0)
+  const [evenCounter, setEvenCounter] = useState(0);
 
-  console.log("I'm just a random log")
+  console.log("I'm just a random log");
 
   // Function to add one to the state
   const addOne = () => {
     // if counter is even before the update, update evenCounter
     if (counter % 2 === 0) {
-      setEvenCounter(evenCounter + 1)
+      setEvenCounter(evenCounter + 1);
     }
     // sets counter to its current value + 1
-    setCounter(counter + 1)
-  }
+    setCounter(counter + 1);
+  };
 
   // The h1 display the counter and button runs addOne function
   return (
@@ -369,8 +369,8 @@ const Counter = props => {
       <h1>{evenCounter}</h1>
       <button onClick={addOne}>Click Me to Add One</button>
     </div>
-  )
-}
+  );
+};
 ```
 
 So right now this component displays both counter in its JSX
@@ -388,28 +388,28 @@ This is where the useEffect hook comes into play. This hook is a function that t
 - An array of values, when they change the function will run again. Usually an empty array if you never want the function to run again.
 
 ```jsx
-import { useState, useEffect } from "react"
+import { useState, useEffect } from "react";
 
-const Counter = props => {
+const Counter = (props) => {
   // Declare the state
-  const [counter, setCounter] = useState(0)
+  const [counter, setCounter] = useState(0);
   // second piece of state
-  const [evenCounter, setEvenCounter] = useState(0)
+  const [evenCounter, setEvenCounter] = useState(0);
 
   //making sure console.log only runs on certain renders
   useEffect(() => {
-    console.log("I'm just a random log")
-  }, [evenCounter])
+    console.log("I'm just a random log");
+  }, [evenCounter]);
 
   // Function to add one to the state
   const addOne = () => {
     // if counter is even before the update, update evenCounter
     if (counter % 2 === 0) {
-      setEvenCounter(evenCounter + 1)
+      setEvenCounter(evenCounter + 1);
     }
     // sets counter to its current value + 1
-    setCounter(counter + 1)
-  }
+    setCounter(counter + 1);
+  };
 
   // The h1 display the counter and button runs addOne function
   return (
@@ -418,8 +418,8 @@ const Counter = props => {
       <h1>{evenCounter}</h1>
       <button onClick={addOne}>Click Me to Add One</button>
     </div>
-  )
-}
+  );
+};
 ```
 
 So notice the useEffect receives a function that executes our log, and we also gave it an array with evenCounter in it. This means...
@@ -431,8 +431,8 @@ useEffect is more regularly used for API calls. Usually you'll call the API, get
 
 ```jsx
 useEffect(() => {
-  axios(URL).then(data => setState(data))
-}, [])
+  axios(URL).then((data) => setState(data));
+}, []);
 ```
 
 Also if the function given to useEffect returns a function, the returned function will be run when the component is removed from the DOM useful for remove event listeners that may be left behind (not something that should come up often)
@@ -442,24 +442,24 @@ Also if the function given to useEffect returns a function, the returned functio
 Think of the useRef hook kind of like document.querySelector, it let's you assign a DOM node to a variable so you can access its properties. React declarative (express what you want, not how to make it) nature makes it hard to write normal imperative (how to make the thing step by step) DOM code. So if you need to get access to a DOM node like an input you can do the following:
 
 ```jsx
-import { useRef } from "react"
+import { useRef } from "react";
 
-const Component = props => {
+const Component = (props) => {
   // create a new ref, we'll assign it in our JSX
-  const inputRef = useRef(null)
+  const inputRef = useRef(null);
 
   const handleClick = () => {
     //log the inputs elements value
-    console.log(inputRef.current.value)
-  }
+    console.log(inputRef.current.value);
+  };
 
   return (
     <div>
       <input type="text" ref={inputRef} />
       <button onClick={handleClick}>Click Me</button>
     </div>
-  )
-}
+  );
+};
 ```
 
 ## Form Handling
@@ -479,28 +479,28 @@ Parts:
 - handleSubmit function to handle form submission and do what you want with the data
 
 ```jsx
-import { useState } from "react"
+import { useState } from "react";
 
-const Form = props => {
+const Form = (props) => {
   //State to hold the form data
   const [form, setForm] = useState({
     name: "",
     age: 0,
-  })
+  });
 
   // handleChange function
-  const handleChange = event => {
+  const handleChange = (event) => {
     // dynamically update the state using the event object
     // this function always looks the same
-    setForm({ ...form, [event.target.name]: event.target.value })
-  }
+    setForm({ ...form, [event.target.name]: event.target.value });
+  };
 
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     // prevent page refresh
-    event.preventDefault()
+    event.preventDefault();
     // do what you want with the form data
-    console.log(form)
-  }
+    console.log(form);
+  };
 
   // The JSX for the form binding the functions and state to our inputs
   return (
@@ -521,8 +521,8 @@ const Form = props => {
       />
       <input type="submit" value="Submit Form" />
     </form>
-  )
-}
+  );
+};
 ```
 
 ### Example of an Uncontrolled Form
@@ -531,22 +531,22 @@ const Form = props => {
 - handleSubmit for when form is submitted
 
 ```jsx
-import { useRef } from "react"
+import { useRef } from "react";
 
-const Form = props => {
+const Form = (props) => {
   // ref to get input values
-  const nameInput = useRef(null)
-  const ageInput = useRef(null)
+  const nameInput = useRef(null);
+  const ageInput = useRef(null);
 
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     // prevent page refresh
-    event.preventDefault()
+    event.preventDefault();
     // do what you want with the form data
     console.log({
       name: nameInput.current.value,
       age: ageInput.current.value,
-    })
-  }
+    });
+  };
 
   // The JSX for the form binding the functions and state to our inputs
   return (
@@ -555,8 +555,8 @@ const Form = props => {
       <input type="number" ref={ageInput} placeholder="write age here" />
       <input type="submit" value="Submit Form" />
     </form>
-  )
-}
+  );
+};
 ```
 
 ## State Management
@@ -585,22 +585,22 @@ The concept of Lifting state occurs when siblings need to share state with each 
 
 ```jsx
 // Component receive function as prop to update parents state
-const SenderChild = props => {
-  return <button onClick={() => props.update("Goodbye")}>Click Me</button>
-}
+const SenderChild = (props) => {
+  return <button onClick={() => props.update("Goodbye")}>Click Me</button>;
+};
 
 // Component receives parents state
-const SeceiverChild = props => {
-  return <h1>{props.value}</h1>
-}
+const SeceiverChild = (props) => {
+  return <h1>{props.value}</h1>;
+};
 
 // The parent who passes props to both children
-const Parent = props => {
+const Parent = (props) => {
   // The State
-  const [state, setState] = useState("Hello")
+  const [state, setState] = useState("Hello");
 
   // Function to update state to send to child
-  const updateState = data => setState(data)
+  const updateState = (data) => setState(data);
 
   // we pass the function and the state as props to the children
   return (
@@ -608,8 +608,8 @@ const Parent = props => {
       <ReceiverChild value={state} />
       <SenderChild update={updateState} />
     </div>
-  )
-}
+  );
+};
 ```
 
 #### Prop Drilling
@@ -617,11 +617,11 @@ const Parent = props => {
 This is the inevitable tragedy that occurs when your components trees grow to several layers. Imagine a piece of state is in a component that is needed in a grandchild component... you'd have to do the following.
 
 ```jsx
-const GrandChild = props => <h1>{props.data}</h1>
+const GrandChild = (props) => <h1>{props.data}</h1>;
 
-const Child = props => <GrandChild data={cheese} />
+const Child = (props) => <GrandChild data={cheese} />;
 
-const Parent = props => <Child cheese="gouda" />
+const Parent = (props) => <Child cheese="gouda" />;
 ```
 
 This is prop drilling, the Parent passes cheese to child, who passes the same data as data to GrandChild. Imagine if it was a Great-Great-Grandchild... that's a lot of typing just so one component can receive a single piece of data.
@@ -630,7 +630,7 @@ There are several solutions to this.
 
 - React Context
 - React useReducer Hook
-- [The TaskRunner Pattern](https://tuts.alexmercedcoder.com/2020/taskrunner/)
+- [The TaskRunner Pattern](https://tuts.alexmercedcoder.dev/2020/taskrunner/)
 - Redux
 - And many more... (MobX, State Machines, ...)
 
@@ -641,26 +641,26 @@ Let's cover a few!
 What context allows us to do is to create an object that be passed directly to children of any level without having to pass them around as props. If props were like walking down several flights of stairs, Context is liking taking an elevator to where you need to go, faster and easier.
 
 ```jsx
-import { createContext, useContext } from "react"
+import { createContext, useContext } from "react";
 
 //create the context object
-const context = createContext(null)
+const context = createContext(null);
 
-const GrandChild = props => {
+const GrandChild = (props) => {
   // consume the data from the provider in parent
-  const ctx = useContext(context)
-  return <h1>{ctx}</h1>
-}
+  const ctx = useContext(context);
+  return <h1>{ctx}</h1>;
+};
 
 // notice... no props pass through child in this scenario
-const Child = props => <GrandChild />
+const Child = (props) => <GrandChild />;
 
 // the context provider determines what data the parent provides its children
-const Parent = props => (
+const Parent = (props) => (
   <context.Provider value={"cheese"}>
     <Child />
   </context.Provider>
-)
+);
 ```
 
 So notice, because we used Context, the parent component was able to pass data directly to it's grandchild without having to pass any props. Context makes transporting data across your components much easier. The only downside is the direction of the data and where it is used will be a little less obvious to a random spectator.
@@ -678,14 +678,14 @@ The reducer function would normally be passed an "action" which is an object wit
 React eventually took the core Redux functionality and built it in to React as the useReducer hook. Below is a basic example of the useReducer hook.
 
 ```jsx
-import { createContext, useContext, useReducer } from "react"
+import { createContext, useContext, useReducer } from "react";
 
 //create the context object
-const context = createContext(null)
+const context = createContext(null);
 
-const GrandChild = props => {
+const GrandChild = (props) => {
   // consume the data from the provider in parent
-  const ctx = useContext(context)
+  const ctx = useContext(context);
   // the h1 displays the state pulled from context
   // the buttons call dispatch and pass the action to the reducer
   return (
@@ -698,44 +698,44 @@ const GrandChild = props => {
         Subtract
       </button>
     </>
-  )
-}
+  );
+};
 
 // notice... no props pass through child in this scenario
-const Child = props => <GrandChild />
+const Child = (props) => <GrandChild />;
 
 // the context provider determines what data the parent provides its children
-const Parent = props => {
+const Parent = (props) => {
   // the reducer with our stateful logic
   const reducer = (state, action) => {
     // get the type and payload from the action
-    const { type, payload } = action
+    const { type, payload } = action;
 
     switch (type) {
       // determine how to update the state based on action type
       case "add":
-        return state + 1
+        return state + 1;
       case "subtract":
-        return state - 1
+        return state - 1;
       default:
         // if it doesn't match any type, keep the state as is
-        return state
+        return state;
     }
-  }
+  };
 
   // the initial value of the state
-  const initialState = 0
+  const initialState = 0;
 
   // create the state and the dispatch function
-  const [state, dispatch] = useReducer(reducer, initialState)
+  const [state, dispatch] = useReducer(reducer, initialState);
 
   // pass the state and dispatch via context in an object
   return (
     <context.Provider value={{ state, dispatch }}>
       <Child />
     </context.Provider>
-  )
-}
+  );
+};
 ```
 
 ## React Router
@@ -747,14 +747,14 @@ const Parent = props => {
 The Router component tracks url bar and passes information for all the other React Router components to work. Router is a Provider so anywhere you plan on using Router should be a child of Router. To give the whole app access to Router wrap the App component is Router.
 
 ```jsx
-import { BroswerRouter as Router } from "react-router-dom"
+import { BroswerRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <Router>
     <App />
   </Router>,
   document.getElementById("root")
-)
+);
 ```
 
 #### Route Component
@@ -767,7 +767,7 @@ Pro: Easiest to Write and can pass props to components
 Con: Does not receive the Router Props (History, Location, Match)
 
 ```jsx
-import { Route } from "react-router-dom"
+import { Route } from "react-router-dom";
 
 function App(props) {
   return (
@@ -782,7 +782,7 @@ function App(props) {
         <Projects />
       </Route>
     </div>
-  )
+  );
 }
 ```
 
@@ -792,7 +792,7 @@ Pro: Easy to write, receives router props
 Con: Can't pass custom props
 
 ```jsx
-import { Route } from "react-router-dom"
+import { Route } from "react-router-dom";
 
 function App(props) {
   return (
@@ -801,7 +801,7 @@ function App(props) {
       <Route path="/about" component={About} />
       <Route path="/projects" component={Projects} />
     </div>
-  )
+  );
 }
 ```
 
@@ -811,19 +811,22 @@ Pro: Can receive custom props and router props
 Con: Most Verbose (hard to write)
 
 ```jsx
-import { Route } from "react-router-dom"
+import { Route } from "react-router-dom";
 
 function App(props) {
   return (
     <div>
-      <Route path="/home" render={routerProps => <Home {...routerProps} />} />
-      <Route path="/about" render={routerProps => <About {...routerProps} />} />
+      <Route path="/home" render={(routerProps) => <Home {...routerProps} />} />
+      <Route
+        path="/about"
+        render={(routerProps) => <About {...routerProps} />}
+      />
       <Route
         path="/projects"
-        render={routerProps => <Projects {...routerProps} />}
+        render={(routerProps) => <Projects {...routerProps} />}
       />
     </div>
-  )
+  );
 }
 ```
 
@@ -832,24 +835,27 @@ function App(props) {
 Normally if multiple routes match the URL then they all render. Switch only allows the first matching route within the switch to appear.
 
 ```jsx
-import { Route, Switch } from "react-router-dom"
+import { Route, Switch } from "react-router-dom";
 
 function App(props) {
   return (
     <div>
       <Switch>
-        <Route path="/home" render={routerProps => <Home {...routerProps} />} />
+        <Route
+          path="/home"
+          render={(routerProps) => <Home {...routerProps} />}
+        />
         <Route
           path="/about"
-          render={routerProps => <About {...routerProps} />}
+          render={(routerProps) => <About {...routerProps} />}
         />
         <Route
           path="/projects"
-          render={routerProps => <Projects {...routerProps} />}
+          render={(routerProps) => <Projects {...routerProps} />}
         />
       </Switch>
     </div>
-  )
+  );
 }
 ```
 
@@ -858,7 +864,7 @@ function App(props) {
 The Link component should be used instead Anchor tags when making a link that should trigger a route.
 
 ```jsx
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function Navigation(props) {
   return (
@@ -867,7 +873,7 @@ function Navigation(props) {
       <Link to="/about">About</Link>
       <Link to="/projects">Projects</Link>
     </nav>
-  )
+  );
 }
 ```
 
@@ -880,25 +886,26 @@ Styled Components is a 3rd party library for creating components with built in c
 Use like so...
 
 ```jsx
-import styled from "styled-components"
+import styled from "styled-components";
 
 const Container = styled.div`
   width: 80%;
   margin: auto;
   text-align: center;
-`
+`;
 
 const Title = styled.h1`
   font-size: 3em;
   color: red;
-`
+`;
 
-const Component = props => (
+const Component = (props) => (
   <Container>
     <Title>Hello World</Title>
   </Container>
-)
+);
 ```
+
 ## Conditional Rendering
 
 There are times when something should render in some situations and not in others. In frameworks like Vue, Angular and Svelte you have things like directives that directly add semantic ways to express this, React leans hard on using pure javascript to control the flow of a component (so strong Javascript skills really pay off in React).
@@ -908,109 +915,109 @@ In this article, we will look at an IsEven component that renders one thing if a
 #### Return statement within an if block
 
 ```jsx
-const IsEven = props => {
+const IsEven = (props) => {
   if (props.number % 2 === 0) {
-    return <h1> It is even </h1>
+    return <h1> It is even </h1>;
   } else {
-    return <h1>It is odd</h1>
+    return <h1>It is odd</h1>;
   }
-}
+};
 ```
 
 #### Single Return Statement, If assigns value to a variable
 
 ```jsx
-const IsEven = props => {
-  let result
+const IsEven = (props) => {
+  let result;
 
   if (props.number % 2 === 0) {
-    result = <h1> It is even </h1>
+    result = <h1> It is even </h1>;
   } else {
-    result = <h1>It is odd</h1>
+    result = <h1>It is odd</h1>;
   }
 
-  return result
-}
+  return result;
+};
 ```
 
 #### Returning a Ternary Operator
 
 ```jsx
-const IsEven = props => {
-  return props.number % 2 === 0 ? <h1> it is even </h1> : <h1> it is odd </h1>
-}
+const IsEven = (props) => {
+  return props.number % 2 === 0 ? <h1> it is even </h1> : <h1> it is odd </h1>;
+};
 ```
 
 #### Returning a Ternary Operator but parts stored in variables
 
 ```jsx
-const IsEven = props => {
-  const condition = props.number % 2 === 0
+const IsEven = (props) => {
+  const condition = props.number % 2 === 0;
 
-  const ifTrue = () => <h1> it is even </h1>
+  const ifTrue = () => <h1> it is even </h1>;
 
-  const ifFalse = () => <h1> it is odd </h1>
+  const ifFalse = () => <h1> it is odd </h1>;
 
-  return condition ? ifTrue() : ifFalse()
-}
+  return condition ? ifTrue() : ifFalse();
+};
 ```
 
 #### Conditional Classes
 
 ```jsx
-const Modal = props => (
+const Modal = (props) => (
   <div className={props.visible ? "active" : ""}>{props.children}</div>
-)
+);
 ```
 
 ```jsx
-const Modal = props => {
-  const divClass = props.visible ? "active" : ""
+const Modal = (props) => {
+  const divClass = props.visible ? "active" : "";
 
-  return <div className={divClass}>{props.children}</div>
-}
+  return <div className={divClass}>{props.children}</div>;
+};
 ```
 
 #### Conditional Styles
 
 ```jsx
-const Modal = props => (
+const Modal = (props) => (
   <div style={{ display: props.visible ? "block" : "none" }}>
     {props.children}
   </div>
-)
+);
 ```
 
 ```jsx
-const Modal = props => {
-  const divDisplay = props.visible ? "block" : "none"
+const Modal = (props) => {
+  const divDisplay = props.visible ? "block" : "none";
 
-  return <div style={{ display: divDisplay }}>{props.children}</div>
-}
+  return <div style={{ display: divDisplay }}>{props.children}</div>;
+};
 ```
 
 ```jsx
-const Modal = props => {
+const Modal = (props) => {
   const divStyle = {
     display: props.visible ? "block" : "none",
-  }
+  };
 
-  return <div style={divStyle}>{props.children}</div>
-}
+  return <div style={divStyle}>{props.children}</div>;
+};
 ```
 
 #### Using Object Keys to Determine JSX
 
 ```jsx
-const Component = props => {
+const Component = (props) => {
   const result = {
     good: <h1>Good</h1>,
     bad: <h1>Bad</h1>,
     ugly: <h1>Ugly</h1>,
-  }
+  };
 
-  return result[props.key]
-}
+  return result[props.key];
+};
 ```
 
 #### Using a Switch Statement
@@ -1028,7 +1035,6 @@ const Hello = (props) => {
 }
 ```
 
-
 ## Quick Tips
 
 #### Destructuring Props
@@ -1041,7 +1047,7 @@ const Component = ({ name, age }) => (
     <h1>{name}</h1>
     <h2>{age}</h2>
   </div>
-)
+);
 ```
 
 #### Spreading Props
@@ -1093,27 +1099,27 @@ In this case anything between the opening and closing Container tag are stored i
 Portals are a way of injecting something somewhere else in the DOM, not used very often but here is an example.
 
 ```jsx
-import { createPortal } from "react"
+import { createPortal } from "react";
 
 // This component renders div with the id of target
-const Target = props => {
-  return <div id="target"></div>
-}
+const Target = (props) => {
+  return <div id="target"></div>;
+};
 
 // regardless of where this component is used, the h1 will be rendered inside of an element that has the id of "target"
-const Payload = props => {
+const Payload = (props) => {
   return createPortal(
     <h1>This is a weird place to be</h1>,
     document.querySelector("#target")
-  )
-}
+  );
+};
 
 const App = () => (
   <>
     <Target />
     <Payload />
   </>
-)
+);
 ```
 
 So even though the Payload component is below Target, it's output will appear within Target since we are mounting Payload to the div Target renders.

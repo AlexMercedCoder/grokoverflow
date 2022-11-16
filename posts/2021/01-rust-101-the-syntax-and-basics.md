@@ -106,4 +106,4 @@ const MY_CONST:u32 = 5
 
 ## Conclusion
 
-Hopefully, now you have Rust installed and can startup and run a rust project. I will be writing more articles on how to do more in rust so to make sure to regularly check my blog at tuts.alexmercedcoder.com.
+Hopefully, now you have Rust installed and can startup and run a rust project. I will be writing more articles on how to do more in rust so to make sure to regularly check my blog at tuts.alexmercedcoder.dev.

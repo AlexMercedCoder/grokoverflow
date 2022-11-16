@@ -216,4 +216,4 @@ We then use the Stuff function, which passes its returned value to the Println f
 
 ## Conclusion
 
-Hopefully, this has helped you get used to how to setup and use go, in future articles I'll cover more advanced topics like structs, functions, etc. So make sure to keep checking in here at AlexMercedCoder.com for more articles!
+Hopefully, this has helped you get used to how to setup and use go, in future articles I'll cover more advanced topics like structs, functions, etc. So make sure to keep checking in here at alexmercedcoder.dev for more articles!

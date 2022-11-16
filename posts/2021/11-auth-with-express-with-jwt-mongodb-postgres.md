@@ -14,8 +14,8 @@ tags:
 
 Authentication can always be tricky to understand and achieve. If you want more depth on the concept and high level of implementation, read the following articles:
 
-- [Authentication and Authorization in Concept](https://tuts.alexmercedcoder.com/2020/AuthConcept/)
-- [Implmenting Auth at a High Level](https://tuts.alexmercedcoder.com/2021/11/how_to_implement_authorization_master_guide/)
+- [Authentication and Authorization in Concept](https://tuts.alexmercedcoder.dev/2020/AuthConcept/)
+- [Implmenting Auth at a High Level](https://tuts.alexmercedcoder.dev/2021/11/how_to_implement_authorization_master_guide/)
 
 Fundamentally we just need to build the following to have an API with Auth.
 
@@ -55,7 +55,7 @@ Do the following for both folders (make sure your terminal is in the folder as y
 .env
 
 ```js
-PORT = 4000
+PORT = 4000;
 ```
 
 .gitignore
@@ -70,91 +70,91 @@ PORT = 4000
 ```js
 // whitelist of URLS that can make a request to your server
 // to allow all urls, whitelist should have "*" as its first element
-const whitelist = ["*"]
+const whitelist = ["*"];
 
 // if whitelist starts with "*" then all traffic allowed, otherwise if origin url is not in whitelist, request is blocked.
 const corsOptions = {
   origin: function (origin, callback) {
     if (whitelist[0] === "*") {
-      callback(null, true)
+      callback(null, true);
     } else {
       if (whitelist.indexOf(origin) !== -1) {
-        callback(null, true)
+        callback(null, true);
       } else {
-        callback(new Error("Not allowed by CORS"))
+        callback(new Error("Not allowed by CORS"));
       }
     }
   },
-}
+};
 
-module.exports = corsOptions
+module.exports = corsOptions;
 ```
 
 - lets create our HomeController with an initial route `controllers/HomeController`
 
 ```js
 // New Express Router
-const router = require("express").Router()
+const router = require("express").Router();
 
 // Router Middleware
 
 // Router Routes
 router.get("/", (req, res) => {
-  res.json({ response: "server is working" })
-})
+  res.json({ response: "server is working" });
+});
 
 // Export Router
-module.exports = router
+module.exports = router;
 ```
 
 - let's create a function for registering middleware in `utils/middleware.js`
 
 ```js
-const express = require("express")
-const cookieParser = require("cookie-parser")
-const morgan = require("morgan")
-const cors = require("cors")
-const corsOptions = require("./cors")
-const HomeController = require("../controllers/HomeController")
+const express = require("express");
+const cookieParser = require("cookie-parser");
+const morgan = require("morgan");
+const cors = require("cors");
+const corsOptions = require("./cors");
+const HomeController = require("../controllers/HomeController");
 
 // function to create context property in every request with shared data
 const applicationContext = (req, res, next) => {
   // data to share can be added in this object
-  req.context = {}
+  req.context = {};
   // move on to next middleware
-  next()
-}
+  next();
+};
 
-const registerMiddleware = app => {
-  app.use(cors(corsOptions)) // cors headers
-  app.use(cookieParser()) // parse cookies
-  app.use(express.json()) // parse json bodies
-  app.use(morgan("tiny")) // logging
-  app.use(applicationContext) // add context object to request
-  app.use("/", HomeController) // register homecontroller routes for  "/" urls
-}
+const registerMiddleware = (app) => {
+  app.use(cors(corsOptions)); // cors headers
+  app.use(cookieParser()); // parse cookies
+  app.use(express.json()); // parse json bodies
+  app.use(morgan("tiny")); // logging
+  app.use(applicationContext); // add context object to request
+  app.use("/", HomeController); // register homecontroller routes for  "/" urls
+};
 
-module.exports = registerMiddleware
+module.exports = registerMiddleware;
 ```
 
 - then the following in server.js
 
 ```js
-require("dotenv").config() // load variables from .env
-const express = require("express")
-const registerMiddleware = require("./utils/middleware")
+require("dotenv").config(); // load variables from .env
+const express = require("express");
+const registerMiddleware = require("./utils/middleware");
 
 // Grab any ENV variables to be used, set default values in case .env file missing
-const { PORT = 3000 } = process.env
+const { PORT = 3000 } = process.env;
 
 // The Application Object
-const app = express()
+const app = express();
 
 // registerMiddleware
-registerMiddleware(app)
+registerMiddleware(app);
 
 // Server listener
-app.listen(PORT, () => console.log(`listening on port ${PORT}`))
+app.listen(PORT, () => console.log(`listening on port ${PORT}`));
 ```
 
 You can also use this template to have the code we've put forward so far.
@@ -180,26 +180,26 @@ SECRET=thisIsMySecret
 Inside of `connection/db.js`
 
 ```js
-require("dotenv").config()
-const mongoose = require("mongoose")
+require("dotenv").config();
+const mongoose = require("mongoose");
 
 // get env variables
-const { DATABASE_URL } = process.env
+const { DATABASE_URL } = process.env;
 
 // connect to mongoose
 mongoose.connect(DATABASE_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-})
+});
 
 // Connection Messages
 mongoose.connection
   .on("open", () => console.log("Connected to Mongo"))
   .on("close", () => console.log("Disconnected from Mongo"))
-  .on("error", error => console.log(error))
+  .on("error", (error) => console.log(error));
 
 // export connection
-module.exports = mongoose
+module.exports = mongoose;
 ```
 
 #### User Model
@@ -208,7 +208,7 @@ create a file `models/User.js`
 
 ```js
 // import connection, grab schema and model
-const { Schema, model } = require("../connection/db")
+const { Schema, model } = require("../connection/db");
 
 // define user schema
 const userSchema = new Schema(
@@ -218,13 +218,13 @@ const userSchema = new Schema(
     role: { type: String, required: true, default: "general" },
   },
   { timestamps: true }
-)
+);
 
 // define user model
-const User = model("User", userSchema)
+const User = model("User", userSchema);
 
 // export User
-module.exports = User
+module.exports = User;
 ```
 
 #### Todo Model
@@ -233,7 +233,7 @@ module.exports = User
 
 ```js
 // import connection, grab schema and model
-const { Schema, model } = require("../connection/db")
+const { Schema, model } = require("../connection/db");
 
 // define Todo schema
 const todoSchema = new Schema(
@@ -243,13 +243,13 @@ const todoSchema = new Schema(
     username: { type: String, required: true },
   },
   { timestamps: true }
-)
+);
 
 // define Todo model
-const Todo = model("Todo", todoSchema)
+const Todo = model("Todo", todoSchema);
 
 // export Todo
-module.exports = Todo
+module.exports = Todo;
 ```
 
 Now let's distribute these models using the context middleware so all our controllers can access them with ease!
@@ -257,37 +257,37 @@ Now let's distribute these models using the context middleware so all our contro
 `utils/middleware.js`
 
 ```js
-const express = require("express")
-const cookieParser = require("cookie-parser")
-const morgan = require("morgan")
-const cors = require("cors")
-const corsOptions = require("./cors")
+const express = require("express");
+const cookieParser = require("cookie-parser");
+const morgan = require("morgan");
+const cors = require("cors");
+const corsOptions = require("./cors");
 // import controllers
-const HomeController = require("../controllers/HomeController")
+const HomeController = require("../controllers/HomeController");
 // import models
-const User = require("../models/User")
-const Todo = require("../models/Todo")
+const User = require("../models/User");
+const Todo = require("../models/Todo");
 
 // function to create context property in every request with shared data
 const applicationContext = (req, res, next) => {
   // data to share can be added in this object
   req.context = {
     models: { User, Todo },
-  }
+  };
   // move on to next middleware
-  next()
-}
+  next();
+};
 
-const registerMiddleware = app => {
-  app.use(cors(corsOptions)) // cors headers
-  app.use(cookieParser()) // parse cookies
-  app.use(express.json()) // parse json bodies
-  app.use(morgan("tiny")) // logging
-  app.use(applicationContext) // add context object to request
-  app.use("/", HomeController) // register homecontroller routes for  "/" urls
-}
+const registerMiddleware = (app) => {
+  app.use(cors(corsOptions)); // cors headers
+  app.use(cookieParser()); // parse cookies
+  app.use(express.json()); // parse json bodies
+  app.use(morgan("tiny")); // logging
+  app.use(applicationContext); // add context object to request
+  app.use("/", HomeController); // register homecontroller routes for  "/" urls
+};
 
-module.exports = registerMiddleware
+module.exports = registerMiddleware;
 ```
 
 #### Auth Controller
@@ -325,10 +325,10 @@ router.post("/signup", async (req, res) => {
 // login route "/auth/login"
 router.post("/login", async (req, res) => {
   try {
-      console.count("login")
+    console.count("login");
     // grab model from context
     const User = req.context.models.User;
-    console.count("login")
+    console.count("login");
     // grab username and password
     const { username, password } = req.body;
     // see if user exists
@@ -356,8 +356,8 @@ router.post("/login", async (req, res) => {
 
 // logout "/auth/logout"
 router.get("/logout", async (req, res) => {
-    res.clearCookie("token").json({response: "You are Logged Out"})
-})
+  res.clearCookie("token").json({ response: "You are Logged Out" });
+});
 
 // Export Router
 module.exports = router;
@@ -366,40 +366,39 @@ module.exports = router;
 - register the AuthController with our middleware in `utils/middleware.js`
 
 ```js
-const express = require("express")
-const cookieParser = require("cookie-parser")
-const morgan = require("morgan")
-const cors = require("cors")
-const corsOptions = require("./cors")
+const express = require("express");
+const cookieParser = require("cookie-parser");
+const morgan = require("morgan");
+const cors = require("cors");
+const corsOptions = require("./cors");
 // import controllers
-const HomeController = require("../controllers/HomeController")
-const AuthController = require("../controllers/AuthController")
+const HomeController = require("../controllers/HomeController");
+const AuthController = require("../controllers/AuthController");
 // import models
-const User = require("../models/User")
-const Todo = require("../models/Todo")
+const User = require("../models/User");
+const Todo = require("../models/Todo");
 
 // function to create context property in every request with shared data
 const applicationContext = (req, res, next) => {
-    // data to share can be added in this object
-    req.context = {
-        models: {User, Todo}
-    }
-    // move on to next middleware
-    next()
-}
-
+  // data to share can be added in this object
+  req.context = {
+    models: { User, Todo },
+  };
+  // move on to next middleware
+  next();
+};
 
 const registerMiddleware = (app) => {
-    app.use(cors(corsOptions)) // cors headers
-    app.use(cookieParser()) // parse cookies
-    app.use(express.json()) // parse json bodies
-    app.use(morgan("tiny")) // logging
-    app.use(applicationContext) // add context object to request
-    app.use("/", HomeController) // register homecontroller routes for  "/" urls
-    app.use("/auth", AuthController) // register homecontroller routes for  "/auth" urls
-}
+  app.use(cors(corsOptions)); // cors headers
+  app.use(cookieParser()); // parse cookies
+  app.use(express.json()); // parse json bodies
+  app.use(morgan("tiny")); // logging
+  app.use(applicationContext); // add context object to request
+  app.use("/", HomeController); // register homecontroller routes for  "/" urls
+  app.use("/auth", AuthController); // register homecontroller routes for  "/auth" urls
+};
 
-module.exports = registerMiddleware
+module.exports = registerMiddleware;
 ```
 
 You now have the routes to signup, login and logout!!! Now let's create routes that allow users to create todos just for them.
@@ -433,7 +432,7 @@ const isUserLoggedIn = async (req, res, next) => {
   }
 };
 
-module.exports = isUserLoggedIn
+module.exports = isUserLoggedIn;
 ```
 
 #### Todo Controller
@@ -497,42 +496,41 @@ module.exports = router;
 `utils/middleware`
 
 ```js
-const express = require("express")
-const cookieParser = require("cookie-parser")
-const morgan = require("morgan")
-const cors = require("cors")
-const corsOptions = require("./cors")
+const express = require("express");
+const cookieParser = require("cookie-parser");
+const morgan = require("morgan");
+const cors = require("cors");
+const corsOptions = require("./cors");
 // import controllers
-const HomeController = require("../controllers/HomeController")
-const AuthController = require("../controllers/AuthController")
-const TodoController = require("../controllers/TodoController")
+const HomeController = require("../controllers/HomeController");
+const AuthController = require("../controllers/AuthController");
+const TodoController = require("../controllers/TodoController");
 // import models
-const User = require("../models/User")
-const Todo = require("../models/Todo")
+const User = require("../models/User");
+const Todo = require("../models/Todo");
 
 // function to create context property in every request with shared data
 const applicationContext = (req, res, next) => {
-    // data to share can be added in this object
-    req.context = {
-        models: {User, Todo}
-    }
-    // move on to next middleware
-    next()
-}
-
+  // data to share can be added in this object
+  req.context = {
+    models: { User, Todo },
+  };
+  // move on to next middleware
+  next();
+};
 
 const registerMiddleware = (app) => {
-    app.use(cors(corsOptions)) // cors headers
-    app.use(cookieParser()) // parse cookies
-    app.use(express.json()) // parse json bodies
-    app.use(morgan("tiny")) // logging
-    app.use(applicationContext) // add context object to request
-    app.use("/", HomeController) // register homecontroller routes for  "/" urls
-    app.use("/auth", AuthController) // register homecontroller routes for  "/auth" urls
-    app.use("/todo", TodoController) // register todocontroller routes for  "/todo" urls
-}
+  app.use(cors(corsOptions)); // cors headers
+  app.use(cookieParser()); // parse cookies
+  app.use(express.json()); // parse json bodies
+  app.use(morgan("tiny")); // logging
+  app.use(applicationContext); // add context object to request
+  app.use("/", HomeController); // register homecontroller routes for  "/" urls
+  app.use("/auth", AuthController); // register homecontroller routes for  "/auth" urls
+  app.use("/todo", TodoController); // register todocontroller routes for  "/todo" urls
+};
 
-module.exports = registerMiddleware
+module.exports = registerMiddleware;
 ```
 
 **Congrats** you have now built a todo API with Mongo/Express with Authentication!
@@ -565,20 +563,19 @@ require("dotenv").config();
 const { Sequelize } = require("sequelize");
 
 // connect to database
-const sequelize = new Sequelize(process.env.DATABASE_URL)
-
+const sequelize = new Sequelize(process.env.DATABASE_URL);
 
 // check if connection established
 async function checkConnection() {
-    try {
-      await sequelize.authenticate();
-      console.log("Connection has been established successfully.");
-    } catch (error) {
-      console.error("Unable to connect to the database:", error);
-    }
+  try {
+    await sequelize.authenticate();
+    console.log("Connection has been established successfully.");
+  } catch (error) {
+    console.error("Unable to connect to the database:", error);
   }
+}
 
-checkConnection()
+checkConnection();
 
 //export connection
 module.exports = sequelize;
@@ -590,26 +587,30 @@ create a file `models/User.js`
 
 ```js
 // import connection, grab schema and model
-const sequalize = require("../connection/db")
-const {DataTypes} = require("sequelize")
+const sequalize = require("../connection/db");
+const { DataTypes } = require("sequelize");
 
 // Define User Model
-const User = sequalize.define("User", {
-    username: {type: DataTypes.STRING, allowNull: false, unique: true},
-    password: {type: DataTypes.STRING, allowNull: false},
-    role: {type: DataTypes.STRING, allowNull: false, defaultValue: "general"}
-}, {tableName: "users", timestamps: true})
+const User = sequalize.define(
+  "User",
+  {
+    username: { type: DataTypes.STRING, allowNull: false, unique: true },
+    password: { type: DataTypes.STRING, allowNull: false },
+    role: { type: DataTypes.STRING, allowNull: false, defaultValue: "general" },
+  },
+  { tableName: "users", timestamps: true }
+);
 
 // create the table if doesn't exist
 
-async function createTable(){
-    await User.sync()
+async function createTable() {
+  await User.sync();
 }
 
-createTable()
+createTable();
 
 // export User
-module.exports = User
+module.exports = User;
 ```
 
 #### Todo Model
@@ -618,25 +619,29 @@ module.exports = User
 
 ```js
 // import connection, grab schema and model
-const sequalize = require("../connection/db")
-const {DataTypes} = require("sequelize")
+const sequalize = require("../connection/db");
+const { DataTypes } = require("sequelize");
 
 // Define Todo Model
-const Todo = sequalize.define("Todo", {
-    username: {type: DataTypes.STRING, allowNull: false},
-    message: {type: DataTypes.STRING}
-}, {tableName: "todos", timestamps: true})
+const Todo = sequalize.define(
+  "Todo",
+  {
+    username: { type: DataTypes.STRING, allowNull: false },
+    message: { type: DataTypes.STRING },
+  },
+  { tableName: "todos", timestamps: true }
+);
 
 // create the table if doesn't exist
 
-async function createTable(){
-    await Todo.sync()
+async function createTable() {
+  await Todo.sync();
 }
 
-createTable()
+createTable();
 
 // export User
-module.exports = Todo
+module.exports = Todo;
 ```
 
 Now let's distribute these models using the context middleware so all our controllers can access them with ease!
@@ -644,37 +649,37 @@ Now let's distribute these models using the context middleware so all our contro
 `utils/middleware.js`
 
 ```js
-const express = require("express")
-const cookieParser = require("cookie-parser")
-const morgan = require("morgan")
-const cors = require("cors")
-const corsOptions = require("./cors")
+const express = require("express");
+const cookieParser = require("cookie-parser");
+const morgan = require("morgan");
+const cors = require("cors");
+const corsOptions = require("./cors");
 // import controllers
-const HomeController = require("../controllers/HomeController")
+const HomeController = require("../controllers/HomeController");
 // import models
-const User = require("../models/User")
-const Todo = require("../models/Todo")
+const User = require("../models/User");
+const Todo = require("../models/Todo");
 
 // function to create context property in every request with shared data
 const applicationContext = (req, res, next) => {
   // data to share can be added in this object
   req.context = {
     models: { User, Todo },
-  }
+  };
   // move on to next middleware
-  next()
-}
+  next();
+};
 
-const registerMiddleware = app => {
-  app.use(cors(corsOptions)) // cors headers
-  app.use(cookieParser()) // parse cookies
-  app.use(express.json()) // parse json bodies
-  app.use(morgan("tiny")) // logging
-  app.use(applicationContext) // add context object to request
-  app.use("/", HomeController) // register homecontroller routes for  "/" urls
-}
+const registerMiddleware = (app) => {
+  app.use(cors(corsOptions)); // cors headers
+  app.use(cookieParser()); // parse cookies
+  app.use(express.json()); // parse json bodies
+  app.use(morgan("tiny")); // logging
+  app.use(applicationContext); // add context object to request
+  app.use("/", HomeController); // register homecontroller routes for  "/" urls
+};
 
-module.exports = registerMiddleware
+module.exports = registerMiddleware;
 ```
 
 #### Auth Controller
@@ -753,40 +758,39 @@ module.exports = router;
 - register the AuthController with our middleware in `utils/middleware.js`
 
 ```js
-const express = require("express")
-const cookieParser = require("cookie-parser")
-const morgan = require("morgan")
-const cors = require("cors")
-const corsOptions = require("./cors")
+const express = require("express");
+const cookieParser = require("cookie-parser");
+const morgan = require("morgan");
+const cors = require("cors");
+const corsOptions = require("./cors");
 // import controllers
-const HomeController = require("../controllers/HomeController")
-const AuthController = require("../controllers/AuthController")
+const HomeController = require("../controllers/HomeController");
+const AuthController = require("../controllers/AuthController");
 // import models
-const User = require("../models/User")
-const Todo = require("../models/Todo")
+const User = require("../models/User");
+const Todo = require("../models/Todo");
 
 // function to create context property in every request with shared data
 const applicationContext = (req, res, next) => {
-    // data to share can be added in this object
-    req.context = {
-        models: {User, Todo}
-    }
-    // move on to next middleware
-    next()
-}
-
+  // data to share can be added in this object
+  req.context = {
+    models: { User, Todo },
+  };
+  // move on to next middleware
+  next();
+};
 
 const registerMiddleware = (app) => {
-    app.use(cors(corsOptions)) // cors headers
-    app.use(cookieParser()) // parse cookies
-    app.use(express.json()) // parse json bodies
-    app.use(morgan("tiny")) // logging
-    app.use(applicationContext) // add context object to request
-    app.use("/", HomeController) // register homecontroller routes for  "/" urls
-    app.use("/auth", AuthController) // register homecontroller routes for  "/auth" urls
-}
+  app.use(cors(corsOptions)); // cors headers
+  app.use(cookieParser()); // parse cookies
+  app.use(express.json()); // parse json bodies
+  app.use(morgan("tiny")); // logging
+  app.use(applicationContext); // add context object to request
+  app.use("/", HomeController); // register homecontroller routes for  "/" urls
+  app.use("/auth", AuthController); // register homecontroller routes for  "/auth" urls
+};
 
-module.exports = registerMiddleware
+module.exports = registerMiddleware;
 ```
 
 You now have the routes to signup, login and logout!!! Now let's create routes that allow users to create todos just for them.
@@ -820,7 +824,7 @@ const isUserLoggedIn = async (req, res, next) => {
   }
 };
 
-module.exports = isUserLoggedIn
+module.exports = isUserLoggedIn;
 ```
 
 #### Todo Controller
@@ -884,42 +888,41 @@ module.exports = router;
 `utils/middleware`
 
 ```js
-const express = require("express")
-const cookieParser = require("cookie-parser")
-const morgan = require("morgan")
-const cors = require("cors")
-const corsOptions = require("./cors")
+const express = require("express");
+const cookieParser = require("cookie-parser");
+const morgan = require("morgan");
+const cors = require("cors");
+const corsOptions = require("./cors");
 // import controllers
-const HomeController = require("../controllers/HomeController")
-const AuthController = require("../controllers/AuthController")
-const TodoController = require("../controllers/TodoController")
+const HomeController = require("../controllers/HomeController");
+const AuthController = require("../controllers/AuthController");
+const TodoController = require("../controllers/TodoController");
 // import models
-const User = require("../models/User")
-const Todo = require("../models/Todo")
+const User = require("../models/User");
+const Todo = require("../models/Todo");
 
 // function to create context property in every request with shared data
 const applicationContext = (req, res, next) => {
-    // data to share can be added in this object
-    req.context = {
-        models: {User, Todo}
-    }
-    // move on to next middleware
-    next()
-}
-
+  // data to share can be added in this object
+  req.context = {
+    models: { User, Todo },
+  };
+  // move on to next middleware
+  next();
+};
 
 const registerMiddleware = (app) => {
-    app.use(cors(corsOptions)) // cors headers
-    app.use(cookieParser()) // parse cookies
-    app.use(express.json()) // parse json bodies
-    app.use(morgan("tiny")) // logging
-    app.use(applicationContext) // add context object to request
-    app.use("/", HomeController) // register homecontroller routes for  "/" urls
-    app.use("/auth", AuthController) // register homecontroller routes for  "/auth" urls
-    app.use("/todo", TodoController) // register todocontroller routes for  "/todo" urls
-}
+  app.use(cors(corsOptions)); // cors headers
+  app.use(cookieParser()); // parse cookies
+  app.use(express.json()); // parse json bodies
+  app.use(morgan("tiny")); // logging
+  app.use(applicationContext); // add context object to request
+  app.use("/", HomeController); // register homecontroller routes for  "/" urls
+  app.use("/auth", AuthController); // register homecontroller routes for  "/auth" urls
+  app.use("/todo", TodoController); // register todocontroller routes for  "/todo" urls
+};
 
-module.exports = registerMiddleware
+module.exports = registerMiddleware;
 ```
 
 **Congrats** you have now built a todo API with Postgress/Express with Authentication!
@@ -931,5 +934,5 @@ https://github.com/Alex-Merced-Templates/express_starter/tree/postgres
 
 Try accomplishing this again with a Graph Database like Neo4J or ArangoDB, both have their own cloud database service with a free tier, so why not!
 
-- [Neo4J Tutorial](https://tuts.alexmercedcoder.com/2021/9/using_graphdb_neo4j_in_node/)
+- [Neo4J Tutorial](https://tuts.alexmercedcoder.dev/2021/9/using_graphdb_neo4j_in_node/)
 - [ArangoDB Tutorial](https://blog.logrocket.com/using-arangodb-react-next-js/)

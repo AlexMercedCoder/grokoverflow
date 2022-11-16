@@ -25,7 +25,7 @@ One of the first things you need to learn in any language is how to print text i
 #### Javascript
 
 ```js
-console.log("Hello World")
+console.log("Hello World");
 ```
 
 #### Python
@@ -117,10 +117,10 @@ Storing data to use is pivotal in programming. Data is generally stored in varia
 #### Javascript
 
 ```js
-let number = 5
-let str = "Hello"
-let bool = true
-console.log(number, str, bool)
+let number = 5;
+let str = "Hello";
+let bool = true;
+console.log(number, str, bool);
 ```
 
 #### Python
@@ -253,11 +253,11 @@ Usually you have two main collections you'll use most of the time.
 #### Javascript
 
 ```js
-const myArray = [1,2,3,4,5]
-const myObject = {name: "Alex Merced", age: 35}
+const myArray = [1, 2, 3, 4, 5];
+const myObject = { name: "Alex Merced", age: 35 };
 
-console.log(myArray)
-console.log(myObject)
+console.log(myArray);
+console.log(myObject);
 ```
 
 #### Python
@@ -318,7 +318,7 @@ fn main(){
   let mut my_hashmap = HashMap::new();
   my_hashmap.insert("name", "Alex Merced");
   my_hashmap.insert("age", "35");
-  println!("{:?}", my_array); 
+  println!("{:?}", my_array);
   println!("{:?}", my_hashmap);
 }
 
@@ -390,7 +390,6 @@ public function main(){
 
 ```
 
-
 ## Defining Function
 
 Functions allow you define blocks of code you can run on-demand. Pivotal to any programming language! There are two steps:
@@ -402,13 +401,11 @@ Functions allow you define blocks of code you can run on-demand. Pivotal to any 
 #### Javascript
 
 ```js
-
-function helloWorld(){
-  console.log("Hello World")
+function helloWorld() {
+  console.log("Hello World");
 }
 
-helloWorld()
-
+helloWorld();
 ```
 
 #### Python
@@ -531,4 +528,4 @@ public function main(){
 ## Learning More
 
 - [Find Video Playlists on All these Languages and more at devNursery](https://www.devnursery.com)
-- [Find more tutorials and walkthroughs on my blog](https://tuts.alexmercedcoder.com)
+- [Find more tutorials and walkthroughs on my blog](https://tuts.alexmercedcoder.dev)
