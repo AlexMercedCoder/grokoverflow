@@ -1,8 +1,11 @@
 ---
 noteId: "c2084d60d3ec11ed86aeafc041ca5702"
-tags: []
+tags: 
+    - Data Lakehouse
+    - Dremio
 author: "Alex Merced"
 title: "Overview of the Data Lakehouse, Dremio and Apache Iceberg"
+category: "data engineering"
 date: "2023-04-05T12:12:03.284Z"
 description: "Understanding the Cutting Edge of Data Engineering"
 
