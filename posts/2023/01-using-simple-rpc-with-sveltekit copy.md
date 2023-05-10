@@ -1,8 +1,11 @@
 ---
 noteId: "950e2c30d3ec11ed86aeafc041ca5702"
-tags: []
+tags: 
+ - RPC
+ - Svelte
 title: "Using SimpleRPC with SvelteKit 1.0/Typescript"
 author: "Alex Merced"
+category: "javascript"
 date: "2023-01-02T12:12:03.284Z"
 description: "Easy to use RPC in your SvelteKit Application"
 
