@@ -6,6 +6,18 @@ import Link from 'next/link'
 function Header (props){
     return <header className={styles.header}>
         <Head>
+        <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-6DJ8S8YLSG"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-6DJ8S8YLSG');
+        `}
+      </Script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/agate.min.css"/>
         </Head>
         <div id="logo">
