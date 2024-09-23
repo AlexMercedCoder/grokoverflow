@@ -1029,9 +1029,10 @@ joblib.dump(model, 'model.joblib')
 
 # Load model
 model = joblib.load('model.joblib')
+```
 Use Caching for Models: Cache the model loading or training functions to improve performance.
 
-python
+```python
 Copy code
 @st.cache_resource
 def load_model():
