@@ -41,7 +41,7 @@ Example:
 let numbers: [i32; 3] = [1, 2, 3]; // A fixed-size array of 3 elements
 ```
 
-###Slices (`&[T]`)
+### Slices (`&[T]`)
 Slices are references to a section of an array or vector, allowing you to work with subranges of data without owning them. Slices are useful when you need to pass parts of arrays or vectors to functions or need to work with read-only views of data.
 
 Example:
@@ -116,13 +116,13 @@ heap.push(10); // The largest element, 10, will be at the top
 
 
 ### HashMap<K, V> vs. Vec<T>
-- **HashMap<K, V>**: Use `HashMap<K, V>` when you need to associate values with unique keys and require fast lookups. Hash maps offer O(1) average time complexity for both insertions and lookups, making them ideal for tasks like caching, managing configurations, or associating identifiers with data.
+**HashMap<K, V>**: Use `HashMap<K, V>` when you need to associate values with unique keys and require fast lookups. Hash maps offer O(1) average time complexity for both insertions and lookups, making them ideal for tasks like caching, managing configurations, or associating identifiers with data.
 
   **When to use**:
   - When you need fast lookups based on keys.
   - When the relationship between keys and values is critical (e.g., name and score).
   
-- **Vec<T>**: While `Vec<T>` can be used for lookups via linear search, it is not as efficient as a hash map when the collection grows large. `Vec<T>` should be used when the order of elements is important, or when you are dealing with sequential data rather than key-value pairs.
+**Vec<T>**: While `Vec<T>` can be used for lookups via linear search, it is not as efficient as a hash map when the collection grows large. `Vec<T>` should be used when the order of elements is important, or when you are dealing with sequential data rather than key-value pairs.
 
   **When to use**:
   - When the order of data matters or must be preserved.
@@ -130,13 +130,13 @@ heap.push(10); // The largest element, 10, will be at the top
 
 
 ### HashSet<T> vs. Vec<T>
-- **HashSet<T>**: A `HashSet<T>` is used when you need a collection of unique items without duplicates. Hash sets are ideal for cases where ensuring the uniqueness of elements is critical, but the order of the items is irrelevant. Like hash maps, `HashSet<T>` offers O(1) average time complexity for insertions and lookups.
+**HashSet<T>**: A `HashSet<T>` is used when you need a collection of unique items without duplicates. Hash sets are ideal for cases where ensuring the uniqueness of elements is critical, but the order of the items is irrelevant. Like hash maps, `HashSet<T>` offers O(1) average time complexity for insertions and lookups.
 
   **When to use**:
   - When you need to ensure that all elements are unique.
   - When the order of elements is unimportant.
   
-- **Vec<T>**: A `Vec<T>` can store duplicate elements, making it the better choice when you need to retain duplicates or care about the order in which elements are inserted.
+**Vec<T>**: A `Vec<T>` can store duplicate elements, making it the better choice when you need to retain duplicates or care about the order in which elements are inserted.
 
   **When to use**:
   - When duplicates are allowed or required.
@@ -144,13 +144,13 @@ heap.push(10); // The largest element, 10, will be at the top
 
 
 ### LinkedList<T> vs. Vec<T>
-- **LinkedList<T>**: `LinkedList<T>` is useful when you need to frequently insert or delete elements from both ends of the collection. Linked lists excel at operations like push and pop from both the front and back, which are O(1). However, they suffer from slower random access (O(n)) compared to vectors.
+**LinkedList<T>**: `LinkedList<T>` is useful when you need to frequently insert or delete elements from both ends of the collection. Linked lists excel at operations like push and pop from both the front and back, which are O(1). However, they suffer from slower random access (O(n)) compared to vectors.
 
   **When to use**:
   - When you need fast insertions or deletions at both the front and back of the collection.
   - When you don't need to frequently access elements by index.
   
-- **Vec<T>**: Vectors offer fast random access (O(1)) and are more memory-efficient than linked lists for most use cases. Use `Vec<T>` when you need quick access to elements by index, and when insertions/deletions are less frequent or typically occur at the end.
+**Vec<T>**: Vectors offer fast random access (O(1)) and are more memory-efficient than linked lists for most use cases. Use `Vec<T>` when you need quick access to elements by index, and when insertions/deletions are less frequent or typically occur at the end.
 
   **When to use**:
   - When fast random access is required.
@@ -158,7 +158,7 @@ heap.push(10); // The largest element, 10, will be at the top
 
 
 ### BinaryHeap<T>
-- **BinaryHeap<T>**: Use a `BinaryHeap<T>` when you need a priority queue, where the largest (or smallest) element is always at the top. Binary heaps are perfect for cases like task scheduling, where you want to quickly retrieve the most important (largest) element, or for algorithms like Dijkstra's shortest path.
+**BinaryHeap<T>**: Use a `BinaryHeap<T>` when you need a priority queue, where the largest (or smallest) element is always at the top. Binary heaps are perfect for cases like task scheduling, where you want to quickly retrieve the most important (largest) element, or for algorithms like Dijkstra's shortest path.
 
   **When to use**:
   - When you need a collection where the highest (or lowest) priority item is always retrievable in O(log n) time.
@@ -224,7 +224,7 @@ let vec = slice.to_vec(); // vec now owns the data [1, 2, 3]
 
 When to use:
 
-= When you need to modify the data after borrowing it as a slice.
+- When you need to modify the data after borrowing it as a slice.
 - When you want to take ownership of data that was passed as a reference.
 
 ### From `Vec<T>` to `LinkedList<T>`
