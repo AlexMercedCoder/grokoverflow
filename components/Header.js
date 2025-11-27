@@ -27,7 +27,7 @@ function Header (props){
         </div>
         <nav className={styles.nav}>
             <Link href="/blog"><div className={styles.link}>BLOG</div></Link>
-            <Link href="/podcasts"><div className={styles.link}>PODCASTS</div></Link>
+            <Link href="https://open.spotify.com/show/2PRDrWVpgDvKxN6n1oUsJF?si=ee62c325b8f9412e"><div className={styles.link}>PODCAST</div></Link>
             <Link href="/video"><div className={styles.link}>VIDEOS</div></Link>
             <a href="https://join.slack.com/t/amwebdev/shared_invite/enQtNzc4NDA3MDU3MDE0LTZjNjIyZmQ3MzA5Y2Q3MWUwZjk3NTIyYjliOThlMWFjNTFkYWM1OGUxN2Y3NGExNGVhOGIzZTg0YTJjZTk5NDA"><div className={styles.link}>COMMUNITY</div></a>
         </nav>

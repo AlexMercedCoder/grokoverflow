@@ -47,7 +47,7 @@ export default function Blog({ posts, categories }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <aside className={styles.featured}>
-        <div className={styles.article}>
+        <div className={styles.featuredArticle}>
         <h1>Featured Post</h1>
         <Link href={`/posts/${posts[0].slug}`}>
                 <h2>{posts[0].frontmatter.title}</h2>

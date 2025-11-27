@@ -45,18 +45,34 @@ export default function Post({ frontmatter, content }) {
         <meta name="description" content={`"${title}" an article written by ${author} touching on ${tags.join(", ")}`} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className={styles.title}>{title}</h1>
-      <div className={styles.details}>
-      <h2>
-        <Link href={`/blog/author/${author.toLowerCase().replace(" ", "-")}`}>{author}</Link> || {date}
-      </h2>
-      <h3>
-      <Link href={`/blog/category/${category}`}>{category}</Link> || {tags.map((tag, index) => {
-        return <Link href={`/blog/tag/${tag}`} key={tag}>{`${index !== 0 ? "-" : ""} ${tag} `}</Link>
-      })}
-      </h3>
-      </div>
-      <div className="blog-post" dangerouslySetInnerHTML={{ __html: md.render(content) }} />
+      <article className={styles.article}>
+        <header className={styles.header}>
+          <h1 className={styles.title}>{title}</h1>
+          <div className={styles.metadata}>
+            <div className={styles.metaItem}>
+              <span className={styles.label}>By</span>
+              <Link href={`/blog/author/${author.toLowerCase().replace(" ", "-")}`}>
+                <a className={styles.authorLink}>{author}</a>
+              </Link>
+            </div>
+            <div className={styles.metaItem}>
+              <span className={styles.label}>On</span>
+              <span className={styles.date}>{date}</span>
+            </div>
+          </div>
+          <div className={styles.tags}>
+            <Link href={`/blog/category/${category}`}>
+              <a className={styles.categoryTag}>{category}</a>
+            </Link>
+            {tags.map((tag) => (
+              <Link href={`/blog/tag/${tag}`} key={tag}>
+                <a className={styles.tag}>#{tag}</a>
+              </Link>
+            ))}
+          </div>
+        </header>
+        <div className={`${styles.content} blog-post`} dangerouslySetInnerHTML={{ __html: md.render(content) }} />
+      </article>
     </main>
   );
 }
