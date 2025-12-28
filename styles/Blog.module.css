@@ -161,6 +161,9 @@
     border: 1px solid var(--border-color);
     position: sticky;
     top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
 .categories h4 {
@@ -168,22 +171,32 @@
     border-bottom: 1px solid var(--border-color);
     padding-bottom: var(--space-sm);
     margin-bottom: var(--space-sm);
+    width: 100%;
 }
 
 .categories div {
-    margin-bottom: var(--space-xs);
+    margin: 0; /* Override default margin */
 }
 
 .categories a {
     color: var(--text-muted);
-    transition: color 0.2s;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    padding: 0.35rem 0.85rem;
+    border-radius: 9999px; /* Pill shape */
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
     display: block;
-    padding: 4px 0;
+    text-decoration: none;
 }
 
 .categories a:hover {
-    color: var(--primary-color);
-    transform: translateX(4px);
+    color: white;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 /* Pagination Buttons */

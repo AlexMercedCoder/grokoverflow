@@ -1,547 +1,547 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://grokoverflow.com</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/podcasts</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/video</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/web components</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/javascript</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/web components</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/frontend</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/author/alex-merced</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/reference</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/crud</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/deployment</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/deployment</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/frontend</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/vue</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/angular</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/react</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/backend</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/ruby</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/rails</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/backend</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/auth</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/django</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/python</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/reference</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/tooling</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/tooling</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/branding</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/branding</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/javascript</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/mongo</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/mongoose</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/ajax</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/svelte</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/bash</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/git</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/vscode</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/nodejs</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/jquery</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/typescript</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/axios</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/fetch</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/express</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/node</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/database</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/react</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/web development</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/cors</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/database</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/ruby</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/data types</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/graphql</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/authentication</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/authorization</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/jwt</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/jamstack</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/jamstack</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/headless cms</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/markdown</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/nextjs</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/gatsby</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/json</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/netlify</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/api</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/css</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/css</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/computer science</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/computer science</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/serverless</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/serverless</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/cloud</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/other languages</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/bosque</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/microsoft</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/other languages</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/ballerina</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/jvm</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/backend&quot;</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/other languages - golang</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/careers</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/careers</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/php</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/php</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/python</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/rust</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/design patterns</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/postgres</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/testing</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/testing</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/deno</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/docker</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/koa</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/fastify</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/github</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/data engineering</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/data engineering</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/batch</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/streaming</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/scala</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/functional programming</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/dom</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/SQL</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/data</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/data</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/data warehouse</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/data lakehouse</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/devops</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/devop</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/data lake</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/data lakehouse</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/solidjs</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Apache Iceberg</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/RPC</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Svelte</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Data Lakehouse</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Dremio</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/dremio</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/web development</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/software development</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/software development</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/java</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/java</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/spring</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/scala</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/play</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Javascript</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/OOP</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/Data Engineering</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Data Engineering</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Excel</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/CSV</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Parquet</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/HTML</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/HTML</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/Data Lakehouse</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Data Lake</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Data Modeling</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/Python</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Apache Hive</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/APache Iceberg</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/Javascript</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Database</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Delta Lake</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Apache Hudi</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/Data Architecture</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Data Architecture</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Open Source</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Functional Programming</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Computer Science</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/algorithms</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/apache iceberg</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/data analytics</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/Data Analytics</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/data apps</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/streamlit</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/Rust</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/programming</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/Devops</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/devops</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/apache parquet</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/Data Modeling</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/data modeling</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/dbt</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/DevOps</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/devOps</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Continuous Integration</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Continuous Deployment</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Python</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Apache Arrow</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/rust</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/collections</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/sql</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/sql</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/apache hudi</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/delta lake</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/AI</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/AI</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/langchain</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/DevOps</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Helm</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Kubernetes</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/ML</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/MCP</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/AI Agents</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Databases</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Data Lakes</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Data Lakehouses</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/category/Apache Iceberg</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Optimization</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Table Maintenance</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Data Optimization</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Compaction</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Streaming</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Clustering</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Sorting</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Z-order</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Query Optimization</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Metadata Optimization</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Snapshot Expiration</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Manifest Rewrite</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Table Optimization</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Metadata Tables</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Automation</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Partition Evolution</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Parallelism</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Resilience</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Metadata</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Lakehouse Optimization</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Agentic AI</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/blog/tag/Apache Polaris</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/08-amponent-web-component-building-library</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/08-frontend-crud-with-plain-vanilla-js</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/08-guide-to-free-cheap-deployment-options-2020</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/08-hello-world-in-vue</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/08-intro-to-angular-9-tutorial</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/08-react-101-tutorial</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/08-ruby-rails-jwt-auth</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/08-ultimate-django-reference</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/08-web-components-styling-slots</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/08-web-components-the-basics</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-big-list-of-online-places-to-code-prototype</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-building-your-coder-developer-brand</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-javascript-events-in-the-browser-and-node</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-mongoose-connecting-to-mongo-via-javascript</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-passing-data-between-components-in-vue</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-promises-101-and-fetch-axios-ajax</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-react-cheat-sheet</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-react-hooks-basic-reference</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-react-in-concept</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-spin-up-your-next-project-with-merced-spinup</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-svelte-the-new-kids</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-ultimate-basic-coder-reference</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-ultimate-jquery-plain-vanilla-js-dom-reference</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-web-components-lifecycle-functions</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/09-writing-javascript-promises</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-axios-fetch-and-other-useful-images</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-intro-to-express</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-javascript-callback-array-methods</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-learning-svelte-101</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-merced-react-hooks</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-mongo-mongoose-express-reference</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-more-merced-spinup-templates</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-npx-create-react-loaded-supercharged-react</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-npx-make-fullstack-app-scaffolding-your-backend-and-frontend</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-react-pro-tips</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-ruby-on-rails-reference</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-typescript-101</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-understanding-and-solving-cors-errors</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/10-web-components-with-stenciljs</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/11-konjection-orm-helper-using-knex-and-objection</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/11-one-backend-five-frontends</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/11-ruby-on-rails-many-to-many-relationships</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/11-ruby-on-rails-tutorial-deployment</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/11-ruby-vs-js</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/11-six-javascript-objects-you-may-not-have-used</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/11-writing-your-first-graphql-api</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/12-authorization-and-authentication-in-concept</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/12-building-a-blog-with-agility-cms</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/12-create-a-garsby-nextjs-markdown-blog</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/12-create-your-dev-portfolio-with-this-gatsby-template</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/12-creating-a-portfolio-blog-with-anguler-agility-cms</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/12-delivering-json-data-with-netlify</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/12-fundamentals-of-client-side-javascript</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/12-react-why-use-taskrunner-over-redux</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/12-svelte-after-sapper</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/12-ultimate-css-reference</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2020/12-web-component-libraries</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-a-guide-to-understanding and using-git</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-a-tale-of-memory-and-the-garbage-collector</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-big-list-of-hosted-headless-cms-providers-with-free-or-developer-tier-in-2021</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-cloud-functions-server-side-code-on-demand</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-creating-a-bosque-programming-language-dev-environment-in-2021</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-deep-dive-on-javascript-tooling</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-deploying-react-angular-svelte-vue-netlify-vercel</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-five-cool-things-you-can-do-in-react</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-getting-started-programming-ballerina-101</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-getting-started-with-python-web-framework-fast-api</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-git-github-making-the-switch-from-master-to-main</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-go-golang-101</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-guide-to-becoming-a-developer-in-2021</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-how-to-use-netlify-cloud-functions</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-how-to-use-vercel-cloud-functions</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-in-depth-guide-on-understanding-deploying-web-apps</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-intro-to-building-backend-servers-with-koajs</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-intro-to-php</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-learn-python-php-ruby-and-javascript</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-python-virtual-environment-101</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-react-101-basic-json-blog</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-react-data-flow</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-rust-101-the-syntax-and-basics</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-tips-for-aspiring-developers</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-understanding-MVC</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-understanding-and-using-environment-variables</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-understanding-dependency-injection</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-understanding-react-router</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-where-does-my-code-run</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/01-writing-map-as-a-recursive-function</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/02-chart-of-backend-web-frameworks-2021</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/02-go-rust-cpp-side-by-side</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/02-javascript-basic-reference</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/02-many-useful-javascript-tricks</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/02-ultimate-command-line-reference-2021-bash-git-node-python-ruby-php</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/02-understanding-node-streams</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/02-understanding-postgres-on-linux</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/02-what-is-a-makefile</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/03-api-with-go-buffalo-from-zero-to-deploy</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/03-api-with-java-spring-vscode</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/03-creating-apis-with-dart-google-shelf</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/03-django-rest-api-without-djangorestframework</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/03-hello-world-laravel-101</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/03-intro-to-dotnet-with-vscode</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/03-intro-to-express-templating-api-ejs</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/03-merced-express</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/03-more-on-python-virtual-env</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/03-rust-rocket-zero-to-deploy</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/03-ultimate-2021-list-of-css-frameworks-and-component-libraries</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/03-ultimate-express-mongo-reference</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/04-basics-of-react-testing-with-jest</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/04-intro-to-fastify-liquid</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/04-javascript-functions</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/04-pipenv</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/04-react-conditional-rendering</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/04-react-functional-components</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/04-solidjs</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/04-ultimate-guide-heroku-node-deployment</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/04-world-of-javascript-bundlers</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/05-creating-api-with-deno</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/05-creating-deno-scripts</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/05-docker-express-neo4j</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/05-foalts-typescript-api</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/05-how-to-work-with-masonite</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/05-python-flask-101</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/05-ten-programming-languages</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/06-basic-intro-to-nextjs</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/06-intro-to-ruby-sinatra</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/06-intro-to-sveltekit</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/06-ruby-sinatra-with-postgres-sequel</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/07-crud-api-express-koa-fastify</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/07-crud-api-flask-fastapi</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/07-crud-with-node</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/07-crud-with-ruby-sinatra</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/07-crud-with-typescript</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/07-the-concepts-of-jamstack</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/08-alpine-htmx</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/08-basic-authorization-with-node-express</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/08-frontend-javascript-ajax-http-request-guide</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/08-three-ways-to-react-api-requests</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/08-ultimate-plain-vanilla-dom-jquery</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/08-understanding-data-and-databases</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/08-walkthough-deploy-anything-with-nginx</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/09-building-full-stack-typescript-nextjs-mongo</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/09-js-pattern-matching</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/09-neo4j-in-node</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/10-alternatives-to-liveserver</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/10-comparing-react-router-5-6-react-location</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/10-express-templating-cheatsheet</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/10-my-first-react-app-2021-intro</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/11-auth-with-express-with-jwt-mongodb-postgres</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/11-creating-graphql-tracker-with-hasura</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/11-developer-team-best-practices</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/11-guide-how-to-auth-any-language</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/11-mongodb-rel-using-mongoose-in-node</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/11-simple-setup-for-application-wide-state-in-react</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2021/12-how-to-create-one-to-many-relationship</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/01-becoming-a-developer-in-2022</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/02-create-a-consistent-dev-environment-with-docker</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/02-understanding-rpc-node-walkthrough</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/02-understanding-ssh-and-what-it-is-for</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/02-why-all-developers-should-master-markdown</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/03-batch-vs-streaming</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/03-creating-a-markdown-blog-in-2022-with-nextjs</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/03-getting-started-with-scala-3</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/03-javascript-dom-jquery-cheatsheet-2022</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/03-localstorage</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/04-2022-expressjs-cheatsheet</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/04-Express-Todo-List</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/04-express-ejs-mongo-tutorial</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/04-mongoosejs-cheatsheet</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/05-an-introduction-to-SQL</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/05-making-multiple-api-calls-javascript</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/06-intro-to-the-data-world</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/06-json-yaml-toml</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/07-Hands-on-intro-to-apache-iceberg-in-five-minutes</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/07-Web-Terminology-To-Know</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/08-five-reasons-you-should-embrace-dremio-cloud</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/11-Building-a-todo-list-with-solid-start</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/11-configuring-spark-for-apache-iceberg</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/12-Using-Solid-Start-With-A-GraphQL-API</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2022/12-Using-Solid-Start-With-A-tRPC-API</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/01-using-simple-rpc-with-sveltekit copy</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/04-Overview-Of-The-Data-Lakehouse</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/05-Dremio-Arctic-Project-Nessie-Resources.md</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/05-Why-Project-Nessie-Matters-For-Data-Engineers</loc><lastmod>2025-12-28T23:21:53.595Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/06-Dremio-Modern-Data-Architecture</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/06-file-encryption-overview</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/06-parquet-file-compression</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/07-project-nessie-in-depth</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/08-Handling-Cross-Origin-Cookies-In-ExpressJS</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/08-creating-a-iceberg-nessie-data-lakehouse-on-your-laptop</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/09-Flask-FastAPI-PsychoPG2</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/09-architecting-low-cost-fast-self-service-lakehouse</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/10-How-to-effectively-learn-development</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/10-an-in-depth-overview-of-iceberg-nessie</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/10-java-spring-scratch</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/10-play-json-api-using-scala-from-a-blank-sbt-project</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/10-why-dremio-iceberg-data-lakehouse</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/11-OOP-Design-Patterns-Javascript</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/11-Why-Dremio-is-a-must-for-apache-iceberg</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/12-Converting-xls-csv-into-parquet-no-code-with-dremio</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2023/12-What-is-HTMX-Why-it-matters-and-how-to-use-it</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/01-Apache_Iceberg_Catalog_Versioning_Data_Lakehouse_Management</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/01-Nessie-Alternative-to-Hive-JDBC-for-Apache-Iceberg.md</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/01-Open_Lakehouse_Engineering</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/01-Why-Choose-Data-Lakehouse-Apache-Iceberg-Dremio</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/02-Data-Lakehouse-Apache-Iceberg-Nessie-Dremio</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/02-Data-Vault-Modeling</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/02-Learning-Python-for-Beginners</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/02-Partitioning-Apache-Hive-Apache-Iceberg</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/02-Row-based-OLTP-Column-based-OLAP.md</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/02-Table_Format_FUD_Apache_Iceberg_Delta_Lake_Apache_Hudi</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/02-Understanding_Javascript_Promises_in-depth</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/02-What-are-ontologies</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/02-git-push-git-pull</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/02-introduction-to-ansi-sql</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/03-10-reasons-apache-iceberg-dremio-lakehouse</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/03-5-Reasons-Apache-Iceberg-Dremio</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/03-5-open-source-data-project-to-follow</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/03-Apache-Iceberg-The-Great-Equalizer</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/03-deep-dive-into-apache-iceberg-catalogs</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/04-End-to-End-Data-Engineering-Tutorial-Ingest-Dashboards</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/04-Functional-Programming-in-Javascript</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/04-The-Future-Of-Apache-Iceberg-Catalogs</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/04-deep-dive-into-apache-iceberg</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/05-3-reasons-data-engineers-should-embrace-apache-iceberg</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/05-Apache-Iceberg-Partitioning-Deep-Dive</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/05-SQL-on-Excel-Files</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/06-apache-iceberg-intro-to-lakehouse-engineering-course</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/06-javascript-sorting-algorithms</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/07-Apache-Iceberg-Reliability</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/07-Upcoming-Events</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/07-databases-deconstructed-data-lakehouses-and-table-formats</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-07-Understanding-Polaris-Apache-Iceberg-Catalog</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-08-Understanding-Apache-Iceberg-Delete-Files</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-08-Understanding-Apache-Iceberg-Manifest-List</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-08-Understanding-Apache-Iceberg-Manifest</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-08-acid-guarantees-and-apache-iceberg</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-08-apache-iceberg-metadata-json</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-08-data-lakehouses-101</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-08-using-the-alexmerced-datanotebook-image</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-08-what-apache-iceberg-rest-catalog-is-and-isnt</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-09-Deep-Dive-into-data-apps-with-streamlit</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-09-Getting-Started-with-rust</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-09-Why-Dremio-Iceberg-Matters</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-09-a-deep-dive-into-docker-compose</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-09-decentralization-centralization-data-at-scale</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-09-five-trends-in-data-lakehouse</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-09-hands-on-iceberg-dremio-minio-nessie</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-09-using-strings-in-rust</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-CDC-when-there-is-no-CDC</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-Data-Lakhouse-Roundup-1</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-01</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-02</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-03</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-04</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-05</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-06</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-07</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-08</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-09</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-10</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-bronze-silver-gold-data</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-data-modeling-entities-and-events</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-dbt-macros</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-github-actions-dbt-airflow-data</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-governing-apache-iceberg-tables</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-hands-on-with-iceberg-dremio-laptop</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-intro-to-github-actions</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-learning-data-with-python</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-pyarrow-and-python</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-rust-collections</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-10-ultimate-directory-of-Apache-Iceberg-Resources</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-11-10-Iceberg-developments</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-11-Dremio-and-AI-Ready-Data</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-11-Python-Analytics-Pattern-Matching</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-11-deep-dive-auto-ingest-dremio-iceberg</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-11-intro-to-sql-with-dremio</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-11-rust-cargo-toml</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2024/2024-12-2025-guide-architecting-an-iceberg-lakehouse</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-01-2025-comprehensive-apache-iceberg-guide</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-01-XTable-or-Uniform</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-01-the-lakehouse-benefits-and-enhancing</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-02-crash-course-on-langchain</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-02-understanding-helm-charts</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-01</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-02</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-03</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-04</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-05</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-06</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-07</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-08</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-09</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-10</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-04-basics-of-making-mcp-server</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-01</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-02</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-03</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-04</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-05</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-06</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-07</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-08</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-09</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-10</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-11</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-12</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-13</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-14</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-15</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-16</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-17</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-18</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-07-01-iceberg-optimization-degradation</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-07-02-iceberg-optimization-compaction-basics</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-07-03-iceberg-streaming-compaction</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-07-04-iceberg-clustering-sorting-zorder</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-07-05-iceberg-metadata-bloat-cleanup</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-07-06-iceberg-optimization-cadence</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-07-07-iceberg-metadata-triggered-compaction</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-07-08-iceberg-partition-evolution-compaction</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-07-09-iceberg-large-scale-optimization</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-07-10-iceberg-autonomous-optimization-pipeline</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-07-discovering-or-organizing-lakehouse-iceberg-meetups</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-09-2026-guide-to-data-lakehouses</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-09-agentic-ai-dremio-apache-iceberg</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-09-ultimate-guide-to-open-table-formats</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-10-2026-guide-to-learning-lakehouse-iceberg-agentic-ai</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-10-Building-Universal-Lakehouse-Catalog</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-10-Intro-to-Apache-Iceberg-with-Apache-Polaris-and-Apache-Spark</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-10-apache-iceberg-v4</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-10-exploring-commerical-iceberg-catalogs</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-11-Dremio-next-gen-tutorial</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-11-introducing-dremioframe-dataframe-python-library</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://grokoverflow.com/posts/2025/2025-12-dremioframe-and-iceframe</loc><lastmod>2025-12-28T23:21:53.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/podcasts</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/video</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/web components</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/javascript</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/web components</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/frontend</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/author/alex-merced</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/reference</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/crud</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/deployment</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/deployment</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/frontend</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/vue</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/angular</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/react</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/backend</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/ruby</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/rails</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/backend</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/auth</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/django</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/python</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/reference</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/tooling</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/tooling</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/branding</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/branding</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/javascript</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/mongo</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/mongoose</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/ajax</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/svelte</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/bash</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/git</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/vscode</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/nodejs</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/jquery</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/typescript</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/axios</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/fetch</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/express</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/node</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/database</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/react</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/web development</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/cors</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/database</loc><lastmod>2025-12-28T23:25:49.360Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/ruby</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/data types</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/graphql</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/authentication</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/authorization</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/jwt</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/jamstack</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/jamstack</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/headless cms</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/markdown</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/nextjs</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/gatsby</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/json</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/netlify</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/api</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/css</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/css</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/computer science</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/computer science</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/serverless</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/serverless</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/cloud</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/other languages</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/bosque</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/microsoft</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/other languages</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/ballerina</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/jvm</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/backend&quot;</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/other languages - golang</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/careers</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/careers</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/php</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/php</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/python</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/rust</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/design patterns</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/postgres</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/testing</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/testing</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/deno</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/docker</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/koa</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/fastify</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/github</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/data engineering</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/data engineering</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/batch</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/streaming</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/scala</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/functional programming</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/dom</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/SQL</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/data</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/data</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/data warehouse</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/data lakehouse</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/devops</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/devop</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/data lake</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/data lakehouse</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/solidjs</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Apache Iceberg</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/RPC</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Svelte</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Data Lakehouse</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Dremio</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/dremio</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/web development</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/software development</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/software development</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/java</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/java</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/spring</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/scala</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/play</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Javascript</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/OOP</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/Data Engineering</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Data Engineering</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Excel</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/CSV</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Parquet</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/HTML</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/HTML</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/Data Lakehouse</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Data Lake</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Data Modeling</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/Python</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Apache Hive</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/APache Iceberg</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/Javascript</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Database</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Delta Lake</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Apache Hudi</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/Data Architecture</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Data Architecture</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Open Source</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Functional Programming</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Computer Science</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/algorithms</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/apache iceberg</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/data analytics</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/Data Analytics</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/data apps</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/streamlit</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/Rust</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/programming</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/Devops</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/devops</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/apache parquet</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/Data Modeling</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/data modeling</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/dbt</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/DevOps</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/devOps</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Continuous Integration</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Continuous Deployment</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Python</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Apache Arrow</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/rust</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/collections</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/sql</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/sql</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/apache hudi</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/delta lake</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/AI</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/AI</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/langchain</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/DevOps</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Helm</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Kubernetes</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/ML</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/MCP</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/AI Agents</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Databases</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Data Lakes</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Data Lakehouses</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/category/Apache Iceberg</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Optimization</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Table Maintenance</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Data Optimization</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Compaction</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Streaming</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Clustering</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Sorting</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Z-order</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Query Optimization</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Metadata Optimization</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Snapshot Expiration</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Manifest Rewrite</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Table Optimization</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Metadata Tables</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Automation</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Partition Evolution</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Parallelism</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Resilience</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Metadata</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Lakehouse Optimization</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Agentic AI</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/blog/tag/Apache Polaris</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/08-amponent-web-component-building-library</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/08-frontend-crud-with-plain-vanilla-js</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/08-guide-to-free-cheap-deployment-options-2020</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/08-hello-world-in-vue</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/08-intro-to-angular-9-tutorial</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/08-react-101-tutorial</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/08-ruby-rails-jwt-auth</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/08-ultimate-django-reference</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/08-web-components-styling-slots</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/08-web-components-the-basics</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-big-list-of-online-places-to-code-prototype</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-building-your-coder-developer-brand</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-javascript-events-in-the-browser-and-node</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-mongoose-connecting-to-mongo-via-javascript</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-passing-data-between-components-in-vue</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-promises-101-and-fetch-axios-ajax</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-react-cheat-sheet</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-react-hooks-basic-reference</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-react-in-concept</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-spin-up-your-next-project-with-merced-spinup</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-svelte-the-new-kids</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-ultimate-basic-coder-reference</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-ultimate-jquery-plain-vanilla-js-dom-reference</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-web-components-lifecycle-functions</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/09-writing-javascript-promises</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-axios-fetch-and-other-useful-images</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-intro-to-express</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-javascript-callback-array-methods</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-learning-svelte-101</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-merced-react-hooks</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-mongo-mongoose-express-reference</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-more-merced-spinup-templates</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-npx-create-react-loaded-supercharged-react</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-npx-make-fullstack-app-scaffolding-your-backend-and-frontend</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-react-pro-tips</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-ruby-on-rails-reference</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-typescript-101</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-understanding-and-solving-cors-errors</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/10-web-components-with-stenciljs</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/11-konjection-orm-helper-using-knex-and-objection</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/11-one-backend-five-frontends</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/11-ruby-on-rails-many-to-many-relationships</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/11-ruby-on-rails-tutorial-deployment</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/11-ruby-vs-js</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/11-six-javascript-objects-you-may-not-have-used</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/11-writing-your-first-graphql-api</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/12-authorization-and-authentication-in-concept</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/12-building-a-blog-with-agility-cms</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/12-create-a-garsby-nextjs-markdown-blog</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/12-create-your-dev-portfolio-with-this-gatsby-template</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/12-creating-a-portfolio-blog-with-anguler-agility-cms</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/12-delivering-json-data-with-netlify</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/12-fundamentals-of-client-side-javascript</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/12-react-why-use-taskrunner-over-redux</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/12-svelte-after-sapper</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/12-ultimate-css-reference</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2020/12-web-component-libraries</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-a-guide-to-understanding and using-git</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-a-tale-of-memory-and-the-garbage-collector</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-big-list-of-hosted-headless-cms-providers-with-free-or-developer-tier-in-2021</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-cloud-functions-server-side-code-on-demand</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-creating-a-bosque-programming-language-dev-environment-in-2021</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-deep-dive-on-javascript-tooling</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-deploying-react-angular-svelte-vue-netlify-vercel</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-five-cool-things-you-can-do-in-react</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-getting-started-programming-ballerina-101</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-getting-started-with-python-web-framework-fast-api</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-git-github-making-the-switch-from-master-to-main</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-go-golang-101</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-guide-to-becoming-a-developer-in-2021</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-how-to-use-netlify-cloud-functions</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-how-to-use-vercel-cloud-functions</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-in-depth-guide-on-understanding-deploying-web-apps</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-intro-to-building-backend-servers-with-koajs</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-intro-to-php</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-learn-python-php-ruby-and-javascript</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-python-virtual-environment-101</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-react-101-basic-json-blog</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-react-data-flow</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-rust-101-the-syntax-and-basics</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-tips-for-aspiring-developers</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-understanding-MVC</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-understanding-and-using-environment-variables</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-understanding-dependency-injection</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-understanding-react-router</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-where-does-my-code-run</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/01-writing-map-as-a-recursive-function</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/02-chart-of-backend-web-frameworks-2021</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/02-go-rust-cpp-side-by-side</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/02-javascript-basic-reference</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/02-many-useful-javascript-tricks</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/02-ultimate-command-line-reference-2021-bash-git-node-python-ruby-php</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/02-understanding-node-streams</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/02-understanding-postgres-on-linux</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/02-what-is-a-makefile</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/03-api-with-go-buffalo-from-zero-to-deploy</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/03-api-with-java-spring-vscode</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/03-creating-apis-with-dart-google-shelf</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/03-django-rest-api-without-djangorestframework</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/03-hello-world-laravel-101</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/03-intro-to-dotnet-with-vscode</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/03-intro-to-express-templating-api-ejs</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/03-merced-express</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/03-more-on-python-virtual-env</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/03-rust-rocket-zero-to-deploy</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/03-ultimate-2021-list-of-css-frameworks-and-component-libraries</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/03-ultimate-express-mongo-reference</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/04-basics-of-react-testing-with-jest</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/04-intro-to-fastify-liquid</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/04-javascript-functions</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/04-pipenv</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/04-react-conditional-rendering</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/04-react-functional-components</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/04-solidjs</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/04-ultimate-guide-heroku-node-deployment</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/04-world-of-javascript-bundlers</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/05-creating-api-with-deno</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/05-creating-deno-scripts</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/05-docker-express-neo4j</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/05-foalts-typescript-api</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/05-how-to-work-with-masonite</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/05-python-flask-101</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/05-ten-programming-languages</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/06-basic-intro-to-nextjs</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/06-intro-to-ruby-sinatra</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/06-intro-to-sveltekit</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/06-ruby-sinatra-with-postgres-sequel</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/07-crud-api-express-koa-fastify</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/07-crud-api-flask-fastapi</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/07-crud-with-node</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/07-crud-with-ruby-sinatra</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/07-crud-with-typescript</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/07-the-concepts-of-jamstack</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/08-alpine-htmx</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/08-basic-authorization-with-node-express</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/08-frontend-javascript-ajax-http-request-guide</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/08-three-ways-to-react-api-requests</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/08-ultimate-plain-vanilla-dom-jquery</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/08-understanding-data-and-databases</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/08-walkthough-deploy-anything-with-nginx</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/09-building-full-stack-typescript-nextjs-mongo</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/09-js-pattern-matching</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/09-neo4j-in-node</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/10-alternatives-to-liveserver</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/10-comparing-react-router-5-6-react-location</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/10-express-templating-cheatsheet</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/10-my-first-react-app-2021-intro</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/11-auth-with-express-with-jwt-mongodb-postgres</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/11-creating-graphql-tracker-with-hasura</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/11-developer-team-best-practices</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/11-guide-how-to-auth-any-language</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/11-mongodb-rel-using-mongoose-in-node</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/11-simple-setup-for-application-wide-state-in-react</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2021/12-how-to-create-one-to-many-relationship</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/01-becoming-a-developer-in-2022</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/02-create-a-consistent-dev-environment-with-docker</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/02-understanding-rpc-node-walkthrough</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/02-understanding-ssh-and-what-it-is-for</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/02-why-all-developers-should-master-markdown</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/03-batch-vs-streaming</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/03-creating-a-markdown-blog-in-2022-with-nextjs</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/03-getting-started-with-scala-3</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/03-javascript-dom-jquery-cheatsheet-2022</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/03-localstorage</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/04-2022-expressjs-cheatsheet</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/04-Express-Todo-List</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/04-express-ejs-mongo-tutorial</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/04-mongoosejs-cheatsheet</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/05-an-introduction-to-SQL</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/05-making-multiple-api-calls-javascript</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/06-intro-to-the-data-world</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/06-json-yaml-toml</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/07-Hands-on-intro-to-apache-iceberg-in-five-minutes</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/07-Web-Terminology-To-Know</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/08-five-reasons-you-should-embrace-dremio-cloud</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/11-Building-a-todo-list-with-solid-start</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/11-configuring-spark-for-apache-iceberg</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/12-Using-Solid-Start-With-A-GraphQL-API</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2022/12-Using-Solid-Start-With-A-tRPC-API</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/01-using-simple-rpc-with-sveltekit copy</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/04-Overview-Of-The-Data-Lakehouse</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/05-Dremio-Arctic-Project-Nessie-Resources.md</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/05-Why-Project-Nessie-Matters-For-Data-Engineers</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/06-Dremio-Modern-Data-Architecture</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/06-file-encryption-overview</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/06-parquet-file-compression</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/07-project-nessie-in-depth</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/08-Handling-Cross-Origin-Cookies-In-ExpressJS</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/08-creating-a-iceberg-nessie-data-lakehouse-on-your-laptop</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/09-Flask-FastAPI-PsychoPG2</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/09-architecting-low-cost-fast-self-service-lakehouse</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/10-How-to-effectively-learn-development</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/10-an-in-depth-overview-of-iceberg-nessie</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/10-java-spring-scratch</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/10-play-json-api-using-scala-from-a-blank-sbt-project</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/10-why-dremio-iceberg-data-lakehouse</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/11-OOP-Design-Patterns-Javascript</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/11-Why-Dremio-is-a-must-for-apache-iceberg</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/12-Converting-xls-csv-into-parquet-no-code-with-dremio</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2023/12-What-is-HTMX-Why-it-matters-and-how-to-use-it</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/01-Apache_Iceberg_Catalog_Versioning_Data_Lakehouse_Management</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/01-Nessie-Alternative-to-Hive-JDBC-for-Apache-Iceberg.md</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/01-Open_Lakehouse_Engineering</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/01-Why-Choose-Data-Lakehouse-Apache-Iceberg-Dremio</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/02-Data-Lakehouse-Apache-Iceberg-Nessie-Dremio</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/02-Data-Vault-Modeling</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/02-Learning-Python-for-Beginners</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/02-Partitioning-Apache-Hive-Apache-Iceberg</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/02-Row-based-OLTP-Column-based-OLAP.md</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/02-Table_Format_FUD_Apache_Iceberg_Delta_Lake_Apache_Hudi</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/02-Understanding_Javascript_Promises_in-depth</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/02-What-are-ontologies</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/02-git-push-git-pull</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/02-introduction-to-ansi-sql</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/03-10-reasons-apache-iceberg-dremio-lakehouse</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/03-5-Reasons-Apache-Iceberg-Dremio</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/03-5-open-source-data-project-to-follow</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/03-Apache-Iceberg-The-Great-Equalizer</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/03-deep-dive-into-apache-iceberg-catalogs</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/04-End-to-End-Data-Engineering-Tutorial-Ingest-Dashboards</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/04-Functional-Programming-in-Javascript</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/04-The-Future-Of-Apache-Iceberg-Catalogs</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/04-deep-dive-into-apache-iceberg</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/05-3-reasons-data-engineers-should-embrace-apache-iceberg</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/05-Apache-Iceberg-Partitioning-Deep-Dive</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/05-SQL-on-Excel-Files</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/06-apache-iceberg-intro-to-lakehouse-engineering-course</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/06-javascript-sorting-algorithms</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/07-Apache-Iceberg-Reliability</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/07-Upcoming-Events</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/07-databases-deconstructed-data-lakehouses-and-table-formats</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-07-Understanding-Polaris-Apache-Iceberg-Catalog</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-08-Understanding-Apache-Iceberg-Delete-Files</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-08-Understanding-Apache-Iceberg-Manifest-List</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-08-Understanding-Apache-Iceberg-Manifest</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-08-acid-guarantees-and-apache-iceberg</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-08-apache-iceberg-metadata-json</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-08-data-lakehouses-101</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-08-using-the-alexmerced-datanotebook-image</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-08-what-apache-iceberg-rest-catalog-is-and-isnt</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-09-Deep-Dive-into-data-apps-with-streamlit</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-09-Getting-Started-with-rust</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-09-Why-Dremio-Iceberg-Matters</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-09-a-deep-dive-into-docker-compose</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-09-decentralization-centralization-data-at-scale</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-09-five-trends-in-data-lakehouse</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-09-hands-on-iceberg-dremio-minio-nessie</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-09-using-strings-in-rust</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-CDC-when-there-is-no-CDC</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-Data-Lakhouse-Roundup-1</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-01</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-02</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-03</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-04</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-05</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-06</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-07</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-08</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-09</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-all-about-parquet-part-10</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-bronze-silver-gold-data</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-data-modeling-entities-and-events</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-dbt-macros</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-github-actions-dbt-airflow-data</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-governing-apache-iceberg-tables</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-hands-on-with-iceberg-dremio-laptop</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-intro-to-github-actions</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-learning-data-with-python</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-pyarrow-and-python</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-rust-collections</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-10-ultimate-directory-of-Apache-Iceberg-Resources</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-11-10-Iceberg-developments</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-11-Dremio-and-AI-Ready-Data</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-11-Python-Analytics-Pattern-Matching</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-11-deep-dive-auto-ingest-dremio-iceberg</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-11-intro-to-sql-with-dremio</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-11-rust-cargo-toml</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2024/2024-12-2025-guide-architecting-an-iceberg-lakehouse</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-01-2025-comprehensive-apache-iceberg-guide</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-01-XTable-or-Uniform</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-01-the-lakehouse-benefits-and-enhancing</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-02-crash-course-on-langchain</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-02-understanding-helm-charts</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-01</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-02</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-03</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-04</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-05</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-06</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-07</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-08</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-09</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-04-AI-Agents-MCP-10</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-04-basics-of-making-mcp-server</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-01</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-02</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-03</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-04</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-05</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-06</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-07</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-08</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-09</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-10</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-11</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-12</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-13</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-14</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-15</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-16</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-17</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-05-intro-to-data-engineering-concepts-18</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-07-01-iceberg-optimization-degradation</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-07-02-iceberg-optimization-compaction-basics</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-07-03-iceberg-streaming-compaction</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-07-04-iceberg-clustering-sorting-zorder</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-07-05-iceberg-metadata-bloat-cleanup</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-07-06-iceberg-optimization-cadence</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-07-07-iceberg-metadata-triggered-compaction</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-07-08-iceberg-partition-evolution-compaction</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-07-09-iceberg-large-scale-optimization</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-07-10-iceberg-autonomous-optimization-pipeline</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-07-discovering-or-organizing-lakehouse-iceberg-meetups</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-09-2026-guide-to-data-lakehouses</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-09-agentic-ai-dremio-apache-iceberg</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-09-ultimate-guide-to-open-table-formats</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-10-2026-guide-to-learning-lakehouse-iceberg-agentic-ai</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-10-Building-Universal-Lakehouse-Catalog</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-10-Intro-to-Apache-Iceberg-with-Apache-Polaris-and-Apache-Spark</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-10-apache-iceberg-v4</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-10-exploring-commerical-iceberg-catalogs</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-11-Dremio-next-gen-tutorial</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-11-introducing-dremioframe-dataframe-python-library</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://grokoverflow.com/posts/2025/2025-12-dremioframe-and-iceframe</loc><lastmod>2025-12-28T23:25:49.361Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

@@ -8,17 +8,19 @@ import styles from "../../styles/Post.module.css"
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-
-
-
+import Comments from "../../components/Comments";
+import ProgressBar from "../../components/ProgressBar";
+import Pre from "../../components/Pre";
+import { calculateReadingTime } from "../../lib/utils";
 
 
 // The page for each post
-export default function Post({ frontmatter, mdxSource, relatedPosts }) {
+export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime }) {
   const { title, author, category, date, bannerImage, tags } = frontmatter;
 
   return (
     <main className={styles.main}>
+      <ProgressBar />
       <Head>
         <title>{title}</title>
         <meta name="description" content={`"${title}" an article written by ${author} touching on ${tags.join(", ")}`} />
@@ -63,6 +65,10 @@ export default function Post({ frontmatter, mdxSource, relatedPosts }) {
               <span className={styles.label}>On</span>
               <span className={styles.date}>{date}</span>
             </div>
+            <div className={styles.metaItem}>
+               <span className={styles.label}>Read Time</span>
+               <span className={styles.date}>{readingTime} min</span>
+            </div>
           </div>
           <div className={styles.tags}>
             <Link href={`/blog/category/${category}`} className={styles.categoryTag}>
@@ -76,7 +82,7 @@ export default function Post({ frontmatter, mdxSource, relatedPosts }) {
           </div>
         </header>
         <div className={`${styles.content} blog-post`}>
-             <MDXRemote {...mdxSource} />
+             <MDXRemote {...mdxSource} components={{ pre: Pre }} />
         </div>
         <hr />
         <h3>Read Next</h3>
@@ -89,6 +95,7 @@ export default function Post({ frontmatter, mdxSource, relatedPosts }) {
             </div>
             ))}
         </div>
+        <Comments />
       </article>
     </main>
   );
@@ -98,6 +105,7 @@ export default function Post({ frontmatter, mdxSource, relatedPosts }) {
 export async function getStaticPaths() {
   // Get list of all files from our posts directory
   const files = fs.readdirSync("posts");
+
   // Generate a path for each one
   const paths = [];
 
@@ -136,6 +144,8 @@ export async function getStaticProps({ params: { slug } }) {
   }
 
   const { data: frontmatter, content } = matter(fileName);
+
+  const readingTime = calculateReadingTime(content);
 
   const mdxSource = await serialize(content, {
     mdxOptions: { rehypePlugins: [rehypeHighlight] },
@@ -181,6 +191,7 @@ export async function getStaticProps({ params: { slug } }) {
       frontmatter,
       mdxSource,
       relatedPosts,
+      readingTime
     },
   };
 }
