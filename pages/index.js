@@ -13,7 +13,22 @@ export default function Home() {
           name="description"
           content="GrokOverflow - tutorials, podcasts and videos for developers"
         />
+        <meta property="og:title" content="GrokOverflow - Developer Tutorials & Content" />
+        <meta property="og:description" content="Tutorials, podcasts, and videos for developers by Alex Merced." />
+        <meta property="og:image" content="https://grokoverflow.com/images/banner.png" />
         <link rel="icon" href="/favicon.ico" />
+        
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "GrokOverflow",
+              url: "https://grokoverflow.com/",
+            }),
+          }}
+        />
       </Head>
 
       <main className={styles.main}>
@@ -34,31 +49,47 @@ export default function Home() {
         </p>
         <p>
           Also make sure to follow me on the following platforms:
-          <ul>
+          <ul className={styles.socialList}>
+            <li>
             <a href="https://www.twitter.com/alexmercedcoder">
-              <li>Twitter (General Development account)</li>
+              Twitter (General Development account)
             </a>
+            </li>
+            <li>
             <a href="https://www.twitter.com/amlakehouse">
-              <li>Twitter (Data Engineering Account)</li>
+              Twitter (Data Engineering Account)
             </a>
+            </li>
+            <li>
             <a href="https://www.linkedin.com/in/alexmerced">
-              <li>LinkedIn</li>
+              LinkedIn
             </a>
+            </li>
+            <li>
             <a href="https://www.instagram.com/alexmercedcoder">
-              <li>Instagram</li>
+              Instagram
             </a>
+            </li>
+            <li>
             <a href="https://www.github.com/alexmercedcoder">
-              <li>Github</li>
+              Github
             </a>
+            </li>
+            <li>
             <a href="https://www.youtube.com/c/AlexMercedFullStackDeveloper">
-              <li>Youtube.com</li>
+              Youtube.com
             </a>
+            </li>
+            <li>
             <a href="https://odysee.com/@alexmercedcoder:e">
-              <li>Odysee (Alternative Video Network)</li>
+              Odysee (Alternative Video Network)
             </a>
+            </li>
+            <li>
             <a href="https://indieweb.social/@alexmerced">
-              <li>Mastodon (Twitter Alternative)</li>
+              Mastodon (Twitter Alternative)
             </a>
+            </li>
           </ul>
         </p>
       </main>

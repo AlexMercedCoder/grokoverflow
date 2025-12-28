@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://grokoverflow.com
+
+# Sitemaps
+Sitemap: https://grokoverflow.com/sitemap.xml

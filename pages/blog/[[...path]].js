@@ -5,6 +5,7 @@ import Link from "next/link";
 import styles from "../../styles/Blog.module.css";
 import Head from "next/head";
 import { useState, useRef } from "react";
+import Fuse from "fuse.js";
 
 // The Blog Page Content
 export default function Blog({ posts, categories }) {
@@ -25,11 +26,24 @@ export default function Blog({ posts, categories }) {
   const [postSlice, setPostSlice] = useState(getPostSlice(1));
 
   const search = () => {
-    const term = searchRef.current.value.toLowerCase();
-    const results = posts.filter(
-      (p) =>
-        p.frontmatter.tags.some(t => t.toLowerCase().includes(term))|| p.frontmatter.title.toLowerCase().includes(term)
-    );
+    const term = searchRef.current.value;
+    
+    if (!term) {
+        setPostSlice({
+             page: 1,
+             slice: getPostSlice(1).slice
+        });
+        return;
+    }
+
+    const fuse = new Fuse(posts, {
+        keys: ["frontmatter.title", "frontmatter.tags", "frontmatter.description"],
+        threshold: 0.3,
+    });
+    
+    const result = fuse.search(term);
+    const results = result.map(r => r.item);
+
     setPostSlice({
       page: 1,
       slice: results,
@@ -50,7 +64,7 @@ export default function Blog({ posts, categories }) {
         <div className={styles.featuredArticle}>
         <h1>Featured Post</h1>
         <Link href={`/posts/${posts[0].slug}`}>
-                <h2>{posts[0].frontmatter.title}</h2>
+                <a><h2>{posts[0].frontmatter.title}</h2></a>
         </Link>
               <h3>{posts[0].frontmatter.date} - {posts[0].frontmatter.author}</h3>
               </div>
@@ -79,7 +93,7 @@ export default function Blog({ posts, categories }) {
           return (
             <article key={slug} className={styles.article}>
               <Link href={`/posts/${slug}`}>
-                <h2>{title}</h2>
+                <a><h2>{title}</h2></a>
               </Link>
               <h3>{date} - {author}</h3>
             </article>
@@ -111,7 +125,7 @@ export default function Blog({ posts, categories }) {
           {categories.map((c) => {
             return (
               <div key={c}>
-                <Link href={`/blog/category/${c}`}>{c}</Link>
+                <Link href={`/blog/category/${c}`}><a>{c}</a></Link>
               </div>
             );
           })}

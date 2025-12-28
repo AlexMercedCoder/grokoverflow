@@ -104,6 +104,38 @@
     color: var(--text-main);
 }
 
+/* Related Posts */
+.related {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.relatedPost {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.relatedPost:hover {
+    transform: translateY(-2px);
+    border-color: var(--primary-color);
+}
+
+.relatedLink {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text-main);
+    display: block;
+}
+
+.relatedLink:hover {
+    color: var(--primary-color);
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
     .main {
