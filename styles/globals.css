@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
 :root {
   /* Modern Color Palette */
-  --primary-color: #4F46E5; /* Indigo 600 */
-  --primary-hover: #4338CA; /* Indigo 700 */
+  --primary-color: #6366f1; /* Indigo 500 - slightly lighter/more vibrant */
+  --primary-hover: #4f46e5; /* Indigo 600 */
   --secondary-color: #10B981; /* Emerald 500 */
   --accent-color: #F59E0B; /* Amber 500 */
   
-  --bg-color: #F9FAFB; /* Gray 50 */
+  --bg-color: #ffffff;
+  --bg-secondary: #f8fafc; /* Slate 50 */
   --card-bg: #FFFFFF;
-  --text-main: #111827; /* Gray 900 */
-  --text-muted: #6B7280; /* Gray 500 */
-  --border-color: #E5E7EB; /* Gray 200 */
+  --text-main: #0f172a; /* Slate 900 */
+  --text-muted: #64748b; /* Slate 500 */
+  --border-color: #e2e8f0; /* Slate 200 */
 
-  --code-bg: #1F2937; /* Gray 800 */
-  --code-text: #E5E7EB; /* Gray 200 */
+  --code-bg: #1e293b; /* Slate 800 */
+  --code-text: #e2e8f0; /* Slate 200 */
 
   /* Spacing */
   --space-xs: 0.5rem;
@@ -25,15 +26,18 @@
 
   /* Typography */
   --font-sans: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
   --font-serif: 'Merriweather', serif;
 }
 
 [data-theme='dark'] {
-  --bg-color: #111827; /* Gray 900 */
-  --card-bg: #1F2937; /* Gray 800 */
-  --text-main: #F9FAFB; /* Gray 50 */
-  --text-muted: #9CA3AF; /* Gray 400 */
-  --border-color: #374151; /* Gray 700 */
+  --bg-color: #0f172a; /* Slate 900 - Richer dark */
+  --bg-secondary: #1e293b; /* Slate 800 */
+  --card-bg: #1e293b; /* Slate 800 */
+  --text-main: #f8fafc; /* Slate 50 */
+  --text-muted: #94a3b8; /* Slate 400 */
+  --border-color: #334155; /* Slate 700 */
+  --code-bg: #020617; /* Slate 950 */
 }
 
 html,
@@ -45,6 +49,7 @@ body {
   color: var(--text-main);
   line-height: 1.6;
   transition: background-color 0.3s, color 0.3s;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -63,7 +68,7 @@ a:hover {
 
 /* Typography Defaults */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-sans);
+  font-family: var(--font-display);
   color: var(--text-main);
   margin-top: var(--space-lg);
   margin-bottom: var(--space-sm);

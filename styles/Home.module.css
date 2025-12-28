@@ -22,6 +22,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
 .title a {
@@ -32,7 +34,7 @@
 .description {
   text-align: center;
   margin: var(--space-md) 0 var(--space-xl);
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: 1.25rem;
   color: var(--text-muted);
   max-width: 800px;
@@ -82,6 +84,43 @@
   color: var(--text-muted);
 }
 
+/* Social List Grid Implementation */
+.socialList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-sm);
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 800px;
+  margin-top: var(--space-lg);
+}
+
+.socialList li {
+  width: 100%;
+}
+
+.socialList a {
+  display: block;
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-main);
+  text-align: center;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  font-family: var(--font-display);
+}
+
+.socialList a:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
 .logo {
   height: 1em;
   margin-left: 0.5rem;
@@ -94,5 +133,9 @@
   
   .title {
     font-size: 2.5rem;
+  }
+  
+  .socialList {
+    grid-template-columns: 1fr;
   }
 }
