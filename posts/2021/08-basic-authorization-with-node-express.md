@@ -42,7 +42,7 @@ This article is a walkthrough to creating a basic level of authentication with E
 
 - cors: adds cors headers so our frontend app can make requests
 
-<hr>
+---
 
 - install dev dependencies `npm install --save-dev nodemon`
 

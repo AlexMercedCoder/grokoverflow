@@ -1769,21 +1769,21 @@ Once again, the same logic as usual
 <main>
 
 <h1>The Todo App</h1>
-<hr>
+---
 <h2>Create a Todo</h2>
 	<form on:submit={createTodo}>
 		<input type="text" bind:value={createTitle}/>
 		<input type="text" bind:value={createBody}/>
 		<input type="submit" value="Create Todo"/>
 	</form>
-<hr>
+---
 <h2>Edit a Todo</h2>
 	<form on:submit={updateTodo}>
 		<input type="text" bind:value={editTitle}/>
 		<input type="text" bind:value={editBody}/>
 		<input type="submit" value="Update Todo"/>
 	</form>
-<hr>
+---
 <h2>The Todos</h2>
 {#each todos as todo}
 	<div>
@@ -1910,21 +1910,21 @@ Now we just need to make a delete method and connect it to a delete button with 
 <main>
 
 <h1>The Todo App</h1>
-<hr>
+---
 <h2>Create a Todo</h2>
 	<form on:submit={createTodo}>
 		<input type="text" bind:value={createTitle}/>
 		<input type="text" bind:value={createBody}/>
 		<input type="submit" value="Create Todo"/>
 	</form>
-<hr>
+---
 <h2>Edit a Todo</h2>
 	<form on:submit={updateTodo}>
 		<input type="text" bind:value={editTitle}/>
 		<input type="text" bind:value={editBody}/>
 		<input type="submit" value="Update Todo"/>
 	</form>
-<hr>
+---
 <h2>The Todos</h2>
 {#each todos as todo}
 	<div>
@@ -1978,7 +1978,7 @@ import _ from "lodash"
 //Adding the initial HTML to the body
 $("body").append(`
 <h1>The Todo App</h1>
-<hr>
+---
 <h2>The Todos</h2>
 <ul id="todolist">
 
@@ -2030,14 +2030,14 @@ import _ from "lodash";
 //Adding the initial HTML to the body
 $("body").append(`
 <h1>The Todo App</h1>
-<hr>
+---
 <h2>Create a Todo</h2>
 <form id="createForm">
 <input type="text" name="createTitle"/>
 <input type="text" name="createBody"/>
 <input type="submit" value="Create Todo">
 </form>
-<hr>
+---
 <h2>The Todos</h2>
 <ul id="todolist">
 
@@ -2119,20 +2119,20 @@ import _ from "lodash";
 //Adding the initial HTML to the body
 $("body").append(`
 <h1>The Todo App</h1>
-<hr>
+---
 <h2>Create a Todo</h2>
 <form id="createForm">
 <input type="text" name="createTitle"/>
 <input type="text" name="createBody"/>
 <input type="submit" value="Create Todo">
 </form>
-<hr>
+---
 <form id="editForm">
 <input type="text" name="editTitle"/>
 <input type="text" name="editBody"/>
 <input type="submit" value="Update Todo">
 </form>
-<hr>
+---
 <h2>The Todos</h2>
 <ul id="todolist">
 
@@ -2246,20 +2246,20 @@ import _ from "lodash";
 //Adding the initial HTML to the body
 $("body").append(`
 <h1>The Todo App</h1>
-<hr>
+---
 <h2>Create a Todo</h2>
 <form id="createForm">
 <input type="text" name="createTitle"/>
 <input type="text" name="createBody"/>
 <input type="submit" value="Create Todo">
 </form>
-<hr>
+---
 <form id="editForm">
 <input type="text" name="editTitle"/>
 <input type="text" name="editBody"/>
 <input type="submit" value="Update Todo">
 </form>
-<hr>
+---
 <h2>The Todos</h2>
 <ul id="todolist">
 

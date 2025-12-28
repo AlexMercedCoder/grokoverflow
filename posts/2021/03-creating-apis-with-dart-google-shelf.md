@@ -43,7 +43,7 @@ or if you have NPM
 
     - localhost:7777/
     - localhost:7777/test/
-    - localhost:7777/test/<param>?query=XXXXX
+    - localhost:7777/test/`<param>`?query=XXXXX
 
 ## Examining The Code
 

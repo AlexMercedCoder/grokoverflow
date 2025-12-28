@@ -60,7 +60,7 @@ z = 4.5       # float
 ### Operators
 **Arithmetic Operators:** Used to perform mathematical operations like addition (+), subtraction (-), multiplication (*), division (/), modulus (%), exponentiation (**), and floor division (//).
 
-**Comparison Operators:** These include equal to (==), not equal to (!=), greater than (>), less than (<), greater than or equal to (>=), and less than or equal to (<=).
+**Comparison Operators:** These include equal to (`==`), not equal to (`!=`), greater than (`>`), less than (`<`), greater than or equal to (`>=`), and less than or equal to (`<=`).
 
 **Logical Operators:** Used to combine conditional statements: and, or, and not.
 Assignment Operators: Used to assign values to variables, such as =, +=, -=.

@@ -23,8 +23,8 @@ In this blog, we will explore the different types of data collections available 
 
 ## 1. Types of Collections in Rust
 
-### Vectors (`Vec<T>`)
-Vectors are dynamic arrays that can grow or shrink in size as needed. They are one of the most commonly used collections in Rust because of their flexibility. A `Vec<T>` is ideal when you need a resizable array where the number of elements can change during runtime.
+### Vectors (`Vec&lt;T&gt;`)
+Vectors are dynamic arrays that can grow or shrink in size as needed. They are one of the most commonly used collections in Rust because of their flexibility. A `Vec&lt;T&gt;` is ideal when you need a resizable array where the number of elements can change during runtime.
 
 **Example:**
 ```rust
@@ -51,8 +51,8 @@ let numbers = [1, 2, 3, 4, 5];
 let slice = &numbers[1..3]; // A slice that contains [2, 3]
 ```
 
-### HashMaps (`HashMap<K, V>`)
-A `HashMap<K, V>` is a key-value store that allows fast lookups by key. This collection is perfect when you need to associate values with unique keys and perform quick retrievals. Rust's HashMap is based on hash tables, ensuring average O(1) time complexity for lookups.
+### HashMaps (`HashMap&lt;K, V&gt;`)
+A `HashMap&lt;K, V&gt;` is a key-value store that allows fast lookups by key. This collection is perfect when you need to associate values with unique keys and perform quick retrievals. Rust's HashMap is based on hash tables, ensuring average O(1) time complexity for lookups.
 
 Example:
 
@@ -62,8 +62,8 @@ let mut scores = HashMap::new();
 scores.insert("Alice", 10);
 scores.insert("Bob", 20);
 ```
-### HashSets (`HashSet<T>`)
-A `HashSet<T>` is a collection that ensures all elements are unique. It’s perfect for cases where you want to store distinct items without duplicates, and you don't care about the order of elements.
+### HashSets (`HashSet&lt;T&gt;`)
+A `HashSet&lt;T&gt;` is a collection that ensures all elements are unique. It’s perfect for cases where you want to store distinct items without duplicates, and you don't care about the order of elements.
 
 Example:
 
@@ -74,8 +74,8 @@ set.insert(1);
 set.insert(2);
 set.insert(2); // Duplicates are ignored
 ```
-### LinkedLists (`LinkedList<T>`)
-`LinkedList<T>` is a doubly linked list, allowing efficient insertions and deletions at both ends. However, it’s typically less common in Rust due to its performance overhead compared to Vec<T>, but it’s useful when frequent insertions or deletions at the front or back of a collection are required.
+### LinkedLists (`LinkedList&lt;T&gt;`)
+`LinkedList&lt;T&gt;` is a doubly linked list, allowing efficient insertions and deletions at both ends. However, it’s typically less common in Rust due to its performance overhead compared to Vec&lt;T&gt;, but it’s useful when frequent insertions or deletions at the front or back of a collection are required.
 
 Example:
 
@@ -86,8 +86,8 @@ list.push_back(1);
 list.push_front(0);
 ```
 
-### BinaryHeap (`BinaryHeap<T>`)
-A `BinaryHeap<T>` is a priority queue implemented as a max-heap, where the largest element is always at the top. This collection is useful for scenarios where you need quick access to the largest (or smallest) element.
+### BinaryHeap (`BinaryHeap&lt;T&gt;`)
+A `BinaryHeap&lt;T&gt;` is a priority queue implemented as a max-heap, where the largest element is always at the top. This collection is useful for scenarios where you need quick access to the largest (or smallest) element.
 
 Example:
 
@@ -101,8 +101,8 @@ heap.push(10); // The largest element, 10, will be at the top
 
 ## 2. When to Use Each Collection
 
-### Vec<T> vs. Array
-- **Vec<T>**: Use `Vec<T>` when you need a collection with a variable size that can grow or shrink as needed. It is suitable for most use cases where you do not know the size of the collection in advance or when the collection will change over time. Vectors provide flexibility at the cost of a small overhead for dynamic memory allocation.
+### `Vec&lt;T&gt;` vs. Array
+- **Vec&lt;T&gt;**: Use `Vec&lt;T&gt;` when you need a collection with a variable size that can grow or shrink as needed. It is suitable for most use cases where you do not know the size of the collection in advance or when the collection will change over time. Vectors provide flexibility at the cost of a small overhead for dynamic memory allocation.
   
   **When to use**: 
   - When the size of the collection is unknown or changes frequently.
@@ -115,50 +115,50 @@ heap.push(10); // The largest element, 10, will be at the top
   - For performance-critical code that benefits from static memory allocation.
 
 
-### HashMap<K, V> vs. Vec<T>
-**HashMap<K, V>**: Use `HashMap<K, V>` when you need to associate values with unique keys and require fast lookups. Hash maps offer O(1) average time complexity for both insertions and lookups, making them ideal for tasks like caching, managing configurations, or associating identifiers with data.
+### `HashMap&lt;K, V&gt;` vs. `Vec&lt;T&gt;`
+**HashMap&lt;K, V&gt;**: Use `HashMap&lt;K, V&gt;` when you need to associate values with unique keys and require fast lookups. Hash maps offer O(1) average time complexity for both insertions and lookups, making them ideal for tasks like caching, managing configurations, or associating identifiers with data.
 
   **When to use**:
   - When you need fast lookups based on keys.
   - When the relationship between keys and values is critical (e.g., name and score).
   
-**Vec<T>**: While `Vec<T>` can be used for lookups via linear search, it is not as efficient as a hash map when the collection grows large. `Vec<T>` should be used when the order of elements is important, or when you are dealing with sequential data rather than key-value pairs.
+**Vec&lt;T&gt;**: While `Vec&lt;T&gt;` can be used for lookups via linear search, it is not as efficient as a hash map when the collection grows large. `Vec&lt;T&gt;` should be used when the order of elements is important, or when you are dealing with sequential data rather than key-value pairs.
 
   **When to use**:
   - When the order of data matters or must be preserved.
   - When the collection is small, and linear searches are acceptable.
 
 
-### HashSet<T> vs. Vec<T>
-**HashSet<T>**: A `HashSet<T>` is used when you need a collection of unique items without duplicates. Hash sets are ideal for cases where ensuring the uniqueness of elements is critical, but the order of the items is irrelevant. Like hash maps, `HashSet<T>` offers O(1) average time complexity for insertions and lookups.
+### `HashSet&lt;T&gt;` vs. `Vec&lt;T&gt;`
+**HashSet&lt;T&gt;**: A `HashSet&lt;T&gt;` is used when you need a collection of unique items without duplicates. Hash sets are ideal for cases where ensuring the uniqueness of elements is critical, but the order of the items is irrelevant. Like hash maps, `HashSet&lt;T&gt;` offers O(1) average time complexity for insertions and lookups.
 
   **When to use**:
   - When you need to ensure that all elements are unique.
   - When the order of elements is unimportant.
   
-**Vec<T>**: A `Vec<T>` can store duplicate elements, making it the better choice when you need to retain duplicates or care about the order in which elements are inserted.
+**Vec&lt;T&gt;**: A `Vec&lt;T&gt;` can store duplicate elements, making it the better choice when you need to retain duplicates or care about the order in which elements are inserted.
 
   **When to use**:
   - When duplicates are allowed or required.
   - When maintaining the order of elements is important.
 
 
-### LinkedList<T> vs. Vec<T>
-**LinkedList<T>**: `LinkedList<T>` is useful when you need to frequently insert or delete elements from both ends of the collection. Linked lists excel at operations like push and pop from both the front and back, which are O(1). However, they suffer from slower random access (O(n)) compared to vectors.
+### `LinkedList&lt;T&gt;` vs. `Vec&lt;T&gt;`
+**LinkedList&lt;T&gt;**: `LinkedList&lt;T&gt;` is useful when you need to frequently insert or delete elements from both ends of the collection. Linked lists excel at operations like push and pop from both the front and back, which are O(1). However, they suffer from slower random access (O(n)) compared to vectors.
 
   **When to use**:
   - When you need fast insertions or deletions at both the front and back of the collection.
   - When you don't need to frequently access elements by index.
   
-**Vec<T>**: Vectors offer fast random access (O(1)) and are more memory-efficient than linked lists for most use cases. Use `Vec<T>` when you need quick access to elements by index, and when insertions/deletions are less frequent or typically occur at the end.
+**Vec&lt;T&gt;**: Vectors offer fast random access (O(1)) and are more memory-efficient than linked lists for most use cases. Use `Vec&lt;T&gt;` when you need quick access to elements by index, and when insertions/deletions are less frequent or typically occur at the end.
 
   **When to use**:
   - When fast random access is required.
   - When the collection grows primarily at the end.
 
 
-### BinaryHeap<T>
-**BinaryHeap<T>**: Use a `BinaryHeap<T>` when you need a priority queue, where the largest (or smallest) element is always at the top. Binary heaps are perfect for cases like task scheduling, where you want to quickly retrieve the most important (largest) element, or for algorithms like Dijkstra's shortest path.
+### `BinaryHeap&lt;T&gt;`
+**BinaryHeap&lt;T&gt;**: Use a `BinaryHeap&lt;T&gt;` when you need a priority queue, where the largest (or smallest) element is always at the top. Binary heaps are perfect for cases like task scheduling, where you want to quickly retrieve the most important (largest) element, or for algorithms like Dijkstra's shortest path.
 
   **When to use**:
   - When you need a collection where the highest (or lowest) priority item is always retrievable in O(log n) time.
@@ -166,8 +166,8 @@ heap.push(10); // The largest element, 10, will be at the top
 
 ## 3. Converting Between Collection Types
 
-### From `Vec<T>` to `&[T]` (Slice)
-- **Vec<T> to &[T]**: A vector owns its data, but sometimes you only need to borrow part of it, such as when passing it to a function. You can easily create a slice from a vector to obtain a view into the data without transferring ownership. This operation is useful when you want to work with a subset of the data without modifying it.
+### From `Vec&lt;T&gt;` to `&[T]` (Slice)
+- **Vec&lt;T&gt; to &[T]**: A vector owns its data, but sometimes you only need to borrow part of it, such as when passing it to a function. You can easily create a slice from a vector to obtain a view into the data without transferring ownership. This operation is useful when you want to work with a subset of the data without modifying it.
 
   **Example:**
 ```rust
@@ -176,12 +176,12 @@ heap.push(10); // The largest element, 10, will be at the top
 ```
 When to use:
 
-- When you need a lightweight, read-only view into a `Vec<T>`.
+- When you need a lightweight, read-only view into a `Vec&lt;T&gt;`.
 - When passing data to functions that require slices, not ownership.
 
-### From `Vec<T>` to `HashSet<T>`
+### From `Vec&lt;T&gt;` to `HashSet&lt;T&gt;`
 
-**`Vec<T>` to `HashSet<T>`:** Converting a `Vec<T>` to a `HashSet<T>` can be useful when you need to eliminate duplicates from the collection. A `HashSet<T>` only retains unique elements, so all duplicates in the vector will be removed during the conversion.
+**`Vec&lt;T&gt;` to `HashSet&lt;T&gt;`:** Converting a `Vec&lt;T&gt;` to a `HashSet&lt;T&gt;` can be useful when you need to eliminate duplicates from the collection. A `HashSet&lt;T&gt;` only retains unique elements, so all duplicates in the vector will be removed during the conversion.
 
 Example:
 
@@ -195,9 +195,9 @@ When to use:
 - When you need to ensure all elements are unique.
 - When you want to convert an unordered list to a collection that guarantees uniqueness.
 
-### From `Vec<T>` to `HashMap<K, V>`
+### From `Vec&lt;T&gt;` to `HashMap&lt;K, V&gt;`
 
-**`Vec<T>` to `HashMap<K, V>`:** You can convert a vector of tuples or pairs into a `HashMap<K, V>`. This is especially useful when you have data stored in pairs (key-value format) and you want to use the fast lookup capabilities of a hash map.
+**`Vec&lt;T&gt;` to `HashMap&lt;K, V&gt;`:** You can convert a vector of tuples or pairs into a `HashMap&lt;K, V&gt;`. This is especially useful when you have data stored in pairs (key-value format) and you want to use the fast lookup capabilities of a hash map.
 
 Example:
 
@@ -212,8 +212,8 @@ When to use:
 - When you have paired data (key-value) and need fast lookups based on the key.
 - When you want to transition from a simple list to an associative data structure.
 
-### From &[T] to Vec<T>
-**`&[T]` to `Vec<T>`:** While slices are great for borrowing data, sometimes you need to take ownership of the data or modify it. In such cases, you can easily convert a slice back into a `Vec<T>`. This creates a new vector that owns its data, allowing for modification.
+### From &[T] to Vec&lt;T&gt;
+**`&[T]` to `Vec&lt;T&gt;`:** While slices are great for borrowing data, sometimes you need to take ownership of the data or modify it. In such cases, you can easily convert a slice back into a `Vec&lt;T&gt;`. This creates a new vector that owns its data, allowing for modification.
 
 Example:
 
@@ -227,8 +227,8 @@ When to use:
 - When you need to modify the data after borrowing it as a slice.
 - When you want to take ownership of data that was passed as a reference.
 
-### From `Vec<T>` to `LinkedList<T>`
-**`Vec<T>` to `LinkedList<T>`:** You can convert a `Vec<T>` to a `LinkedList<T>` when you need a collection that allows efficient insertion and deletion at both ends. This is useful when you originally started with a vector but now need the flexibility of a linked list.
+### From `Vec&lt;T&gt;` to `LinkedList&lt;T&gt;`
+**`Vec&lt;T&gt;` to `LinkedList&lt;T&gt;`:** You can convert a `Vec&lt;T&gt;` to a `LinkedList&lt;T&gt;` when you need a collection that allows efficient insertion and deletion at both ends. This is useful when you originally started with a vector but now need the flexibility of a linked list.
 
 Example:
 
@@ -241,8 +241,8 @@ When to use:
 
 - When you need to switch from a random-access collection to one optimized for fast insertions and deletions at both ends.
 
-### From Vec<T> to BinaryHeap<T>
-**`Vec<T>` to `BinaryHeap<T>`:** If you need to prioritize elements and access the largest element first, you can convert a vector into a `BinaryHeap<T>`. A binary heap ensures that the highest-priority item is always accessible at the top.
+### From Vec&lt;T&gt; to BinaryHeap&lt;T&gt;
+**`Vec&lt;T&gt;` to `BinaryHeap&lt;T&gt;`:** If you need to prioritize elements and access the largest element first, you can convert a vector into a `BinaryHeap&lt;T&gt;`. A binary heap ensures that the highest-priority item is always accessible at the top.
 
 Example:
 
@@ -260,7 +260,7 @@ When to use:
 ## 4. Common Operations on Collections
 
 ### Appending Items
-- **Vec<T>**: Appending to a `Vec<T>` is straightforward with the `.push()` method, which adds an element to the end of the vector. Vectors automatically resize to accommodate new elements.
+- **Vec&lt;T&gt;**: Appending to a `Vec&lt;T&gt;` is straightforward with the `.push()` method, which adds an element to the end of the vector. Vectors automatically resize to accommodate new elements.
 
   **Example:**
 ```rust
@@ -268,7 +268,7 @@ When to use:
   vec.push(4); // vec now contains [1, 2, 3, 4]
 ```
 
-- **`LinkedList<T>`**: `LinkedList<T>` allows appending to both the front and back using `.push_back()` and `.push_front()`.
+- **`LinkedList&lt;T&gt;`**: `LinkedList&lt;T&gt;` allows appending to both the front and back using `.push_back()` and `.push_front()`.
 
 Example:
 
@@ -281,12 +281,12 @@ list.push_front(0); // Append to the front
 
 When to use:
 
-- Use `Vec<T>` for fast and simple appends when working at the end of a collection.
-- Use `LinkedList<T>` for fast insertions at both ends of a collection.
+- Use `Vec&lt;T&gt;` for fast and simple appends when working at the end of a collection.
+- Use `LinkedList&lt;T&gt;` for fast insertions at both ends of a collection.
 
 ### Slicing
 
-**`Vec<T> and Arrays`**: You can create slices from vectors or arrays using ranges (`&[T]`), allowing access to a part of the collection without copying the data. Slices are useful for borrowing parts of a collection while avoiding ownership.
+**`Vec&lt;T&gt; and Arrays`**: You can create slices from vectors or arrays using ranges (`&[T]`), allowing access to a part of the collection without copying the data. Slices are useful for borrowing parts of a collection while avoiding ownership.
 
 Example:
 
@@ -300,7 +300,7 @@ When to use:
 - When you need a view into part of a collection without modifying or taking ownership.
 
 ### Removing Items
-`Vec<T>`: Use `.remove()` to delete an item at a specific index. You can also use `.pop()` to remove and return the last element.
+`Vec&lt;T&gt;`: Use `.remove()` to delete an item at a specific index. You can also use `.pop()` to remove and return the last element.
 
 Example:
 
@@ -309,7 +309,7 @@ let mut vec = vec![1, 2, 3];
 vec.remove(1); // vec now contains [1, 3]
 ```
 
-**`LinkedList<T>`**: Use `.pop_back()` and `.pop_front()` to remove items from either end of the list.
+**`LinkedList&lt;T&gt;`**: Use `.pop_back()` and `.pop_front()` to remove items from either end of the list.
 
 Example:
 
@@ -323,11 +323,11 @@ list.pop_back(); // Removes the last element
 
 When to use:
 
-- Use `Vec<T>` for quick removal from the end of the collection.
-- Use `LinkedList<T>` for efficient removal from both ends of the collection.
+- Use `Vec&lt;T&gt;` for quick removal from the end of the collection.
+- Use `LinkedList&lt;T&gt;` for efficient removal from both ends of the collection.
 
 ### Sorting
-**`Vec<T>`**: Vectors can be sorted using `.sort()`, which sorts the elements in place. For custom sorting, `.sort_by()` can be used with a closure.
+**`Vec&lt;T&gt;`**: Vectors can be sorted using `.sort()`, which sorts the elements in place. For custom sorting, `.sort_by()` can be used with a closure.
 
 Example:
 
@@ -336,7 +336,7 @@ let mut vec = vec![3, 1, 2];
 vec.sort(); // vec is now [1, 2, 3]
 ```
 
-**`BinaryHeap<T>`**: A `BinaryHeap<T>` is automatically sorted as a max-heap, with the largest element always at the top. To get a sorted collection from a heap, repeatedly pop elements from the heap.
+**`BinaryHeap&lt;T&gt;`**: A `BinaryHeap&lt;T&gt;` is automatically sorted as a max-heap, with the largest element always at the top. To get a sorted collection from a heap, repeatedly pop elements from the heap.
 
 Example:
 
@@ -353,11 +353,11 @@ while let Some(top) = heap.pop() {
 
 When to use:
 
-- Use `Vec<T>` when you need to sort data in place and preserve it as a collection.
-- Use `BinaryHeap<T>` for dynamically managing a collection where you need frequent access to the highest priority element.
+- Use `Vec&lt;T&gt;` when you need to sort data in place and preserve it as a collection.
+- Use `BinaryHeap&lt;T&gt;` for dynamically managing a collection where you need frequent access to the highest priority element.
 
 ### Searching
-**`Vec<T>`**: Use `.iter().position()` to search for an element by value and get its index. For more advanced searching, `.binary_search()` is available, provided the vector is sorted.
+**`Vec&lt;T&gt;`**: Use `.iter().position()` to search for an element by value and get its index. For more advanced searching, `.binary_search()` is available, provided the vector is sorted.
 
 Example:
 
@@ -366,7 +366,7 @@ let vec = vec![1, 2, 3, 4, 5];
 let pos = vec.iter().position(|&x| x == 3); // Returns Some(2)
 ```
 
-**`HashMap<K, V>`**: Hash maps provide fast lookup by key using the `.get()` method.
+**`HashMap&lt;K, V&gt;`**: Hash maps provide fast lookup by key using the `.get()` method.
 
 Example:
 
@@ -379,11 +379,11 @@ let score = map.get("Alice"); // Returns Some(&10)
 
 When to use:
 
-- Use `Vec<T>` for searching when the collection is small or order matters.
-- Use `HashMap<K, V>` for fast lookups by key.
+- Use `Vec&lt;T&gt;` for searching when the collection is small or order matters.
+- Use `HashMap&lt;K, V&gt;` for fast lookups by key.
 Iterating
 
-**`Vec<T>` and Arrays**: Rust offers powerful iterator support. You can iterate over vectors or arrays using `.iter()` for immutable references, `.iter_mut()` for mutable references, or `.into_iter()` for consuming the collection.
+**`Vec&lt;T&gt;` and Arrays**: Rust offers powerful iterator support. You can iterate over vectors or arrays using `.iter()` for immutable references, `.iter_mut()` for mutable references, or `.into_iter()` for consuming the collection.
 
 Example:
 
@@ -394,7 +394,7 @@ for &num in vec.iter() {
 }
 ```
 
-**`HashMap<K, V>`**: Hash maps can be iterated over in a similar way, allowing you to access both keys and values.
+**HashMap&lt;K, V&gt;**: Hash maps can be iterated over in a similar way, allowing you to access both keys and values.
 
 Example:
 
@@ -473,10 +473,10 @@ When to use:
 - When you no longer need the original collection and want to process or consume its elements.
 
 ### Using .collect()
-The `.collect()` method is a versatile tool that allows you to take the output of an iterator and collect it into a variety of collections, such as `Vec<T>`, `HashMap<K, V>`, or `HashSet<T>`. It’s often used at the end of an iterator chain to transform the processed elements back into a collection. This is especially useful when you are filtering, transforming, or modifying data during iteration.
+The `.collect()` method is a versatile tool that allows you to take the output of an iterator and collect it into a variety of collections, such as Vec&lt;T&gt;, HashMap&lt;K, V&gt;, or HashSet&lt;T&gt;. It’s often used at the end of an iterator chain to transform the processed elements back into a collection. This is especially useful when you are filtering, transforming, or modifying data during iteration.
 
 #### Collecting into a Vector
-You can use `.collect()` to create a new `Vec<T>` from an iterator. This is helpful when you want to transform a collection into another one without modifying the original, or when you're applying operations like map or filter.
+You can use `.collect()` to create a new Vec&lt;T&gt; from an iterator. This is helpful when you want to transform a collection into another one without modifying the original, or when you're applying operations like map or filter.
 
 Example:
 
@@ -487,7 +487,7 @@ println!("{:?}", doubled); // Prints [2, 4, 6]
 ```
 
 #### Collecting into a HashSet
-If you want to ensure uniqueness in your collection, you can collect the output of an iterator into a `HashSet<T>`.
+If you want to ensure uniqueness in your collection, you can collect the output of an iterator into a HashSet&lt;T&gt;.
 
 Example:
 
@@ -508,7 +508,7 @@ println!("{:?}", set); // Prints {1, 2, 3}
 
 - When you want to transform an iterator’s results into a new collection.
 - After applying filters, transformations, or any operation that modifies the data.
-- When converting between collection types, such as from `Vec<T>` to `HashSet<T>` or `HashMap<K, V>`.
+- When converting between collection types, such as from Vec&lt;T&gt; to HashSet&lt;T&gt; or HashMap&lt;K, V&gt;.
 
 ## 6. Performance Considerations for Rust Collections
 
@@ -518,7 +518,7 @@ When working with collections in Rust, it's essential to consider the performanc
 
 ### **Memory Usage**
 
-- **Vec<T>**: Vectors are dynamically sized, which means they grow as needed by allocating more memory. However, they allocate memory in chunks to avoid frequent reallocations, which can lead to some unused space (capacity vs. actual length). The overhead of resizing a vector is amortized over many operations, making it relatively efficient in most scenarios.
+- **Vec&lt;T&gt;**: Vectors are dynamically sized, which means they grow as needed by allocating more memory. However, they allocate memory in chunks to avoid frequent reallocations, which can lead to some unused space (capacity vs. actual length). The overhead of resizing a vector is amortized over many operations, making it relatively efficient in most scenarios.
 
   **Consideration**:
   - When you know the approximate size of your data upfront, consider pre-allocating memory using `with_capacity()` to avoid unnecessary reallocations.
@@ -528,29 +528,29 @@ When working with collections in Rust, it's essential to consider the performanc
   let mut vec = Vec::with_capacity(10); // Pre-allocate space for 10 elements
 ```
 
-- `LinkedList<T>`: Linked lists use more memory than vectors because each element (node) stores a pointer to the next and sometimes the previous node. This additional overhead makes LinkedList<T> less memory efficient, especially for large collections.
+- LinkedList&lt;T&gt;: Linked lists use more memory than vectors because each element (node) stores a pointer to the next and sometimes the previous node. This additional overhead makes LinkedList&lt;T&gt; less memory efficient, especially for large collections.
 
 #### Consideration:
 
 - Use linked lists only when frequent insertions and deletions at both ends of the collection are critical.
-- **`HashMap<K, V>` and `HashSet<T>`**: Hash maps and hash sets use more memory due to the underlying hash table structure. This structure allows for fast lookups, but it comes at the cost of extra space for hashing and managing collisions.
+- **HashMap&lt;K, V&gt; and HashSet&lt;T&gt;**: Hash maps and hash sets use more memory due to the underlying hash table structure. This structure allows for fast lookups, but it comes at the cost of extra space for hashing and managing collisions.
 
 #### Consideration:
 
 Hash maps and sets are more memory-intensive but can provide significant performance improvements when fast lookups and uniqueness are required.
 
 ### Speed of Operations
-`Vec<T>`:
+Vec&lt;T&gt;:
 
-- **Accessing elements:** Random access in a `Vec<T>` is O(1), which makes it highly efficient for direct access by index.
+- **Accessing elements:** Random access in a Vec&lt;T&gt; is O(1), which makes it highly efficient for direct access by index.
 Inserting/Removing elements: Adding or removing elements at the end of a vector is O(1) on average, but inserting or removing elements in the middle or beginning is O(n) because all subsequent elements must be shifted.
 
 #### Consideration:
 
-- For frequent random access, `Vec<T>` is the best choice.
-- For frequent insertions/deletions in the middle, consider alternatives like `LinkedList<T>`.
+- For frequent random access, Vec&lt;T&gt; is the best choice.
+- For frequent insertions/deletions in the middle, consider alternatives like LinkedList&lt;T&gt;.
 
-`LinkedList<T>`:
+LinkedList&lt;T&gt;:
 
 - **Accessing elements**: Random access is O(n) because you have to traverse the list element by element, making linked lists slower than vectors for lookups.
 
@@ -558,9 +558,9 @@ Inserting/Removing elements: Adding or removing elements at the end of a vector 
 
 #### Consideration:
 
-Use `LinkedList<T>` for frequent insertions/removals at the ends of the collection but avoid using it for random access.
+Use LinkedList&lt;T&gt; for frequent insertions/removals at the ends of the collection but avoid using it for random access.
 
-`HashMap<K, V>` and `HashSet<T>`:
+HashMap&lt;K, V&gt; and HashSet&lt;T&gt;:
 
 - **Accessing elements**: Hash maps and sets provide O(1) average time complexity for insertions, deletions, and lookups, thanks to the underlying hash table.
 
@@ -572,26 +572,26 @@ Use hash maps and sets when fast lookups and uniqueness are crucial, but avoid t
 
 ### Iteration Performance
 
-`Vec<T>`: Iterating over a vector is fast and efficient due to its contiguous memory layout. Each element can be accessed in constant time, making vectors optimal for iteration-heavy tasks.
+Vec&lt;T&gt;: Iterating over a vector is fast and efficient due to its contiguous memory layout. Each element can be accessed in constant time, making vectors optimal for iteration-heavy tasks.
 
 #### Consideration:
 
-- For iteration-heavy applications, `Vec<T>` is generally the best choice due to its cache-friendly memory layout.
+- For iteration-heavy applications, Vec&lt;T&gt; is generally the best choice due to its cache-friendly memory layout.
 
-- `LinkedList<T>`: Iterating over a linked list is slower because each node is located in a different part of memory. The traversal from one node to the next involves dereferencing pointers, which is less efficient for large datasets.
+- LinkedList&lt;T&gt;: Iterating over a linked list is slower because each node is located in a different part of memory. The traversal from one node to the next involves dereferencing pointers, which is less efficient for large datasets.
 
 #### Consideration:
 
 - Linked lists are not optimal for iteration-heavy tasks, so use them sparingly when iteration speed is important.
 
-`HashMap<K, V>` and `HashSet<T>`: Iterating over hash maps and hash sets is slower than vectors because the elements are not stored contiguously in memory. However, Rust’s hash maps and sets offer reasonable iteration performance, though you lose the element order unless you use a BTreeMap or BTreeSet.
+HashMap&lt;K, V&gt; and HashSet&lt;T&gt;: Iterating over hash maps and hash sets is slower than vectors because the elements are not stored contiguously in memory. However, Rust’s hash maps and sets offer reasonable iteration performance, though you lose the element order unless you use a BTreeMap or BTreeSet.
 
 #### Consideration:
 
 If you need to maintain order during iteration, use a BTreeMap or BTreeSet instead of a hash map or set.
 
 ### Sorting and Searching
-`Vec<T>`:
+Vec&lt;T&gt;:
 
 **Sorting:** Vectors can be sorted in O(n log n) time using the `.sort()` method, which is efficient for most use cases.
 
@@ -647,7 +647,7 @@ scores.insert("Bob", 30);
 println!("{:?}", scores.get("Alice")); // Outputs: Some(50)
 ```
 
-#### Creating a HashSet (HashSet<T>)
+#### Creating a HashSet (HashSet&lt;T&gt;)
 A hash set is a collection that ensures uniqueness. Here’s how to create a hash set, insert values, and check for duplicates.
 
 Example:

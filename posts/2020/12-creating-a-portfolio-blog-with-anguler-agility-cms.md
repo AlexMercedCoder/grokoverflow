@@ -236,7 +236,7 @@ We can now loop over the data to show our projects in our projects.component.htm
 About the syntax above
 
 - **ngFor**: This allows you to repeat an HTML tag and its children once for each item in an array.
-- **{{}}**: This allows you to inject a variable from the component as text. (in this case we are referring to the temporary variable "project" created from looping over the class property, "projects")
+- **`{{}}`**: This allows you to inject a variable from the component as text. (in this case we are referring to the temporary variable "project" created from looping over the class property, "projects")
 - **[Attribute]**: This allows you to set the value of an element attribute to the value of a component's property.
 
 ## Step 9 - Creating our BlogService

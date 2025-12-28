@@ -293,7 +293,7 @@ To focus on just writing the API we aren't bringing a database, so for a dataset
 module.exports = [{ title: "The first post", body: "body of the first post" }]
 ```
 
-import it into server.js, we will store this array of posts in the request object so all other routes will have access to it there since they are passed the request object.
+Import it into server.js, we will store this array of posts in the request object so all other routes will have access to it there since they are passed the request object.
 
 ```js
 // Import http library

@@ -22,13 +22,13 @@ Go is becoming a popular choice for those who need to increase the speed of thei
 
 | Command | Purpose |
 |---------|---------|
-| buffalo new {projectname} --api | create new project with api template |
+| buffalo new `{projectname}` --api | create new project with api template |
 | buffalo dev | run development server |
 | buffalo pop create -a | create all databases in database.yml |
 | buffalo pop drop -a | drop all databases in database.yml |
-| buffalo pop generate fizz {name of migration} | Create new migration |
+| buffalo pop generate fizz `{name of migration}` | Create new migration |
 | buffalo pop migrate | run migrations |
-| buffalo pop g model {model name} | generate a model file |
+| buffalo pop g model `{model name}` | generate a model file |
 
 ## Setup
 

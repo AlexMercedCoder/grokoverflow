@@ -97,7 +97,7 @@ then make the following change in your HTML and then open index.html in the brow
 </body>
 ```
 
-You'll notice that in the browser the word hello gets replaced with "Hello World" and the 2+2 gets replaced with 4. Essentially the {{}} acts as an escape and you can reference any data in your data object or any valid javascript expression.
+You'll notice that in the browser the word hello gets replaced with "Hello World" and the 2+2 gets replaced with 4. Essentially the `{{}}` acts as an escape and you can reference any data in your data object or any valid javascript expression.
 
 ### Conditional Rendering
 

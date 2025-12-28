@@ -63,8 +63,8 @@ export default function Blog({ posts, categories }) {
       <aside className={styles.featured}>
         <div className={styles.featuredArticle}>
         <h1>Featured Post</h1>
-        <Link href={`/posts/${posts[0].slug}`}>
-                <a><h2>{posts[0].frontmatter.title}</h2></a>
+        <Link href={`/posts/${posts[0].slug}`} className={styles.featuredLink}>
+                <h2>{posts[0].frontmatter.title}</h2>
         </Link>
               <h3>{posts[0].frontmatter.date} - {posts[0].frontmatter.author}</h3>
               </div>
@@ -93,7 +93,7 @@ export default function Blog({ posts, categories }) {
           return (
             <article key={slug} className={styles.article}>
               <Link href={`/posts/${slug}`}>
-                <a><h2>{title}</h2></a>
+                <h2>{title}</h2>
               </Link>
               <h3>{date} - {author}</h3>
             </article>
@@ -125,7 +125,7 @@ export default function Blog({ posts, categories }) {
           {categories.map((c) => {
             return (
               <div key={c}>
-                <Link href={`/blog/category/${c}`}><a>{c}</a></Link>
+                <Link href={`/blog/category/${c}`}>{c}</Link>
               </div>
             );
           })}

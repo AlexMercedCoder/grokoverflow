@@ -46,7 +46,7 @@ The main thing to understand is routing, as this will determine what gets render
 | /src/routes/index.js | / |
 | /src/routes/about/index.js| /about |
 | /src/routes/about.js | /about | 
-| /src/routes/blog/[slug] | /blog/{anything} |
+| /src/routes/blog/[slug] | `/blog/{anything}` |
 
 The file should `export default` a component and that's what will be rendered on the page with that component.
 

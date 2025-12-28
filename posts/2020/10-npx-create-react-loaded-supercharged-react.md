@@ -50,7 +50,7 @@ A custom components and hook was made to make global state management even easie
 
 In the app.js file, the GlobalState component which wraps the App components provides the state object and dispatch function to the entire application.
 
-import the useGlobal hook from gstate.js into any file to easily pull the state and dispatch into that component.
+Import the useGlobal hook from gstate.js into any file to easily pull the state and dispatch into that component.
 
 ### Custom Hooks
 

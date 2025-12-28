@@ -70,7 +70,7 @@ const $div = $("<div>").addClass("style")
 
 Notice how we can chain jQuery functions quite easily. It's because all jQuery functions return the altered jQuery object making it easy to chain one function to the next.
 
-Also, the only difference between creating and querying an element in jQuery is the use of <> in the jQuery function.
+Also, the only difference between creating and querying an element in jQuery is the use of `<>` in the jQuery function.
 
 ## Appending Elements
 

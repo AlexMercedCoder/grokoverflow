@@ -1,41 +1,20 @@
 import fs from "fs";
 import matter from "gray-matter";
-import MarkdownIt from "markdown-it";
-import hljs from "highlight.js"
+
+import { serialize } from 'next-mdx-remote/serialize';
+import { MDXRemote } from 'next-mdx-remote';
+import rehypeHighlight from 'rehype-highlight';
 import styles from "../../styles/Post.module.css"
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-import mdVideo from "markdown-it-video"
 
-// syntax highlighting?
-const md = new MarkdownIt({
-  html: true,
-  linkify: false,
-  typographer: true,
-  highlight: function (str, lang) {
-    if (lang && hljs.getLanguage(lang)) {
-      try {
-        return '<pre class="hljs"><code>' +
-               hljs.highlight(str, { language: lang, ignoreIllegals: true }).value +
-               '</code></pre>';
-      } catch (__) {}
-    }
 
-    return '<pre class="hljs"><code>' + md.utils.escapeHtml(str) + '</code></pre>';
-  }
-}).use(mdVideo, // <-- this use(package_name) is required 
-{
-  youtube: { width: 640, height: 390 },
-  vimeo: { width: 500, height: 281 },
-  vine: { width: 600, height: 600, embed: 'simple' },
-  prezi: { width: 550, height: 400 }
-})
 
 
 
 // The page for each post
-export default function Post({ frontmatter, content, relatedPosts }) {
+export default function Post({ frontmatter, mdxSource, relatedPosts }) {
   const { title, author, category, date, bannerImage, tags } = frontmatter;
 
   return (
@@ -76,8 +55,8 @@ export default function Post({ frontmatter, content, relatedPosts }) {
           <div className={styles.metadata}>
             <div className={styles.metaItem}>
               <span className={styles.label}>By</span>
-              <Link href={`/blog/author/${author.toLowerCase().replace(" ", "-")}`}>
-                <a className={styles.authorLink}>{author}</a>
+              <Link href={`/blog/author/${author.toLowerCase().replace(" ", "-")}`} className={styles.authorLink}>
+                {author}
               </Link>
             </div>
             <div className={styles.metaItem}>
@@ -86,25 +65,27 @@ export default function Post({ frontmatter, content, relatedPosts }) {
             </div>
           </div>
           <div className={styles.tags}>
-            <Link href={`/blog/category/${category}`}>
-              <a className={styles.categoryTag}>{category}</a>
+            <Link href={`/blog/category/${category}`} className={styles.categoryTag}>
+              {category}
             </Link>
             {tags.map((tag) => (
-              <Link href={`/blog/tag/${tag}`} key={tag}>
-                <a className={styles.tag}>#{tag}</a>
+              <Link href={`/blog/tag/${tag}`} key={tag} className={styles.tag}>
+                #{tag}
               </Link>
             ))}
           </div>
         </header>
-        <div className={`${styles.content} blog-post`} dangerouslySetInnerHTML={{ __html: md.render(content) }} />
+        <div className={`${styles.content} blog-post`}>
+             <MDXRemote {...mdxSource} />
+        </div>
         <hr />
         <h3>Read Next</h3>
         <div className={styles.related}>
             {relatedPosts && relatedPosts.map((post) => (
             <div key={post.slug} className={styles.relatedPost}>
-                <Link href={`/posts/${post.slug}`}><a className={styles.relatedLink}>
+                <Link href={`/posts/${post.slug}`} className={styles.relatedLink}>
                     {post.frontmatter.title}
-                </a></Link>
+                </Link>
             </div>
             ))}
         </div>
@@ -141,57 +122,65 @@ export async function getStaticPaths() {
 }
 
 // Generate the static props for the page
-export async function getStaticProps({params: {slug}}) {
-
+export async function getStaticProps({ params: { slug } }) {
+  // Determine file path based on slug structure
+  let fileName;
+  let currentSlug;
+  
   if (slug.length === 2) {
-    const fileName = fs.readFileSync(
-      `posts/${slug[0]}/${slug[1]}.md`,
-      "utf-8"
-    );
-    const { data: frontmatter, content } = matter(fileName);
-    return {
-      props: {
-        frontmatter,
-        content,
-      },
-    };
+      fileName = fs.readFileSync(`posts/${slug[0]}/${slug[1]}.md`, "utf-8");
+      currentSlug = slug.join("/");
+  } else {
+      fileName = fs.readFileSync(`posts/${slug[0]}.md`, "utf-8");
+      currentSlug = slug[0];
   }
-  const fileName = fs.readFileSync(`posts/${slug[0]}.md`, "utf-8");
+
   const { data: frontmatter, content } = matter(fileName);
-    // Calculate related posts
-    const allFiles = fs.readdirSync("posts");
-    let allPosts = [];
-    
-    allFiles.forEach((f) => {
-      if (!f.includes(".md")) {
-          const subfiles = fs.readdirSync(`posts/${f}`);
-          subfiles.forEach((sf) => {
-              const raw = fs.readFileSync(`posts/${f}/${sf}`, "utf-8");
-              const { data } = matter(raw);
-              allPosts.push({ slug: `${f}/${sf.replace(".md", "")}`, frontmatter: data });
-          });
-          return;
-      }
-      const raw = fs.readFileSync(`posts/${f}`, "utf-8");
-      const { data } = matter(raw);
-      allPosts.push({ slug: f.replace(".md", ""), frontmatter: data });
-    });
-  
-    const currentSlug = slug.join("/");
-    const currentTags = frontmatter.tags || [];
-  
-    // Filter by tags (at least one matching tag), exclude current post
-    const relatedPosts = allPosts.filter(p => {
+
+  const mdxSource = await serialize(content, {
+    mdxOptions: { rehypePlugins: [rehypeHighlight] },
+  });
+
+  // Calculate related posts
+  const allFiles = fs.readdirSync("posts");
+  let allPosts = [];
+
+  allFiles.forEach((f) => {
+    if (!f.includes(".md")) {
+      const subfiles = fs.readdirSync(`posts/${f}`);
+      subfiles.forEach((sf) => {
+        const raw = fs.readFileSync(`posts/${f}/${sf}`, "utf-8");
+        const { data } = matter(raw);
+        allPosts.push({ slug: `${f}/${sf.replace(".md", "")}`, frontmatter: data });
+      });
+      return;
+    }
+    const raw = fs.readFileSync(`posts/${f}`, "utf-8");
+    const { data } = matter(raw);
+    allPosts.push({ slug: f.replace(".md", ""), frontmatter: data });
+  });
+
+  const currentTags = frontmatter.tags || [];
+
+  // Filter by tags (at least one matching tag), exclude current post, and slice
+  // Optimize payload by only returning title in frontmatter
+  const relatedPosts = allPosts
+    .filter((p) => {
       if (p.slug === currentSlug) return false;
       const pTags = p.frontmatter.tags || [];
-      return pTags.some(t => currentTags.includes(t));
-    }).slice(0, 3);
+      return pTags.some((t) => currentTags.includes(t));
+    })
+    .slice(0, 3)
+    .map(p => ({
+        slug: p.slug,
+        frontmatter: { title: p.frontmatter.title } 
+    }));
 
   return {
     props: {
       frontmatter,
-      content,
-      relatedPosts
+      mdxSource,
+      relatedPosts,
     },
   };
 }

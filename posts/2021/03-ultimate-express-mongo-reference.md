@@ -75,9 +75,9 @@ When the listener receives a request two objects are generated, Request and Resp
 
 - res.send("string"): function for sending a text response, will auto-send arrays and objects as json responses. Will send html strings as html responses.
 
-- res.json({data}): send a json response
+- `res.json(dataObject)`: send a json response
 
-- res.render("template", {data}): tells view engine to render the specified template in the views folder with the data in the second argument. The resulting HTML file is sent as a response.
+- `res.render("template", dataObject)`: tells view engine to render the specified template in the views folder with the data in the second argument. The resulting HTML file is sent as a response.
 
 - res.set("header-name","header-value"): function for setting a response header
 
