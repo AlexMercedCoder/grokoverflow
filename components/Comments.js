@@ -1,32 +1,34 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 export default function Comments() {
-  const [mounted, setMounted] = useState(false);
+  const commentBox = useRef(null);
 
   useEffect(() => {
-    setMounted(true);
+    if (!commentBox.current) return;
+    
+    // Clear existing children to prevent duplicates on re-renders
+    commentBox.current.innerHTML = '';
+
+    const script = document.createElement('script');
+    script.src = "https://giscus.app/client.js";
+    script.setAttribute("data-repo", "alexmercedcoder/grokoverflow");
+    script.setAttribute("data-repo-id", "R_kgDOG_wKOg");
+    script.setAttribute("data-category", "General");
+    script.setAttribute("data-category-id", "DIC_kwDOG_wKOs4C0VDh");
+    script.setAttribute("data-mapping", "pathname");
+    script.setAttribute("data-strict", "0");
+    script.setAttribute("data-reactions-enabled", "1");
+    script.setAttribute("data-emit-metadata", "0");
+    script.setAttribute("data-input-position", "bottom");
+    script.setAttribute("data-theme", "preferred_color_scheme");
+    script.setAttribute("data-lang", "en");
+    script.crossOrigin = "anonymous";
+    script.async = true;
+
+    commentBox.current.appendChild(script);
   }, []);
 
-  if (!mounted) return null;
-
   return (
-    <div className="comments-wrapper" style={{ marginTop: '3rem' }}>
-      <script
-        src="https://giscus.app/client.js"
-        data-repo="alexmercedcoder/grokoverflow"
-        data-repo-id="R_kgDOG_wKOg"
-        data-category="General"
-        data-category-id="DIC_kwDOG_wKOs4C0VDh"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossOrigin="anonymous"
-        async
-      />
-    </div>
+    <div ref={commentBox} className="comments-wrapper" style={{ marginTop: '3rem' }} />
   );
 }
