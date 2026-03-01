@@ -171,7 +171,7 @@ In the **Catalog**, click **Edit** → **Generate Wiki** and **Generate Tags**.
 
 ### Dremio AI Agent
 
-Ask "Who are our Platinum customers?" and the AI Agent generates SQL from your semantic layer. The wiki descriptions you attached explain what "Platinum" means (lifetime value > $50,000), so the Agent produces accurate results.
+Ask "Who are our Platinum customers?" and the AI Agent generates SQL from your semantic layer. The wiki descriptions you attached explain what "Platinum" means (lifetime value &gt; $50,000), so the Agent produces accurate results.
 
 ### Dremio MCP Server
 

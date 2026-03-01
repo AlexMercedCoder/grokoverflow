@@ -160,7 +160,7 @@ Then attach wiki descriptions and labels through the Catalog (edit pencil icon â
 Dremio doesn't download entire PostgreSQL tables and process them locally. When possible, it pushes operations back to PostgreSQL to minimize data transfer. PostgreSQL supports an extensive set of pushdowns in Dremio, including:
 
 - **Logical operators:** AND, OR, NOT
-- **Comparisons:** =, !=, <, >, <=, >=, BETWEEN, IN, LIKE, IS NULL, IS NOT NULL
+- **Comparisons:** =, !=, &lt;, &gt;, &lt;=, &gt;=, BETWEEN, IN, LIKE, IS NULL, IS NOT NULL
 - **Aggregations:** SUM, AVG, COUNT, MIN, MAX, STDDEV, MEDIAN, VAR_POP
 - **Math functions:** ABS, CEIL, FLOOR, ROUND, MOD, SQRT, POWER, LOG
 - **String functions:** CONCAT, SUBSTR, LENGTH, LOWER, UPPER, TRIM, REPLACE, REVERSE

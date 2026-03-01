@@ -193,7 +193,7 @@ For data that stays in Oracle, create manual Reflections with a refresh schedule
 
 ### Dremio AI Agent
 
-The AI Agent lets business users ask questions about Oracle data in plain English. An HR director asks "Which large departments have the highest average salary?" and the Agent generates accurate SQL by reading the wiki descriptions on your `department_performance` view. The Agent understands what "large" means (employee_count > 50) because you've defined it in the semantic layer.
+The AI Agent lets business users ask questions about Oracle data in plain English. An HR director asks "Which large departments have the highest average salary?" and the Agent generates accurate SQL by reading the wiki descriptions on your `department_performance` view. The Agent understands what "large" means (employee_count &gt; 50) because you've defined it in the semantic layer.
 
 This is particularly valuable for Oracle environments where decades of institutional knowledge about schema structures, table naming conventions (like `HR.DEPARTMENTS`), and column semantics lives in senior DBAs' heads.
 

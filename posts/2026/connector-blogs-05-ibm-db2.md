@@ -157,7 +157,7 @@ In the **Catalog**, click **Edit** → **Generate Wiki** and **Generate Tags**. 
 
 ### Dremio AI Agent
 
-The AI Agent transforms access to mainframe data. Instead of needing a Db2 DBA to write queries against complex schemas, a relationship manager asks "Show me all Private Banking customers who haven't transacted in 30 days" and gets accurate results from the semantic layer. The Agent reads your wiki descriptions to understand what "Private Banking" (balance > $250K) and "days_since_last_transaction" mean.
+The AI Agent transforms access to mainframe data. Instead of needing a Db2 DBA to write queries against complex schemas, a relationship manager asks "Show me all Private Banking customers who haven't transacted in 30 days" and gets accurate results from the semantic layer. The Agent reads your wiki descriptions to understand what "Private Banking" (balance &gt; $250K) and "days_since_last_transaction" mean.
 
 This democratizes access to decades of mainframe data that was previously accessible only through COBOL reports or specialized IBM tools.
 

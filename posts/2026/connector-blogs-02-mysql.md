@@ -139,7 +139,7 @@ Then navigate to the **Catalog**, click **Edit** (pencil icon) on the view, go t
 Dremio pushes a wide range of operations directly to MySQL, including:
 
 - **Logical:** AND, OR, NOT
-- **Comparisons:** =, !=, <, >, <=, >=, LIKE, NOT LIKE, IS NULL, IS NOT NULL
+- **Comparisons:** =, !=, &lt;, &gt;, &lt;=, &gt;=, LIKE, NOT LIKE, IS NULL, IS NOT NULL
 - **Aggregations:** SUM, AVG, COUNT, MIN, MAX, STDDEV, VAR_POP
 - **Math:** ABS, CEIL, FLOOR, ROUND, MOD, SQRT, POWER, LOG, EXP
 - **String:** CONCAT, SUBSTR, LENGTH, LOWER, UPPER, TRIM, REPLACE, REVERSE
