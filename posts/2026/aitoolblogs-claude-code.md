@@ -408,7 +408,7 @@ Claude Code uses the Dremio skill to write production-quality pipeline code that
 
 Create a REST API that serves lakehouse data to other applications:
 
-> "Build a FastAPI application that connects to Dremio using dremioframe. Create endpoints for: GET /api/customers (paginated), GET /api/customers/{id}/orders, GET /api/analytics/revenue?period=monthly. Add request validation, error handling, and OpenAPI documentation."
+> "Build a FastAPI application that connects to Dremio using dremioframe. Create endpoints for: GET /api/customers (paginated), GET /api/customers/&#123;id&#125;/orders, GET /api/analytics/revenue?period=monthly. Add request validation, error handling, and OpenAPI documentation."
 
 Claude Code generates a complete API server with typed request/response models, query parameterization to prevent SQL injection, and auto-generated Swagger docs. Deploy it locally or containerize it for production use.
 
