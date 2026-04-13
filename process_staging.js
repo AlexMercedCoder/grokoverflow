@@ -24,7 +24,7 @@ function processDirectory(directory) {
 
         if (stat.isDirectory()) {
             processDirectory(fullPath);
-        } else if (path.extname(item) === '.md') {
+        } else if (item === 'content.md') {
             console.log(`Found markdown: ${item}`);
             processMarkdownFile(fullPath);
         }
@@ -35,6 +35,11 @@ function processMarkdownFile(filePath) {
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const { data, content } = matter(fileContent);
     const parentDir = path.dirname(filePath);
+    
+    // Create base slug from parent and grandparent directories
+    const parentDirName = path.basename(parentDir); 
+    const grandParentDirName = path.basename(path.dirname(parentDir)); 
+    const baseSlug = `${grandParentDirName}-${parentDirName}`.toLowerCase().replace(/[^a-z0-9-.]/g, '-');
 
     // 1. Update Frontmatter Date
     data.date = '2026-02-18';
@@ -45,13 +50,14 @@ function processMarkdownFile(filePath) {
          const imagePath = path.resolve(parentDir, data.bannerImage);
          if (fs.existsSync(imagePath)) {
              const imageName = path.basename(imagePath);
-             const newImagePath = path.join(TARGET_IMAGES_DIR, imageName);
+             const uniqueImageName = `${baseSlug}-${imageName}`;
+             const newImagePath = path.join(TARGET_IMAGES_DIR, uniqueImageName);
              
              // Copy image to public/images
              fs.copyFileSync(imagePath, newImagePath);
              
              // Update frontmatter to point to new public URL
-             data.bannerImage = `/images/${imageName}`;
+             data.bannerImage = `/images/${uniqueImageName}`;
              console.log(`Moved banner image: ${imageName}`);
          } else {
              console.warn(`Banner image not found: ${data.bannerImage} in ${filePath}`);
@@ -66,20 +72,22 @@ function processMarkdownFile(filePath) {
         const absoluteImgPath = path.resolve(parentDir, imgPath);
         if (fs.existsSync(absoluteImgPath)) {
             const imgName = path.basename(absoluteImgPath);
-            const newImgDest = path.join(TARGET_IMAGES_DIR, imgName);
+            const uniqueImgName = `${baseSlug}-${imgName}`;
+            const newImgDest = path.join(TARGET_IMAGES_DIR, uniqueImgName);
             fs.copyFileSync(absoluteImgPath, newImgDest);
-            console.log(`Moved content image: ${imgName}`);
-            return `![${alt}](/images/${imgName})`;
+            console.log(`Moved content image: ${uniqueImgName}`);
+            return `![${alt}](/images/${uniqueImgName})`;
         }
         return match;
     });
 
+    // 3.5 Process Cross-Links
+    updatedContent = updatedContent.replace(/\(\.\.\/([^/]+)\/(?:README|content)\.md\)/g, (match, linkedSlug) => {
+        return `(/posts/2026/${grandParentDirName}-${linkedSlug})`;
+    });
+
     // 4. Write to New Location
-    // Sanitize filename: remove date helper if present, ensure kebab-case
-    let newFilename = path.basename(filePath).toLowerCase().replace(/[^a-z0-9-.]/g, '-');
-    
-    // Add prefix if missing to ensure uniqueness/sorting? 
-    // Actually, just keep original name but cleaned up.
+    let newFilename = `${baseSlug}.md`;
     
     const newFilePath = path.join(TARGET_POSTS_DIR, newFilename);
     const newFileContent = matter.stringify(updatedContent, data);
