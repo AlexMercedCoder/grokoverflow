@@ -2,4 +2,15 @@
 module.exports = {
   siteUrl: 'https://grokoverflow.com',
   generateRobotsTxt: true,
+  robotsTxtOptions: {
+    policies: [
+      { userAgent: '*', allow: '/' },
+      { userAgent: 'Google-Extended', allow: '/' },
+      { userAgent: 'GPTBot', allow: '/' },
+      { userAgent: 'OAI-SearchBot', allow: '/' },
+      { userAgent: 'Claude-Web', allow: '/' },
+      { userAgent: 'PerplexityBot', allow: '/' },
+      { userAgent: 'anthropic-ai', allow: '/' },
+    ],
+  },
 }

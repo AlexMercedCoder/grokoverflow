@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "node scripts/generate-rss.js && next-sitemap",
+    "postbuild": "node scripts/generate-llms-txt.js && node scripts/generate-rss.js && next-sitemap",
     "start": "next start",
     "lint": "next lint"
   },
