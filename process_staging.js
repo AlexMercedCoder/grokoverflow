@@ -86,6 +86,15 @@ function processMarkdownFile(filePath) {
         return `(/posts/2026/${grandParentDirName}-${linkedSlug})`;
     });
 
+    const firstPostMap = {
+        'apache-iceberg-masterclass': '01-table-formats',
+        'query-engine-optimization': '01-overview'
+    };
+    const firstPostSlug = firstPostMap[grandParentDirName];
+    if (firstPostSlug) {
+        updatedContent = updatedContent.replace(/\(\.\.\/README\.md\)/g, `(/posts/2026/${grandParentDirName}-${firstPostSlug})`);
+    }
+
     // 4. Write to New Location
     let newFilename = `${baseSlug}.md`;
     
