@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: 'Migrating to Apache Iceberg: Strategies for Every Source System'
 author: Alex Merced
 category: Data Engineering

@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: The Metadata Structure of Modern Table Formats
 author: Alex Merced
 category: Data Engineering

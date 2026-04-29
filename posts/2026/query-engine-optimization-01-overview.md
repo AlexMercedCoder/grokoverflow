@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: 'How Query Engines Think: The Tradeoffs Behind Every Data System'
 author: Alex Merced
 category: Data Engineering

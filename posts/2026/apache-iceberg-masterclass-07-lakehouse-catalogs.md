@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: What Are Lakehouse Catalogs? The Role of Catalogs in Apache Iceberg
 author: Alex Merced
 category: Data Engineering

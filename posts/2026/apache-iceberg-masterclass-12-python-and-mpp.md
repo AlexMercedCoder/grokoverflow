@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: Using Apache Iceberg with Python and MPP Query Engines
 author: Alex Merced
 category: Data Engineering

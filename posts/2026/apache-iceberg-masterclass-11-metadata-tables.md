@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: 'Apache Iceberg Metadata Tables: Querying the Internals'
 author: Alex Merced
 category: Data Engineering

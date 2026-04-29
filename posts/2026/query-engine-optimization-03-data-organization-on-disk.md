@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: 'How Databases Organize Data on Disk: Pages, Blocks, and File Formats'
 author: Alex Merced
 category: Data Engineering

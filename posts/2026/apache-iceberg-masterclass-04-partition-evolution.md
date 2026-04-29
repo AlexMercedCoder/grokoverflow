@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: 'Partition Evolution: Change Your Partitioning Without Rewriting Data'
 author: Alex Merced
 category: Data Engineering

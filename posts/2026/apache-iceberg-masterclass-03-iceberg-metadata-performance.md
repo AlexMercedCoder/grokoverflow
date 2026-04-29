@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: Performance and Apache Iceberg's Metadata
 author: Alex Merced
 category: Data Engineering

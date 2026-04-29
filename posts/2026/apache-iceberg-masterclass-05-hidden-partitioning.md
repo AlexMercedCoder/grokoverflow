@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: 'Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans'
 author: Alex Merced
 category: Data Engineering

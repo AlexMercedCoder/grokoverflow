@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: 'Inside the Query Optimizer: How Engines Pick a Plan'
 author: Alex Merced
 category: Data Engineering

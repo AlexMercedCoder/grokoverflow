@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: 'Row vs. Column: How Storage Layout Shapes Everything'
 author: Alex Merced
 category: Data Engineering

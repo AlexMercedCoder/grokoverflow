@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: 'Maintaining Apache Iceberg Tables: Compaction, Expiry, and Cleanup'
 author: Alex Merced
 category: Data Engineering

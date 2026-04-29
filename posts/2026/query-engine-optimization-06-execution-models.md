@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: 'Volcano, Vectorized, Compiled: How Engines Execute Your Query'
 author: Alex Merced
 category: Data Engineering

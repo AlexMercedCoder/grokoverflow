@@ -1,5 +1,5 @@
 ---
-date: '2026-02-18'
+date: '2026-04-29'
 title: 'Concurrency, Isolation, and MVCC: How Engines Handle Contention'
 author: Alex Merced
 category: Data Engineering
