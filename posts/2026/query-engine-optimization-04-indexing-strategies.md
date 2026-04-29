@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'B-Trees, LSM Trees, and the Indexing Tradeoff Spectrum'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# B-Trees, LSM Trees, and the Indexing Tradeoff Spectrum
+
 
 {/* Meta Description: B-trees balance reads and writes for OLTP. LSM trees maximize write throughput. Bitmap indexes accelerate OLAP filtering. Here is when to use each. */}
 {/* Primary Keyword: database indexing strategies */}

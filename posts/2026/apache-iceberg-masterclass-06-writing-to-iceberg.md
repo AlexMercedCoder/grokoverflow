@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'Writing to an Apache Iceberg Table: How Commits and ACID Actually Work'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Writing to an Apache Iceberg Table: How Commits and ACID Actually Work
+
 
 {/* Meta Description: Here is exactly how an engine writes to an Iceberg table, step by step, from data files through the atomic commit that makes ACID guarantees possible. */}
 {/* Primary Keyword: writing to Apache Iceberg */}

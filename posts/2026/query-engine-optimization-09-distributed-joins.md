@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'Hash, Sort-Merge, Broadcast: How Distributed Joins Work'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Hash, Sort-Merge, Broadcast: How Distributed Joins Work
+
 
 {/* Meta Description: Distributed joins move data across the network using shuffle, broadcast, or co-location strategies. Here is how each works and when engines choose which. */}
 {/* Primary Keyword: distributed join algorithms */}

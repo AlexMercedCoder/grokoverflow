@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'Concurrency, Isolation, and MVCC: How Engines Handle Contention'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Concurrency, Isolation, and MVCC: How Engines Handle Contention
+
 
 {/* Meta Description: Databases handle concurrent access using locks, MVCC, or optimistic concurrency control. Here is how each approach works and what tradeoffs each creates. */}
 {/* Primary Keyword: database concurrency control */}

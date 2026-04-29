@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'Partitioning, Sharding, and Data Distribution Strategies'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Partitioning, Sharding, and Data Distribution Strategies
+
 
 {/* Meta Description: Hash partitioning distributes data evenly. Range partitioning enables fast range scans. Both create tradeoffs. Here is how databases divide data across storage and nodes. */}
 {/* Primary Keyword: data partitioning */}

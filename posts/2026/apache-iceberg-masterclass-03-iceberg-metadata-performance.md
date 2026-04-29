@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: Performance and Apache Iceberg's Metadata
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Performance and Apache Iceberg's Metadata
+
 
 {/* Meta Description: Iceberg's three-layer metadata tree eliminates directory listing and enables multi-level data skipping. Here is how scan planning actually works. */}
 {/* Primary Keyword: Apache Iceberg metadata performance */}

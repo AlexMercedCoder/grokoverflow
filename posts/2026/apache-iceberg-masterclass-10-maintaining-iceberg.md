@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'Maintaining Apache Iceberg Tables: Compaction, Expiry, and Cleanup'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Maintaining Apache Iceberg Tables: Compaction, Expiry, and Cleanup
+
 
 {/* Meta Description: Keep Iceberg tables fast with compaction, snapshot expiry, orphan cleanup, and manifest rewriting. Here is when and how to run each operation. */}
 {/* Primary Keyword: Iceberg table maintenance */}

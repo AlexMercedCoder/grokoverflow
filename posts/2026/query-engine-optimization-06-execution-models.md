@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'Volcano, Vectorized, Compiled: How Engines Execute Your Query'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Volcano, Vectorized, Compiled: How Engines Execute Your Query
+
 
 {/* Meta Description: The Volcano model processes one row at a time. Vectorized execution processes batches with SIMD. Code generation fuses operators into compiled code. Here is how each works. */}
 {/* Primary Keyword: query execution models */}

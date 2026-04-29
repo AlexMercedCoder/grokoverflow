@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'How Query Engines Think: The Tradeoffs Behind Every Data System'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# How Query Engines Think: The Tradeoffs Behind Every Data System
+
 
 {/* Meta Description: Every database is a collection of engineering tradeoffs. Learn the 9 design decisions that shape how query engines store, index, and process your data. */}
 {/* Primary Keyword: query engine design */}

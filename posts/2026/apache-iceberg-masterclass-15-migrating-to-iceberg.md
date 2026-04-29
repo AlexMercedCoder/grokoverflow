@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'Migrating to Apache Iceberg: Strategies for Every Source System'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Migrating to Apache Iceberg: Strategies for Every Source System
+
 
 {/* Meta Description: Migrate to Iceberg from Hive, data warehouses, or raw files using in-place migration, full rewrite, or the zero-downtime view swap pattern. */}
 {/* Primary Keyword: migrating to Apache Iceberg */}

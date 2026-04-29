@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'How Databases Organize Data on Disk: Pages, Blocks, and File Formats'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# How Databases Organize Data on Disk: Pages, Blocks, and File Formats
+
 
 {/* Meta Description: Databases structure data on disk as heap files, sorted files, or LSM trees, then wrap it in formats like Parquet with metadata that lets engines skip irrelevant blocks. */}
 {/* Primary Keyword: data file formats */}

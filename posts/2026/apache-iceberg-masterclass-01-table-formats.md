@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: What Are Table Formats and Why Were They Needed?
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# What Are Table Formats and Why Were They Needed?
+
 
 {/* Meta Description: Table formats like Apache Iceberg solved the ACID, schema, and performance problems that turned data lakes into data swamps. Here is how each one works. */}
 {/* Primary Keyword: data lake table formats */}

@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: Hands-On with Apache Iceberg Using Dremio Cloud
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Hands-On with Apache Iceberg Using Dremio Cloud
+
 
 {/* Meta Description: A practical walkthrough of creating, querying, and optimizing Iceberg tables on Dremio Cloud, from account setup to AI-powered analytics. */}
 {/* Primary Keyword: Dremio Cloud Apache Iceberg */}

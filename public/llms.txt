@@ -59,21 +59,21 @@ Tutorials, podcasts, and videos for developers by Alex Merced.
 - [Connect Any Iceberg REST Catalog to Dremio Cloud: Universal Lakehouse Access](https://grokoverflow.com/posts/2026/connector-blogs-19-iceberg-rest-catalog): Article about Connect Any Iceberg REST Catalog to Dremio Cloud: Universal Lakehouse Access
 - [Dremio's Built-in Open Catalog: Your Zero-Configuration Apache Iceberg Lakehouse](https://grokoverflow.com/posts/2026/connector-blogs-20-dremio-open-catalog): Article about Dremio's Built-in Open Catalog: Your Zero-Configuration Apache Iceberg Lakehouse
 - [Connect Dremio Software to Dremio Cloud: Hybrid Federation Across Deployments](https://grokoverflow.com/posts/2026/connector-blogs-21-dremio-to-dremio): Article about Connect Dremio Software to Dremio Cloud: Hybrid Federation Across Deployments
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-01-table-formats): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-02-metadata-structures): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-03-iceberg-metadata-performance): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-04-partition-evolution): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-05-hidden-partitioning): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-06-writing-to-iceberg): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-07-lakehouse-catalogs): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-08-embedded-catalogs): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-09-storage-degradation): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-10-maintaining-iceberg): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-11-metadata-tables): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-12-python-and-mpp): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-13-streaming-to-iceberg): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-14-hands-on-dremio-cloud): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-15-migrating-to-iceberg): Article about undefined
+- [What Are Table Formats and Why Were They Needed?](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-01-table-formats): Article about What Are Table Formats and Why Were They Needed?
+- [The Metadata Structure of Modern Table Formats](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-02-metadata-structures): Article about The Metadata Structure of Modern Table Formats
+- [Performance and Apache Iceberg's Metadata](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-03-iceberg-metadata-performance): Article about Performance and Apache Iceberg's Metadata
+- [Partition Evolution: Change Your Partitioning Without Rewriting Data](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-04-partition-evolution): Article about Partition Evolution: Change Your Partitioning Without Rewriting Data
+- [Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-05-hidden-partitioning): Article about Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans
+- [Writing to an Apache Iceberg Table: How Commits and ACID Actually Work](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-06-writing-to-iceberg): Article about Writing to an Apache Iceberg Table: How Commits and ACID Actually Work
+- [What Are Lakehouse Catalogs? The Role of Catalogs in Apache Iceberg](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-07-lakehouse-catalogs): Article about What Are Lakehouse Catalogs? The Role of Catalogs in Apache Iceberg
+- [When Catalogs Are Embedded in Storage](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-08-embedded-catalogs): Article about When Catalogs Are Embedded in Storage
+- [How Data Lake Table Storage Degrades Over Time](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-09-storage-degradation): Article about How Data Lake Table Storage Degrades Over Time
+- [Maintaining Apache Iceberg Tables: Compaction, Expiry, and Cleanup](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-10-maintaining-iceberg): Article about Maintaining Apache Iceberg Tables: Compaction, Expiry, and Cleanup
+- [Apache Iceberg Metadata Tables: Querying the Internals](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-11-metadata-tables): Article about Apache Iceberg Metadata Tables: Querying the Internals
+- [Using Apache Iceberg with Python and MPP Query Engines](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-12-python-and-mpp): Article about Using Apache Iceberg with Python and MPP Query Engines
+- [Approaches to Streaming Data into Apache Iceberg Tables](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-13-streaming-to-iceberg): Article about Approaches to Streaming Data into Apache Iceberg Tables
+- [Hands-On with Apache Iceberg Using Dremio Cloud](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-14-hands-on-dremio-cloud): Article about Hands-On with Apache Iceberg Using Dremio Cloud
+- [Migrating to Apache Iceberg: Strategies for Every Source System](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-15-migrating-to-iceberg): Article about Migrating to Apache Iceberg: Strategies for Every Source System
 - [undefined](https://grokoverflow.com/posts/2026/apache-lakehouse-01-apache-software-foundation): Article about undefined
 - [undefined](https://grokoverflow.com/posts/2026/apache-lakehouse-02-apache-parquet): Article about undefined
 - [undefined](https://grokoverflow.com/posts/2026/apache-lakehouse-03-apache-iceberg): Article about undefined
@@ -101,16 +101,16 @@ Tutorials, podcasts, and videos for developers by Alex Merced.
 - [Testing Data Pipelines: What to Validate and When](https://grokoverflow.com/posts/2026/debp-08-testing-data-pipelines): Article about Testing Data Pipelines: What to Validate and When
 - [Pipeline Observability: Know When Things Break](https://grokoverflow.com/posts/2026/debp-09-observability-monitoring): Article about Pipeline Observability: Know When Things Break
 - [Data Engineering Best Practices: The Complete Checklist](https://grokoverflow.com/posts/2026/debp-10-de-best-practices-checklist): Article about Data Engineering Best Practices: The Complete Checklist
-- [undefined](https://grokoverflow.com/posts/2026/query-engine-optimization-01-overview): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/query-engine-optimization-02-row-vs-column-storage): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/query-engine-optimization-03-data-organization-on-disk): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/query-engine-optimization-04-indexing-strategies): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/query-engine-optimization-05-query-optimizer): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/query-engine-optimization-06-execution-models): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/query-engine-optimization-07-memory-and-caching): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/query-engine-optimization-08-partitioning): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/query-engine-optimization-09-distributed-joins): Article about undefined
-- [undefined](https://grokoverflow.com/posts/2026/query-engine-optimization-10-concurrency-control): Article about undefined
+- [How Query Engines Think: The Tradeoffs Behind Every Data System](https://grokoverflow.com/posts/2026/query-engine-optimization-01-overview): Article about How Query Engines Think: The Tradeoffs Behind Every Data System
+- [Row vs. Column: How Storage Layout Shapes Everything](https://grokoverflow.com/posts/2026/query-engine-optimization-02-row-vs-column-storage): Article about Row vs. Column: How Storage Layout Shapes Everything
+- [How Databases Organize Data on Disk: Pages, Blocks, and File Formats](https://grokoverflow.com/posts/2026/query-engine-optimization-03-data-organization-on-disk): Article about How Databases Organize Data on Disk: Pages, Blocks, and File Formats
+- [B-Trees, LSM Trees, and the Indexing Tradeoff Spectrum](https://grokoverflow.com/posts/2026/query-engine-optimization-04-indexing-strategies): Article about B-Trees, LSM Trees, and the Indexing Tradeoff Spectrum
+- [Inside the Query Optimizer: How Engines Pick a Plan](https://grokoverflow.com/posts/2026/query-engine-optimization-05-query-optimizer): Article about Inside the Query Optimizer: How Engines Pick a Plan
+- [Volcano, Vectorized, Compiled: How Engines Execute Your Query](https://grokoverflow.com/posts/2026/query-engine-optimization-06-execution-models): Article about Volcano, Vectorized, Compiled: How Engines Execute Your Query
+- [Buffer Pools, Caches, and the Memory Hierarchy](https://grokoverflow.com/posts/2026/query-engine-optimization-07-memory-and-caching): Article about Buffer Pools, Caches, and the Memory Hierarchy
+- [Partitioning, Sharding, and Data Distribution Strategies](https://grokoverflow.com/posts/2026/query-engine-optimization-08-partitioning): Article about Partitioning, Sharding, and Data Distribution Strategies
+- [Hash, Sort-Merge, Broadcast: How Distributed Joins Work](https://grokoverflow.com/posts/2026/query-engine-optimization-09-distributed-joins): Article about Hash, Sort-Merge, Broadcast: How Distributed Joins Work
+- [Concurrency, Isolation, and MVCC: How Engines Handle Contention](https://grokoverflow.com/posts/2026/query-engine-optimization-10-concurrency-control): Article about Concurrency, Isolation, and MVCC: How Engines Handle Contention
 - [What Is a Semantic Layer? A Complete Guide](https://grokoverflow.com/posts/2026/semantic_layer_seo-01-what-is-a-semantic-layer): Article about What Is a Semantic Layer? A Complete Guide
 - [How to Build a Semantic Layer: A Step-by-Step Guide](https://grokoverflow.com/posts/2026/semantic_layer_seo-02-how-to-build-semantic-layer): Article about How to Build a Semantic Layer: A Step-by-Step Guide
 - [Semantic Layer vs. Metrics Layer: What's the Difference?](https://grokoverflow.com/posts/2026/semantic_layer_seo-03-semantic-layer-vs-metrics-layer): Article about Semantic Layer vs. Metrics Layer: What's the Difference?

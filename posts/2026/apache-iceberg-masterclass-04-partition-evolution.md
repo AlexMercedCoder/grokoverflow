@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'Partition Evolution: Change Your Partitioning Without Rewriting Data'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Partition Evolution: Change Your Partitioning Without Rewriting Data
+
 
 {/* Meta Description: Iceberg lets you change partition schemes without rewriting data. Here is how partition evolution works internally and why Hive-style partitioning could not do this. */}
 {/* Primary Keyword: Iceberg partition evolution */}

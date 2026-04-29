@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'Buffer Pools, Caches, and the Memory Hierarchy'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Buffer Pools, Caches, and the Memory Hierarchy
+
 
 {/* Meta Description: Databases use buffer pools, column caches, and result caches to keep hot data in RAM. Here is how each caching strategy works and what happens when data does not fit. */}
 {/* Primary Keyword: database caching */}

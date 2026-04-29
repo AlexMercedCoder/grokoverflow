@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: How Data Lake Table Storage Degrades Over Time
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# How Data Lake Table Storage Degrades Over Time
+
 
 {/* Meta Description: Iceberg tables degrade through small files, orphan files, metadata bloat, sort order decay, and partition skew. Here is how to diagnose each problem. */}
 {/* Primary Keyword: Iceberg storage degradation */}

@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: What Are Lakehouse Catalogs? The Role of Catalogs in Apache Iceberg
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# What Are Lakehouse Catalogs? The Role of Catalogs in Apache Iceberg
+
 
 {/* Meta Description: Lakehouse catalogs store metadata pointers, manage namespaces, and enforce access control. Here is the complete catalog landscape from Polaris to Glue. */}
 {/* Primary Keyword: lakehouse catalogs */}

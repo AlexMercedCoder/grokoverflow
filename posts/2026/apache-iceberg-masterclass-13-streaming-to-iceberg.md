@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: Approaches to Streaming Data into Apache Iceberg Tables
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Approaches to Streaming Data into Apache Iceberg Tables
+
 
 {/* Meta Description: Stream data into Iceberg with Spark Structured Streaming, Flink, or Kafka Connect. Here is how each works and the trade-offs between latency and maintenance. */}
 {/* Primary Keyword: streaming to Apache Iceberg */}

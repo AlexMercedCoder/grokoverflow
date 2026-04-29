@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'Apache Iceberg Metadata Tables: Querying the Internals'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Apache Iceberg Metadata Tables: Querying the Internals
+
 
 {/* Meta Description: Iceberg metadata tables let you query snapshots, files, manifests, and partitions using SQL. Here is every metadata table and how to use them. */}
 {/* Primary Keyword: Iceberg metadata tables */}

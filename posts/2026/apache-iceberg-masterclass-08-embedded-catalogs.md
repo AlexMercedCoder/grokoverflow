@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: When Catalogs Are Embedded in Storage
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# When Catalogs Are Embedded in Storage
+
 
 {/* Meta Description: S3 Tables and MinIO AI Stor embed the Iceberg catalog directly in the storage layer. Here is when embedded catalogs make sense and when they do not. */}
 {/* Primary Keyword: embedded Iceberg catalog */}

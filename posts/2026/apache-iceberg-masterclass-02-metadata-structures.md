@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: The Metadata Structure of Modern Table Formats
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# The Metadata Structure of Modern Table Formats
+
 
 {/* Meta Description: Iceberg uses a metadata tree, Delta Lake uses a transaction log, Hudi uses a timeline. Here is exactly how each format organizes metadata and why it matters. */}
 {/* Primary Keyword: table format metadata */}

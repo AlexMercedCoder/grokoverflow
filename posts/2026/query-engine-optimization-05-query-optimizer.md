@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'Inside the Query Optimizer: How Engines Pick a Plan'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Inside the Query Optimizer: How Engines Pick a Plan
+
 
 {/* Meta Description: Query optimizers transform SQL into execution plans using rule-based rewrites, cost-based search, and adaptive runtime adjustments. Here is how each approach works. */}
 {/* Primary Keyword: query optimizer */}

@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'Row vs. Column: How Storage Layout Shapes Everything'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Row vs. Column: How Storage Layout Shapes Everything
+
 
 {/* Meta Description: Row stores keep records together for fast transactions. Column stores keep field values together for fast analytics. Here is how each layout works and when to use it. */}
 {/* Primary Keyword: columnar vs row storage */}

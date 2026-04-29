@@ -1,7 +1,13 @@
 ---
 date: '2026-02-18'
+title: 'Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans'
+author: Alex Merced
+category: Data Engineering
+tags:
+  - Data Engineering
+  - Architecture
 ---
-# Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans
+
 
 {/* Meta Description: Iceberg's hidden partitioning separates physical layout from user queries using transform functions. Here is how it works and why it eliminates accidental full scans. */}
 {/* Primary Keyword: Iceberg hidden partitioning */}
