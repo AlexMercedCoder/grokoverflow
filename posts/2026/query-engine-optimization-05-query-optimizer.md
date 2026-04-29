@@ -3,9 +3,9 @@ date: '2026-02-18'
 ---
 # Inside the Query Optimizer: How Engines Pick a Plan
 
-<!-- Meta Description: Query optimizers transform SQL into execution plans using rule-based rewrites, cost-based search, and adaptive runtime adjustments. Here is how each approach works. -->
-<!-- Primary Keyword: query optimizer -->
-<!-- Secondary Keywords: cost-based optimization, query planning, adaptive query execution -->
+{/* Meta Description: Query optimizers transform SQL into execution plans using rule-based rewrites, cost-based search, and adaptive runtime adjustments. Here is how each approach works. */}
+{/* Primary Keyword: query optimizer */}
+{/* Secondary Keywords: cost-based optimization, query planning, adaptive query execution */}
 
 This is Part 5 of a 10-part series on query engine design. [Part 4](/posts/2026/query-engine-optimization-04-indexing-strategies) covered indexing strategies. This article covers what happens after the engine parses your SQL: how the optimizer decides the fastest way to execute it.
 

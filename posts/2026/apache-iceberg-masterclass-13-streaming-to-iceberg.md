@@ -3,9 +3,9 @@ date: '2026-02-18'
 ---
 # Approaches to Streaming Data into Apache Iceberg Tables
 
-<!-- Meta Description: Stream data into Iceberg with Spark Structured Streaming, Flink, or Kafka Connect. Here is how each works and the trade-offs between latency and maintenance. -->
-<!-- Primary Keyword: streaming to Apache Iceberg -->
-<!-- Secondary Keywords: Spark Structured Streaming Iceberg, Flink Iceberg sink, Kafka Connect Iceberg -->
+{/* Meta Description: Stream data into Iceberg with Spark Structured Streaming, Flink, or Kafka Connect. Here is how each works and the trade-offs between latency and maintenance. */}
+{/* Primary Keyword: streaming to Apache Iceberg */}
+{/* Secondary Keywords: Spark Structured Streaming Iceberg, Flink Iceberg sink, Kafka Connect Iceberg */}
 
 This is Part 13 of a 15-part [Apache Iceberg Masterclass](/posts/2026/apache-iceberg-masterclass-01-table-formats). [Part 12](/posts/2026/apache-iceberg-masterclass-12-python-and-mpp) covered Python and MPP engines. This article covers the three primary approaches to streaming data into Iceberg tables and the operational trade-offs each creates.
 

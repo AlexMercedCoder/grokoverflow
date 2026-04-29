@@ -3,9 +3,9 @@ date: '2026-02-18'
 ---
 # How Data Lake Table Storage Degrades Over Time
 
-<!-- Meta Description: Iceberg tables degrade through small files, orphan files, metadata bloat, sort order decay, and partition skew. Here is how to diagnose each problem. -->
-<!-- Primary Keyword: Iceberg storage degradation -->
-<!-- Secondary Keywords: small file problem, orphan files, Iceberg table maintenance -->
+{/* Meta Description: Iceberg tables degrade through small files, orphan files, metadata bloat, sort order decay, and partition skew. Here is how to diagnose each problem. */}
+{/* Primary Keyword: Iceberg storage degradation */}
+{/* Secondary Keywords: small file problem, orphan files, Iceberg table maintenance */}
 
 This is Part 9 of a 15-part [Apache Iceberg Masterclass](/posts/2026/apache-iceberg-masterclass-01-table-formats). [Part 8](/posts/2026/apache-iceberg-masterclass-08-embedded-catalogs) covered embedded catalogs. This article explains the five ways Iceberg table storage degrades and how to detect each problem before it impacts query performance.
 

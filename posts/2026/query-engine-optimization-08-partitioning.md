@@ -3,9 +3,9 @@ date: '2026-02-18'
 ---
 # Partitioning, Sharding, and Data Distribution Strategies
 
-<!-- Meta Description: Hash partitioning distributes data evenly. Range partitioning enables fast range scans. Both create tradeoffs. Here is how databases divide data across storage and nodes. -->
-<!-- Primary Keyword: data partitioning -->
-<!-- Secondary Keywords: database sharding, partition pruning, data distribution -->
+{/* Meta Description: Hash partitioning distributes data evenly. Range partitioning enables fast range scans. Both create tradeoffs. Here is how databases divide data across storage and nodes. */}
+{/* Primary Keyword: data partitioning */}
+{/* Secondary Keywords: database sharding, partition pruning, data distribution */}
 
 This is Part 8 of a 10-part series on query engine design. [Part 7](/posts/2026/query-engine-optimization-07-memory-and-caching) covered memory management. This article covers how engines divide data across files, disks, or cluster nodes to enable parallel processing and reduce the amount of data each query must touch.
 

@@ -95,6 +95,9 @@ function processMarkdownFile(filePath) {
         updatedContent = updatedContent.replace(/\(\.\.\/README\.md\)/g, `(/posts/2026/${grandParentDirName}-${firstPostSlug})`);
     }
 
+    // 3.6 Convert HTML comments to MDX comments
+    updatedContent = updatedContent.replace(/<!--(.*?)-->/gs, '{/*$1*/}');
+
     // 4. Write to New Location
     let newFilename = `${baseSlug}.md`;
     

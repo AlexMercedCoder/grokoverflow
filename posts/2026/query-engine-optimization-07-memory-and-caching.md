@@ -3,9 +3,9 @@ date: '2026-02-18'
 ---
 # Buffer Pools, Caches, and the Memory Hierarchy
 
-<!-- Meta Description: Databases use buffer pools, column caches, and result caches to keep hot data in RAM. Here is how each caching strategy works and what happens when data does not fit. -->
-<!-- Primary Keyword: database caching -->
-<!-- Secondary Keywords: buffer pool, cache eviction, memory management database -->
+{/* Meta Description: Databases use buffer pools, column caches, and result caches to keep hot data in RAM. Here is how each caching strategy works and what happens when data does not fit. */}
+{/* Primary Keyword: database caching */}
+{/* Secondary Keywords: buffer pool, cache eviction, memory management database */}
 
 This is Part 7 of a 10-part series on query engine design. [Part 6](/posts/2026/query-engine-optimization-06-execution-models) covered execution models. This article covers how engines manage their most precious resource: memory.
 

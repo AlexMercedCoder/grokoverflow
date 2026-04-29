@@ -23,7 +23,7 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
       <ProgressBar />
       <Head>
         <title>{title}</title>
-        <meta name="description" content={`"${title}" an article written by ${author} touching on ${tags.join(", ")}`} />
+        <meta name="description" content={`"${title}" an article written by ${author || 'Anonymous'} touching on ${(tags || []).join(", ")}`} />
         
         {/* Open Graph & Twitter */}
         <meta property="og:title" content={title} />
@@ -45,7 +45,7 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
                author: {
                  "@type": "Person",
                  name: author,
-                 url: `https://grokoverflow.com/blog/author/${author.toLowerCase().replace(" ", "-")}`
+                 url: author ? `https://grokoverflow.com/blog/author/${author.toLowerCase().replace(" ", "-")}` : ''
                }
              })
           }}
@@ -55,12 +55,14 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
         <header className={styles.header}>
           <h1 className={styles.title}>{title}</h1>
           <div className={styles.metadata}>
-            <div className={styles.metaItem}>
-              <span className={styles.label}>By</span>
-              <Link href={`/blog/author/${author.toLowerCase().replace(" ", "-")}`} className={styles.authorLink}>
-                {author}
-              </Link>
-            </div>
+            {author && (
+              <div className={styles.metaItem}>
+                <span className={styles.label}>By</span>
+                <Link href={`/blog/author/${author.toLowerCase().replace(" ", "-")}`} className={styles.authorLink}>
+                  {author}
+                </Link>
+              </div>
+            )}
             <div className={styles.metaItem}>
               <span className={styles.label}>On</span>
               <span className={styles.date}>{date}</span>
@@ -71,11 +73,13 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
             </div>
           </div>
           <div className={styles.tags}>
-            <Link href={`/blog/category/${category}`} className={styles.categoryTag}>
-              {category}
-            </Link>
-            {tags.map((tag) => (
-              <Link href={`/blog/tag/${tag}`} key={tag} className={styles.tag}>
+            {category && (
+              <Link href={`/blog/category/${category.toLowerCase()}`} className={styles.categoryTag}>
+                {category}
+              </Link>
+            )}
+            {(tags || []).map((tag) => (
+              <Link href={`/blog/tag/${tag.toLowerCase()}`} key={tag} className={styles.tag}>
                 #{tag}
               </Link>
             ))}

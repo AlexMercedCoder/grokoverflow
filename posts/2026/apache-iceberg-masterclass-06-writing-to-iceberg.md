@@ -3,9 +3,9 @@ date: '2026-02-18'
 ---
 # Writing to an Apache Iceberg Table: How Commits and ACID Actually Work
 
-<!-- Meta Description: Here is exactly how an engine writes to an Iceberg table, step by step, from data files through the atomic commit that makes ACID guarantees possible. -->
-<!-- Primary Keyword: writing to Apache Iceberg -->
-<!-- Secondary Keywords: Iceberg ACID transactions, atomic commit, optimistic concurrency -->
+{/* Meta Description: Here is exactly how an engine writes to an Iceberg table, step by step, from data files through the atomic commit that makes ACID guarantees possible. */}
+{/* Primary Keyword: writing to Apache Iceberg */}
+{/* Secondary Keywords: Iceberg ACID transactions, atomic commit, optimistic concurrency */}
 
 This is Part 6 of a 15-part [Apache Iceberg Masterclass](/posts/2026/apache-iceberg-masterclass-01-table-formats). [Part 5](/posts/2026/apache-iceberg-masterclass-05-hidden-partitioning) covered hidden partitioning. This article walks through the exact steps an engine takes when writing data to an Iceberg table, when the write becomes visible, and how concurrent writers are handled.
 

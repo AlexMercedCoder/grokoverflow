@@ -3,9 +3,9 @@ date: '2026-02-18'
 ---
 # Migrating to Apache Iceberg: Strategies for Every Source System
 
-<!-- Meta Description: Migrate to Iceberg from Hive, data warehouses, or raw files using in-place migration, full rewrite, or the zero-downtime view swap pattern. -->
-<!-- Primary Keyword: migrating to Apache Iceberg -->
-<!-- Secondary Keywords: Hive to Iceberg migration, Iceberg migration strategy, view swap migration -->
+{/* Meta Description: Migrate to Iceberg from Hive, data warehouses, or raw files using in-place migration, full rewrite, or the zero-downtime view swap pattern. */}
+{/* Primary Keyword: migrating to Apache Iceberg */}
+{/* Secondary Keywords: Hive to Iceberg migration, Iceberg migration strategy, view swap migration */}
 
 This is Part 15, the final article of a 15-part [Apache Iceberg Masterclass](/posts/2026/apache-iceberg-masterclass-01-table-formats). [Part 14](/posts/2026/apache-iceberg-masterclass-14-hands-on-dremio-cloud) covered hands-on Dremio Cloud. This article covers the three migration strategies and how to execute a zero-downtime migration using the view swap pattern.
 

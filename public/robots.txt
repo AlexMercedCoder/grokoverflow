@@ -2,6 +2,30 @@
 User-agent: *
 Allow: /
 
+# Google-Extended
+User-agent: Google-Extended
+Allow: /
+
+# GPTBot
+User-agent: GPTBot
+Allow: /
+
+# OAI-SearchBot
+User-agent: OAI-SearchBot
+Allow: /
+
+# Claude-Web
+User-agent: Claude-Web
+Allow: /
+
+# PerplexityBot
+User-agent: PerplexityBot
+Allow: /
+
+# anthropic-ai
+User-agent: anthropic-ai
+Allow: /
+
 # Host
 Host: https://grokoverflow.com
 

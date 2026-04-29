@@ -3,9 +3,9 @@ date: '2026-02-18'
 ---
 # B-Trees, LSM Trees, and the Indexing Tradeoff Spectrum
 
-<!-- Meta Description: B-trees balance reads and writes for OLTP. LSM trees maximize write throughput. Bitmap indexes accelerate OLAP filtering. Here is when to use each. -->
-<!-- Primary Keyword: database indexing strategies -->
-<!-- Secondary Keywords: B-tree vs LSM tree, bitmap index, bloom filter database -->
+{/* Meta Description: B-trees balance reads and writes for OLTP. LSM trees maximize write throughput. Bitmap indexes accelerate OLAP filtering. Here is when to use each. */}
+{/* Primary Keyword: database indexing strategies */}
+{/* Secondary Keywords: B-tree vs LSM tree, bitmap index, bloom filter database */}
 
 This is Part 4 of a 10-part series on query engine design. [Part 3](/posts/2026/query-engine-optimization-03-data-organization-on-disk) covered how data is structured within files. This article covers the auxiliary data structures that make lookups fast: indexes.
 

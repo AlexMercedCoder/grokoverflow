@@ -3,9 +3,9 @@ date: '2026-02-18'
 ---
 # Performance and Apache Iceberg's Metadata
 
-<!-- Meta Description: Iceberg's three-layer metadata tree eliminates directory listing and enables multi-level data skipping. Here is how scan planning actually works. -->
-<!-- Primary Keyword: Apache Iceberg metadata performance -->
-<!-- Secondary Keywords: Iceberg scan planning, manifest pruning, file skipping -->
+{/* Meta Description: Iceberg's three-layer metadata tree eliminates directory listing and enables multi-level data skipping. Here is how scan planning actually works. */}
+{/* Primary Keyword: Apache Iceberg metadata performance */}
+{/* Secondary Keywords: Iceberg scan planning, manifest pruning, file skipping */}
 
 This is Part 3 of a 15-part [Apache Iceberg Masterclass](/posts/2026/apache-iceberg-masterclass-01-table-formats). [Part 2](/posts/2026/apache-iceberg-masterclass-02-metadata-structures) covered the metadata structures of all five table formats. This article focuses on exactly how query engines use Iceberg's metadata to avoid reading data they don't need.
 

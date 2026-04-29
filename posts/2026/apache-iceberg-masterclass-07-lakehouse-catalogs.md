@@ -3,9 +3,9 @@ date: '2026-02-18'
 ---
 # What Are Lakehouse Catalogs? The Role of Catalogs in Apache Iceberg
 
-<!-- Meta Description: Lakehouse catalogs store metadata pointers, manage namespaces, and enforce access control. Here is the complete catalog landscape from Polaris to Glue. -->
-<!-- Primary Keyword: lakehouse catalogs -->
-<!-- Secondary Keywords: Iceberg REST catalog, Apache Polaris, Nessie, catalog landscape -->
+{/* Meta Description: Lakehouse catalogs store metadata pointers, manage namespaces, and enforce access control. Here is the complete catalog landscape from Polaris to Glue. */}
+{/* Primary Keyword: lakehouse catalogs */}
+{/* Secondary Keywords: Iceberg REST catalog, Apache Polaris, Nessie, catalog landscape */}
 
 This is Part 7 of a 15-part [Apache Iceberg Masterclass](/posts/2026/apache-iceberg-masterclass-01-table-formats). [Part 6](/posts/2026/apache-iceberg-masterclass-06-writing-to-iceberg) covered the write process and explained how the catalog enables atomic commits. This article covers what catalogs are, why they matter, and how to choose between the many options available in 2026.
 

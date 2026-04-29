@@ -3,9 +3,9 @@ date: '2026-02-18'
 ---
 # Concurrency, Isolation, and MVCC: How Engines Handle Contention
 
-<!-- Meta Description: Databases handle concurrent access using locks, MVCC, or optimistic concurrency control. Here is how each approach works and what tradeoffs each creates. -->
-<!-- Primary Keyword: database concurrency control -->
-<!-- Secondary Keywords: MVCC database, isolation levels, optimistic concurrency control -->
+{/* Meta Description: Databases handle concurrent access using locks, MVCC, or optimistic concurrency control. Here is how each approach works and what tradeoffs each creates. */}
+{/* Primary Keyword: database concurrency control */}
+{/* Secondary Keywords: MVCC database, isolation levels, optimistic concurrency control */}
 
 This is Part 10 of a 10-part series on query engine design. [Part 9](/posts/2026/query-engine-optimization-09-distributed-joins) covered distributed joins. This final article covers how engines handle the inevitable conflict when multiple users read and write the same data simultaneously.
 

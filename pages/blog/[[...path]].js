@@ -125,7 +125,7 @@ export default function Blog({ posts, categories }) {
           {categories.map((c) => {
             return (
               <div key={c}>
-                <Link href={`/blog/category/${c}`}>{c}</Link>
+                <Link href={`/blog/category/${c.toLowerCase()}`}>{c}</Link>
               </div>
             );
           })}
@@ -174,15 +174,21 @@ export async function getStaticPaths(...args) {
 
   posts.forEach(({ frontmatter }) => {
     // path for each category
-    paths.push(`/blog/category/${frontmatter.category}`);
+    if (frontmatter.category) {
+      paths.push(`/blog/category/${frontmatter.category.toLowerCase()}`);
+    }
     // path for each tag
-    frontmatter.tags.forEach((tag) => {
-      paths.push(`/blog/tag/${tag}`);
-    });
+    if (frontmatter.tags) {
+      frontmatter.tags.forEach((tag) => {
+        paths.push(`/blog/tag/${tag.toLowerCase()}`);
+      });
+    }
     // paths for each author
-    paths.push(
-      `/blog/author/${frontmatter.author.toLowerCase().replace(" ", "-")}`
-    );
+    if (frontmatter.author) {
+      paths.push(
+        `/blog/author/${frontmatter.author.toLowerCase().replace(" ", "-")}`
+      );
+    }
   });
 
   paths = [...new Set(paths)];
@@ -228,26 +234,30 @@ export async function getStaticProps({ params: { path } }) {
 
   // generate lists of categories
   let categories = [];
-  posts.forEach(({ frontmatter }) => categories.push(frontmatter.category));
+  posts.forEach(({ frontmatter }) => {
+      if (frontmatter.category) {
+          categories.push(frontmatter.category)
+      }
+  });
   categories = [...new Set(categories)];
 
   // filter by category or tag for a category or tag page
   if (path) {
     if (path[0] === "category") {
       posts = posts.filter(({ frontmatter }) => {
-        return frontmatter.category === path[1];
+        return frontmatter.category && frontmatter.category.toLowerCase() === path[1].toLowerCase();
       });
     }
 
     if (path[0] === "tag") {
       posts = posts.filter(({ frontmatter }) => {
-        return frontmatter.tags.includes(path[1]);
+        return frontmatter.tags && frontmatter.tags.some(tag => tag.toLowerCase() === path[1].toLowerCase());
       });
     }
 
     if (path[0] === "author") {
       posts = posts.filter(({ frontmatter }) => {
-        return frontmatter.author.toLowerCase() === path[1].replace("-", " ");
+        return frontmatter.author && frontmatter.author.toLowerCase() === path[1].replace("-", " ");
       });
     }
   }

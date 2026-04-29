@@ -3,9 +3,9 @@ date: '2026-02-18'
 ---
 # Apache Iceberg Metadata Tables: Querying the Internals
 
-<!-- Meta Description: Iceberg metadata tables let you query snapshots, files, manifests, and partitions using SQL. Here is every metadata table and how to use them. -->
-<!-- Primary Keyword: Iceberg metadata tables -->
-<!-- Secondary Keywords: table snapshots, table files, table history, Iceberg time travel -->
+{/* Meta Description: Iceberg metadata tables let you query snapshots, files, manifests, and partitions using SQL. Here is every metadata table and how to use them. */}
+{/* Primary Keyword: Iceberg metadata tables */}
+{/* Secondary Keywords: table snapshots, table files, table history, Iceberg time travel */}
 
 This is Part 11 of a 15-part [Apache Iceberg Masterclass](/posts/2026/apache-iceberg-masterclass-01-table-formats). [Part 10](/posts/2026/apache-iceberg-masterclass-10-maintaining-iceberg) covered maintenance operations. This article covers the metadata tables that let you inspect Iceberg table internals using standard SQL.
 
