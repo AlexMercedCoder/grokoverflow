@@ -7,143 +7,143 @@
       <language>en</language>
       
     <item>
-      <title>Context Management Strategies for ChatGPT: A Complete Guide to Getting Better Results</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-01-chatgpt</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-01-chatgpt</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>What Are Table Formats and Why Were They Needed?</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-01-table-formats</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-01-table-formats</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for OpenAI Codex: A Complete Guide Across Browser, CLI, and App</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-02-openai-codex</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-02-openai-codex</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>The Metadata Structure of Modern Table Formats</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-02-metadata-structures</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-02-metadata-structures</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Claude Web: A Complete Guide to Projects, Artifacts, and Intelligent Context</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-03-claude-web</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-03-claude-web</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Performance and Apache Iceberg's Metadata</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-03-iceberg-metadata-performance</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-03-iceberg-metadata-performance</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Claude Desktop: A Complete Guide to MCP, Computer Use, and Local File Access</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-04-claude-desktop</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-04-claude-desktop</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Partition Evolution: Change Your Partitioning Without Rewriting Data</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-04-partition-evolution</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-04-partition-evolution</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Claude CoWork: A Complete Guide for Knowledge Workers</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-05-claude-cowork</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-05-claude-cowork</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-05-hidden-partitioning</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-05-hidden-partitioning</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Claude Code: A Complete Guide for Developers</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-06-claude-code</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-06-claude-code</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Writing to an Apache Iceberg Table: How Commits and ACID Actually Work</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-06-writing-to-iceberg</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-06-writing-to-iceberg</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Gemini Web and NotebookLM: A Complete Guide to Google's AI Knowledge Ecosystem</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-07-gemini-web-notebooklm</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-07-gemini-web-notebooklm</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>What Are Lakehouse Catalogs? The Role of Catalogs in Apache Iceberg</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-07-lakehouse-catalogs</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-07-lakehouse-catalogs</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Gemini CLI: A Complete Guide to Terminal-Native AI Development</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-08-gemini-cli</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-08-gemini-cli</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>When Catalogs Are Embedded in Storage</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-08-embedded-catalogs</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-08-embedded-catalogs</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Google Antigravity: A Complete Guide to the Agent-First IDE</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-09-google-antigravity</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-09-google-antigravity</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>How Data Lake Table Storage Degrades Over Time</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-09-storage-degradation</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-09-storage-degradation</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for OpenCode: A Complete Guide to the Open-Source Terminal AI Agent</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-10-opencode</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-10-opencode</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Maintaining Apache Iceberg Tables: Compaction, Expiry, and Cleanup</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-10-maintaining-iceberg</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-10-maintaining-iceberg</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for OpenWork: A Complete Guide to the Desktop AI Agent Framework</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-11-openwork</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-11-openwork</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Apache Iceberg Metadata Tables: Querying the Internals</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-11-metadata-tables</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-11-metadata-tables</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Cursor: A Complete Guide to the AI-Native Code Editor</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-12-cursor</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-12-cursor</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Using Apache Iceberg with Python and MPP Query Engines</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-12-python-and-mpp</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-12-python-and-mpp</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Perplexity AI: A Complete Guide to Research-First AI Conversations</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-13-perplexity</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-13-perplexity</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Approaches to Streaming Data into Apache Iceberg Tables</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-13-streaming-to-iceberg</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-13-streaming-to-iceberg</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Windsurf: A Complete Guide to the AI Flow IDE</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-14-windsurf</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-14-windsurf</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Hands-On with Apache Iceberg Using Dremio Cloud</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-14-hands-on-dremio-cloud</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-14-hands-on-dremio-cloud</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for Zed: A Complete Guide to the High-Performance AI Code Editor</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-15-zed</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-15-zed</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Migrating to Apache Iceberg: Strategies for Every Source System</title>
+      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-15-migrating-to-iceberg</link>
+      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-15-migrating-to-iceberg</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for T3 Chat: A Complete Guide to the Unified Multi-Model AI Interface</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-16-t3-chat</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-16-t3-chat</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>How Query Engines Think: The Tradeoffs Behind Every Data System</title>
+      <link>https://grokoverflow.com/posts/2026/query-engine-optimization-01-overview</link>
+      <guid>https://grokoverflow.com/posts/2026/query-engine-optimization-01-overview</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>Context Management Strategies for VS Code with LLM Plugins: A Complete Guide to Building Your Own AI-Powered IDE</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-17-vscode-llm-plugins</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-17-vscode-llm-plugins</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Row vs. Column: How Storage Layout Shapes Everything</title>
+      <link>https://grokoverflow.com/posts/2026/query-engine-optimization-02-row-vs-column-storage</link>
+      <guid>https://grokoverflow.com/posts/2026/query-engine-optimization-02-row-vs-column-storage</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>The Model Context Protocol (MCP) Explained: A Complete Guide to How Every Major AI Tool Connects to External Data</title>
-      <link>https://grokoverflow.com/posts/2026/context-management-blogs-18-mcp-deep-dive</link>
-      <guid>https://grokoverflow.com/posts/2026/context-management-blogs-18-mcp-deep-dive</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <title>How Databases Organize Data on Disk: Pages, Blocks, and File Formats</title>
+      <link>https://grokoverflow.com/posts/2026/query-engine-optimization-03-data-organization-on-disk</link>
+      <guid>https://grokoverflow.com/posts/2026/query-engine-optimization-03-data-organization-on-disk</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>How to Use Dremio with Amazon Kiro: Connect, Query, and Build Data Apps</title>
-      <link>https://grokoverflow.com/posts/2026/aitoolblogs-amazon-kiro</link>
-      <guid>https://grokoverflow.com/posts/2026/aitoolblogs-amazon-kiro</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <title>B-Trees, LSM Trees, and the Indexing Tradeoff Spectrum</title>
+      <link>https://grokoverflow.com/posts/2026/query-engine-optimization-04-indexing-strategies</link>
+      <guid>https://grokoverflow.com/posts/2026/query-engine-optimization-04-indexing-strategies</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     <item>
-      <title>How to Use Dremio with Claude Code: Connect, Query, and Build Data Apps</title>
-      <link>https://grokoverflow.com/posts/2026/aitoolblogs-claude-code</link>
-      <guid>https://grokoverflow.com/posts/2026/aitoolblogs-claude-code</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+      <title>Inside the Query Optimizer: How Engines Pick a Plan</title>
+      <link>https://grokoverflow.com/posts/2026/query-engine-optimization-05-query-optimizer</link>
+      <guid>https://grokoverflow.com/posts/2026/query-engine-optimization-05-query-optimizer</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[]]></description>
     </item>
     </channel>
