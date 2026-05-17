@@ -15,7 +15,7 @@ import { calculateReadingTime } from "../../lib/utils";
 
 
 // The page for each post
-export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime }) {
+export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime, currentSlug }) {
   const { title, author, category, date, bannerImage, tags } = frontmatter;
 
   return (
@@ -29,7 +29,12 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
         <meta property="og:title" content={title} />
         <meta property="og:description" content={`"${title}" an article written by ${author}`} />
         <meta property="og:image" content={bannerImage || "https://grokoverflow.com/images/banner.png"} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={`"${title}" an article written by ${author}`} />
         <meta name="twitter:image" content={bannerImage || "https://grokoverflow.com/images/banner.png"} />
+        
+        {currentSlug && <link rel="canonical" href={`https://grokoverflow.com/posts/${currentSlug}`} />}
         
         <link rel="icon" href="/favicon.ico" />
         
@@ -195,7 +200,8 @@ export async function getStaticProps({ params: { slug } }) {
       frontmatter,
       mdxSource,
       relatedPosts,
-      readingTime
+      readingTime,
+      currentSlug
     },
   };
 }

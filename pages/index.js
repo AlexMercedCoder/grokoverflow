@@ -16,6 +16,11 @@ export default function Home() {
         <meta property="og:title" content="GrokOverflow - Developer Tutorials & Content" />
         <meta property="og:description" content="Tutorials, podcasts, and videos for developers by Alex Merced." />
         <meta property="og:image" content="https://grokoverflow.com/images/banner.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="GrokOverflow - Developer Tutorials & Content" />
+        <meta name="twitter:description" content="Tutorials, podcasts, and videos for developers by Alex Merced." />
+        <meta name="twitter:image" content="https://grokoverflow.com/images/banner.png" />
+        <link rel="canonical" href="https://grokoverflow.com/" />
         <link rel="icon" href="/favicon.ico" />
         
         <script
