@@ -7,15 +7,94 @@ import Head from "next/head";
 import { useState, useRef } from "react";
 import Fuse from "fuse.js";
 
+const SITE_URL = "https://grokoverflow.com";
+
+// Build dynamic meta for the current path variant
+function buildPageMeta(path) {
+  if (!path) {
+    return {
+      title: "GrokOverflow Blog — Developer Tutorials & Articles",
+      description:
+        "Browse all developer tutorials, guides, and articles on GrokOverflow covering web development, data engineering, Apache Iceberg, AI, and more.",
+      canonical: `${SITE_URL}/blog`,
+      breadcrumb: [
+        { name: "Home", item: `${SITE_URL}/` },
+        { name: "Blog", item: `${SITE_URL}/blog` },
+      ],
+    };
+  }
+
+  if (path[0] === "category") {
+    const cat = path[1]
+      ? path[1].charAt(0).toUpperCase() + path[1].slice(1)
+      : "";
+    return {
+      title: `${cat} Articles — GrokOverflow Blog`,
+      description: `Browse all GrokOverflow articles in the "${cat}" category. Tutorials, guides, and deep-dives by Alex Merced.`,
+      canonical: `${SITE_URL}/blog/category/${path[1] || ""}`,
+      breadcrumb: [
+        { name: "Home", item: `${SITE_URL}/` },
+        { name: "Blog", item: `${SITE_URL}/blog` },
+        { name: cat, item: `${SITE_URL}/blog/category/${path[1] || ""}` },
+      ],
+    };
+  }
+
+  if (path[0] === "tag") {
+    const tag = path[1]
+      ? path[1].charAt(0).toUpperCase() + path[1].slice(1)
+      : "";
+    return {
+      title: `#${tag} Articles — GrokOverflow Blog`,
+      description: `Browse all GrokOverflow articles tagged "${tag}". Developer tutorials and guides by Alex Merced.`,
+      canonical: `${SITE_URL}/blog/tag/${path[1] || ""}`,
+      breadcrumb: [
+        { name: "Home", item: `${SITE_URL}/` },
+        { name: "Blog", item: `${SITE_URL}/blog` },
+        { name: `#${tag}`, item: `${SITE_URL}/blog/tag/${path[1] || ""}` },
+      ],
+    };
+  }
+
+  if (path[0] === "author") {
+    const author = path[1]
+      ? path[1]
+          .split("-")
+          .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+          .join(" ")
+      : "";
+    return {
+      title: `Articles by ${author} — GrokOverflow Blog`,
+      description: `Browse all GrokOverflow articles written by ${author}. Tutorials, guides, and deep-dives on developer topics.`,
+      canonical: `${SITE_URL}/blog/author/${path[1] || ""}`,
+      breadcrumb: [
+        { name: "Home", item: `${SITE_URL}/` },
+        { name: "Blog", item: `${SITE_URL}/blog` },
+        { name: author, item: `${SITE_URL}/blog/author/${path[1] || ""}` },
+      ],
+    };
+  }
+
+  return {
+    title: "GrokOverflow Blog — Developer Tutorials & Articles",
+    description:
+      "Browse developer tutorials, guides, and articles on GrokOverflow.",
+    canonical: `${SITE_URL}/blog`,
+    breadcrumb: [
+      { name: "Home", item: `${SITE_URL}/` },
+      { name: "Blog", item: `${SITE_URL}/blog` },
+    ],
+  };
+}
+
 // The Blog Page Content
-export default function Blog({ posts, categories }) {
+export default function Blog({ posts, categories, path }) {
   const searchRef = useRef(null);
   const maxSlice = Math.ceil(posts.length / 20);
 
   const getPostSlice = (page) => {
     const firstPost = (page - 1) * 20;
     const lastPost = page < maxSlice ? page * 20 : posts.length - 1;
-    console.log(firstPost, lastPost);
 
     return {
       page,
@@ -27,22 +106,22 @@ export default function Blog({ posts, categories }) {
 
   const search = () => {
     const term = searchRef.current.value;
-    
+
     if (!term) {
-        setPostSlice({
-             page: 1,
-             slice: getPostSlice(1).slice
-        });
-        return;
+      setPostSlice({
+        page: 1,
+        slice: getPostSlice(1).slice,
+      });
+      return;
     }
 
     const fuse = new Fuse(posts, {
-        keys: ["frontmatter.title", "frontmatter.tags", "frontmatter.description"],
-        threshold: 0.3,
+      keys: ["frontmatter.title", "frontmatter.tags", "frontmatter.description"],
+      threshold: 0.3,
     });
-    
+
     const result = fuse.search(term);
-    const results = result.map(r => r.item);
+    const results = result.map((r) => r.item);
 
     setPostSlice({
       page: 1,
@@ -50,15 +129,45 @@ export default function Blog({ posts, categories }) {
     });
   };
 
+  const meta = buildPageMeta(path);
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: meta.breadcrumb.map((crumb, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: crumb.name,
+      item: crumb.item,
+    })),
+  };
+
   return (
     <main className={styles.main}>
       <Head>
-        <title>GrokOverflow - blog listing</title>
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.description} />
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:description" content={meta.description} />
         <meta
-          name="description"
-          content={`Listing of GrokOverflow Articles on development`}
+          property="og:image"
+          content={`${SITE_URL}/images/banner.png`}
         />
+        <meta property="og:url" content={meta.canonical} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={meta.title} />
+        <meta name="twitter:description" content={meta.description} />
+        <meta
+          name="twitter:image"
+          content={`${SITE_URL}/images/banner.png`}
+        />
+        <link rel="canonical" href={meta.canonical} />
         <link rel="icon" href="/favicon.ico" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        />
       </Head>
       <aside className={styles.featured}>
         <div className={styles.featuredArticle}>
@@ -148,7 +257,6 @@ export async function getStaticPaths(...args) {
 
   const addPost = (fileName) => {
     const slug = fileName.replace(".md", "");
-    console.log(fileName)
     const readFile = fs.readFileSync(`posts/${fileName}`, "utf-8");
     const { data: frontmatter } = matter(readFile);
 
@@ -186,7 +294,7 @@ export async function getStaticPaths(...args) {
     // paths for each author
     if (frontmatter.author) {
       paths.push(
-        `/blog/author/${frontmatter.author.toLowerCase().replace(" ", "-")}`
+        `/blog/author/${frontmatter.author.toLowerCase().replace(/ /g, "-")}`
       );
     }
   });
@@ -235,9 +343,9 @@ export async function getStaticProps({ params: { path } }) {
   // generate lists of categories
   let categories = [];
   posts.forEach(({ frontmatter }) => {
-      if (frontmatter.category) {
-          categories.push(frontmatter.category)
-      }
+    if (frontmatter.category) {
+      categories.push(frontmatter.category);
+    }
   });
   categories = [...new Set(categories)];
 
@@ -245,19 +353,30 @@ export async function getStaticProps({ params: { path } }) {
   if (path) {
     if (path[0] === "category") {
       posts = posts.filter(({ frontmatter }) => {
-        return frontmatter.category && frontmatter.category.toLowerCase() === path[1].toLowerCase();
+        return (
+          frontmatter.category &&
+          frontmatter.category.toLowerCase() === path[1].toLowerCase()
+        );
       });
     }
 
     if (path[0] === "tag") {
       posts = posts.filter(({ frontmatter }) => {
-        return frontmatter.tags && frontmatter.tags.some(tag => tag.toLowerCase() === path[1].toLowerCase());
+        return (
+          frontmatter.tags &&
+          frontmatter.tags.some(
+            (tag) => tag.toLowerCase() === path[1].toLowerCase()
+          )
+        );
       });
     }
 
     if (path[0] === "author") {
       posts = posts.filter(({ frontmatter }) => {
-        return frontmatter.author && frontmatter.author.toLowerCase() === path[1].replace("-", " ");
+        return (
+          frontmatter.author &&
+          frontmatter.author.toLowerCase() === path[1].replace(/-/g, " ")
+        );
       });
     }
   }
@@ -273,6 +392,7 @@ export async function getStaticProps({ params: { path } }) {
     props: {
       posts,
       categories,
+      path: path || null,
     },
   };
 }

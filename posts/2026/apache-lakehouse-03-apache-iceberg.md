@@ -1,5 +1,15 @@
 ---
+title: "What is Apache Iceberg? The Table Format Revolution"
 date: '2026-02-18'
+author: "Alex Merced"
+category: "data engineering"
+description: "Understand how Apache Iceberg brings ACID transactions, schema evolution, and time travel to object storage, enabling the modern open data lakehouse."
+tags:
+  - apache iceberg
+  - data lakehouse
+  - data engineering
+  - apache parquet
+  - apache arrow
 ---
 # What is Apache Iceberg? The Table Format Revolution
 

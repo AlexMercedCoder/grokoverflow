@@ -1,5 +1,15 @@
 ---
+title: "Agentic Analytics on the Apache Lakehouse"
 date: '2026-02-18'
+author: "Alex Merced"
+category: "data engineering"
+description: "Explore how the Apache Lakehouse stack enables agentic AI systems to autonomously query, reason over, and act on large-scale structured data."
+tags:
+  - apache iceberg
+  - data lakehouse
+  - data engineering
+  - apache parquet
+  - apache arrow
 ---
 # Agentic Analytics on the Apache Lakehouse
 

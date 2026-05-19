@@ -11,18 +11,19 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="GrokOverflow - tutorials, podcasts and videos for developers"
+          content="GrokOverflow is a developer education hub by Alex Merced, featuring tutorials, podcasts, and videos covering web development, data engineering, Apache Iceberg, AI, and more."
         />
-        <meta property="og:title" content="GrokOverflow - Developer Tutorials & Content" />
+        <meta property="og:title" content="GrokOverflow - Developer Tutorials &amp; Content" />
         <meta property="og:description" content="Tutorials, podcasts, and videos for developers by Alex Merced." />
         <meta property="og:image" content="https://grokoverflow.com/images/banner.png" />
+        <meta property="og:url" content="https://grokoverflow.com/" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="GrokOverflow - Developer Tutorials & Content" />
+        <meta name="twitter:title" content="GrokOverflow - Developer Tutorials &amp; Content" />
         <meta name="twitter:description" content="Tutorials, podcasts, and videos for developers by Alex Merced." />
         <meta name="twitter:image" content="https://grokoverflow.com/images/banner.png" />
         <link rel="canonical" href="https://grokoverflow.com/" />
         <link rel="icon" href="/favicon.ico" />
-        
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -31,6 +32,34 @@ export default function Home() {
               "@type": "WebSite",
               name: "GrokOverflow",
               url: "https://grokoverflow.com/",
+              description:
+                "Developer education hub featuring tutorials, podcasts, and videos on web development, data engineering, Apache Iceberg, AI, and more.",
+              author: {
+                "@type": "Person",
+                name: "Alex Merced",
+                url: "https://alexmercedcoder.dev",
+                sameAs: [
+                  "https://www.twitter.com/alexmercedcoder",
+                  "https://www.linkedin.com/in/alexmerced",
+                  "https://www.youtube.com/c/AlexMercedFullStackDeveloper",
+                  "https://www.github.com/alexmercedcoder",
+                  "https://indieweb.social/@alexmerced",
+                ],
+              },
+              sameAs: [
+                "https://www.twitter.com/alexmercedcoder",
+                "https://www.linkedin.com/in/alexmerced",
+                "https://www.youtube.com/c/AlexMercedFullStackDeveloper",
+              ],
+              potentialAction: {
+                "@type": "SearchAction",
+                target: {
+                  "@type": "EntryPoint",
+                  urlTemplate:
+                    "https://grokoverflow.com/blog?q={search_term_string}",
+                },
+                "query-input": "required name=search_term_string",
+              },
             }),
           }}
         />
@@ -42,10 +71,10 @@ export default function Home() {
         <p>
           {" "}
           My name is Alex Merced (alexmercedcoder.dev) and on this website you
-          willll find lots of blogs, videos and podcasts on all sorts of
-          different types of software development. Check out the blog section
-          and feel free to click on any category, tag or author to quickly find
-          the blog post your looking for.
+          will find lots of blogs, videos and podcasts on all sorts of different
+          types of software development. Check out the blog section and feel
+          free to click on any category, tag or author to quickly find the blog
+          post your looking for.
         </p>
         <p>
           Guest submissions are welcome. Pitch me your idea by emailing me at
@@ -56,44 +85,38 @@ export default function Home() {
           Also make sure to follow me on the following platforms:
           <ul className={styles.socialList}>
             <li>
-            <a href="https://www.twitter.com/alexmercedcoder">
-              Twitter (General Development account)
-            </a>
+              <a href="https://www.twitter.com/alexmercedcoder">
+                Twitter (General Development account)
+              </a>
             </li>
             <li>
-            <a href="https://www.twitter.com/amlakehouse">
-              Twitter (Data Engineering Account)
-            </a>
+              <a href="https://www.twitter.com/amlakehouse">
+                Twitter (Data Engineering Account)
+              </a>
             </li>
             <li>
-            <a href="https://www.linkedin.com/in/alexmerced">
-              LinkedIn
-            </a>
+              <a href="https://www.linkedin.com/in/alexmerced">LinkedIn</a>
             </li>
             <li>
-            <a href="https://www.instagram.com/alexmercedcoder">
-              Instagram
-            </a>
+              <a href="https://www.instagram.com/alexmercedcoder">Instagram</a>
             </li>
             <li>
-            <a href="https://www.github.com/alexmercedcoder">
-              Github
-            </a>
+              <a href="https://www.github.com/alexmercedcoder">Github</a>
             </li>
             <li>
-            <a href="https://www.youtube.com/c/AlexMercedFullStackDeveloper">
-              Youtube.com
-            </a>
+              <a href="https://www.youtube.com/c/AlexMercedFullStackDeveloper">
+                Youtube.com
+              </a>
             </li>
             <li>
-            <a href="https://odysee.com/@alexmercedcoder:e">
-              Odysee (Alternative Video Network)
-            </a>
+              <a href="https://odysee.com/@alexmercedcoder:e">
+                Odysee (Alternative Video Network)
+              </a>
             </li>
             <li>
-            <a href="https://indieweb.social/@alexmerced">
-              Mastodon (Twitter Alternative)
-            </a>
+              <a href="https://indieweb.social/@alexmerced">
+                Mastodon (Twitter Alternative)
+              </a>
             </li>
           </ul>
         </p>

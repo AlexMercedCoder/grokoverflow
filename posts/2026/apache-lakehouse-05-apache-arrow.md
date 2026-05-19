@@ -1,5 +1,15 @@
 ---
+title: "What is Apache Arrow? Erasing the Serialization Tax"
 date: '2026-02-18'
+author: "Alex Merced"
+category: "data engineering"
+description: "Apache Arrow provides a standardized in-memory columnar format that eliminates serialization overhead between query engines, eliminating the cost of data movement."
+tags:
+  - apache iceberg
+  - data lakehouse
+  - data engineering
+  - apache parquet
+  - apache arrow
 ---
 # What is Apache Arrow? Erasing the Serialization Tax
 

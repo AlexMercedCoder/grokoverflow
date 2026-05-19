@@ -2,7 +2,7 @@
 title: Getting Started with Python Web Framework, FastAPI
 date: "2021-01-02"
 author: "Alex Merced"
-category: backend"
+category: "backend"
 bannerImage: "/images/postbanner/2021/python-web-fast-api.png"
 tags:
   - backend

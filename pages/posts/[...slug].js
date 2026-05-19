@@ -16,25 +16,30 @@ import { calculateReadingTime } from "../../lib/utils";
 
 // The page for each post
 export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime, currentSlug }) {
-  const { title, author, category, date, bannerImage, tags } = frontmatter;
+  const { title, author, category, date, bannerImage, tags, description } = frontmatter;
+  const canonicalUrl = `https://grokoverflow.com/posts/${currentSlug}`;
+  const postDescription = description || `"${title}" an article written by ${author || 'Anonymous'} touching on ${(tags || []).join(", ")}`;
+  const authorSlug = author ? author.toLowerCase().replace(/ /g, "-") : '';
+
 
   return (
     <main className={styles.main}>
       <ProgressBar />
       <Head>
         <title>{title}</title>
-        <meta name="description" content={`"${title}" an article written by ${author || 'Anonymous'} touching on ${(tags || []).join(", ")}`} />
+        <meta name="description" content={postDescription} />
         
         {/* Open Graph & Twitter */}
         <meta property="og:title" content={title} />
-        <meta property="og:description" content={`"${title}" an article written by ${author}`} />
+        <meta property="og:description" content={postDescription} />
         <meta property="og:image" content={bannerImage || "https://grokoverflow.com/images/banner.png"} />
+        <meta property="og:url" content={canonicalUrl} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={`"${title}" an article written by ${author}`} />
+        <meta name="twitter:description" content={postDescription} />
         <meta name="twitter:image" content={bannerImage || "https://grokoverflow.com/images/banner.png"} />
         
-        {currentSlug && <link rel="canonical" href={`https://grokoverflow.com/posts/${currentSlug}`} />}
+        <link rel="canonical" href={canonicalUrl} />
         
         <link rel="icon" href="/favicon.ico" />
         
@@ -45,13 +50,25 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
                "@context": "https://schema.org",
                "@type": "Article",
                headline: title,
+               description: postDescription,
+               url: canonicalUrl,
                image: [bannerImage || "https://grokoverflow.com/images/banner.png"],
                datePublished: date,
-               author: {
+               dateModified: date,
+               mainEntityOfPage: {
+                 "@type": "WebPage",
+                 "@id": canonicalUrl
+               },
+               publisher: {
+                 "@type": "Person",
+                 name: "Alex Merced",
+                 url: "https://alexmercedcoder.dev"
+               },
+               author: author ? {
                  "@type": "Person",
                  name: author,
-                 url: author ? `https://grokoverflow.com/blog/author/${author.toLowerCase().replace(" ", "-")}` : ''
-               }
+                 url: `https://grokoverflow.com/blog/author/${authorSlug}`
+               } : undefined
              })
           }}
         />

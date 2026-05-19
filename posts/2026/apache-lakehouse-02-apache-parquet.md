@@ -1,5 +1,15 @@
 ---
+title: "What is Apache Parquet? Columns, Encoding, and Performance"
 date: '2026-02-18'
+author: "Alex Merced"
+category: "data engineering"
+description: "A deep dive into Apache Parquet's columnar storage format, encoding strategies, and why it's the backbone of modern data lakehouse architectures."
+tags:
+  - apache iceberg
+  - data lakehouse
+  - data engineering
+  - apache parquet
+  - apache arrow
 ---
 # What is Apache Parquet? Columns, Encoding, and Performance
 

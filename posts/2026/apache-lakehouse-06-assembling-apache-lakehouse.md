@@ -1,5 +1,15 @@
 ---
+title: "Assembling the Apache Lakehouse: The Modular Architecture"
 date: '2026-02-18'
+author: "Alex Merced"
+category: "data engineering"
+description: "Learn how to combine Apache Iceberg, Apache Parquet, Apache Arrow, and Apache Polaris into a complete, vendor-neutral open data lakehouse."
+tags:
+  - apache iceberg
+  - data lakehouse
+  - data engineering
+  - apache parquet
+  - apache arrow
 ---
 # Assembling the Apache Lakehouse: The Modular Architecture
 

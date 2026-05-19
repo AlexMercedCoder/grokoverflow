@@ -1,5 +1,15 @@
 ---
+title: "Apache Software Foundation: History, Purpose, and Process"
 date: '2026-02-18'
+author: "Alex Merced"
+category: "data engineering"
+description: "Learn about the Apache Software Foundation's history, governance model, and why it matters for open source data lakehouse technologies like Iceberg, Parquet, and Arrow."
+tags:
+  - apache iceberg
+  - data lakehouse
+  - data engineering
+  - apache parquet
+  - apache arrow
 ---
 # Apache Software Foundation: History, Purpose, and Process
 

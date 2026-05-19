@@ -1,5 +1,15 @@
 ---
+title: "What is Apache Polaris? Unifying the Iceberg Ecosystem"
 date: '2026-02-18'
+author: "Alex Merced"
+category: "data engineering"
+description: "Apache Polaris is the open-source Iceberg REST catalog that enables multi-engine interoperability across your entire lakehouse ecosystem."
+tags:
+  - apache iceberg
+  - data lakehouse
+  - data engineering
+  - apache parquet
+  - apache arrow
 ---
 # What is Apache Polaris? Unifying the Iceberg Ecosystem
 
