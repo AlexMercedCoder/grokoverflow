@@ -1,4 +1,18 @@
 /* Header — Mux design */
+
+/* Logo */
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.logoWrapper a {
+    display: flex;
+    align-items: center;
+    line-height: 0;
+}
+
 .header {
     display: flex;
     align-items: center;

@@ -30,8 +30,17 @@ function Header (props){
         <meta name="twitter:site" content="@alexmercedcoder" />
         <meta name="twitter:creator" content="@alexmercedcoder" />
         </Head>
-        <div id="logo">
-        <Link href="/"><Image src={"/images/banner-logo-trans.PNG"} alt="GrokOverflow Logo" height={100} width={300}/></Link>
+        <div id="logo" className={styles.logoWrapper}>
+          <Link href="/">
+            <Image
+              src="/images/grokoverflow-logo.png"
+              alt="GrokOverflow Logo"
+              height={44}
+              width={220}
+              priority
+              style={{ objectFit: 'contain' }}
+            />
+          </Link>
         </div>
         <nav className={styles.nav}>
             <Link href="/blog"><div className={styles.link}>BLOG</div></Link>
