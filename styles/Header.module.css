@@ -1,63 +1,80 @@
+/* Header — Mux design */
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid var(--border-color);
-    padding: var(--space-sm) var(--space-md);
-    background-color: rgba(255, 255, 255, 0.8); /* Translucent fallbak */
-    backdrop-filter: blur(12px); /* Glassmorphism */
-    -webkit-backdrop-filter: blur(12px);
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    padding: var(--spacing-14) var(--spacing-28);
+    background-color: var(--color-greige-canvas);
+    border-bottom: 1px solid var(--color-ghost-border);
     position: sticky;
     top: 0;
     z-index: 50;
-    transition: background-color 0.3s ease;
-}
-
-[data-theme='dark'] .header {
-  background-color: rgba(30, 41, 59, 0.8); /* Slate 800 with opacity */
+    /* Subtle glass-ish on the canvas */
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    background-color: rgba(226, 228, 221, 0.92);
 }
 
 .nav {
     display: flex;
-    gap: var(--space-md);
+    gap: var(--spacing-4);
     align-items: center;
-    font-weight: 500;
-    font-size: 0.95rem;
-    font-family: var(--font-display);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    font-size: var(--text-body-sm);
 }
 
+/* Ghost nav links — dark text variant */
 .link {
-    color: var(--text-muted);
-    transition: all 0.2s ease;
-    text-transform: none; /* Removed uppercase */
-    letter-spacing: normal;
-    font-size: 0.95rem;
-    padding: 0.5rem 0.75rem;
-    border-radius: 6px;
+    color: var(--color-slate-text);
+    padding: 0.4rem 0.85rem;
+    border: 1px solid transparent;
+    border-radius: var(--radius-buttons);
+    transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: var(--text-caption);
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
 }
 
 .link:hover {
-    cursor: pointer;
-    color: var(--primary-color);
-    background-color: rgba(99, 102, 241, 0.1); /* Subtle hover background */
+    color: var(--color-ink);
+    border-color: var(--color-ghost-border);
+    background-color: rgba(0, 0, 0, 0.04);
 }
 
-@media(max-width: 768px){
+/* "Community" link gets the filled dark-card treatment */
+.link:last-of-type {
+    background-color: var(--color-graphite-card);
+    color: var(--color-cloud-gray);
+    border-color: var(--color-graphite-card);
+    border-radius: var(--radius-buttons);
+}
+
+.link:last-of-type:hover {
+    background-color: var(--color-action-orange);
+    border-color: var(--color-action-orange);
+    color: var(--color-cloud-gray);
+}
+
+@media (max-width: 768px) {
     .header {
         flex-direction: column;
-        padding: var(--space-sm);
+        gap: var(--spacing-14);
+        padding: var(--spacing-14) var(--spacing-14);
     }
 
     .nav {
-        margin-top: var(--space-sm);
         width: 100%;
         justify-content: space-around;
-        font-size: 0.9rem;
+        flex-wrap: wrap;
+        gap: var(--spacing-4);
     }
-    
+
     .link {
-        margin: 0;
-        padding: 0.25rem 0.5rem;
+        font-size: 11px;
+        padding: 0.35rem 0.6rem;
     }
 }

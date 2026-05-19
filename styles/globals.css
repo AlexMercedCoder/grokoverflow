@@ -1,109 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+/* ============================================================
+   GrokOverflow — Global Design System
+   Theme: Mux (Parchment Grid, Terminal Cards)
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@400&display=swap');
 
 :root {
-  /* Modern Color Palette */
-  --primary-color: #6366f1; /* Indigo 500 - slightly lighter/more vibrant */
-  --primary-hover: #4f46e5; /* Indigo 600 */
-  --secondary-color: #10B981; /* Emerald 500 */
-  --accent-color: #F59E0B; /* Amber 500 */
-  
-  --bg-color: #ffffff;
-  --bg-secondary: #f8fafc; /* Slate 50 */
-  --card-bg: #FFFFFF;
-  --text-main: #0f172a; /* Slate 900 */
-  --text-muted: #64748b; /* Slate 500 */
-  --border-color: #e2e8f0; /* Slate 200 */
+  /* ── Colors ── */
+  --color-ink:               #000000;
+  --color-greige-canvas:     #e2e4dd;
+  --color-cloud-gray:        #ffffff;
+  --color-graphite-card:     #242628;
+  --color-subtle-ash:        #f4f6f4;
+  --color-ghost-border:      #adb9c6;
+  --color-slate-text:        #565e67;
+  --color-warm-gray-outline: #828c97;
+  --color-action-orange:     #ff6100;
+  --color-interactive-yellow:#ffb200;
+  --color-warning-yellow:    #bd8209;
+  --color-info-blue:         #0091ff;
+  --color-success-green:     #00be43;
 
-  --code-bg: #1e293b; /* Slate 800 */
-  --code-text: #e2e8f0; /* Slate 200 */
+  /* ── Surfaces ── */
+  --surface-page:   var(--color-greige-canvas);
+  --surface-card:   var(--color-cloud-gray);
+  --surface-dark:   var(--color-graphite-card);
 
-  /* Spacing */
-  --space-xs: 0.5rem;
-  --space-sm: 1rem;
-  --space-md: 1.5rem;
-  --space-lg: 2rem;
-  --space-xl: 3rem;
+  /* ── Typography ── */
+  --font-sans:  'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono:  'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
-  /* Typography */
-  --font-sans: 'Inter', sans-serif;
-  --font-display: 'Outfit', sans-serif;
-  --font-serif: 'Merriweather', serif;
+  --text-caption:     14px;
+  --text-body-sm:     16px;
+  --text-body:        18px;
+  --text-body-lg:     21px;
+  --text-heading-sm:  24px;
+  --text-heading:     50px;
+
+  --leading-tight:    1.15;
+  --leading-snug:     1.20;
+  --leading-normal:   1.40;
+  --leading-relaxed:  1.50;
+
+  --tracking-wide:    0.02em;
+
+  /* ── Spacing ── */
+  --spacing-4:   4px;
+  --spacing-14:  14px;
+  --spacing-28:  28px;
+  --spacing-32:  32px;
+  --spacing-56:  56px;
+  --spacing-64:  64px;
+  --spacing-84:  84px;
+  --spacing-112: 112px;
+
+  /* ── Layout ── */
+  --page-max-width: 1200px;
+  --section-gap:    var(--spacing-56);
+  --card-padding:   var(--spacing-28);
+  --element-gap:    var(--spacing-14);
+
+  /* ── Border Radius ── */
+  --radius-sm:       2px;
+  --radius-md:       7px;
+  --radius-xl:       14px;
+  --radius-cards:    28px;
+  --radius-images:   112px;
+  --radius-buttons:  9999px;
+
+  /* ── Legacy aliases (keep for any components that still reference them) ── */
+  --primary-color:   var(--color-action-orange);
+  --primary-hover:   #e55500;
+  --secondary-color: var(--color-interactive-yellow);
+  --accent-color:    var(--color-interactive-yellow);
+  --bg-color:        var(--color-greige-canvas);
+  --bg-secondary:    var(--color-subtle-ash);
+  --card-bg:         var(--color-cloud-gray);
+  --text-main:       var(--color-ink);
+  --text-muted:      var(--color-slate-text);
+  --border-color:    var(--color-ghost-border);
+  --code-bg:         var(--color-graphite-card);
+  --code-text:       var(--color-cloud-gray);
+  --space-xs:  var(--spacing-14);
+  --space-sm:  var(--spacing-28);
+  --space-md:  var(--spacing-32);
+  --space-lg:  var(--spacing-56);
+  --space-xl:  var(--spacing-64);
+  --font-display: var(--font-sans);
+  --font-serif:   var(--font-sans);
 }
 
-[data-theme='dark'] {
-  --bg-color: #0f172a; /* Slate 900 - Richer dark */
-  --bg-secondary: #1e293b; /* Slate 800 */
-  --card-bg: #1e293b; /* Slate 800 */
-  --text-main: #f8fafc; /* Slate 50 */
-  --text-muted: #94a3b8; /* Slate 400 */
-  --border-color: #334155; /* Slate 700 */
-  --code-bg: #020617; /* Slate 950 */
-}
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: var(--font-sans);
-  background-color: var(--bg-color);
-  color: var(--text-main);
-  line-height: 1.6;
-  transition: background-color 0.3s, color 0.3s;
-  -webkit-font-smoothing: antialiased;
-}
-
-a {
-  color: var(--primary-color);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-a:hover {
-  color: var(--primary-hover);
-}
-
-* {
+/* ── Base reset ── */
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
-/* Typography Defaults */
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-display);
-  color: var(--text-main);
-  margin-top: var(--space-lg);
-  margin-bottom: var(--space-sm);
-  line-height: 1.2;
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: var(--leading-normal);
+  background-color: var(--color-greige-canvas);
+  color: var(--color-ink);
+  letter-spacing: var(--tracking-wide);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-h1 { font-size: 2.5rem; font-weight: 800; }
-h2 { font-size: 2rem; font-weight: 700; }
-h3 { font-size: 1.75rem; font-weight: 600; }
+/* Subtle grid pattern on the page background */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.045) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Ensure content sits above the grid */
+#__next {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Links ── */
+a {
+  color: var(--color-ink);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--color-action-orange);
+}
+
+/* ── Headings ── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  color: var(--color-ink);
+  line-height: var(--leading-snug);
+  letter-spacing: var(--tracking-wide);
+  margin-top: var(--spacing-56);
+  margin-bottom: var(--spacing-14);
+}
+
+h1 { font-size: var(--text-heading);    line-height: var(--leading-tight); }
+h2 { font-size: var(--text-heading-sm); }
+h3 { font-size: var(--text-body-lg);   }
+h4 { font-size: var(--text-body);      }
 
 p {
-  margin-bottom: var(--space-md);
-  font-family: var(--font-serif); /* Better for reading long form */
-  font-size: 1.125rem;
+  margin: 0 0 var(--spacing-28);
+  font-size: var(--text-body);
+  line-height: var(--leading-normal);
 }
 
-/* Code Blocks */
+/* ── Code ── */
 pre {
-  background-color: var(--code-bg);
-  color: var(--code-text);
-  padding: var(--space-md);
-  border-radius: 8px;
+  background-color: var(--color-graphite-card);
+  color: var(--color-cloud-gray);
+  padding: var(--card-padding);
+  border-radius: var(--radius-cards);
   overflow-x: auto;
-  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
-  font-size: 0.95rem;
-  margin-bottom: var(--space-md);
+  font-family: var(--font-mono);
+  font-size: var(--text-caption);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-28);
 }
 
 code {
-  background-color: rgba(79, 70, 229, 0.1); /* Subtle primary tint */
-  color: var(--primary-color);
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
-  font-size: 0.9em;
+  background-color: var(--color-graphite-card);
+  color: var(--color-interactive-yellow);
+  padding: 0.15em 0.5em;
+  border-radius: var(--radius-md);
+  font-family: var(--font-mono);
+  font-size: 0.875em;
 }
 
 pre code {
@@ -112,50 +188,103 @@ pre code {
   padding: 0;
 }
 
-/* Tables */
+/* ── Tables ── */
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: var(--space-md);
-  border: 1px solid var(--border-color);
+  margin-bottom: var(--spacing-28);
+  border: 1px solid var(--color-ghost-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  font-size: var(--text-body-sm);
 }
 
 th, td {
-  padding: var(--space-sm);
-  border: 1px solid var(--border-color);
+  padding: var(--spacing-14) var(--spacing-28);
+  border: 1px solid var(--color-ghost-border);
   text-align: left;
 }
 
 th {
-  background-color: rgba(0, 0, 0, 0.05);
-  font-weight: 600;
+  background-color: var(--color-graphite-card);
+  color: var(--color-cloud-gray);
+  font-weight: 700;
+  font-family: var(--font-mono);
+  font-size: var(--text-caption);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
-/* Images */
+tr:nth-child(even) td {
+  background-color: rgba(0, 0, 0, 0.025);
+}
+
+/* ── Images ── */
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
   display: block;
-  margin: var(--space-md) auto;
+  margin: var(--spacing-28) auto;
 }
 
-/* Blog Post Specifics */
+/* ── Blog post reading area ── */
 .blog-post {
-  max-width: 800px; /* Optimal reading width */
+  max-width: 720px;
   margin: 0 auto;
 }
 
 .blog-post h2 {
-  border-bottom: 2px solid var(--border-color);
-  padding-bottom: var(--space-xs);
-  margin-top: var(--space-xl);
+  border-bottom: 2px solid var(--color-action-orange);
+  padding-bottom: var(--spacing-14);
+  margin-top: var(--spacing-56);
 }
 
 .blog-post blockquote {
-  border-left: 4px solid var(--primary-color);
-  margin: var(--space-md) 0;
-  padding-left: var(--space-md);
+  border-left: 4px solid var(--color-action-orange);
+  margin: var(--spacing-28) 0;
+  padding: var(--spacing-14) var(--spacing-28);
+  background-color: rgba(255, 97, 0, 0.06);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
   font-style: italic;
-  color: var(--text-muted);
+  color: var(--color-slate-text);
+}
+
+/* ── Utility: Terminal Card ── */
+.card-terminal {
+  background-color: var(--color-graphite-card);
+  border-radius: var(--radius-cards);
+  padding: var(--card-padding);
+  color: var(--color-cloud-gray);
+}
+
+/* ── Utility: Light Card ── */
+.card-light {
+  background-color: var(--color-cloud-gray);
+  border-radius: var(--radius-cards);
+  padding: var(--card-padding);
+}
+
+/* ── Utility: Primary pill button ── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-4);
+  background-color: var(--color-graphite-card);
+  color: var(--color-cloud-gray);
+  padding: var(--spacing-14) var(--spacing-28);
+  border-radius: var(--radius-buttons);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: var(--text-body-sm);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-action-orange);
+  color: var(--color-cloud-gray);
+  transform: translateY(-1px);
 }

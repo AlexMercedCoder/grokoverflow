@@ -1,99 +1,53 @@
+/* Home — Mux design */
 .container {
-  padding: 0 var(--space-md);
-  max-width: 1200px;
+  max-width: var(--page-max-width);
   margin: 0 auto;
+  padding: 0 var(--spacing-28);
 }
 
 .main {
   min-height: 80vh;
-  padding: var(--space-xl) 0;
+  padding: var(--spacing-64) 0 var(--spacing-84);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  gap: var(--spacing-28);
 }
 
-.title {
+/* Hero heading uses the large display scale */
+.main h1 {
+  font-size: clamp(2.5rem, 6vw, var(--text-heading));
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-wide);
+  color: var(--color-ink);
+  margin: 0 0 var(--spacing-14);
+}
+
+.main h2 {
+  font-size: var(--text-heading-sm);
+  font-weight: 400;
+  color: var(--color-slate-text);
+  margin: 0 0 var(--spacing-28);
+}
+
+.main p {
+  font-size: var(--text-body);
+  color: var(--color-slate-text);
+  max-width: 680px;
   margin: 0;
-  line-height: 1.15;
-  font-size: 3.5rem;
-  text-align: center;
-  margin-bottom: var(--space-md);
-  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 800;
-  letter-spacing: -0.02em;
 }
 
-.title a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.description {
-  text-align: center;
-  margin: var(--space-md) 0 var(--space-xl);
-  line-height: 1.6;
-  font-size: 1.25rem;
-  color: var(--text-muted);
-  max-width: 800px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--space-md);
-  width: 100%;
-  max-width: 1200px;
-}
-
-.card {
-  padding: var(--space-md);
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-  background-color: var(--card-bg);
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: var(--primary-color);
-  border-color: var(--primary-color);
-  transform: translateY(-4px);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-.card h2 {
-  margin: 0 0 var(--space-sm) 0;
-  font-size: 1.5rem;
-  color: var(--text-main);
-}
-
-.card p {
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.6;
-  color: var(--text-muted);
-}
-
-/* Social List Grid Implementation */
+/* Social links as terminal-card style grid */
 .socialList {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: var(--space-sm);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--element-gap);
   list-style: none;
   padding: 0;
   width: 100%;
   max-width: 800px;
-  margin-top: var(--space-lg);
+  margin-top: var(--spacing-28);
 }
 
 .socialList li {
@@ -102,40 +56,31 @@
 
 .socialList a {
   display: block;
-  padding: var(--space-sm) var(--space-md);
-  background-color: var(--card-bg);
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
-  color: var(--text-main);
+  padding: var(--spacing-14) var(--spacing-28);
+  background-color: var(--color-graphite-card);
+  border-radius: var(--radius-cards);
+  color: var(--color-cloud-gray);
   text-align: center;
-  font-weight: 600;
-  transition: all 0.2s ease;
+  font-weight: 700;
+  font-size: var(--text-body-sm);
+  font-family: var(--font-mono);
+  letter-spacing: 0;
+  transition: background-color 0.15s ease, transform 0.15s ease;
   text-decoration: none;
-  font-family: var(--font-display);
 }
 
 .socialList a:hover {
-  border-color: var(--primary-color);
-  color: var(--primary-color);
+  background-color: var(--color-action-orange);
+  color: var(--color-cloud-gray);
   transform: translateY(-2px);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
 }
 
 @media (max-width: 600px) {
-  .grid {
-    grid-template-columns: 1fr;
+  .main {
+    padding: var(--spacing-56) 0;
   }
-  
-  .title {
-    font-size: 2.5rem;
-  }
-  
+
   .socialList {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }

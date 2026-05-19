@@ -1,163 +1,174 @@
+/* Post — Mux design */
 .main {
     max-width: 800px;
     margin: 0 auto;
-    padding: var(--space-xl) var(--space-md);
+    padding: var(--spacing-56) var(--spacing-28);
 }
 
+/* Outer dark terminal card wraps the article */
 .article {
-    background-color: var(--card-bg);
-    border-radius: 16px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: var(--color-cloud-gray);
+    border-radius: var(--radius-cards);
+    border: 1px solid var(--color-ghost-border);
     overflow: hidden;
-    border: 1px solid var(--border-color);
 }
 
+/* Article header — dark terminal card style */
 .header {
-    padding: var(--space-xl) var(--space-lg);
-    background: linear-gradient(to bottom, var(--bg-color), var(--card-bg));
-    border-bottom: 1px solid var(--border-color);
+    padding: var(--spacing-56) var(--spacing-56);
+    background-color: var(--color-graphite-card);
     text-align: center;
 }
 
 .title {
-    font-size: 3rem;
-    line-height: 1.2;
-    margin-bottom: var(--space-md);
-    color: var(--text-main);
-    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: clamp(1.8rem, 4vw, var(--text-heading-sm));
+    line-height: var(--leading-tight);
+    margin: 0 0 var(--spacing-28);
+    color: var(--color-cloud-gray);
+    font-weight: 700;
 }
 
 .metadata {
     display: flex;
     justify-content: center;
-    gap: var(--space-lg);
-    margin-bottom: var(--space-md);
-    font-size: 1rem;
-    color: var(--text-muted);
+    flex-wrap: wrap;
+    gap: var(--spacing-28);
+    margin-bottom: var(--spacing-28);
+    font-size: var(--text-caption);
+    color: var(--color-warm-gray-outline);
+    font-family: var(--font-mono);
 }
 
 .metaItem {
     display: flex;
     align-items: center;
-    gap: var(--space-xs);
+    gap: var(--spacing-4);
 }
 
 .label {
-    font-size: 0.875rem;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
     opacity: 0.7;
 }
 
 .authorLink {
-    color: var(--primary-color);
-    font-weight: 600;
+    color: var(--color-interactive-yellow);
+    font-weight: 400;
 }
 
 .authorLink:hover {
+    color: var(--color-action-orange);
     text-decoration: underline;
 }
 
+/* Tag row */
 .tags {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: var(--space-xs);
+    gap: var(--spacing-4);
 }
 
+/* Category = filled Interactive Yellow badge */
 .categoryTag {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 0.875rem;
-    font-weight: 600;
-    transition: background-color 0.2s;
+    background-color: var(--color-interactive-yellow);
+    color: var(--color-ink);
+    padding: 3px var(--spacing-14);
+    border-radius: var(--radius-buttons);
+    font-size: var(--text-caption);
+    font-family: var(--font-mono);
+    font-weight: 700;
+    transition: background-color 0.15s;
+    text-decoration: none;
 }
 
 .categoryTag:hover {
-    background-color: var(--primary-hover);
+    background-color: var(--color-action-orange);
+    color: var(--color-cloud-gray);
 }
 
+/* Tags = Action Orange outline */
 .tag {
-    background-color: var(--bg-color);
-    color: var(--text-muted);
-    padding: 4px 10px;
-    border-radius: 20px;
-    font-size: 0.875rem;
-    border: 1px solid var(--border-color);
-    transition: all 0.2s;
+    background-color: transparent;
+    color: var(--color-warm-gray-outline);
+    padding: 3px var(--spacing-14);
+    border-radius: var(--radius-buttons);
+    font-size: var(--text-caption);
+    font-family: var(--font-mono);
+    border: 1px solid var(--color-warm-gray-outline);
+    transition: all 0.15s;
+    text-decoration: none;
 }
 
 .tag:hover {
-    border-color: var(--primary-color);
-    color: var(--primary-color);
+    border-color: var(--color-action-orange);
+    color: var(--color-action-orange);
 }
 
+/* Article body — light card */
 .content {
-    padding: var(--space-xl) var(--space-lg);
-    font-size: 1.125rem;
-    line-height: 1.8;
-    color: var(--text-main);
+    padding: var(--spacing-56) var(--spacing-56);
+    font-size: var(--text-body);
+    line-height: 1.75;
+    color: var(--color-ink);
 }
 
 /* Related Posts */
 .related {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin-top: 1rem;
+    gap: var(--element-gap);
+    margin-top: var(--spacing-14);
 }
 
 .relatedPost {
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    padding: 1rem;
-    border-radius: 8px;
-    transition: transform 0.2s;
+    background: var(--color-graphite-card);
+    border: 1px solid transparent;
+    padding: var(--card-padding);
+    border-radius: var(--radius-cards);
+    transition: border-color 0.15s, transform 0.15s;
 }
 
 .relatedPost:hover {
     transform: translateY(-2px);
-    border-color: var(--primary-color);
+    border-color: var(--color-action-orange);
 }
 
 .relatedLink {
     text-decoration: none;
-    font-weight: 600;
-    color: var(--text-main);
+    font-weight: 700;
+    font-size: var(--text-body-sm);
+    color: var(--color-cloud-gray);
     display: block;
+    line-height: var(--leading-snug);
 }
 
 .relatedLink:hover {
-    color: var(--primary-color);
+    color: var(--color-interactive-yellow);
 }
 
-/* Responsive adjustments */
+/* ── Responsive ── */
 @media (max-width: 600px) {
     .main {
-        padding: var(--space-md) var(--space-sm);
+        padding: var(--spacing-28) var(--spacing-14);
     }
-    
+
     .header {
-        padding: var(--space-lg) var(--space-md);
+        padding: var(--spacing-28) var(--spacing-28);
     }
-    
+
     .title {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
-    
+
     .content {
-        padding: var(--space-lg) var(--space-md);
-        font-size: 1rem;
+        padding: var(--spacing-28) var(--spacing-28);
+        font-size: var(--text-body-sm);
     }
-    
+
     .metadata {
         flex-direction: column;
-        gap: var(--space-xs);
+        gap: var(--spacing-4);
         align-items: center;
     }
 }
