@@ -103,7 +103,7 @@ function Header(props) {
           <div className={styles.link}>PODCAST</div>
         </Link>
         <Link href="/video"><div className={styles.link}>VIDEOS</div></Link>
-        <a href="https://join.slack.com/t/amwebdev/shared_invite/enQtNzc4NDA3MDU3MDE0LTZjNjIyZmQ3MzA5Y2Q3MWUwZjk3NTIyYjliOThlMWFjNTFkYWM1OGUxN2Y3NGExNGVhOGIzZTg0YTJjZTk5NDA">
+        <a href="https://join.slack.com/t/thedatalakehousehub/shared_invite/zt-274yc8sza-mI2zhCW8LGkOh1uxuf8T5Q">
           <div className={styles.link}>COMMUNITY</div>
         </a>
         <ThemeToggle />
