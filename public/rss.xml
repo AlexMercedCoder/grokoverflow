@@ -7,144 +7,144 @@
       <language>en</language>
       
     <item>
-      <title>What Are Table Formats and Why Were They Needed?</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-01-table-formats</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-01-table-formats</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Automating Table Maintenance Before Small Files Accumulate</title>
+      <link>https://grokoverflow.com/posts/2026/automating-table-maintenance</link>
+      <guid>https://grokoverflow.com/posts/2026/automating-table-maintenance</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Learn how Databricks Predictive Optimization, AWS S3 Tables, and Iceberg native actions automate compaction and snapshot management before small files degrade performance.]]></description>
     </item>
     <item>
-      <title>The Metadata Structure of Modern Table Formats</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-02-metadata-structures</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-02-metadata-structures</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Choosing the Right Iceberg Control Plane: Polaris vs. Unity Catalog vs. Cloud REST</title>
+      <link>https://grokoverflow.com/posts/2026/choosing-iceberg-control-plane</link>
+      <guid>https://grokoverflow.com/posts/2026/choosing-iceberg-control-plane</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Choosing an Apache Iceberg catalog? Compare open-source Apache Polaris, open Unity Catalog, and managed cloud REST control planes to unify your lakehouse.]]></description>
     </item>
     <item>
-      <title>Performance and Apache Iceberg's Metadata</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-03-iceberg-metadata-performance</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-03-iceberg-metadata-performance</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Clean Rooms for Privacy-Preserving Analytics</title>
+      <link>https://grokoverflow.com/posts/2026/clean-rooms-privacy</link>
+      <guid>https://grokoverflow.com/posts/2026/clean-rooms-privacy</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Data clean rooms enable secure multi-party analytics without sharing raw data. Learn how Databricks Clean Rooms, AWS Clean Rooms, and BigQuery differential privacy work.]]></description>
     </item>
     <item>
-      <title>Partition Evolution: Change Your Partitioning Without Rewriting Data</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-04-partition-evolution</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-04-partition-evolution</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Building Composable Query Engines with Rust Runtimes</title>
+      <link>https://grokoverflow.com/posts/2026/composable-query-engines</link>
+      <guid>https://grokoverflow.com/posts/2026/composable-query-engines</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apache DataFusion, Velox, and Substrait form the foundation of modern composable query engine stacks. Learn how these components fit together and when to use each.]]></description>
     </item>
     <item>
-      <title>Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-05-hidden-partitioning</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-05-hidden-partitioning</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Data Mesh After the Hype: What Actually Works</title>
+      <link>https://grokoverflow.com/posts/2026/data-mesh-after-hype</link>
+      <guid>https://grokoverflow.com/posts/2026/data-mesh-after-hype</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Three years after Zhamak Dehghani's original papers, data mesh has proven valuable in specific organizational contexts and impractical in others. Here's what the practical implementations look like.]]></description>
     </item>
     <item>
-      <title>Writing to an Apache Iceberg Table: How Commits and ACID Actually Work</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-06-writing-to-iceberg</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-06-writing-to-iceberg</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>How dbt Fusion Reshapes Analytics Engineering</title>
+      <link>https://grokoverflow.com/posts/2026/dbt-fusion-analytics-engineering</link>
+      <guid>https://grokoverflow.com/posts/2026/dbt-fusion-analytics-engineering</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[dbt Fusion entered public beta in May 2025 with a Rust-powered runtime that changes how analytics engineers develop, validate, and deploy SQL models. Here's what changed.]]></description>
     </item>
     <item>
-      <title>What Are Lakehouse Catalogs? The Role of Catalogs in Apache Iceberg</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-07-lakehouse-catalogs</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-07-lakehouse-catalogs</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Using DuckDB and Polars to Query Iceberg Tables</title>
+      <link>https://grokoverflow.com/posts/2026/duckdb-polars-iceberg</link>
+      <guid>https://grokoverflow.com/posts/2026/duckdb-polars-iceberg</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[DuckDB 1.4 LTS and Polars streaming engine now both support reading and writing Apache Iceberg tables. Learn how to use them for lakehouse analytics in 2025.]]></description>
     </item>
     <item>
-      <title>When Catalogs Are Embedded in Storage</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-08-embedded-catalogs</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-08-embedded-catalogs</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>FinOps for Data Warehouses with Open Billing Data</title>
+      <link>https://grokoverflow.com/posts/2026/finops-warehouse-cost</link>
+      <guid>https://grokoverflow.com/posts/2026/finops-warehouse-cost</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The FOCUS 1.3 specification and native warehouse cost views make real-time cost attribution practical. Learn how to build a FinOps pipeline for Snowflake, BigQuery, and multi-cloud environments.]]></description>
     </item>
     <item>
-      <title>How Data Lake Table Storage Degrades Over Time</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-09-storage-degradation</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-09-storage-degradation</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Designing Governed RAG on Data Products</title>
+      <link>https://grokoverflow.com/posts/2026/governed-rag-data-products</link>
+      <guid>https://grokoverflow.com/posts/2026/governed-rag-data-products</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Enterprise RAG architecture that trusts its own data requires governance at the retrieval layer. Learn how to build governed RAG using data products, access policies, and semantic layer routing.]]></description>
     </item>
     <item>
-      <title>Maintaining Apache Iceberg Tables: Compaction, Expiry, and Cleanup</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-10-maintaining-iceberg</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-10-maintaining-iceberg</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>What Iceberg V3 Advances Mean for CDC Pipelines</title>
+      <link>https://grokoverflow.com/posts/2026/iceberg-cdc-pipelines</link>
+      <guid>https://grokoverflow.com/posts/2026/iceberg-cdc-pipelines</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apache Iceberg V3 brings deletion vectors and row lineage that reshape CDC pipeline design. Learn what these features mean for your streaming data architecture.]]></description>
     </item>
     <item>
-      <title>Apache Iceberg Metadata Tables: Querying the Internals</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-11-metadata-tables</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-11-metadata-tables</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Kafka 4.0 Changes Streaming Platform Operations</title>
+      <link>https://grokoverflow.com/posts/2026/kafka-streaming-operations</link>
+      <guid>https://grokoverflow.com/posts/2026/kafka-streaming-operations</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Kafka 4.0 removes ZooKeeper and ships KRaft and KIP-848 by default. Learn what those changes mean for platform operations, upgrades, and client configurations.]]></description>
     </item>
     <item>
-      <title>Using Apache Iceberg with Python and MPP Query Engines</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-12-python-and-mpp</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-12-python-and-mpp</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Lance and Iceberg for Multimodal AI Data</title>
+      <link>https://grokoverflow.com/posts/2026/lance-iceberg-multimodal</link>
+      <guid>https://grokoverflow.com/posts/2026/lance-iceberg-multimodal</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[LanceDB and Apache Iceberg serve complementary roles in a multimodal AI lakehouse. Learn when to use Lance for embeddings and random access, and Iceberg for structured metadata and SQL analytics.]]></description>
     </item>
     <item>
-      <title>Approaches to Streaming Data into Apache Iceberg Tables</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-13-streaming-to-iceberg</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-13-streaming-to-iceberg</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Bringing MLflow and Data Pipelines Closer Together</title>
+      <link>https://grokoverflow.com/posts/2026/mlflow-data-pipelines</link>
+      <guid>https://grokoverflow.com/posts/2026/mlflow-data-pipelines</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[MLflow 3 extends observability from classic ML experiments to GenAI tracing and data pipeline lineage. Learn how to connect data quality monitoring with model performance tracking.]]></description>
     </item>
     <item>
-      <title>Hands-On with Apache Iceberg Using Dremio Cloud</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-14-hands-on-dremio-cloud</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-14-hands-on-dremio-cloud</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Modern Feature Stores Beyond Batch Pipelines</title>
+      <link>https://grokoverflow.com/posts/2026/modern-feature-stores</link>
+      <guid>https://grokoverflow.com/posts/2026/modern-feature-stores</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Feature stores like Feast now support streaming feature views from Kafka and Kinesis alongside batch pipelines. Learn how to build real-time features that maintain training-serving consistency.]]></description>
     </item>
     <item>
-      <title>Migrating to Apache Iceberg: Strategies for Every Source System</title>
-      <link>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-15-migrating-to-iceberg</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-15-migrating-to-iceberg</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>OpenLineage as the Spine of Data Observability</title>
+      <link>https://grokoverflow.com/posts/2026/openlineage-observability</link>
+      <guid>https://grokoverflow.com/posts/2026/openlineage-observability</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OpenLineage provides a standard API for collecting pipeline lineage across Airflow, Spark, Flink, and dbt. Learn how it powers blast radius analysis and incident triage.]]></description>
     </item>
     <item>
-      <title>How Query Engines Think: The Tradeoffs Behind Every Data System</title>
-      <link>https://grokoverflow.com/posts/2026/query-engine-optimization-01-overview</link>
-      <guid>https://grokoverflow.com/posts/2026/query-engine-optimization-01-overview</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>When Paimon Beats Iceberg for Mutable Streams</title>
+      <link>https://grokoverflow.com/posts/2026/paimon-vs-iceberg-mutable-streams</link>
+      <guid>https://grokoverflow.com/posts/2026/paimon-vs-iceberg-mutable-streams</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apache Paimon uses LSM-Tree storage for native CDC upserts without restart. Learn when Paimon outperforms Iceberg for high-churn mutable streaming workloads.]]></description>
     </item>
     <item>
-      <title>Row vs. Column: How Storage Layout Shapes Everything</title>
-      <link>https://grokoverflow.com/posts/2026/query-engine-optimization-02-row-vs-column-storage</link>
-      <guid>https://grokoverflow.com/posts/2026/query-engine-optimization-02-row-vs-column-storage</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Policy as Code for Lakehouse Governance</title>
+      <link>https://grokoverflow.com/posts/2026/policy-as-code-governance</link>
+      <guid>https://grokoverflow.com/posts/2026/policy-as-code-governance</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[OPA, ABAC, row filters, and column masks make lakehouse governance programmable and scalable. Learn how Databricks, Snowflake Horizon, and BigQuery implement policy-as-code.]]></description>
     </item>
     <item>
-      <title>How Databases Organize Data on Disk: Pages, Blocks, and File Formats</title>
-      <link>https://grokoverflow.com/posts/2026/query-engine-optimization-03-data-organization-on-disk</link>
-      <guid>https://grokoverflow.com/posts/2026/query-engine-optimization-03-data-organization-on-disk</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Real-Time Lakehouse Patterns with Apache Flink and Iceberg</title>
+      <link>https://grokoverflow.com/posts/2026/real-time-lakehouse-flink</link>
+      <guid>https://grokoverflow.com/posts/2026/real-time-lakehouse-flink</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Learn how to build a real-time lakehouse with Apache Flink 2.1 and the Dynamic Iceberg Sink, covering schema evolution, exactly-once delivery, and compaction.]]></description>
     </item>
     <item>
-      <title>B-Trees, LSM Trees, and the Indexing Tradeoff Spectrum</title>
-      <link>https://grokoverflow.com/posts/2026/query-engine-optimization-04-indexing-strategies</link>
-      <guid>https://grokoverflow.com/posts/2026/query-engine-optimization-04-indexing-strategies</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Why Semantic Layers Make Enterprise Text-to-SQL Safer</title>
+      <link>https://grokoverflow.com/posts/2026/semantic-layers-text-to-sql</link>
+      <guid>https://grokoverflow.com/posts/2026/semantic-layers-text-to-sql</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Text-to-SQL accuracy jumps from 40% to 85-95% when grounded in a semantic layer. Learn how Dremio, Snowflake Cortex Analyst, and dbt Semantic Layer improve AI analytics reliability.]]></description>
     </item>
     <item>
-      <title>Inside the Query Optimizer: How Engines Pick a Plan</title>
-      <link>https://grokoverflow.com/posts/2026/query-engine-optimization-05-query-optimizer</link>
-      <guid>https://grokoverflow.com/posts/2026/query-engine-optimization-05-query-optimizer</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Single-Node Data Engineering: DuckDB, DataFusion, Polars, and LakeSail</title>
+      <link>https://grokoverflow.com/posts/2026/single-node-laptop-data-engineering</link>
+      <guid>https://grokoverflow.com/posts/2026/single-node-laptop-data-engineering</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Optimize single-node data engineering with DuckDB, DataFusion, Polars, and LakeSail. Compare architectures and learn when to transition to Dremio MPP.]]></description>
     </item>
     </channel>
   </rss>

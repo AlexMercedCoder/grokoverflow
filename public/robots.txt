@@ -1,7 +1,6 @@
 # *
 User-agent: *
 Allow: /
-Disallow: /api/
 
 # Google-Extended
 User-agent: Google-Extended
@@ -33,10 +32,6 @@ Allow: /
 
 # Meta-ExternalAgent
 User-agent: Meta-ExternalAgent
-Allow: /
-
-# CCBot
-User-agent: CCBot
 Allow: /
 
 # Host
