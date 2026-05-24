@@ -6,6 +6,7 @@
 
 ## Apache Iceberg & Data Lakehouse
 
+- [Single-Node Data Engineering: DuckDB, DataFusion, Polars, and LakeSail](https://grokoverflow.com/posts/2026/single-node-laptop-data-engineering): Optimize single-node data engineering with DuckDB, DataFusion, Polars, and LakeSail. Compare architectures and learn when to transition to Dremio MPP.
 - [An In-Depth Overview of the Apache Iceberg 1.11.0 Release](https://grokoverflow.com/posts/2026/apache-iceberg-1-11-0-deep-dive): Apache Iceberg 1.11.0 delivers manifest list encryption, the new pluggable File Format API, credential lifecycle refreshes, and Spark/Flink improvements.
 - [Performance and Apache Iceberg's Metadata](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-03-iceberg-metadata-performance): Article about Performance and Apache Iceberg's Metadata
 - [Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans](https://grokoverflow.com/posts/2026/apache-iceberg-masterclass-05-hidden-partitioning): Article about Hidden Partitioning: How Iceberg Eliminates Accidental Full Table Scans
