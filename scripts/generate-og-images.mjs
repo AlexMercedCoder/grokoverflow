@@ -190,10 +190,14 @@ async function main() {
   for (const post of posts) {
     const outputPath = path.join(OUTPUT_DIR, `${post.slug}.png`);
 
-    // Check if already generated
+    // Check if already generated and source hasn't changed
     if (fs.existsSync(outputPath)) {
-      skipped++;
-      continue;
+      const srcStat = fs.statSync(post.filePath);
+      const outStat = fs.statSync(outputPath);
+      if (srcStat.mtimeMs < outStat.mtimeMs) {
+        skipped++;
+        continue;
+      }
     }
 
     try {
