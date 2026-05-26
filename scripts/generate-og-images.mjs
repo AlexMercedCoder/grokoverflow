@@ -9,7 +9,7 @@ import { Resvg } from '@resvg/resvg-js';
 
 const POSTS_DIR = path.resolve('posts');
 const OUTPUT_DIR = path.resolve('public/og');
-const FONT_PATH = '/usr/share/fonts/truetype/lato/Lato-Bold.ttf';
+const FONT_PATH = path.join(import.meta.dirname, 'inter-bold.ttf');
 const DOMAIN = 'grokoverflow.com';
 const BRAND = 'GrokOverflow';
 const ACCENT = '#0ea5e9';
@@ -58,7 +58,7 @@ async function generateOgImage(title) {
           alignItems: 'center',
           background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0ea5e9 100%)',
           padding: '60px 80px',
-          fontFamily: 'Lato',
+          fontFamily: 'Inter',
         },
         children: [
           // Top section: Brand name
@@ -157,7 +157,7 @@ async function generateOgImage(title) {
       height: 630,
       fonts: [
         {
-          name: 'Lato',
+          name: 'Inter',
           data: fontBuffer,
           weight: 700,
           style: 'normal',
