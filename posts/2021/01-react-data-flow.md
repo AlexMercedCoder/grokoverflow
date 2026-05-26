@@ -3,7 +3,6 @@ title: React Data Flow - Understanding State and Props
 date: "2021-01-15"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2021/react-data-flow.png"
 tags:
   - react
   - frontend

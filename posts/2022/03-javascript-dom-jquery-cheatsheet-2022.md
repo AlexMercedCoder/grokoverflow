@@ -3,7 +3,6 @@ title: Javascript DOM & jQuery Cheatsheet 2022
 date: "2022-03-12"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2022/javascript-dom-cheatsheet.png"
 tags:
     - javascript
     - dom

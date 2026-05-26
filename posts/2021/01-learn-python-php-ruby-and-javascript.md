@@ -3,7 +3,6 @@ title: Learn Python, PHP, Ruby and Javascript in one Blog Post
 date: "2021-01-30"
 author: "Alex Merced"
 category: "other languages"
-bannerImage: "/images/postbanner/2021/python-php-ruby-js.png"
 tags:
   - python
   - php

@@ -3,7 +3,6 @@ title: Creating Deno Scripts Like Node NPM Scripts
 date: "2021-05-19"
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - tooling
   - javascript

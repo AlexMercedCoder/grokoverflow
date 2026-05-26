@@ -3,7 +3,6 @@ title: Basics of Building a CRUD API with Flask or FASTApi
 date: "2021-07-23"
 author: "Alex Merced"
 category: "python"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - python
   - backend

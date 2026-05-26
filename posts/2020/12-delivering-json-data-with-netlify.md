@@ -3,7 +3,6 @@ title: Delivering JSON Data with Netlify
 date: "2020-12-20"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2020/delivering-json-data.png"
 tags:
     - json
     - netlify

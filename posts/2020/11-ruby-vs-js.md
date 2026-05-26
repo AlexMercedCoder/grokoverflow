@@ -3,7 +3,6 @@ title: Ruby vs Javascript in Several Images
 date: "2020-11-02"
 author: "Alex Merced"
 category: "ruby"
-bannerImage: "/images/postbanner/2020/ruby-and-js-side-by-side.png"
 tags:
     - ruby
     - javascript

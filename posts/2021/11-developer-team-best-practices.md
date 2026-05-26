@@ -3,7 +3,6 @@ title: Developer Team Work Best Practices (Git, Agile/Scrum/Kanban, CI/CD)
 date: "2021-11-16"
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - tooling
   - github

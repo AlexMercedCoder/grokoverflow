@@ -3,7 +3,6 @@ title: Creating a GraphQL Based Habit Tracker with Hasura and React (GraphQL/Has
 date: "2021-11-16"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - backend

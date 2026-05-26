@@ -3,7 +3,6 @@ title: Intro to Express, Templating and API's (EJS, Handlebars, Mustache, Pug)
 date: "2021-03-04"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - javascript
   - node

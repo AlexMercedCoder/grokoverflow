@@ -3,7 +3,6 @@ title: Git - A Guide to Understanding and Using Git
 date: "2021-01-09"
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - git
   - tooling

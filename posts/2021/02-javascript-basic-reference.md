@@ -3,7 +3,6 @@ title: Javascript Basic Reference
 date: "2021-02-07"
 author: "Alex Merced"
 category: "reference"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - javascript
   - reference

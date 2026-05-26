@@ -3,7 +3,6 @@ title: Creating APIs with Dart & Google Shelf - Zero to Deploy
 date: "2021-03-14"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - other languages
   - backend

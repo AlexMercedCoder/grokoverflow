@@ -3,7 +3,6 @@ title: Creating a Markdown Blog in 2022 with Next JS
 date: "2022-03-13"
 author: "Alex Merced"
 category: "jamstack"
-bannerImage: "/images/postbanner/2022/creating-markdown-blog-nextjs.png"
 tags:
     - jamstack
     - markdown
@@ -99,7 +98,6 @@ title: "This is an example post"
 author: "Alex Merced"
 category: "example"
 date: "2022-03-13"
-bannerImage: "url-to-image.png"
 tags:
     - example
 ---

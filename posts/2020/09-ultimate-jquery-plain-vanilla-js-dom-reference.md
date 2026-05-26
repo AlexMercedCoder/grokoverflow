@@ -3,7 +3,6 @@ title: Ultimate jQuery/Plain Vanilla JS DOM Reference
 date: "2020-09-13T22:12:03.284Z"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2020/ultimate-jquery-reference.png"
 tags:
     - jquery
     - javascript

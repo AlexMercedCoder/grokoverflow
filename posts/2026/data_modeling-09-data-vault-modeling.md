@@ -3,7 +3,6 @@ title: 'Data Vault Modeling: Hubs, Links, and Satellites'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Modeling
-bannerImage: /images/2026/data_modeling/09-data-vault-modeling/data-vault-overview.png
 tags:
   - data modeling
   - database design

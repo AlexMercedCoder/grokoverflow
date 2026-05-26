@@ -3,7 +3,6 @@ title: MongoDB Relationships using Mongoose in NodeJS
 date: "2021-11-19"
 author: "Alex Merced"
 category: "database"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - backend

@@ -3,7 +3,6 @@ title: Why Your AI Initiatives Fail Without a Semantic Layer
 date: '2026-02-18'
 author: Alex Merced
 category: Semantic Layer
-bannerImage: >-
   /images/2026/semantic_layer_seo/05-why-ai-fails-without-semantic-layer/ai-semantic-layer.png
 tags:
   - semantic layer

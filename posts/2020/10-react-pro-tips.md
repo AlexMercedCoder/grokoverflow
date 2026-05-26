@@ -3,7 +3,6 @@ title: React Pro Tips in Several Images
 date: "2020-10-12"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2020/react-pro-tips.png"
 tags:
     - react
     - frontend

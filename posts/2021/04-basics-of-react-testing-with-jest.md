@@ -3,7 +3,6 @@ title: The Basics of React Testing With Jest
 date: "2021-04-22"
 author: "Alex Merced"
 category: "testing"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - javascript
   - node

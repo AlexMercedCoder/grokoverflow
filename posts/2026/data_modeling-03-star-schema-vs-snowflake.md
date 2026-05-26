@@ -3,7 +3,6 @@ title: 'Star Schema vs. Snowflake Schema: When to Use Each'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Modeling
-bannerImage: /images/2026/data_modeling/03-star-schema-vs-snowflake/star-vs-snowflake.png
 tags:
   - data modeling
   - database design

@@ -3,7 +3,6 @@ title: Intro to Building Backend Servers with KOAjs
 date: "2021-01-14"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2021/backend-with-koajs.png"
 tags:
   - backend
   - node

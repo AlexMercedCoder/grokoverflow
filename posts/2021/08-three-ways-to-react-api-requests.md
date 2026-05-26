@@ -3,7 +3,6 @@ title: 3 Ways to make API Requests in React (fetch/axios, merced-react-hooks, re
 date: "2021-08-12"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - ajax

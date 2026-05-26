@@ -3,7 +3,6 @@ title: Intro to PHP
 date: "2021-01-15"
 author: "Alex Merced"
 category: "php"
-bannerImage: "/images/postbanner/2021/intro-to-php.png"
 tags:
   - php
   - backend

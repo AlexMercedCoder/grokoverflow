@@ -3,7 +3,6 @@ title: How to Work with Masonite - Python Web Framework
 date: "2021-05-28"
 author: "Alex Merced"
 category: "python"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - python
   - backend

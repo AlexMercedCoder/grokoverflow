@@ -3,7 +3,6 @@ title: Understanding RPC (tour of API protocols, gRPC nodejs walkthrough, and Ap
 date: "2022-02-19"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2022/understanding-remote-procedure-call-rpc.png"
 tags:
     - backend
     - api

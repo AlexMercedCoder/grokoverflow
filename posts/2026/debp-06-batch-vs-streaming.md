@@ -3,7 +3,6 @@ title: 'Batch vs. Streaming: Choose the Right Processing Model'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Engineering
-bannerImage: /images/2026/debp/06-batch-vs-streaming/batch-vs-streaming.png
 tags:
   - data engineering
   - best practices

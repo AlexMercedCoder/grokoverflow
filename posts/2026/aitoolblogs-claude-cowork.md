@@ -3,7 +3,6 @@ title: 'How to Use Dremio with Claude CoWork: Connect, Query, and Build Data App
 date: '2026-03-05'
 author: Alex Merced
 category: AI Tools
-bannerImage: /images/2026/aitoolblogs/claude-cowork/cowork-dremio-architecture.png
 tags:
   - ai
   - developer tools

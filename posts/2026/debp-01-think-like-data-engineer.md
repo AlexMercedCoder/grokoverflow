@@ -3,7 +3,6 @@ title: How to Think Like a Data Engineer
 date: '2026-02-18'
 author: Alex Merced
 category: Data Engineering
-bannerImage: /images/2026/debp/01-think-like-data-engineer/data-engineer-mindset.png
 tags:
   - data engineering
   - best practices

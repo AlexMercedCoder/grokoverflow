@@ -3,7 +3,6 @@ title: Frontend CRUD with Plain Vanilla JS
 date: "2020-08-18"
 author: "Alex Merced"
 category: "reference"
-bannerImage: "/images/postbanner/2020/frontend-crud-plain-vanilla.png"
 tags:
     - crud
     - javascript

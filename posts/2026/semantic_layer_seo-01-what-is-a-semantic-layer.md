@@ -3,7 +3,6 @@ title: What Is a Semantic Layer? A Complete Guide
 date: '2026-02-18'
 author: Alex Merced
 category: Semantic Layer
-bannerImage: >-
   /images/2026/semantic_layer_seo/01-what-is-a-semantic-layer/semantic-layer-concept.png
 tags:
   - semantic layer

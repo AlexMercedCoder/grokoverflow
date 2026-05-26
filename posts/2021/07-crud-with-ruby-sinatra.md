@@ -3,7 +3,6 @@ title: Basics of Building a CRUD API with Ruby Sinatra
 date: "2021-07-24"
 author: "Alex Merced"
 category: "ruby"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - ruby
   - backend

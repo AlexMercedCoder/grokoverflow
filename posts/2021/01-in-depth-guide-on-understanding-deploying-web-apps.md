@@ -3,7 +3,6 @@ title: In-Depth Guide on Understanding Deploying Web Apps
 date: "2021-01-01"
 author: "Alex Merced"
 category: "deployment"
-bannerImage: "/images/postbanner/2021/deploying-web-apps.png"
 tags:
   - deployment
   - computer science

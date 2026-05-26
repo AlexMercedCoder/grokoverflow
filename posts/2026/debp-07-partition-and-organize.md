@@ -3,7 +3,6 @@ title: Partition and Organize Data for Performance
 date: '2026-02-18'
 author: Alex Merced
 category: Data Engineering
-bannerImage: /images/2026/debp/07-partition-and-organize/partition-overview.png
 tags:
   - data engineering
   - best practices

@@ -3,7 +3,6 @@ title: Ultimate 2021 List of CSS Frameworks and Component Libraries for Angular,
 date: "2021-03-28"
 author: "Alex Merced"
 category: "reference"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - css
   - angular

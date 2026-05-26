@@ -3,7 +3,6 @@ title: What is a Makefile and how do I use them?
 date: "2021-02-14"
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - tooling
 ---

@@ -3,7 +3,6 @@ title: Intro to SvelteKit
 date: "2021-06-14"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - frontend

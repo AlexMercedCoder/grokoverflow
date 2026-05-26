@@ -3,7 +3,6 @@ title: 'How to Use Dremio with Amazon Kiro: Connect, Query, and Build Data Apps'
 date: '2026-03-05'
 author: Alex Merced
 category: AI Tools
-bannerImage: /images/2026/aitoolblogs/amazon-kiro/kiro-dremio-architecture.png
 tags:
   - ai
   - developer tools

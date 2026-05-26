@@ -3,7 +3,6 @@ title: Basics of Building a CRUD API with NodeJS - Express, Koa and Fastify
 date: "2021-07-25"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - express

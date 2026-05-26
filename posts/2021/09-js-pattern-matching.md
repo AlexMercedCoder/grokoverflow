@@ -3,7 +3,6 @@ title: Pattern Matching in Javascript with alexmerced-patternmatcher
 date: "2021-09-06"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
 ---

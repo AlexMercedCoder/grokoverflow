@@ -3,7 +3,6 @@ title: Big List of Hosted Headless CMS Providers with Free or Developer Tier in 
 date: "2021-01-12"
 author: "Alex Merced"
 category: "jamstack"
-bannerImage: "/images/postbanner/2021/list-of-headless-cms.png"
 tags:
   - headless cms
   - jamstack

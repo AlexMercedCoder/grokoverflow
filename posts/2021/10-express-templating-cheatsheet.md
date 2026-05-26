@@ -3,7 +3,6 @@ title: Express Templating Cheatsheet
 date: "2021-10-19"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - backend

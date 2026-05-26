@@ -3,7 +3,6 @@ title: How to create an One to Many Relationship with Auth in Python with Masoni
 date: "2021-12-07"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - backend
   - python

@@ -3,7 +3,6 @@ title: 'Testing Data Pipelines: What to Validate and When'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Engineering
-bannerImage: /images/2026/debp/08-testing-data-pipelines/testing-pyramid.png
 tags:
   - data engineering
   - best practices

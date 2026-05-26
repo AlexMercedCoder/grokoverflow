@@ -3,7 +3,6 @@ title: 'How to Use Dremio with GitHub Copilot: Connect, Query, and Build Data Ap
 date: '2026-03-05'
 author: Alex Merced
 category: AI Tools
-bannerImage: /images/2026/aitoolblogs/github-copilot/copilot-dremio-architecture.png
 tags:
   - ai
   - developer tools

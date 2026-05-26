@@ -3,7 +3,6 @@ title: Auth with Express with JWT, MongoDB, and Postgres
 date: "2021-11-24"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - backend

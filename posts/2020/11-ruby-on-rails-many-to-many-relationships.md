@@ -3,7 +3,6 @@ title: Ruby on Rails Tutorial - Many to Many Relationships
 date: "2020-11-11"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2020/rails-many-to-many.png"
 tags:
     - database
     - rails

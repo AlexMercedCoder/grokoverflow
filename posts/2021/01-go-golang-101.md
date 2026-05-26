@@ -3,7 +3,6 @@ title: Go/Golang 101 - The Syntax and Basics
 date: "2021-01-04"
 author: "Alex Merced"
 category: "other languages"
-bannerImage: "/images/postbanner/2021/golang-101.png"
 tags:
 	- other languages
     - golang

@@ -3,7 +3,6 @@ title: Basic Authentication with Node/Express and Mongo
 date: "2021-08-20"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - backend

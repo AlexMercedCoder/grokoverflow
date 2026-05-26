@@ -3,7 +3,6 @@ title: API With GO Buffalo, from zero to deploy
 date: "2021-03-04"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - other languages
   - backend

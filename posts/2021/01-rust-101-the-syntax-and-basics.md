@@ -3,7 +3,6 @@ title: Rust 101 - The Syntax and Basics
 date: "2021-01-04"
 author: "Alex Merced"
 category: "other languages"
-bannerImage: "/images/postbanner/2021/rust-101.png"
 tags:
   - rust
 ---

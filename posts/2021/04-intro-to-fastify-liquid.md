@@ -3,7 +3,6 @@ title: Intro to Fastify & The Liquid Templating Language
 date: "2021-04-24"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - javascript
   - node

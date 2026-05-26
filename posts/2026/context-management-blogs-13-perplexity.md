@@ -3,7 +3,6 @@ title: 'Context Management Strategies for Perplexity AI: A Complete Guide to Res
 date: '2026-03-07'
 author: Alex Merced
 category: AI Tools
-bannerImage: /images/postbanner/default.png
 tags:
   - ai
   - context management

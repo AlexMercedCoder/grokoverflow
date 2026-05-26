@@ -3,7 +3,6 @@ title: Tips for Aspiring Developers
 date: "2021-01-20"
 author: "Alex Merced"
 category: "careers"
-bannerImage: "/images/postbanner/2021/tips-for-devs.png"
 tags:
   - careers
 ---

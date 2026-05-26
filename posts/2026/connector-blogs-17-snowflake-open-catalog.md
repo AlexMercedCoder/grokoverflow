@@ -3,7 +3,6 @@ title: 'Connect Snowflake Open Catalog to Dremio Cloud: Multi-Engine Iceberg Ana
 date: '2026-03-01'
 author: Alex Merced
 category: Dremio
-bannerImage: /images/postbanner/default.png
 tags:
   - dremio
   - connectors

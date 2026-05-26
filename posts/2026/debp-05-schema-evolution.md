@@ -3,7 +3,6 @@ title: Schema Evolution Without Breaking Consumers
 date: '2026-02-18'
 author: Alex Merced
 category: Data Engineering
-bannerImage: /images/2026/debp/05-schema-evolution/schema-contract.png
 tags:
   - data engineering
   - best practices

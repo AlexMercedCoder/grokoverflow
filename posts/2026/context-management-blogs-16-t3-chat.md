@@ -3,7 +3,6 @@ title: 'Context Management Strategies for T3 Chat: A Complete Guide to the Unifi
 date: '2026-03-07'
 author: Alex Merced
 category: AI Tools
-bannerImage: /images/postbanner/default.png
 tags:
   - ai
   - context management

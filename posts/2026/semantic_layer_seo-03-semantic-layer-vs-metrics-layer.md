@@ -3,7 +3,6 @@ title: 'Semantic Layer vs. Metrics Layer: What''s the Difference?'
 date: '2026-02-18'
 author: Alex Merced
 category: Semantic Layer
-bannerImage: >-
   /images/2026/semantic_layer_seo/03-semantic-layer-vs-metrics-layer/semantic-vs-metrics.png
 tags:
   - semantic layer

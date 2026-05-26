@@ -3,7 +3,6 @@ title: Understanding and Using Environment Variables in React
 date: "2021-01-16"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2021/env-variables.png"
 tags:
   - react
   - frontend

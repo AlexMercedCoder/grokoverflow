@@ -3,7 +3,6 @@ title: npx make-fullstack-app - Scaffolding your backend and frontend
 date: "2020-10-22"
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2020/create-fullstack-app.png"
 tags:
   - backend
   - frontend

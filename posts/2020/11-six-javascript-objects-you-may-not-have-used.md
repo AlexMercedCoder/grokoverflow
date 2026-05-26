@@ -3,7 +3,6 @@ title: 6 JS Object Types You May Not Have Used
 date: "2020-11-30"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2020/10-js-objects.png"
 tags:
     - javascript
     - data types

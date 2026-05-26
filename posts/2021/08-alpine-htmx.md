@@ -3,7 +3,6 @@ title: The renaissance of server side rendering with Alpine and HTMX, Reactivity
 date: "2021-08-19"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - frontend

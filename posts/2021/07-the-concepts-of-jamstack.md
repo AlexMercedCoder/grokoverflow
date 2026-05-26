@@ -3,7 +3,6 @@ title: The Concepts of JAMStack 101
 date: "2021-07-11"
 author: "Alex Merced"
 category: "jamstack"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - jamstack

@@ -3,7 +3,6 @@ title: Big List of Online Places to Code/Prototype
 date: "2020-09-24"
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2020/list-of-online-places.png"
 tags:
     - tooling
 ---

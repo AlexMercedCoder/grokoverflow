@@ -3,7 +3,6 @@ title: 'Conceptual, Logical, and Physical Data Models Explained'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Modeling
-bannerImage: /images/2026/data_modeling/02-types-of-data-models/types-of-data-models.png
 tags:
   - data modeling
   - database design

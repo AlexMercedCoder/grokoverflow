@@ -3,7 +3,6 @@ title: Promises 101  and Fetch, Axios and $.ajax
 date: "2020-09-17"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2020/promises-101.png"
 tags:
     - javascript
     - ajax

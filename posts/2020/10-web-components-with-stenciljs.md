@@ -3,7 +3,6 @@ title: Making Framework Agnostic Web Components with StencilJS
 date: "2020-10-26"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2020/web-components-senciljs.png"
 tags:
     - frontend
     - web components

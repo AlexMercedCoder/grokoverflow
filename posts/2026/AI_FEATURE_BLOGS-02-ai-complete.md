@@ -3,7 +3,6 @@ title: Generate Summaries and Insights with Dremio's AI_COMPLETE Function
 date: '2026-03-01'
 author: Alex Merced
 category: Dremio
-bannerImage: /images/2026/AI_FEATURE_BLOGS/02-ai-complete/banner.png
 tags:
   - dremio
   - ai

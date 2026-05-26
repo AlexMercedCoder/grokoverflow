@@ -4,7 +4,6 @@ date: "2021-05-10"
 description: Using that Cool New Javascript Runtime
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - tooling
   - javascript

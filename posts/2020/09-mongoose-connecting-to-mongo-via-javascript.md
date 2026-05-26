@@ -3,7 +3,6 @@ title: Mongoose, Connecting to Mongo via Javascript
 date: "2020-09-17"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2020/mongoose-connecting-mongo.png"
 tags:
     - mongo
     - mongoose

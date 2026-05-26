@@ -3,7 +3,6 @@ title: Getting Started with Scala 3
 date: "2022-03-06"
 author: "Alex Merced"
 category: "other languages"
-bannerImage: "/images/postbanner/2022/getting-started-with-scala-3.png"
 tags:
     - scala
     - jvm

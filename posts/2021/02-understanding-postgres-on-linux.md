@@ -3,7 +3,6 @@ title: Understanding Postgres on Linux
 date: "2021-02-14"
 author: "Alex Merced"
 category: "database"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - database
   - postgres

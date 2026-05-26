@@ -3,7 +3,6 @@ title: 1 Backend, 5 Frontends - Todo List with Rails, React, Angular, Vue, Svelt
 date: "2020-11-17"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2020/1-backend-5-frontends.png"
 tags:
     - frontend
     - react

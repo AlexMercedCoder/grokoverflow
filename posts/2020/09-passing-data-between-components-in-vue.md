@@ -3,7 +3,6 @@ title: Passing Data Between Components in Vue
 date: "2020-09-20"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2020/passing-data-vue.png"
 tags:
     - frontend
     - vue

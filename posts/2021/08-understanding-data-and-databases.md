@@ -3,7 +3,6 @@ title: Understanding Data and Databases 101
 date: "2021-08-04"
 author: "Alex Merced"
 category: "database"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - database
 ---

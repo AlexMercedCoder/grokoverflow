@@ -3,7 +3,6 @@ title: 'Semantic Layer Best Practices: 7 Mistakes to Avoid'
 date: '2026-02-18'
 author: Alex Merced
 category: Semantic Layer
-bannerImage: >-
   /images/2026/semantic_layer_seo/10-semantic-layer-best-practices/best-practices.png
 tags:
   - semantic layer

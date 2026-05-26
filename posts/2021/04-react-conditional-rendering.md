@@ -3,7 +3,6 @@ title: React Conditional Rendering
 date: "2021-04-21"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - node
   - frontend

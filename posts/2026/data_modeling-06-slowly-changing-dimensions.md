@@ -3,7 +3,6 @@ title: 'Slowly Changing Dimensions: Types 1-3 with Examples'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Modeling
-bannerImage: >-
   /images/2026/data_modeling/06-slowly-changing-dimensions/slowly-changing-dimensions.png
 tags:
   - data modeling

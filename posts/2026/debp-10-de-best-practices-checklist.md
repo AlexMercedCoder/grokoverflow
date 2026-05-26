@@ -3,7 +3,6 @@ title: 'Data Engineering Best Practices: The Complete Checklist'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Engineering
-bannerImage: /images/2026/debp/10-de-best-practices-checklist/de-checklist.png
 tags:
   - data engineering
   - best practices

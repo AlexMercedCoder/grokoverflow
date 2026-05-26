@@ -3,7 +3,6 @@ title: Python Flask 101 - Intro and API Building
 date: "2021-05-21"
 author: "Alex Merced"
 category: "python"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - python
   - backend

@@ -3,7 +3,6 @@ title: 'Connect SAP HANA to Dremio Cloud: Unlock Analytics Beyond the SAP Ecosys
 date: '2026-03-01'
 author: Alex Merced
 category: Dremio
-bannerImage: /images/2026/connector-blogs/06-sap-hana/banner.png
 tags:
   - dremio
   - connectors

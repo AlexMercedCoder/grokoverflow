@@ -3,7 +3,6 @@ title: 5 Cool Things You Can Do In React
 date: "2021-01-07"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2021/five-cool-things-react.png"
 tags:
   - react
   - javascript

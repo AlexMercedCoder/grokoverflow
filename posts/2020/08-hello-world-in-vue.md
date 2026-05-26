@@ -3,7 +3,6 @@ title: Hello World in Vue
 date: "2020-08-17"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2020/hello-world-in-vue.png"
 tags:
     - frontend
     - vue

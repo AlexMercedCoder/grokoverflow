@@ -3,7 +3,6 @@ title: Svelte after Sapper - The Svelte Ecosystem
 date: "2020-12-23"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2020/svelte-after-sapper.png"
 tags:
     - javascript
     - svelte

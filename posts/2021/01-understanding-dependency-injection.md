@@ -3,7 +3,6 @@ title: Understanding Dependency Injection
 date: "2021-01-24"
 author: "Alex Merced"
 category: "computer science"
-bannerImage: "/images/postbanner/2021/dependency-injection.png"
 tags:
   - design patterns
   - computer science

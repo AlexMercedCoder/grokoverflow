@@ -3,7 +3,6 @@ title: 'Headless BI: How a Universal Semantic Layer Replaces Tool-Specific Model
 date: '2026-02-18'
 author: Alex Merced
 category: Semantic Layer
-bannerImage: /images/2026/semantic_layer_seo/08-headless-bi-semantic-layer/headless-bi.png
 tags:
   - semantic layer
   - bi

@@ -3,7 +3,6 @@ title: What Is Data Modeling? A Complete Guide
 date: '2026-02-18'
 author: Alex Merced
 category: Data Modeling
-bannerImage: /images/2026/data_modeling/01-what-is-data-modeling/data-modeling-overview.png
 tags:
   - data modeling
   - database design

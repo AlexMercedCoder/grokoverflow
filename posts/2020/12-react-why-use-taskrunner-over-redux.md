@@ -3,7 +3,6 @@ title: React - Why use TaskRunner over Redux, useReducer
 date: "2020-12-24"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2020/react-taskrunner-over-redux.png"
 tags:
     - frontend
     - react

@@ -3,7 +3,6 @@ title: Why All Developers Should Master Markdown
 date: "2022-02-05"
 author: "Alex Merced"
 category: "jamstack"
-bannerImage: "/images/postbanner/2022/master-markdown.png"
 tags:
     - tooling
     - markdown

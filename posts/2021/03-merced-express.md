@@ -3,7 +3,6 @@ title: merced-express - Express with a Ruby on Rails Feel
 date: "2021-03-22"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - backend
   - node

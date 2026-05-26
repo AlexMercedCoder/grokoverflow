@@ -3,7 +3,6 @@ title: Ultimate 2021 Guide to Deploying NodeJS (And DenoJS) Apps to Heroku
 date: "2021-04-01"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - javascript
   - node

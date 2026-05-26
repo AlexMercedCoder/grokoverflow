@@ -3,7 +3,6 @@ title: Walkthrough - Deploy Anything with Nginx
 date: "2021-08-30"
 author: "Alex Merced"
 category: "deployment"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - deployment
   - tooling

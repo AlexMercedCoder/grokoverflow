@@ -3,7 +3,6 @@ title: React 101 - Basic JSON Blog from 0 to deployment
 date: "2021-01-08"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2021/react-json-blog.png"
 tags:
   - react
   - javascript

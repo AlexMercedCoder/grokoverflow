@@ -3,7 +3,6 @@ title: Deploying React, Angular, Svelte and Vue to Netlify & Vercel
 date: "2021-01-12"
 author: "Alex Merced"
 category: "deployment"
-bannerImage: "/images/postbanner/2021/deploying-spa.png"
 tags:
   - deployment
   - frontend

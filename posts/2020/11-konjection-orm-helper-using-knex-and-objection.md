@@ -3,7 +3,6 @@ title: Konjection - ORM Helper using Knex and Objection
 date: "2020-11-16"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2020/konjection.png"
 tags:
     - javascript
     - backend

@@ -3,7 +3,6 @@ title: Extract Structured Data from Text with Dremio's AI_GENERATE Function
 date: '2026-03-01'
 author: Alex Merced
 category: Dremio
-bannerImage: /images/2026/AI_FEATURE_BLOGS/03-ai-generate/banner.png
 tags:
   - dremio
   - ai

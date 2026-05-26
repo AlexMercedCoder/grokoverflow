@@ -3,7 +3,6 @@ title: Basics of Building a CRUD API with Node (no framework)
 date: "2021-07-30"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - node

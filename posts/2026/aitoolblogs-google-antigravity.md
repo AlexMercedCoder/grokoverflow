@@ -3,7 +3,6 @@ title: 'How to Use Dremio with Google Antigravity: Connect, Query, and Build Dat
 date: '2026-03-05'
 author: Alex Merced
 category: AI Tools
-bannerImage: >-
   /images/2026/aitoolblogs/google-antigravity/antigravity-dremio-mcp-architecture.png
 tags:
   - ai

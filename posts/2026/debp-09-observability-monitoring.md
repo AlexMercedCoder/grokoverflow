@@ -3,7 +3,6 @@ title: 'Pipeline Observability: Know When Things Break'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Engineering
-bannerImage: /images/2026/debp/09-observability-monitoring/observability-dashboard.png
 tags:
   - data engineering
   - best practices

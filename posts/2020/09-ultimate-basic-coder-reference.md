@@ -3,7 +3,6 @@ title: Ultimate Basic Coder Reference (Bash, Git, VSCode, Nodejs, more)
 date: "2020-09-05T22:12:03.284Z"
 author: "Alex Merced"
 category: "reference"
-bannerImage: "/images/postbanner/2020/ultimate-coder-reference.png"
 tags:
   - bash
   - git

@@ -5,7 +5,6 @@ title: >-
 date: '2026-03-05'
 author: Alex Merced
 category: AI Tools
-bannerImage: /images/2026/aitoolblogs/jetbrains-ai/jetbrains-dremio-architecture.png
 tags:
   - ai
   - developer tools

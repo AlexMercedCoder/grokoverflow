@@ -3,7 +3,6 @@ title: 'Data Quality Is a Pipeline Problem, Not a Dashboard Problem'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Engineering
-bannerImage: /images/2026/debp/03-data-quality-first/data-quality-pipeline.png
 tags:
   - data engineering
   - best practices

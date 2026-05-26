@@ -3,7 +3,6 @@ title: FoalTS - Building a Typescript Based API
 date: "2021-05-27"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - backend

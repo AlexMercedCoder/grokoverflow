@@ -3,7 +3,6 @@ title: Understanding MVC (Models - Views - Controllers)
 date: "2021-01-05"
 author: "Alex Merced"
 category: "computer science"
-bannerImage: "/images/postbanner/2021/understanding-mvc.png"
 tags:
   - backend
   - computer science

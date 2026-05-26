@@ -3,7 +3,6 @@ title: Guide to Becoming a Developer in 2021
 date: "2021-01-07"
 author: "Alex Merced"
 category: "careers"
-bannerImage: "/images/postbanner/2021/becoming-a-dev-2021.png"
 tags:
   - careers
 ---

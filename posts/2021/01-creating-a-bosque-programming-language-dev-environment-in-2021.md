@@ -3,7 +3,6 @@ title: Creating a Bosque Programming Language Dev Environment in 2021
 date: "2021-01-18"
 author: "Alex Merced"
 category: "other languages"
-bannerImage: "/images/postbanner/2021/bosque-env.png"
 tags:
   - bosque
   - microsoft

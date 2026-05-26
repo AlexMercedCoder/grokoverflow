@@ -3,7 +3,6 @@ title: Creating a Consistent Developer Environment with Docker
 date: "2022-02-05"
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2022/docker-dev-env.png"
 tags:
     - careers
 ---

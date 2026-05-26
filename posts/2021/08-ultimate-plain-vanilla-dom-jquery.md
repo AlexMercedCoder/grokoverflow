@@ -3,7 +3,6 @@ title: Ultimate Plain Vanilla DOM JS & JQuery Cheatsheet
 date: "2021-08-04"
 author: "Alex Merced"
 category: "jamstack"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - frontend

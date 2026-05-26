@@ -3,7 +3,6 @@ title: Methods of Starting a Quick HTTP Server from the Command Line (alternativ
 date: "2021-10-03"
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - tooling
   - backend

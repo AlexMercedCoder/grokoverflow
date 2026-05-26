@@ -3,7 +3,6 @@ title: Understanding React Router
 date: "2021-01-15"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2021/understanding-react-router.png"
 tags:
   - react
   - frontend

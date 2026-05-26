@@ -3,7 +3,6 @@ title: Cloud Functions - Server-Side Code On Demand
 date: "2021-01-22"
 author: "Alex Merced"
 category: "serverless"
-bannerImage: "/images/postbanner/2021/cloud-functions.png"
 tags:
   - serverless
   - backend

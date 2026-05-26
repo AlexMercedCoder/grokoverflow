@@ -3,7 +3,6 @@ title: Intro to Ruby Sinatra
 date: "2021-06-03"
 author: "Alex Merced"
 category: "ruby"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - ruby
   - backend

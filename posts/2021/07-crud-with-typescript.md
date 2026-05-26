@@ -3,7 +3,6 @@ title: Basics of Building a CRUD API with Typescript (NestJS and FoalTS)
 date: "2021-07-27"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - express

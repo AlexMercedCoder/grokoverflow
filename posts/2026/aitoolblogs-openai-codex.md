@@ -3,7 +3,6 @@ title: 'How to Use Dremio with OpenAI Codex CLI: Connect, Query, and Build Data 
 date: '2026-03-05'
 author: Alex Merced
 category: AI Tools
-bannerImage: /images/2026/aitoolblogs/openai-codex/codex-dremio-mcp-architecture.png
 tags:
   - ai
   - developer tools

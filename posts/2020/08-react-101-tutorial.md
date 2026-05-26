@@ -3,7 +3,6 @@ title: React 101 Tutorial
 date: "2020-08-18"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2020/react-101-tutorial.png"
 tags:
     - frontend
     - react

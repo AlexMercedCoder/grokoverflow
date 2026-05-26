@@ -16,7 +16,7 @@ import { calculateReadingTime } from "../../lib/utils";
 
 // The page for each post
 export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime, currentSlug }) {
-  const { title, author, category, date, bannerImage, tags, description } = frontmatter;
+  const { title, author, category, date, tags, description } = frontmatter;
   const canonicalUrl = `https://grokoverflow.com/posts/${currentSlug}`;
   const postDescription = description || `"${title}" an article written by ${author || 'Anonymous'} touching on ${(tags || []).join(", ")}`;
   const authorSlug = author ? author.toLowerCase().replace(/ /g, "-") : '';
@@ -32,12 +32,12 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
         {/* Open Graph & Twitter */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={postDescription} />
-        <meta property="og:image" content={bannerImage || "https://grokoverflow.com/images/banner.png"} />
+        <meta property="og:image" content={`https://grokoverflow.com/og/${currentSlug}.png`} />
         <meta property="og:url" content={canonicalUrl} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={postDescription} />
-        <meta name="twitter:image" content={bannerImage || "https://grokoverflow.com/images/banner.png"} />
+        <meta name="twitter:image" content={`https://grokoverflow.com/og/${currentSlug}.png`} />
         
         <link rel="canonical" href={canonicalUrl} />
         
@@ -52,7 +52,7 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
                headline: title,
                description: postDescription,
                url: canonicalUrl,
-               image: [bannerImage || "https://grokoverflow.com/images/banner.png"],
+               image: [`https://grokoverflow.com/og/${currentSlug}.png`],
                datePublished: date,
                dateModified: date,
                mainEntityOfPage: {

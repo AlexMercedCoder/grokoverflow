@@ -3,7 +3,6 @@ title: How to use Vercel Cloud Functions
 date: "2021-01-23"
 author: "Alex Merced"
 category: "serverless"
-bannerImage: "/images/postbanner/2021/vercel-functions.png"
 tags:
   - serverless
   - javascript

@@ -3,7 +3,6 @@ title: Ultimate Command Line Reference 2021 - Bash, Git, Node, Python, Ruby, PHP
 date: "2021-02-05"
 author: "Alex Merced"
 category: "reference"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - reference
   - tooling

@@ -3,7 +3,6 @@ title: 'Dimensional Modeling: Facts, Dimensions, and Grains'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Modeling
-bannerImage: /images/2026/data_modeling/05-dimensional-modeling/dimensional-modeling.png
 tags:
   - data modeling
   - database design

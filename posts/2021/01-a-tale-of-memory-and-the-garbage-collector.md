@@ -3,7 +3,6 @@ title: A Tale of Memory and the Garbage Collector
 date: "2021-01-29"
 author: "Alex Merced"
 category: "computer science"
-bannerImage: "/images/postbanner/2021/garbage-collector.png"
 tags:
   - computer science
 ---

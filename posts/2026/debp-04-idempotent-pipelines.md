@@ -3,7 +3,6 @@ title: 'Idempotent Pipelines: Build Once, Run Safely Forever'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Engineering
-bannerImage: /images/2026/debp/04-idempotent-pipelines/idempotent-pipeline.png
 tags:
   - data engineering
   - best practices

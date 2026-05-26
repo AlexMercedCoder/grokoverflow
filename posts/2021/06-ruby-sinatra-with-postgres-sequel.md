@@ -3,7 +3,6 @@ title: Ruby Sinatra with Postgres using Sequel
 date: "2021-06-04"
 author: "Alex Merced"
 category: "ruby"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - ruby
   - backend

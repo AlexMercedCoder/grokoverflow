@@ -3,7 +3,6 @@ title: Frontend Javascript Ajax/Http Request Guide
 date: "2021-08-25"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - ajax

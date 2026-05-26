@@ -3,7 +3,6 @@ title: API With Java Spring & VSCode, from zero to deploy
 date: "2021-03-09"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - backend
   - other languages

@@ -3,7 +3,6 @@ title: Understanding SSH and What it is for
 date: "2022-02-27"
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2022/understanding-ssh.png"
 tags:
     - tooling
 ---

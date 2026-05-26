@@ -3,7 +3,6 @@ title: Deep Dive on Javascript Tooling (Bundlers, Linters, Oh MY!)
 date: "2021-01-08"
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2021/javascript-tooling.png"
 tags:
   - javascript
   - tooling

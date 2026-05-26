@@ -3,7 +3,6 @@ title: Ruby on Rails Tutorial - Heroku API Deployment
 date: "2020-11-12"
 author: "Alex Merced"
 category: "backend"
-bannerImage: "/images/postbanner/2020/rails-heroku-deployment.png"
 tags:
     - rails
     - ruby

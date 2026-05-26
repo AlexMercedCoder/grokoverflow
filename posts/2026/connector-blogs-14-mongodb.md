@@ -3,7 +3,6 @@ title: 'Connect MongoDB to Dremio Cloud: SQL Analytics on Document Data'
 date: '2026-03-01'
 author: Alex Merced
 category: Dremio
-bannerImage: /images/postbanner/default.png
 tags:
   - dremio
   - connectors

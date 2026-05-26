@@ -3,7 +3,6 @@ title: 10 Programming Languages Side by Side (JS, Python, Ruby, PHP, GO, Rust, D
 date: "2021-06-02"
 author: "Alex Merced"
 category: "other languages"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - other languages
   - javascript

@@ -3,7 +3,6 @@ title: Fundamentals of Client Side Javascript
 date: "2020-12-28"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2020/client-side-js-fundamentals.png"
 tags:
   - frontend
   - javascript

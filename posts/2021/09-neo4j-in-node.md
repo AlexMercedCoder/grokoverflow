@@ -3,7 +3,6 @@ title: How to use Neo4j Graph Database in your Node Project (Express, Koa, Fasti
 date: "2021-09-25"
 author: "Alex Merced"
 category: "database"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - database

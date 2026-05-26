@@ -3,7 +3,6 @@ title: Understanding Node Streams with Https.get
 date: "2021-02-08"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/backend-frameworks-2021.png"
 tags:
   - javascript
   - node

@@ -3,7 +3,6 @@ title: Where Does My Code Run? - Compilers, Interpreters, Transpilers and Virtua
 date: "2021-01-21"
 author: "Alex Merced"
 category: "tooling"
-bannerImage: "/images/postbanner/2021/where-does-code-run.png"
 tags:
   - tooling
   - computer science

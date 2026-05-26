@@ -3,7 +3,6 @@ title: 'Classify Your Data with SQL: A Hands-On Guide to Dremio''s AI_CLASSIFY F
 date: '2026-03-01'
 author: Alex Merced
 category: Dremio
-bannerImage: /images/2026/AI_FEATURE_BLOGS/01-ai-classify/banner.png
 tags:
   - dremio
   - ai

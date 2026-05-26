@@ -3,7 +3,6 @@ title: Web Components Part 2 - Styling and Slots
 date: "2020-08-27"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2020/web-components-styling-slots.png"
 tags:
   - frontend
   - web components

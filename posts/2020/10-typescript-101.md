@@ -3,7 +3,6 @@ title: Typescript 101 - Typing, Interfaces and Enums oh MY!
 date: "2020-10-02"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2020/typescript-101.png"
 tags:
     - frontend
     - typescript

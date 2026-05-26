@@ -3,7 +3,6 @@ title: 'The Model Context Protocol (MCP) Explained: A Complete Guide to How Ever
 date: '2026-03-07'
 author: Alex Merced
 category: AI Tools
-bannerImage: /images/postbanner/default.png
 tags:
   - ai
   - context management

@@ -5,7 +5,6 @@ title: >-
 date: '2026-03-01'
 author: Alex Merced
 category: Dremio
-bannerImage: /images/2026/connector-blogs/05-ibm-db2/banner.png
 tags:
   - dremio
   - connectors

@@ -3,7 +3,6 @@ title: Javascript - Writing Map as a Recursive Function
 date: "2021-01-01"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/recursive-map.png"
 tags:
   - javascript
 ---

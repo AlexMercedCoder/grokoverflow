@@ -3,7 +3,6 @@ title: Building a Full-Stack Todo App with Typescript, NextJS and Mongo - 0 To D
 date: "2021-09-09"
 author: "Alex Merced"
 category: "javascript"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - javascript
   - backend

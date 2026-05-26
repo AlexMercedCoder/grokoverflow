@@ -3,7 +3,6 @@ title: Web Storage API Part 1 - LocalStorage and SessionStorage
 date: "2022-03-23"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2022/localstorage.png"
 tags:
   - frontend
 ---

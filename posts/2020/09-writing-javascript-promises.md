@@ -3,7 +3,6 @@ title: Writing Javascript Promises
 date: "2020-09-25"
 author: "Alex Merced"
 category: "frontend"
-bannerImage: "/images/postbanner/2020/writing-javascript-promises.png"
 tags:
   - frontend
   - typescript

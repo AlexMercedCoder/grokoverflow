@@ -3,7 +3,6 @@ title: Using Docker & Docker Compose to Create an Express/Neo4J Dev Environment(
 date: "2021-05-03"
 author: "Alex Merced"
 category: "database"
-bannerImage: "/images/postbanner/2021/understanding-git.png"
 tags:
   - docker
   - tooling

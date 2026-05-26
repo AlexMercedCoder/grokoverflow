@@ -5,11 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "node scripts/generate-llms-txt.js && node scripts/generate-rss.js && next-sitemap",
+    "postbuild": "node scripts/generate-og-images.mjs && node scripts/generate-llms-txt.js && node scripts/generate-rss.js && next-sitemap",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "fuse.js": "^7.1.0",
     "gray-matter": "^4.0.3",
     "highlight.js": "^11.5.0",
@@ -18,7 +19,8 @@
     "next-sitemap": "^4.2.3",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "rehype-highlight": "^7.0.2"
+    "rehype-highlight": "^7.0.2",
+    "satori": "^0.26.0"
   },
   "devDependencies": {
     "eslint": "^9.39.2",
