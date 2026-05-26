@@ -3,7 +3,6 @@ title: 'Data Modeling Best Practices: 7 Mistakes to Avoid'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Modeling
-  /images/2026/data_modeling/10-data-modeling-best-practices/best-practices-checklist.png
 tags:
   - data modeling
   - database design

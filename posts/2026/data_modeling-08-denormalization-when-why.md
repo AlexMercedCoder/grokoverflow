@@ -3,7 +3,6 @@ title: 'Denormalization: When and Why to Flatten Your Data'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Modeling
-  /images/2026/data_modeling/08-denormalization-when-why/denormalization-overview.png
 tags:
   - data modeling
   - database design

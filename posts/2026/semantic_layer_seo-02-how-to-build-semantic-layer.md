@@ -3,7 +3,6 @@ title: 'How to Build a Semantic Layer: A Step-by-Step Guide'
 date: '2026-02-18'
 author: Alex Merced
 category: Semantic Layer
-  /images/2026/semantic_layer_seo/02-how-to-build-semantic-layer/build-semantic-layer.png
 tags:
   - semantic layer
   - bi

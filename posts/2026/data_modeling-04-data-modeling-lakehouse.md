@@ -3,7 +3,6 @@ title: 'Data Modeling for the Lakehouse: What Changes'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Modeling
-  /images/2026/data_modeling/04-data-modeling-lakehouse/lakehouse-data-modeling.png
 tags:
   - data modeling
   - database design

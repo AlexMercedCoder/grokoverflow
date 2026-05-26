@@ -3,7 +3,6 @@ title: 'Data Modeling for Analytics: Optimize for Queries, Not Transactions'
 date: '2026-02-18'
 author: Alex Merced
 category: Data Modeling
-  /images/2026/data_modeling/07-data-modeling-for-analytics/analytics-data-modeling.png
 tags:
   - data modeling
   - database design

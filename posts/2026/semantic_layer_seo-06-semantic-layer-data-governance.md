@@ -3,7 +3,6 @@ title: The Role of the Semantic Layer in Data Governance
 date: '2026-02-18'
 author: Alex Merced
 category: Semantic Layer
-  /images/2026/semantic_layer_seo/06-semantic-layer-data-governance/governance-semantic.png
 tags:
   - semantic layer
   - bi

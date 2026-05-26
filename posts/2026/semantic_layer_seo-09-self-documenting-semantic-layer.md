@@ -3,7 +3,6 @@ title: How a Self-Documenting Semantic Layer Reduces Data Team Toil
 date: '2026-02-18'
 author: Alex Merced
 category: Semantic Layer
-  /images/2026/semantic_layer_seo/09-self-documenting-semantic-layer/self-documenting.png
 tags:
   - semantic layer
   - bi

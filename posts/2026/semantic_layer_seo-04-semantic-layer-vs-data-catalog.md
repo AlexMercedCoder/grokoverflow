@@ -3,7 +3,6 @@ title: 'Semantic Layer vs. Data Catalog: Complementary, Not Competing'
 date: '2026-02-18'
 author: Alex Merced
 category: Semantic Layer
-  /images/2026/semantic_layer_seo/04-semantic-layer-vs-data-catalog/catalog-vs-semantic.png
 tags:
   - semantic layer
   - bi

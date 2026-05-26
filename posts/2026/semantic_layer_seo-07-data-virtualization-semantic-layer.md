@@ -3,7 +3,6 @@ title: 'Data Virtualization and the Semantic Layer: Query Without Copying'
 date: '2026-02-18'
 author: Alex Merced
 category: Semantic Layer
-  /images/2026/semantic_layer_seo/07-data-virtualization-semantic-layer/data-virtualization.png
 tags:
   - semantic layer
   - bi
