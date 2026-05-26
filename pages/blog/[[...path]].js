@@ -234,7 +234,7 @@ export default function Blog({ posts, categories, path }) {
           {categories.map((c) => {
             return (
               <div key={c}>
-                <Link href={`/blog/category/${c.toLowerCase()}`}>{c}</Link>
+                <Link href={`/blog/category/${c.toLowerCase().replace(/\s+/g, '-')}`}>{c}</Link>
               </div>
             );
           })}
@@ -283,12 +283,12 @@ export async function getStaticPaths(...args) {
   posts.forEach(({ frontmatter }) => {
     // path for each category
     if (frontmatter.category) {
-      paths.push(`/blog/category/${frontmatter.category.toLowerCase()}`);
+      paths.push(`/blog/category/${frontmatter.category.toLowerCase().replace(/\s+/g, '-')}`);
     }
     // path for each tag
     if (frontmatter.tags) {
       frontmatter.tags.forEach((tag) => {
-        paths.push(`/blog/tag/${tag.toLowerCase()}`);
+        paths.push(`/blog/tag/${tag.toLowerCase().replace(/\s+/g, '-')}`);
       });
     }
     // paths for each author
@@ -355,7 +355,7 @@ export async function getStaticProps({ params: { path } }) {
       posts = posts.filter(({ frontmatter }) => {
         return (
           frontmatter.category &&
-          frontmatter.category.toLowerCase() === path[1].toLowerCase()
+          frontmatter.category.toLowerCase().replace(/\s+/g, '-') === path[1].toLowerCase()
         );
       });
     }
@@ -365,7 +365,7 @@ export async function getStaticProps({ params: { path } }) {
         return (
           frontmatter.tags &&
           frontmatter.tags.some(
-            (tag) => tag.toLowerCase() === path[1].toLowerCase()
+            (tag) => tag.toLowerCase().replace(/\s+/g, '-') === path[1].toLowerCase()
           )
         );
       });
