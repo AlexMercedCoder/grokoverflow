@@ -1,4 +1,7 @@
 import Head from "next/head";
+import Link from "next/link";
+import fs from "fs";
+import matter from "gray-matter";
 import styles from "../styles/Home.module.css";
 
 const MUST_READS = [
@@ -85,7 +88,7 @@ const SOCIAL_LINKS = [
   { label: "Buy Me a Coffee", url: "https://buymeacoffee.com/alexmerced" },
 ];
 
-export default function Home() {
+export default function Home({ posts }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -194,6 +197,40 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ── Recent Blog Posts ── */}
+        <section className={styles.recentBlogs}>
+          <h2 className={styles.sectionHeading}>Recent Articles &amp; Tutorials</h2>
+          <p className={styles.sectionSub}>
+            Stay up to date with my latest guides, walkthroughs, and deep dives on data lakehouses, web development, and AI.
+          </p>
+          <div className={styles.recentGrid}>
+            {posts && posts.map((post) => (
+              <Link
+                key={post.slug}
+                href={`/posts/${post.slug}`}
+                className={styles.blogCard}
+              >
+                <div className={styles.blogMeta}>
+                  {post.frontmatter.category && (
+                    <span className={styles.blogTag}>{post.frontmatter.category}</span>
+                  )}
+                  {post.frontmatter.date && (
+                    <span className={styles.blogDate}>{post.frontmatter.date}</span>
+                  )}
+                </div>
+                <h3 className={styles.blogTitle}>{post.frontmatter.title}</h3>
+                <p className={styles.blogDesc}>{post.frontmatter.description}</p>
+                <span className={styles.blogCta}>Read Article →</span>
+              </Link>
+            ))}
+          </div>
+          <div className={styles.viewAllContainer}>
+            <Link href="/blog" className={styles.viewAllButton}>
+              View All Posts
+            </Link>
+          </div>
+        </section>
+
         {/* ── Connect ── */}
         <section className={styles.connectSection}>
           <h2 className={styles.sectionHeading}>Connect with Alex</h2>
@@ -216,4 +253,49 @@ export default function Home() {
       </main>
     </div>
   );
+}
+
+// Get the 6 most recent posts for the homepage
+export async function getStaticProps() {
+  const files = fs.readdirSync("posts");
+  let posts = [];
+
+  const addPost = (fileName) => {
+    const slug = fileName.replace(".md", "");
+    const readFile = fs.readFileSync(`posts/${fileName}`, "utf-8");
+    const { data: frontmatter } = matter(readFile);
+
+    posts.push({
+      slug,
+      frontmatter,
+    });
+  };
+
+  files.forEach((fileName) => {
+    if (!fileName.includes(".md")) {
+      const subfiles = fs.readdirSync(`posts/${fileName}`);
+
+      subfiles.forEach((f) => {
+        addPost(`${fileName}/${f}`);
+      });
+
+      return true;
+    }
+
+    addPost(fileName);
+  });
+
+  posts.sort(
+    (x, y) =>
+      new Date(y.frontmatter.date).getTime() -
+      new Date(x.frontmatter.date).getTime()
+  );
+
+  const recentPosts = posts.slice(0, 6);
+
+  return {
+    props: {
+      posts: recentPosts,
+    },
+  };
 }
