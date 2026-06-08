@@ -1,13 +1,14 @@
 ---
 title: "A Tour of Specialized AI Tools: Music, Video, Images, and More"
-date: "2026-06-08"
-description: "Beyond chatbots lie specialized AI tools for creating music, generating videos, and editing images. Here is a tour of the best tools in 2026 and how they fit into daily productivity. 157 chars"
+date: "2026-06-01"
+description: "Beyond chatbots lie specialized AI tools for creating music, generating videos, and editing images. Here is a tour of the best tools in 2026 and how they fit into daily productivity."
 author: "Alex Merced"
-category: "AI & Agents"
+category: "Artificial Intelligence"
 tags:
-  - ai-for-beginners
-  - artificial-intelligence
-  - ai-tools
+  - ai
+  - artificial intelligence
+  - machine learning
+  - llm
   - productivity
 ---
 
@@ -15,11 +16,11 @@ The first three parts of this series covered general purpose AI assistants: the 
 
 This is Part 4 of "Catching Up with Using AI for All Levels." If you are new here, start with Part 1 for the fundamentals and Part 2 for the free tools, then Part 3 for ChatGPT and Claude. This post covers the creative side: what the tools are, what they cost, how good the output actually is, and when they make sense for daily productivity rather than just artistic projects.
 
-**Return to Part 1: What AI Is and Isnt**
+[Return to Part 1: What AI Is and Isnt](/posts/2026/ai-for-all-levels-1-what-ai-is-and-isnt.html)
 
-**Return to Part 2: Getting Started for Free**
+[Return to Part 2: Getting Started for Free](/posts/2026/ai-for-all-levels-2-getting-started-for-free.html)
 
-**Return to Part 3: ChatGPT and Claude Deep Dive**
+[Return to Part 3: ChatGPT and Claude Deep Dive](/posts/2026/ai-for-all-levels-3-chatgpt-and-claude-deep-dive.html)
 
 [Skip to Part 5: Going Advanced: Open Source, Local Models, and Agent Tools](/posts/2026/ai-for-all-levels-5-going-advanced.html)
 
