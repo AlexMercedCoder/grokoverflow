@@ -1,14 +1,13 @@
 ---
 title: "Getting Started with AI for Free: Every Tool Google Gives You at No Cost"
-date: "2026-06-01"
-description: "You already have access to powerful AI tools through your Google account and no subscription needed. Here is everything Google offers for free and how to use it today."
+date: "2026-06-08"
+description: "You already have access to powerful AI tools through your Google account and no subscription needed. Here is everything Google offers for free and how to use it today. 157 chars"
 author: "Alex Merced"
-category: "Artificial Intelligence"
+category: "AI & Agents"
 tags:
-  - ai
-  - artificial intelligence
-  - machine learning
-  - llm
+  - ai-for-beginners
+  - artificial-intelligence
+  - ai-tools
   - productivity
 ---
 
