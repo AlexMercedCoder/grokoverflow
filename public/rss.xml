@@ -7,144 +7,144 @@
       <language>en</language>
       
     <item>
-      <title>AI-Ready Metadata Prevents Query Failures</title>
-      <link>https://grokoverflow.com/posts/2026/ai-ready-metadata-lineage-quality-llm-query-failures</link>
-      <guid>https://grokoverflow.com/posts/2026/ai-ready-metadata-lineage-quality-llm-query-failures</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI-ready metadata reduces query failures by making ownership, freshness, lineage, quality, and policy visible at execution time.]]></description>
+      <title>High-Performance Columnar Transfers: Combining Apache Arrow Flight and Iceberg REST Catalogs</title>
+      <link>https://grokoverflow.com/posts/2026/arrow-flight-iceberg-rest-catalog-columnar-transfers</link>
+      <guid>https://grokoverflow.com/posts/2026/arrow-flight-iceberg-rest-catalog-columnar-transfers</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Modern lakehouse architecture is easier to reason about when you separate two questions. The first question is how a system discovers and governs a ta]]></description>
     </item>
     <item>
-      <title>Autonomous Materialization for Agentic Analytics</title>
-      <link>https://grokoverflow.com/posts/2026/autonomous-materialization-ai-agents-table-performance</link>
-      <guid>https://grokoverflow.com/posts/2026/autonomous-materialization-ai-agents-table-performance</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Autonomous materialization is useful when it is tied to workload evidence, governance checks, and lifecycle management.]]></description>
+      <title>Block vs. Object Storage: A Deep Dive Into the Foundation of Modern Data, and How the Lakehouse Made the Slow Option Fast</title>
+      <link>https://grokoverflow.com/posts/2026/block-vs-object-storage-deep-dive</link>
+      <guid>https://grokoverflow.com/posts/2026/block-vs-object-storage-deep-dive</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Deep dive into block vs object storage, how Apache Parquet, Apache Iceberg, and query engines turned object storage into the foundation of interactive analytics.]]></description>
     </item>
     <item>
-      <title>Composable Semantic Layers for Analytical Agents</title>
-      <link>https://grokoverflow.com/posts/2026/beyond-metrics-lists-composable-semantic-layers-agents</link>
-      <guid>https://grokoverflow.com/posts/2026/beyond-metrics-lists-composable-semantic-layers-agents</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[AI agents need more than metric names. They need composable business logic that survives multi-step analysis.]]></description>
+      <title>The Buyer's Scorecard for Agentic Analytics: Evaluating Tooling in the Enterprise AI Era</title>
+      <link>https://grokoverflow.com/posts/2026/buyers-scorecard-agentic-analytics-enterprise-ai-era</link>
+      <guid>https://grokoverflow.com/posts/2026/buyers-scorecard-agentic-analytics-enterprise-ai-era</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Agentic analytics demos are easy to enjoy and hard to evaluate. A user asks a question, an assistant answers, a chart appears, and the room leans forw]]></description>
     </item>
     <item>
-      <title>Built for Agents and Managed by Agents</title>
-      <link>https://grokoverflow.com/posts/2026/built-for-agents-managed-by-agents-dremio-agentic-lakehouse</link>
-      <guid>https://grokoverflow.com/posts/2026/built-for-agents-managed-by-agents-dremio-agentic-lakehouse</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Dremio Agentic Lakehouse is easiest to understand as two ideas: data built for agent access and platform work managed by agents.]]></description>
+      <title>Building Closed-Loop Decision Agents: Moving from Passive BI Dashboards to Active Goal-Directed Workflows</title>
+      <link>https://grokoverflow.com/posts/2026/closed-loop-decision-agents-passive-bi-active-workflows</link>
+      <guid>https://grokoverflow.com/posts/2026/closed-loop-decision-agents-passive-bi-active-workflows</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Dashboards are excellent at showing people what happened. They are less good at deciding what should happen next.]]></description>
     </item>
     <item>
-      <title>ClickHouse in the Loop for Active Agents</title>
-      <link>https://grokoverflow.com/posts/2026/clickhouse-loop-real-time-event-streams-active-agents</link>
-      <guid>https://grokoverflow.com/posts/2026/clickhouse-loop-real-time-event-streams-active-agents</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Low-latency analytical systems can help active agents, but only when event loops include validation, context, and safety boundaries.]]></description>
+      <title>Conversational AI on Managed Iceberg: Exposing Amazon S3 Tables through MCP</title>
+      <link>https://grokoverflow.com/posts/2026/conversational-ai-managed-iceberg-s3-tables-mcp-server</link>
+      <guid>https://grokoverflow.com/posts/2026/conversational-ai-managed-iceberg-s3-tables-mcp-server</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The most interesting part of conversational analytics is not the chat box. The chat box is just the surface area. The harder question is what happens ]]></description>
     </item>
     <item>
-      <title>The Context Layer for AI Agents</title>
-      <link>https://grokoverflow.com/posts/2026/context-layer-semantic-lineage-quality-ai-agents</link>
-      <guid>https://grokoverflow.com/posts/2026/context-layer-semantic-lineage-quality-ai-agents</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[A semantic layer is necessary, but agents also need lineage, quality, freshness, compliance, and ownership context.]]></description>
+      <title>Decoupled Catalogs vs. Managed Tables: Architectural Freedom in the Age of Table Format Convergence</title>
+      <link>https://grokoverflow.com/posts/2026/decoupled-catalogs-vs-managed-tables-table-format-convergence</link>
+      <guid>https://grokoverflow.com/posts/2026/decoupled-catalogs-vs-managed-tables-table-format-convergence</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Open table formats have changed buyer expectations. A few years ago, the question was whether an organization should put more analytical data into obj]]></description>
     </item>
     <item>
-      <title>Lakehouse as the Operating Layer for Agentic AI</title>
-      <link>https://grokoverflow.com/posts/2026/databricks-summit-2026-lakehouse-agentic-ai-operating-layer</link>
-      <guid>https://grokoverflow.com/posts/2026/databricks-summit-2026-lakehouse-agentic-ai-operating-layer</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Agentic AI announcements are useful when they validate the need for governed data, semantic context, and cost-aware execution.]]></description>
+      <title>Preparing Your Data Lakehouse for the EU AI Act: Auditable Lineage and Data Provenance</title>
+      <link>https://grokoverflow.com/posts/2026/eu-ai-act-data-lakehouse-lineage-provenance-compliance</link>
+      <guid>https://grokoverflow.com/posts/2026/eu-ai-act-data-lakehouse-lineage-provenance-compliance</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The EU AI Act changes the conversation around AI architecture because it makes trust operational. It is not enough to say that an AI system is useful,]]></description>
     </item>
     <item>
-      <title>Event-Driven Table Compaction with Agents</title>
-      <link>https://grokoverflow.com/posts/2026/event-driven-table-compaction-agentic-coordination</link>
-      <guid>https://grokoverflow.com/posts/2026/event-driven-table-compaction-agentic-coordination</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Event-driven compaction is valuable when agents coordinate maintenance with workload signals, table health, and commit safety.]]></description>
+      <title>Federation and the Lakehouse: Two Roads to Unified Data Access, and How to Know Which One to Take</title>
+      <link>https://grokoverflow.com/posts/2026/federation-and-lakehouse</link>
+      <guid>https://grokoverflow.com/posts/2026/federation-and-lakehouse</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How federation and the lakehouse unify data access, with a decision framework, lifecycle pattern, and best practices for using both together.]]></description>
     </item>
     <item>
-      <title>Fabric Agentic Analytics and Lakehouse Schema Design</title>
-      <link>https://grokoverflow.com/posts/2026/fabric-build-2026-lakehouse-schema-agentic-analytics</link>
-      <guid>https://grokoverflow.com/posts/2026/fabric-build-2026-lakehouse-schema-agentic-analytics</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Microsoft Fabric agentic analytics is a reminder that schemas, semantic models, and governed lakehouse design now shape AI behavior.]]></description>
-    </item>
-    <item>
-      <title>Fine-Grained Security for AI Agents</title>
+      <title>Enforcing Fine-Grained Security at Machine Speed: Dynamic Access Control for High-Frequency AI Agents</title>
       <link>https://grokoverflow.com/posts/2026/fine-grained-security-machine-speed-ai-agents</link>
       <guid>https://grokoverflow.com/posts/2026/fine-grained-security-machine-speed-ai-agents</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Machine-speed analytics requires machine-enforced policy, identity, masking, filtering, and audit controls.]]></description>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI agents change the security model for analytics. A human user may run a handful of queries, pause, interpret the answer, and ask a follow-up. An age]]></description>
     </item>
     <item>
-      <title>Iceberg v4 Performance: Root Manifests and Calls</title>
-      <link>https://grokoverflow.com/posts/2026/iceberg-v4-performance-root-manifests-combined-calls</link>
-      <guid>https://grokoverflow.com/posts/2026/iceberg-v4-performance-root-manifests-combined-calls</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Apache Iceberg v4 discussion should focus on planning cost, metadata layout, and object storage round trips, not vague claims about faster tables.]]></description>
+      <title>Delete Files vs Deletion Vectors in Apache Iceberg: How V3 Rewrote the Economics of Changing Data</title>
+      <link>https://grokoverflow.com/posts/2026/iceberg-v3-positional-deletes-deletion-vectors-event-lakes</link>
+      <guid>https://grokoverflow.com/posts/2026/iceberg-v3-positional-deletes-deletion-vectors-event-lakes</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Iceberg v2 delete files vs v3 deletion vectors. How Roaring bitmaps and per-file vectors transformed merge-on-read performance for CDC and streaming workloads.]]></description>
     </item>
     <item>
-      <title>What Is LTAP in the Lakehouse?</title>
-      <link>https://grokoverflow.com/posts/2026/ltap-lakehouse-transactional-analytical-processing-2026</link>
-      <guid>https://grokoverflow.com/posts/2026/ltap-lakehouse-transactional-analytical-processing-2026</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Lakehouse transactional analytical processing is useful only when teams define freshness, isolation, and workload boundaries clearly.]]></description>
+      <title>The Variant Type in Apache Iceberg: How Shredding Turns Messy JSON Into Fast Analytics</title>
+      <link>https://grokoverflow.com/posts/2026/iceberg-v3-variant-type-ai-json-payloads</link>
+      <guid>https://grokoverflow.com/posts/2026/iceberg-v3-variant-type-ai-json-payloads</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Apache Iceberg v3 introduces the Variant type for flexible JSON storage with columnar performance. Learn how shredding enables fast analytics on semi-structured data.]]></description>
     </item>
     <item>
-      <title>The Model Is Not the Moat</title>
-      <link>https://grokoverflow.com/posts/2026/model-not-moat-semantic-lakehouse-layer-enterprise-ai</link>
-      <guid>https://grokoverflow.com/posts/2026/model-not-moat-semantic-lakehouse-layer-enterprise-ai</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Enterprise AI advantage increasingly comes from governed context, semantic models, and operational data contracts, not only from model choice.]]></description>
+      <title>The State of Apache Iceberg v4 in July 2026: What the Dev List Tells Us About the Format's Next Chapter</title>
+      <link>https://grokoverflow.com/posts/2026/iceberg-v4-state-july-2026</link>
+      <guid>https://grokoverflow.com/posts/2026/iceberg-v4-state-july-2026</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[What the Iceberg v4 dev list tells us about adaptive metadata trees, single-file commits, column updates, and the format's next chapter in mid-2026.]]></description>
     </item>
     <item>
-      <title>PyIceberg at Scale Without Apache Spark</title>
-      <link>https://grokoverflow.com/posts/2026/pyiceberg-scale-high-concurrency-no-spark</link>
-      <guid>https://grokoverflow.com/posts/2026/pyiceberg-scale-high-concurrency-no-spark</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Python-first Iceberg work is useful when it stays honest about what Python should and should not do.]]></description>
+      <title>Designing Idempotent Pipelines in the Agentic Lakehouse: Eliminating Double-Write Anomalies</title>
+      <link>https://grokoverflow.com/posts/2026/idempotent-pipelines-agentic-lakehouse-double-write-anomalies</link>
+      <guid>https://grokoverflow.com/posts/2026/idempotent-pipelines-agentic-lakehouse-double-write-anomalies</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Agents retry. Networks fail. Jobs time out after doing some work. APIs return ambiguous responses. Schedulers run the same workflow twice. A human cli]]></description>
     </item>
     <item>
-      <title>The Real-Time Lakehouse with Streaming and Iceberg</title>
-      <link>https://grokoverflow.com/posts/2026/real-time-lakehouse-streaming-sql-cold-iceberg-storage</link>
-      <guid>https://grokoverflow.com/posts/2026/real-time-lakehouse-streaming-sql-cold-iceberg-storage</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The real-time lakehouse is not one engine. It is a contract between streams, table commits, query paths, and freshness expectations.]]></description>
+      <title>The 2026-07-28 Model Context Protocol Release Candidate: What the Stateless Spec Means for Data Platforms</title>
+      <link>https://grokoverflow.com/posts/2026/mcp-2026-07-28-stateless-spec-data-platforms</link>
+      <guid>https://grokoverflow.com/posts/2026/mcp-2026-07-28-stateless-spec-data-platforms</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The date in this topic matters. Today is July 6, 2026. A release candidate dated July 28, 2026 is still in the future. That means this article should ]]></description>
     </item>
     <item>
-      <title>REST Catalog V2 LoadTable and Client Capability</title>
-      <link>https://grokoverflow.com/posts/2026/rest-catalog-v2-loadtable-protocol-design</link>
-      <guid>https://grokoverflow.com/posts/2026/rest-catalog-v2-loadtable-protocol-design</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[REST Catalog V2 LoadTable work matters because clients and catalogs need explicit contracts, not optimistic assumptions.]]></description>
+      <title>The Metric Contract Mandate: Standardizing Semantic Layers Before AI Agent Access</title>
+      <link>https://grokoverflow.com/posts/2026/metric-contract-mandate-semantic-layers-ai-agent-access</link>
+      <guid>https://grokoverflow.com/posts/2026/metric-contract-mandate-semantic-layers-ai-agent-access</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[AI agents are very good at moving quickly. That is the opportunity and the risk. If an agent can inspect metadata, generate queries, compare results, ]]></description>
     </item>
     <item>
-      <title>Rust vs C++ in Native Iceberg Scan Operators</title>
-      <link>https://grokoverflow.com/posts/2026/rust-vs-cpp-table-layer-native-scan-operators</link>
-      <guid>https://grokoverflow.com/posts/2026/rust-vs-cpp-table-layer-native-scan-operators</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The Rust versus C++ discussion is really about table-layer execution safety, interoperability, and performance envelopes.]]></description>
+      <title>Multi-Engine Catalog Federation with Apache Polaris: Syncing Google Cloud, AWS, and Azure Metadata</title>
+      <link>https://grokoverflow.com/posts/2026/multi-engine-catalog-federation-apache-polaris-multicloud</link>
+      <guid>https://grokoverflow.com/posts/2026/multi-engine-catalog-federation-apache-polaris-multicloud</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Open table formats changed the data lakehouse conversation, but they did not finish it. A table can be stored in an open format and still be hard to g]]></description>
     </item>
     <item>
-      <title>Server-Side Commit Deconflicting in REST Catalogs</title>
-      <link>https://grokoverflow.com/posts/2026/server-side-commit-deconflicting-rest-catalogs</link>
-      <guid>https://grokoverflow.com/posts/2026/server-side-commit-deconflicting-rest-catalogs</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Server-side commit deconflicting is about moving concurrency control closer to the catalog contract.]]></description>
+      <title>Personal Context vs. Shared Context: A Deep Dive Into How Humans and Organizations Should Feed Their AI Agents</title>
+      <link>https://grokoverflow.com/posts/2026/personal-vs-shared-context</link>
+      <guid>https://grokoverflow.com/posts/2026/personal-vs-shared-context</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How humans and organizations should engineer AI agent context - personal memory vs governed shared knowledge, with decision frameworks.]]></description>
     </item>
     <item>
-      <title>Snowflake Interoperable Lakehouse Lessons</title>
-      <link>https://grokoverflow.com/posts/2026/snowflake-interoperable-lakehouse-production-lessons</link>
-      <guid>https://grokoverflow.com/posts/2026/snowflake-interoperable-lakehouse-production-lessons</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Interoperable lakehouse announcements matter when they change production contracts, not just import and export narratives.]]></description>
+      <title>Designing Private, Air-Gapped Data Lakehouses: Scaling Iceberg in Highly Secure, On-Premises Clouds</title>
+      <link>https://grokoverflow.com/posts/2026/private-air-gapped-data-lakehouses-iceberg-secure-clouds</link>
+      <guid>https://grokoverflow.com/posts/2026/private-air-gapped-data-lakehouses-iceberg-secure-clouds</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Some of the most important lakehouse work happens in environments that will never look like a simple public-cloud reference architecture. Defense, pub]]></description>
     </item>
     <item>
-      <title>Unity AI Gateway vs Apache Polaris Control Planes</title>
-      <link>https://grokoverflow.com/posts/2026/unity-ai-gateway-vs-apache-polaris-governance-control-plane</link>
-      <guid>https://grokoverflow.com/posts/2026/unity-ai-gateway-vs-apache-polaris-governance-control-plane</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[The right comparison is not vendor scoreboard. It is closed AI governance gateway versus open catalog control plane.]]></description>
+      <title>Migrating Proprietary Warehouses to Open Lakehouses: The 2026 Playbook for Zero-Copy Metadata Translation</title>
+      <link>https://grokoverflow.com/posts/2026/proprietary-warehouse-open-lakehouse-zero-copy-metadata-translation</link>
+      <guid>https://grokoverflow.com/posts/2026/proprietary-warehouse-open-lakehouse-zero-copy-metadata-translation</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Every warehouse migration sounds simpler before the first inventory. Then the team discovers old dashboards, hidden dependencies, undocumented stored ]]></description>
+    </item>
+    <item>
+      <title>The State of Agentic AI Standards in 2026: MCP, A2A, WebMCP, OSI, and the Protocol Stack Taking Shape</title>
+      <link>https://grokoverflow.com/posts/2026/state-of-agentic-ai-standards-2026</link>
+      <guid>https://grokoverflow.com/posts/2026/state-of-agentic-ai-standards-2026</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[The agentic AI protocol stack is solidifying in 2026 — MCP for tools, A2A for agents, WebMCP for the web, OSI for semantics, payments, identity, and security.]]></description>
     </item>
     </channel>
   </rss>
