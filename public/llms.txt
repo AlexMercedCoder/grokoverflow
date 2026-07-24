@@ -6,6 +6,19 @@
 
 ## Apache Iceberg & Data Lakehouse
 
+- [The Breakdown of the Open Lakehouse in 2026: Iceberg, Arrow, Polaris, Parquet, and Ossie, and How to Actually Build One](https://grokoverflow.com/posts/2026/open-lakehouse-breakdown-2026): A detailed breakdown of the five Apache projects powering the open lakehouse in 2026 -- Parquet, Iceberg, Polaris, Arrow, and Ossie -- and how to build one yourself or use a managed platform.
+- [Apache Polaris and Multi-Engine Iceberg Catalogs](https://grokoverflow.com/posts/2026/apache-polaris-asf-top-level-multi-engine-catalog-interoperability): An in-depth exploration of apache polaris and multi-engine iceberg catalogs
+- [Automated Materialized Views in Dremio](https://grokoverflow.com/posts/2026/automated-materialized-views-autonomous-table-optimization-dremio-agentic-lakehouse): An in-depth exploration of automated materialized views in dremio
+- [Data Lakehouse Open Standards for AI Agents](https://grokoverflow.com/posts/2026/data-lakehouse-open-standards-agentic-era): An in-depth exploration of data lakehouse open standards for ai agents
+- [Dremio Lakehouse AI Report: Agentic Lessons](https://grokoverflow.com/posts/2026/dremio-state-data-lakehouse-ai-report-agentic-lakehouse): An in-depth exploration of dremio lakehouse ai report: agentic lessons
+- [Five-Layer Agentic Lakehouse Architecture](https://grokoverflow.com/posts/2026/five-layer-agentic-lakehouse-architecture-enterprise-pattern): An in-depth exploration of five-layer agentic lakehouse architecture
+- [Hybrid Lakehouse Design for Regulated Markets](https://grokoverflow.com/posts/2026/hybrid-lakehouse-regulated-markets-on-prem-public-metadata): An in-depth exploration of hybrid lakehouse design for regulated markets
+- [Iceberg v3 Deletion Vectors and Faster DML](https://grokoverflow.com/posts/2026/iceberg-v3-deletion-vectors-merge-on-read-dml-performance): An in-depth exploration of iceberg v3 deletion vectors and faster dml
+- [Iceberg Variant Type for AI JSON Data](https://grokoverflow.com/posts/2026/iceberg-variant-type-semi-structured-ai-datasets): An in-depth exploration of iceberg variant type for ai json data
+- [Iceberg Concurrency for AI Agent Writes](https://grokoverflow.com/posts/2026/llm-agency-concurrency-isolation-high-frequency-agent-writes-iceberg): An in-depth exploration of iceberg concurrency for ai agent writes
+- [REST Catalog Credential Vending for Iceberg](https://grokoverflow.com/posts/2026/rest-catalog-credential-vending-zero-copy-security): An in-depth exploration of rest catalog credential vending for iceberg
+- [REST Catalog V2: Fixing Iceberg Protocol Debt](https://grokoverflow.com/posts/2026/rest-catalog-v2-standard-iceberg-scaling-protocol-debt): An in-depth exploration of rest catalog v2: fixing iceberg protocol debt
+- [Zero-Copy Mirroring to Open Iceberg Tables](https://grokoverflow.com/posts/2026/zero-copy-mirroring-migration-proprietary-warehouses-open-iceberg): An in-depth exploration of zero-copy mirroring to open iceberg tables
 - [High-Performance Columnar Transfers: Combining Apache Arrow Flight and Iceberg REST Catalogs](https://grokoverflow.com/posts/2026/arrow-flight-iceberg-rest-catalog-columnar-transfers): Article about High-Performance Columnar Transfers: Combining Apache Arrow Flight and Iceberg REST Catalogs
 - [Block vs. Object Storage: A Deep Dive Into the Foundation of Modern Data, and How the Lakehouse Made the Slow Option Fast](https://grokoverflow.com/posts/2026/block-vs-object-storage-deep-dive): Article about Block vs. Object Storage: A Deep Dive Into the Foundation of Modern Data, and How the Lakehouse Made the Slow Option Fast
 - [Conversational AI on Managed Iceberg: Exposing Amazon S3 Tables through MCP](https://grokoverflow.com/posts/2026/conversational-ai-managed-iceberg-s3-tables-mcp-server): Article about Conversational AI on Managed Iceberg: Exposing Amazon S3 Tables through MCP
@@ -245,6 +258,7 @@
 
 ## Data Engineering
 
+- [Active Analytics Loops for AI Action Agents](https://grokoverflow.com/posts/2026/active-analytics-loop-goal-directed-action-agents): An in-depth exploration of active analytics loops for ai action agents
 - [Deterministic Data Engineering With AI Harnesses: Using Claude Code, Codex, Antigravity, and OpenCode for Data Work You Can Actually Trust](https://grokoverflow.com/posts/2026/deterministic-data-engineering-with-ai-harnesses): How to use AI agent harnesses for data engineering without losing determinism, reproducibility, and trust in your data pipelines and analytics.
 - [Open Source Foundations, Explained: What Apache, Linux, Eclipse, and Their Peers Actually Do, and Why Governance Differences Matter](https://grokoverflow.com/posts/2026/open-source-foundations-explained): Article about Open Source Foundations, Explained: What Apache, Linux, Eclipse, and Their Peers Actually Do, and Why Governance Differences Matter
 - [Operational vs. Analytical Systems: Why the Oldest Divide in Data Exists, What Physics Enforces It, and the Honest Truth About Hybrid Systems](https://grokoverflow.com/posts/2026/operational-vs-analytical-systems): Article about Operational vs. Analytical Systems: Why the Oldest Divide in Data Exists, What Physics Enforces It, and the Honest Truth About Hybrid Systems
@@ -337,6 +351,14 @@
 
 ## AI, LLMs & Agentic Systems
 
+- [The Filters We Build: Scams, Slop, and the Search for Signal, From Radio Ads to AI](https://grokoverflow.com/posts/2026/cognitive-filters-media-evolution): How every media era from radio to AI forces humanity to build new cognitive filters -- the shield against scams and the sieve for finding signal in an ocean of noise.
+- [Understanding the RAMpocalypse: An Economic Autopsy of the Great Memory Shortage and What Comes Next](https://grokoverflow.com/posts/2026/rampocalypse-economics): An economic autopsy of the 2026 memory shortage -- why DRAM prices surged 90% in a quarter, and what supply, demand, and market structure mean for the future of computing hardware.
+- [The Own Goal: What the Hugging Face Breach Reveals About Why Open Models Are a Security Necessity](https://grokoverflow.com/posts/2026/value-of-open-models-security): How the 2026 Hugging Face breach proved that open models are a security necessity -- closed models failed to defend, an open Chinese model succeeded, and the lessons for AI policy.
+- [The Chase-Catch Gap in Enterprise AI Agents](https://grokoverflow.com/posts/2026/chase-catch-gap-agentic-ai-enterprise-scale-2026): An in-depth exploration of the chase-catch gap in enterprise ai agents
+- [GSA MCP Servers for Open Data AI Agents](https://grokoverflow.com/posts/2026/gsa-model-context-protocol-server-hackathon-open-data-ai-agents): An in-depth exploration of gsa mcp servers for open data ai agents
+- [MCP Stateless Gateways for Data Agents](https://grokoverflow.com/posts/2026/mcp-stateless-specifications-scalable-data-gateways-ai-agents): An in-depth exploration of mcp stateless gateways for data agents
+- [Policy Layer for Autonomous AI Data Agents](https://grokoverflow.com/posts/2026/policy-layer-security-policy-enforcement-autonomous-multi-agent-systems): An in-depth exploration of policy layer for autonomous ai data agents
+- [Semantic View Autopilot for AI Governance](https://grokoverflow.com/posts/2026/semantic-view-autopilot-dynamic-metric-definition-governance): An in-depth exploration of semantic view autopilot for ai governance
 - [The Buyer's Scorecard for Agentic Analytics: Evaluating Tooling in the Enterprise AI Era](https://grokoverflow.com/posts/2026/buyers-scorecard-agentic-analytics-enterprise-ai-era): Article about The Buyer's Scorecard for Agentic Analytics: Evaluating Tooling in the Enterprise AI Era
 - [Building Closed-Loop Decision Agents: Moving from Passive BI Dashboards to Active Goal-Directed Workflows](https://grokoverflow.com/posts/2026/closed-loop-decision-agents-passive-bi-active-workflows): Article about Building Closed-Loop Decision Agents: Moving from Passive BI Dashboards to Active Goal-Directed Workflows
 - [Designing Your Own AI Harness: A Deep Dive Into the Architecture of Agent Loops, Tools, Context, and Control](https://grokoverflow.com/posts/2026/designing-your-own-ai-harness): A deep dive into custom AI harness architecture: model layers, tool design, context management, permissions, control budgets, persistence, orchestration, and evaluation systems.
