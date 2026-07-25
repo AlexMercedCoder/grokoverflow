@@ -30,6 +30,9 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
         <meta name="description" content={postDescription} />
         
         {/* Open Graph & Twitter */}
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="GrokOverflow" />
+        <meta property="article:published_time" content={date} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={postDescription} />
         <meta property="og:image" content={`https://grokoverflow.com/og/${currentSlug}.png`} />
@@ -55,6 +58,10 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
                image: [`https://grokoverflow.com/og/${currentSlug}.png`],
                datePublished: date,
                dateModified: date,
+               speakable: {
+                 "@type": "SpeakableSpecification",
+                 cssSelector: [".blog-post p:first-of-type", "article p:first-of-type"]
+               },
                mainEntityOfPage: {
                  "@type": "WebPage",
                  "@id": canonicalUrl
@@ -69,6 +76,21 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
                  name: author,
                  url: `https://grokoverflow.com/blog/author/${authorSlug}`
                } : undefined
+             })
+          }}
+        />
+        {/* BreadcrumbList JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+             __html: JSON.stringify({
+               "@context": "https://schema.org",
+               "@type": "BreadcrumbList",
+               itemListElement: [
+                 { "@type": "ListItem", position: 1, name: "Home", item: "https://grokoverflow.com/" },
+                 { "@type": "ListItem", position: 2, name: "Blog", item: "https://grokoverflow.com/blog" },
+                 { "@type": "ListItem", position: 3, name: title, item: canonicalUrl }
+               ]
              })
           }}
         />
