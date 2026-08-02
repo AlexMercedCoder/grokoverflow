@@ -6,6 +6,9 @@
 
 ## Apache Iceberg & Data Lakehouse
 
+- [Apache Polaris 1.7.0 and the Quiet Work of Making a Catalog Trustworthy](https://grokoverflow.com/posts/2026/apache-polaris-1-7-0): Apache Polaris 1.7.0 deep dive: idempotent writes, semantic models, stricter credential vending, orphan cleanup, and what the upgrade asks of you.
+- [Designing Batch Pipelines That Write Well Into Apache Iceberg](https://grokoverflow.com/posts/2026/batch-pipelines-into-apache-iceberg): How to design batch pipelines that write well into Apache Iceberg: commit strategy, partitioning, sort order, write-audit-publish, and maintenance done right.
+- [Apache Iceberg Support Across the Major Hyperscalers](https://grokoverflow.com/posts/2026/iceberg-across-the-hyperscalers): How AWS, Google Cloud, and Microsoft Azure actually support Apache Iceberg: storage, catalogs, maintenance, governance, and interoperability, layer by layer.
 - [Building Agent Telemetry Tables in Iceberg That Survive an Audit](https://grokoverflow.com/posts/2026/agent-telemetry-iceberg-audit): A practical guide to building agent decision traces in Apache Iceberg that support audit reconstruction, governance review, and cost attribution across sessions.
 - [What Agentic Analytics Actually Costs, and How to Keep It Bounded](https://grokoverflow.com/posts/2026/agentic-analytics-tco): Agent analytics generates two cost streams that scale on different variables. Here's the arithmetic, the levers that actually move the number, and how to build attribution before you need it.
 - [Running an Apache Iceberg Lakehouse With No Internet Connection](https://grokoverflow.com/posts/2026/air-gapped-iceberg-lakehouse): A practical guide to deploying an Iceberg lakehouse in air-gapped environments: component choices, artifact pipelines, identity without a cloud, and the operational realities that surprise teams.
