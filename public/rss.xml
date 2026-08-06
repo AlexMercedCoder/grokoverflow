@@ -7,6 +7,13 @@
       <language>en</language>
       
     <item>
+      <title>Apache Arrow Flight and ADBC, and Why Database Connectivity Finally Went Columnar</title>
+      <link>https://grokoverflow.com/posts/2026/arrow-flight-adbc-explained</link>
+      <guid>https://grokoverflow.com/posts/2026/arrow-flight-adbc-explained</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Arrow Flight and ADBC move database results as columnar data, ending the row-oriented bottleneck between engines and applications. Here's how.]]></description>
+    </item>
+    <item>
       <title>Budgeting for Agentic Analytics When Every Question Costs Something Different</title>
       <link>https://grokoverflow.com/posts/2026/agentic-analytics-tco-token-budgets</link>
       <guid>https://grokoverflow.com/posts/2026/agentic-analytics-tco-token-budgets</guid>
@@ -138,13 +145,6 @@
       <guid>https://grokoverflow.com/posts/2026/zero-copy-data-sharing-iceberg</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[What zero-copy data sharing actually does across Salesforce, Snowflake, and Databricks: query federation, file federation, catalog federation, and when copying still wins.]]></description>
-    </item>
-    <item>
-      <title>Apache Polaris 1.7.0 and the Quiet Work of Making a Catalog Trustworthy</title>
-      <link>https://grokoverflow.com/posts/2026/apache-polaris-1-7-0</link>
-      <guid>https://grokoverflow.com/posts/2026/apache-polaris-1-7-0</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[Apache Polaris 1.7.0 deep dive: idempotent writes, semantic models, stricter credential vending, orphan cleanup, and what the upgrade asks of you.]]></description>
     </item>
     </channel>
   </rss>
