@@ -49,6 +49,7 @@
   --spacing-14:  14px;
   --spacing-28:  28px;
   --spacing-32:  32px;
+  --spacing-42:  42px;
   --spacing-56:  56px;
   --spacing-64:  64px;
   --spacing-84:  84px;
@@ -88,6 +89,65 @@
   --space-xl:  var(--spacing-64);
   --font-display: var(--font-sans);
   --font-serif:   var(--font-sans);
+
+  /* ── Semantic layer ──
+     The raw --color-* tokens above are brand constants and never change.
+     Everything in the app should reference the semantic tokens below, which
+     are the only things the dark theme overrides. --color-cloud-gray in
+     particular used to mean both "light card surface" and "text on a dark
+     card"; those two roles are now split. */
+  --surface-page:      var(--color-greige-canvas);
+  --surface-raised:    var(--color-cloud-gray);
+  --surface-sunken:    var(--color-subtle-ash);
+  --surface-inverted:  var(--color-graphite-card);
+
+  --text-primary:      var(--color-ink);
+  --text-muted:        var(--color-slate-text);
+  --text-faint:        #8d97a3;
+  --text-on-inverted:  var(--color-cloud-gray);
+
+  --border-subtle:     var(--color-ghost-border);
+
+  /* --accent is safe on inverted surfaces (4.9:1 on graphite). --accent-ink is
+     the same hue darkened to clear AA as text on the light canvas, where the
+     vivid orange only manages 2.4:1. */
+  --accent:            var(--color-action-orange);
+  --accent-ink:        #b03d00;
+  --accent-soft:       rgba(255, 97, 0, 0.10);
+  --accent-alt:        var(--color-interactive-yellow);
+
+  --grid-line:         rgba(0, 0, 0, 0.045);
+  --shadow-card:       0 1px 2px rgba(16, 18, 21, 0.05);
+  --shadow-lift:       0 18px 40px -22px rgba(16, 18, 21, 0.45);
+}
+
+/* ── Dark theme ──
+   The toggle in the header has always set data-theme="dark"; until now no rule
+   matched it, so the button did nothing. Mux inverts cleanly: the parchment
+   canvas becomes ink, and the terminal cards drop a step deeper still. */
+[data-theme="dark"] {
+  --surface-page:      #101317;
+  --surface-raised:    #191d23;
+  --surface-sunken:    #15181d;
+  --surface-inverted:  #080a0d;
+
+  --text-primary:      #f2f5f7;
+  --text-muted:        #a8b3bf;
+  --text-faint:        #7f8a97;
+  --text-on-inverted:  #f2f5f7;
+
+  --border-subtle:     #2b323b;
+
+  --accent:            #ff7a26;
+  --accent-ink:        #ff9147;
+  --accent-soft:       rgba(255, 122, 38, 0.14);
+  --accent-alt:        #ffc245;
+
+  --grid-line:         rgba(255, 255, 255, 0.05);
+  --shadow-card:       0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-lift:       0 18px 40px -22px rgba(0, 0, 0, 0.75);
+
+  color-scheme: dark;
 }
 
 /* ── Base reset ── */
@@ -101,8 +161,8 @@ html, body {
   font-family: var(--font-sans);
   font-size: var(--text-body);
   line-height: var(--leading-normal);
-  background-color: var(--color-greige-canvas);
-  color: var(--color-ink);
+  background-color: var(--surface-page);
+  color: var(--text-primary);
   letter-spacing: var(--tracking-wide);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -129,7 +189,7 @@ body::before {
 
 /* ── Links ── */
 a {
-  color: var(--color-ink);
+  color: var(--text-primary);
   text-decoration: none;
   transition: color 0.15s ease;
 }
@@ -142,7 +202,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-sans);
   font-weight: 700;
-  color: var(--color-ink);
+  color: var(--text-primary);
   line-height: var(--leading-snug);
   letter-spacing: var(--tracking-wide);
   margin-top: var(--spacing-56);
@@ -162,8 +222,8 @@ p {
 
 /* ── Code ── */
 pre {
-  background-color: var(--color-graphite-card);
-  color: var(--color-cloud-gray);
+  background-color: var(--surface-inverted);
+  color: var(--text-on-inverted);
   padding: var(--card-padding);
   border-radius: var(--radius-cards);
   overflow-x: auto;
@@ -174,8 +234,8 @@ pre {
 }
 
 code {
-  background-color: var(--color-graphite-card);
-  color: var(--color-interactive-yellow);
+  background-color: var(--surface-inverted);
+  color: var(--accent-alt);
   padding: 0.15em 0.5em;
   border-radius: var(--radius-md);
   font-family: var(--font-mono);
@@ -193,7 +253,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: var(--spacing-28);
-  border: 1px solid var(--color-ghost-border);
+  border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
   overflow: hidden;
   font-size: var(--text-body-sm);
@@ -201,13 +261,13 @@ table {
 
 th, td {
   padding: var(--spacing-14) var(--spacing-28);
-  border: 1px solid var(--color-ghost-border);
+  border: 1px solid var(--border-subtle);
   text-align: left;
 }
 
 th {
-  background-color: var(--color-graphite-card);
-  color: var(--color-cloud-gray);
+  background-color: var(--surface-inverted);
+  color: var(--text-on-inverted);
   font-weight: 700;
   font-family: var(--font-mono);
   font-size: var(--text-caption);
@@ -246,20 +306,20 @@ img {
   background-color: rgba(255, 97, 0, 0.06);
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
   font-style: italic;
-  color: var(--color-slate-text);
+  color: var(--text-muted);
 }
 
 /* ── Utility: Terminal Card ── */
 .card-terminal {
-  background-color: var(--color-graphite-card);
+  background-color: var(--surface-inverted);
   border-radius: var(--radius-cards);
   padding: var(--card-padding);
-  color: var(--color-cloud-gray);
+  color: var(--text-on-inverted);
 }
 
 /* ── Utility: Light Card ── */
 .card-light {
-  background-color: var(--color-cloud-gray);
+  background-color: var(--surface-raised);
   border-radius: var(--radius-cards);
   padding: var(--card-padding);
 }
@@ -270,8 +330,8 @@ img {
   align-items: center;
   justify-content: center;
   gap: var(--spacing-4);
-  background-color: var(--color-graphite-card);
-  color: var(--color-cloud-gray);
+  background-color: var(--surface-inverted);
+  color: var(--text-on-inverted);
   padding: var(--spacing-14) var(--spacing-28);
   border-radius: var(--radius-buttons);
   font-family: var(--font-sans);
@@ -284,7 +344,7 @@ img {
 }
 
 .btn-primary:hover {
-  background-color: var(--color-action-orange);
-  color: var(--color-cloud-gray);
+  background-color: var(--accent);
+  color: var(--text-on-inverted);
   transform: translateY(-1px);
 }

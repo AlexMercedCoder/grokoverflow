@@ -17,7 +17,7 @@ function GrokOverflowLogo() {
       style={{ display: 'block' }}
     >
       {/* Circuit-head icon */}
-      <g stroke="#242628" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round">
+      <g stroke="var(--text-primary)" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round">
         {/* Head outline */}
         <path d="M10 36 C10 36 8 34 8 28 C8 18 14 11 22 11 C30 11 36 18 36 28 C36 34 34 36 34 36 L30 36 L30 38 L14 38 L14 36 Z" />
         {/* Neck base */}
@@ -25,10 +25,10 @@ function GrokOverflowLogo() {
         <line x1="26" y1="38" x2="26" y2="41" />
         <line x1="18" y1="41" x2="26" y2="41" />
         {/* Circuit nodes */}
-        <circle cx="22" cy="21" r="1.3" fill="#242628" stroke="none" />
-        <circle cx="17" cy="27" r="1.3" fill="#242628" stroke="none" />
-        <circle cx="27" cy="27" r="1.3" fill="#242628" stroke="none" />
-        <circle cx="22" cy="32" r="1.3" fill="#ff6100" stroke="none" />
+        <circle cx="22" cy="21" r="1.3" fill="var(--text-primary)" stroke="none" />
+        <circle cx="17" cy="27" r="1.3" fill="var(--text-primary)" stroke="none" />
+        <circle cx="27" cy="27" r="1.3" fill="var(--text-primary)" stroke="none" />
+        <circle cx="22" cy="32" r="1.3" fill="var(--accent)" stroke="none" />
         {/* Circuit traces */}
         <line x1="22" y1="21" x2="17" y2="27" />
         <line x1="22" y1="21" x2="27" y2="27" />
@@ -47,7 +47,7 @@ function GrokOverflowLogo() {
         fontFamily="Inter, ui-sans-serif, system-ui, sans-serif"
         fontWeight="700"
         fontSize="24"
-        fill="#242628"
+        fill="var(--text-primary)"
         letterSpacing="0.01em"
       >Grok</text>
 
@@ -58,7 +58,7 @@ function GrokOverflowLogo() {
         fontFamily="Inter, ui-sans-serif, system-ui, sans-serif"
         fontWeight="700"
         fontSize="24"
-        fill="#ff6100"
+        fill="var(--accent)"
         letterSpacing="0.01em"
       >Overflow</text>
     </svg>

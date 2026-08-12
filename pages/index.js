@@ -88,7 +88,7 @@ const SOCIAL_LINKS = [
   { label: "Buy Me a Coffee", url: "https://buymeacoffee.com/alexmerced" },
 ];
 
-export default function Home({ posts }) {
+export default function Home({ posts, postCount }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -153,21 +153,76 @@ export default function Home({ posts }) {
 
         {/* ── Hero ── */}
         <section className={styles.hero}>
-          <p className={styles.eyebrow}>Developer Education Hub</p>
-          <h1>Welcome to GrokOverflow</h1>
-          <p className={styles.heroSub}>
-            Tutorials, podcasts, and videos for developers — by{" "}
-            <a href="https://alexmerced.com" target="_blank" rel="noopener noreferrer">
-              Alex Merced
-            </a>
-            , Head of Developer Relations at Dremio and author of 35+ books.
-          </p>
-          <p className={styles.heroBody}>
-            Explore the blog for guides on web development, data engineering,
-            Apache Iceberg, agentic AI, and more. Guest submissions welcome —
-            pitch your idea at{" "}
-            <a href="mailto:alex@grokoverflow.com">alex@grokoverflow.com</a>.
-          </p>
+          <div className={styles.heroCopy}>
+            <p className={styles.eyebrow}>Developer Education Hub</p>
+            <h1 className={styles.heroTitle}>
+              Tutorials for developers who
+              {" "}
+              <span className={styles.heroAccent}>read the source</span>.
+            </h1>
+            <p className={styles.heroSub}>
+              Written by{" "}
+              <a href="https://alexmerced.com" target="_blank" rel="noopener noreferrer">
+                Alex Merced
+              </a>
+              , Head of Developer Relations at Dremio and author of 35+ books.
+            </p>
+            <p className={styles.heroBody}>
+              Guides on web development, data engineering, Apache Iceberg, and
+              agentic AI. Guest submissions are welcome. Pitch an idea at{" "}
+              <a href="mailto:alex@grokoverflow.com">alex@grokoverflow.com</a>.
+            </p>
+
+            <div className={styles.heroActions}>
+              <Link href="/blog" className={styles.btnPrimary}>
+                Read the blog
+              </Link>
+              <Link href="/video" className={styles.btnGhost}>
+                Watch the videos
+              </Link>
+            </div>
+
+            <dl className={styles.heroStats}>
+              <div>
+                <dt>{postCount}+</dt>
+                <dd>Articles</dd>
+              </div>
+              <div>
+                <dt>35+</dt>
+                <dd>Books published</dd>
+              </div>
+              <div>
+                <dt>Free</dt>
+                <dd>No paywall</dd>
+              </div>
+            </dl>
+          </div>
+
+          {/* Terminal card: the Mux motif, rendered as an actual object rather
+              than just a card style borrowed for text. */}
+          <div className={styles.terminal} aria-hidden="true">
+            <div className={styles.terminalBar}>
+              <span className={styles.dot} data-dot="r" />
+              <span className={styles.dot} data-dot="y" />
+              <span className={styles.dot} data-dot="g" />
+              <span className={styles.terminalTitle}>grokoverflow ~ %</span>
+            </div>
+            <pre className={styles.terminalBody}>
+{`$ whoami
+alex merced // devrel, dremio
+
+$ ls topics/
+apache-iceberg/   data-engineering/
+agentic-ai/       web-development/
+python/           javascript/
+
+$ cat mission.txt
+Explain the hard parts properly,
+then show the code that proves it.
+
+$ _`}
+            </pre>
+          </div>
         </section>
 
         {/* ── Must Reads ── */}
@@ -293,9 +348,13 @@ export async function getStaticProps() {
 
   const recentPosts = posts.slice(0, 6);
 
+  // Rounded down so the figure stays honest as the archive grows.
+  const postCount = Math.floor(posts.length / 25) * 25;
+
   return {
     props: {
       posts: recentPosts,
+      postCount,
     },
   };
 }

@@ -21,8 +21,8 @@
 
 /* Dark Terminal Card for featured */
 .featuredArticle {
-    background-color: var(--color-graphite-card);
-    color: var(--color-cloud-gray);
+    background-color: var(--surface-inverted);
+    color: var(--text-on-inverted);
     padding: var(--spacing-56) var(--card-padding);
     border-radius: var(--radius-cards);
     transition: transform 0.2s ease;
@@ -38,7 +38,7 @@
     letter-spacing: 0.12em;
     font-family: var(--font-mono);
     font-weight: 400;
-    color: var(--color-interactive-yellow);
+    color: var(--accent-alt);
     margin-top: 0;
     margin-bottom: var(--spacing-14);
 }
@@ -49,13 +49,13 @@
 }
 
 .featuredLink:hover h2 {
-    color: var(--color-interactive-yellow);
+    color: var(--accent-alt);
 }
 
 .featuredArticle h2 {
     font-size: clamp(1.5rem, 3vw, var(--text-heading-sm));
     margin: var(--spacing-14) 0;
-    color: var(--color-cloud-gray);
+    color: var(--text-on-inverted);
     cursor: pointer;
     transition: color 0.15s ease;
     line-height: var(--leading-snug);
@@ -65,7 +65,7 @@
     font-size: var(--text-caption);
     font-weight: 400;
     font-family: var(--font-mono);
-    color: var(--color-warm-gray-outline);
+    color: var(--text-faint);
     margin-bottom: 0;
 }
 
@@ -76,42 +76,42 @@
     align-items: center;
     gap: var(--element-gap);
     margin-bottom: var(--spacing-28);
-    background-color: var(--color-cloud-gray);
+    background-color: var(--surface-raised);
     padding: var(--spacing-28);
     border-radius: var(--radius-cards);
-    border: 1px solid var(--color-ghost-border);
+    border: 1px solid var(--border-subtle);
 }
 
 .rtitle {
     margin: 0;
     font-size: var(--text-body-sm);
     font-weight: 700;
-    color: var(--color-ink);
+    color: var(--text-primary);
     white-space: nowrap;
 }
 
 .searchBox input {
     flex: 1;
     padding: 0.55rem var(--spacing-14);
-    border: 1px solid var(--color-ghost-border);
+    border: 1px solid var(--border-subtle);
     border-radius: var(--radius-buttons);
     font-size: var(--text-body-sm);
     font-family: var(--font-mono);
-    background-color: var(--color-greige-canvas);
-    color: var(--color-ink);
+    background-color: var(--surface-page);
+    color: var(--text-primary);
     outline: none;
     transition: border-color 0.15s;
 }
 
 .searchBox input:focus {
-    border-color: var(--color-action-orange);
+    border-color: var(--accent);
     box-shadow: 0 0 0 var(--radius-sm) rgba(255, 97, 0, 0.15);
 }
 
 .searchButton {
     padding: 0.55rem var(--spacing-28);
-    background-color: var(--color-graphite-card);
-    color: var(--color-cloud-gray);
+    background-color: var(--surface-inverted);
+    color: var(--text-on-inverted);
     border: none;
     border-radius: var(--radius-buttons);
     font-family: var(--font-sans);
@@ -123,7 +123,7 @@
 }
 
 .searchButton:hover {
-    background-color: var(--color-action-orange);
+    background-color: var(--accent);
 }
 
 /* ── Article Cards ── */
@@ -137,10 +137,10 @@
 
 /* Light Content Card */
 .article {
-    background-color: var(--color-cloud-gray);
+    background-color: var(--surface-raised);
     padding: var(--card-padding);
     border-radius: var(--radius-cards);
-    border: 1px solid var(--color-ghost-border);
+    border: 1px solid var(--border-subtle);
     transition: transform 0.2s ease, border-color 0.2s ease;
     display: flex;
     flex-direction: column;
@@ -150,7 +150,7 @@
 
 .article:hover {
     transform: translateY(-3px);
-    border-color: var(--color-action-orange);
+    border-color: var(--accent);
 }
 
 .article h2 {
@@ -158,19 +158,19 @@
     font-weight: 700;
     margin-top: 0;
     margin-bottom: var(--spacing-14);
-    color: var(--color-ink);
+    color: var(--text-primary);
     cursor: pointer;
     line-height: var(--leading-snug);
     transition: color 0.15s;
 }
 
 .article h2:hover {
-    color: var(--color-action-orange);
+    color: var(--accent);
 }
 
 .article h3 {
     font-size: var(--text-caption);
-    color: var(--color-slate-text);
+    color: var(--text-muted);
     font-family: var(--font-mono);
     font-weight: 400;
     margin-bottom: 0;
@@ -182,10 +182,10 @@
 }
 
 .categories {
-    background-color: var(--color-cloud-gray);
+    background-color: var(--surface-raised);
     padding: var(--card-padding);
     border-radius: var(--radius-cards);
-    border: 1px solid var(--color-ghost-border);
+    border: 1px solid var(--border-subtle);
     position: sticky;
     top: 80px;
     display: flex;
@@ -195,13 +195,13 @@
 
 .categories h4 {
     margin-top: 0;
-    border-bottom: 1px solid var(--color-ghost-border);
+    border-bottom: 1px solid var(--border-subtle);
     padding-bottom: var(--spacing-14);
     margin-bottom: var(--spacing-14);
     width: 100%;
     font-size: var(--text-body-sm);
     font-weight: 700;
-    color: var(--color-ink);
+    color: var(--text-primary);
 }
 
 .categories div {
@@ -210,9 +210,9 @@
 
 /* Category pill tags — Action Orange outline variant */
 .categories a {
-    color: var(--color-slate-text);
+    color: var(--text-muted);
     background-color: transparent;
-    border: 1px solid var(--color-ghost-border);
+    border: 1px solid var(--border-subtle);
     padding: 0.25rem 0.75rem;
     border-radius: var(--radius-buttons);
     font-size: var(--text-caption);
@@ -225,8 +225,8 @@
 }
 
 .categories a:hover {
-    color: var(--color-action-orange);
-    border-color: var(--color-action-orange);
+    color: var(--accent);
+    border-color: var(--accent);
     background-color: rgba(255, 97, 0, 0.06);
 }
 
@@ -242,8 +242,8 @@
 .buttons button {
     padding: var(--spacing-14) var(--spacing-56);
     background-color: transparent;
-    color: var(--color-ink);
-    border: 1px solid var(--color-ghost-border);
+    color: var(--text-primary);
+    border: 1px solid var(--border-subtle);
     border-radius: var(--radius-buttons);
     font-size: var(--text-body-sm);
     font-family: var(--font-sans);
@@ -253,9 +253,9 @@
 }
 
 .buttons button:hover {
-    background-color: var(--color-graphite-card);
-    color: var(--color-cloud-gray);
-    border-color: var(--color-graphite-card);
+    background-color: var(--surface-inverted);
+    color: var(--text-on-inverted);
+    border-color: var(--surface-inverted);
 }
 
 /* ── Responsive ── */

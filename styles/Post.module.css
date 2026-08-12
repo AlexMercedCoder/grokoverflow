@@ -7,16 +7,16 @@
 
 /* Outer dark terminal card wraps the article */
 .article {
-    background-color: var(--color-cloud-gray);
+    background-color: var(--surface-raised);
     border-radius: var(--radius-cards);
-    border: 1px solid var(--color-ghost-border);
+    border: 1px solid var(--border-subtle);
     overflow: hidden;
 }
 
 /* Article header — dark terminal card style */
 .header {
     padding: var(--spacing-56) var(--spacing-56);
-    background-color: var(--color-graphite-card);
+    background-color: var(--surface-inverted);
     text-align: center;
 }
 
@@ -24,7 +24,7 @@
     font-size: clamp(1.8rem, 4vw, var(--text-heading-sm));
     line-height: var(--leading-tight);
     margin: 0 0 var(--spacing-28);
-    color: var(--color-cloud-gray);
+    color: var(--text-on-inverted);
     font-weight: 700;
 }
 
@@ -35,7 +35,7 @@
     gap: var(--spacing-28);
     margin-bottom: var(--spacing-28);
     font-size: var(--text-caption);
-    color: var(--color-warm-gray-outline);
+    color: var(--text-faint);
     font-family: var(--font-mono);
 }
 
@@ -52,12 +52,12 @@
 }
 
 .authorLink {
-    color: var(--color-interactive-yellow);
+    color: var(--accent-alt);
     font-weight: 400;
 }
 
 .authorLink:hover {
-    color: var(--color-action-orange);
+    color: var(--accent);
     text-decoration: underline;
 }
 
@@ -71,8 +71,8 @@
 
 /* Category = filled Interactive Yellow badge */
 .categoryTag {
-    background-color: var(--color-interactive-yellow);
-    color: var(--color-ink);
+    background-color: var(--accent-alt);
+    color: var(--text-primary);
     padding: 3px var(--spacing-14);
     border-radius: var(--radius-buttons);
     font-size: var(--text-caption);
@@ -83,26 +83,26 @@
 }
 
 .categoryTag:hover {
-    background-color: var(--color-action-orange);
-    color: var(--color-cloud-gray);
+    background-color: var(--accent);
+    color: var(--text-on-inverted);
 }
 
 /* Tags = Action Orange outline */
 .tag {
     background-color: transparent;
-    color: var(--color-warm-gray-outline);
+    color: var(--text-faint);
     padding: 3px var(--spacing-14);
     border-radius: var(--radius-buttons);
     font-size: var(--text-caption);
     font-family: var(--font-mono);
-    border: 1px solid var(--color-warm-gray-outline);
+    border: 1px solid var(--text-faint);
     transition: all 0.15s;
     text-decoration: none;
 }
 
 .tag:hover {
-    border-color: var(--color-action-orange);
-    color: var(--color-action-orange);
+    border-color: var(--accent);
+    color: var(--accent);
 }
 
 /* Article body — light card */
@@ -110,7 +110,7 @@
     padding: var(--spacing-56) var(--spacing-56);
     font-size: var(--text-body);
     line-height: 1.75;
-    color: var(--color-ink);
+    color: var(--text-primary);
 }
 
 /* Related Posts */
@@ -122,7 +122,7 @@
 }
 
 .relatedPost {
-    background: var(--color-graphite-card);
+    background: var(--surface-inverted);
     border: 1px solid transparent;
     padding: var(--card-padding);
     border-radius: var(--radius-cards);
@@ -131,20 +131,20 @@
 
 .relatedPost:hover {
     transform: translateY(-2px);
-    border-color: var(--color-action-orange);
+    border-color: var(--accent);
 }
 
 .relatedLink {
     text-decoration: none;
     font-weight: 700;
     font-size: var(--text-body-sm);
-    color: var(--color-cloud-gray);
+    color: var(--text-on-inverted);
     display: block;
     line-height: var(--leading-snug);
 }
 
 .relatedLink:hover {
-    color: var(--color-interactive-yellow);
+    color: var(--accent-alt);
 }
 
 /* ── Responsive ── */

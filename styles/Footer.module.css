@@ -2,10 +2,10 @@
 .footer {
     text-align: center;
     padding: var(--spacing-56) var(--spacing-28);
-    border-top: 1px solid var(--color-ghost-border);
-    color: var(--color-slate-text);
+    border-top: 1px solid var(--border-subtle);
+    color: var(--text-muted);
     font-size: var(--text-caption);
     font-family: var(--font-mono);
-    background-color: var(--color-greige-canvas);
+    background-color: var(--surface-page);
     margin-top: var(--spacing-56);
 }
