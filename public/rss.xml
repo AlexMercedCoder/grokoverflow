@@ -7,6 +7,13 @@
       <language>en</language>
       
     <item>
+      <title>The Plan and the Worker: Two Open Specifications for Agent Harnesses</title>
+      <link>https://grokoverflow.com/posts/2026/agentic-graph-open-agent-profile-two-open-specs-agent-harnesses</link>
+      <guid>https://grokoverflow.com/posts/2026/agentic-graph-open-agent-profile-two-open-specs-agent-harnesses</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Two open specifications, the Agentic Graph Specification and the Open Agent Profile, turn agent plans and agent identity into portable, reviewable files.]]></description>
+    </item>
+    <item>
       <title>Apache Arrow Flight and ADBC, and Why Database Connectivity Finally Went Columnar</title>
       <link>https://grokoverflow.com/posts/2026/arrow-flight-adbc-explained</link>
       <guid>https://grokoverflow.com/posts/2026/arrow-flight-adbc-explained</guid>
@@ -138,13 +145,6 @@
       <guid>https://grokoverflow.com/posts/2026/warehouse-to-iceberg-migration-playbook</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[A dependency-first playbook for migrating legacy warehouses onto Apache Iceberg: snapshot vs migrate vs add_files, four-level parity validation, and federation-based cutover.]]></description>
-    </item>
-    <item>
-      <title>What Zero-Copy Data Sharing Actually Does Between Salesforce, Snowflake, and Databricks</title>
-      <link>https://grokoverflow.com/posts/2026/zero-copy-data-sharing-iceberg</link>
-      <guid>https://grokoverflow.com/posts/2026/zero-copy-data-sharing-iceberg</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[What zero-copy data sharing actually does across Salesforce, Snowflake, and Databricks: query federation, file federation, catalog federation, and when copying still wins.]]></description>
     </item>
     </channel>
   </rss>

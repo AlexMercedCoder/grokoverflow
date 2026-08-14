@@ -399,6 +399,7 @@
 
 ## AI, LLMs & Agentic Systems
 
+- [The Plan and the Worker: Two Open Specifications for Agent Harnesses](https://grokoverflow.com/posts/2026/agentic-graph-open-agent-profile-two-open-specs-agent-harnesses): Two open specifications, the Agentic Graph Specification and the Open Agent Profile, turn agent plans and agent identity into portable, reviewable files.
 - [Metric Contracts as the Interface AI Agents Actually Need](https://grokoverflow.com/posts/2026/metric-contracts-for-ai-agents): Metric contracts as the interface AI agents need: calculation, inclusion rules, grain, temporal semantics, ownership, semantic versioning, and testing metrics in CI.
 - [Guardrails for Analytics Agents That Do More Than Answer Questions](https://grokoverflow.com/posts/2026/agent-guardrails-human-in-the-loop): The risk isn't agents going rogue, it's agents acting correctly on bad input at machine speed. Here's how to classify actions by consequence, gate capability, and design approval steps people actually use.
 - [Every AI Model Family That Matters in Mid-2026](https://grokoverflow.com/posts/2026/ai-model-families-2026): A full survey of the AI model landscape in mid-2026: frontier families, open-weight labs, local inference, specialists, and how to build a routing layer instead of a dependency.
