@@ -158,6 +158,9 @@
 html, body {
   padding: 0;
   margin: 0;
+  /* clip, not hidden, so position: sticky still works; lets the hero motif
+     break out of the container to full viewport width without a scrollbar */
+  overflow-x: clip;
   font-family: var(--font-sans);
   font-size: var(--text-body);
   line-height: var(--leading-normal);

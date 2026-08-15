@@ -14,10 +14,118 @@
 
 /* ── Hero ── */
 .hero {
+  position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
   gap: var(--spacing-56);
   align-items: center;
+}
+
+/* Graph paper, a shop robot, and a run of build ticks. Desktop only: below
+   1200px the container eats the gutters the robot lives in. */
+.heroViz {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .heroViz {
+    display: block;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: calc(100% + 80px);
+    pointer-events: none;
+    z-index: 0;
+  }
+}
+
+.heroCopy,
+.terminal {
+  position: relative;
+  z-index: 1;
+}
+
+.botStroke {
+  fill: none;
+  stroke: var(--text-muted);
+  stroke-width: 2;
+  stroke-linecap: round;
+  opacity: 0.5;
+}
+
+.botBulb {
+  fill: var(--color-action-orange);
+  animation: botBlip 2.6s ease-in-out infinite;
+}
+
+.botEyes circle {
+  fill: var(--text-muted);
+  opacity: 0.75;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: botBlink 4.4s steps(1, end) infinite;
+}
+
+.botArm {
+  transform-box: fill-box;
+  transform-origin: 0% 100%;
+  animation: botWave 3.8s ease-in-out infinite;
+}
+
+.botMeasure path {
+  fill: none;
+  stroke: var(--text-muted);
+  stroke-width: 1;
+  stroke-dasharray: 3 4;
+  opacity: 0.4;
+}
+
+.ticks path {
+  fill: none;
+  stroke: var(--color-success-green);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 30;
+  animation: tickDraw 6s ease-in-out infinite;
+}
+
+.tickRules line {
+  stroke: var(--text-muted);
+  stroke-width: 1;
+  opacity: 0.25;
+}
+
+@keyframes botBlink {
+  0%, 92%  { transform: scaleY(1); }
+  94%, 96% { transform: scaleY(0.15); }
+  98%, 100% { transform: scaleY(1); }
+}
+
+@keyframes botBlip {
+  0%, 100% { opacity: 0.35; }
+  50%      { opacity: 1; }
+}
+
+@keyframes botWave {
+  0%, 70%, 100% { transform: rotate(0deg); }
+  80%           { transform: rotate(-22deg); }
+  90%           { transform: rotate(4deg); }
+}
+
+@keyframes tickDraw {
+  0%       { stroke-dashoffset: 30; }
+  20%, 78% { stroke-dashoffset: 0; }
+  100%     { stroke-dashoffset: 30; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .botBulb, .botEyes circle, .botArm, .ticks path {
+    animation: none;
+  }
+  .ticks path { stroke-dashoffset: 0; }
 }
 
 .heroCopy {

@@ -1,6 +1,5 @@
 /* Footer — Mux design */
 .footer {
-    text-align: center;
     padding: var(--spacing-56) var(--spacing-28);
     border-top: 1px solid var(--border-subtle);
     color: var(--text-muted);
@@ -8,4 +7,66 @@
     font-family: var(--font-mono);
     background-color: var(--surface-page);
     margin-top: var(--spacing-56);
+}
+
+.network {
+    max-width: var(--page-max-width);
+    margin: 0 auto var(--spacing-56);
+    text-align: left;
+}
+
+.networkTitle {
+    font-size: var(--text-caption);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-action-orange);
+    margin: 0 0 var(--spacing-28);
+}
+
+.networkGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-28);
+}
+
+.groupTitle {
+    font-family: var(--font-sans);
+    font-size: var(--text-body-sm);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0 0 var(--spacing-14);
+}
+
+.groupList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8, 8px);
+}
+
+.link {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.link:hover {
+    color: var(--color-action-orange);
+}
+
+.base {
+    max-width: var(--page-max-width);
+    margin: 0 auto;
+    padding-top: var(--spacing-28);
+    border-top: 1px solid var(--border-subtle);
+    text-align: center;
+}
+
+.disclaimer {
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    opacity: 0.7;
 }

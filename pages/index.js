@@ -153,6 +153,59 @@ export default function Home({ posts, postCount }) {
 
         {/* ── Hero ── */}
         <section className={styles.hero}>
+          <svg className={styles.heroViz} viewBox="0 0 1440 820" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="go-fade" x1="0" y1="60" x2="1440" y2="60" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stopColor="#fff" />
+                <stop offset="0.072" stopColor="#fff" />
+                <stop offset="0.13" stopColor="#000" />
+                <stop offset="0.87" stopColor="#000" />
+                <stop offset="0.928" stopColor="#fff" />
+                <stop offset="1" stopColor="#fff" />
+              </linearGradient>
+              <mask id="go-mask"><rect width="1440" height="820" fill="url(#go-fade)" /></mask>
+            </defs>
+
+            <g mask="url(#go-mask)">
+              {/* the shop robot, mascot of the developer's playroom */}
+              <g className={styles.bot}>
+                <line className={styles.botStroke} x1="58" y1="360" x2="58" y2="344" />
+                <circle className={styles.botBulb} cx="58" cy="337" r="5" />
+                <rect className={styles.botStroke} x="30" y="360" width="56" height="44" rx="10" />
+                <g className={styles.botEyes}>
+                  <circle cx="46" cy="382" r="4.5" />
+                  <circle cx="70" cy="382" r="4.5" />
+                </g>
+                <rect className={styles.botStroke} x="36" y="412" width="44" height="34" rx="8" />
+                <line className={styles.botStroke} x1="36" y1="426" x2="20" y2="418" />
+                <g className={styles.botArm}>
+                  <line className={styles.botStroke} x1="80" y1="426" x2="98" y2="416" />
+                </g>
+                <line className={styles.botStroke} x1="48" y1="446" x2="48" y2="458" />
+                <line className={styles.botStroke} x1="68" y1="446" x2="68" y2="458" />
+              </g>
+
+              {/* measurement bracket: playful precision */}
+              <g className={styles.botMeasure}>
+                <path d="M112 360 H120 V458 H112" />
+                <path d="M120 409 H130" />
+              </g>
+
+              {/* right gutter: a stack of build ticks running green */}
+              <g className={styles.ticks}>
+                <path d="M1352 250 l7 7 l13 -14" style={{ animationDelay: '-0.2s' }} />
+                <path d="M1352 300 l7 7 l13 -14" style={{ animationDelay: '-1.1s' }} />
+                <path d="M1352 350 l7 7 l13 -14" style={{ animationDelay: '-2s' }} />
+                <path d="M1352 400 l7 7 l13 -14" style={{ animationDelay: '-2.9s' }} />
+              </g>
+              <g className={styles.tickRules}>
+                <line x1="1290" y1="332" x2="1390" y2="332" />
+                <line x1="1290" y1="382" x2="1390" y2="382" />
+                <line x1="1290" y1="432" x2="1390" y2="432" />
+              </g>
+            </g>
+          </svg>
+
           <div className={styles.heroCopy}>
             <p className={styles.eyebrow}>Developer Education Hub</p>
             <h1 className={styles.heroTitle}>
