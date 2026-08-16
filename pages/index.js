@@ -126,6 +126,7 @@ export default function Home({ posts, postCount }) {
                   "https://www.twitter.com/amdatalakehouse",
                   "https://www.linkedin.com/in/alexmerced",
                   "https://www.youtube.com/@alexmerceddata",
+                  "https://www.youtube.com/@AlexMercedCoder",
                   "https://www.github.com/alexmercedcoder",
                   "https://bsky.app/profile/alextalksdatalakehouses.fyi",
                 ],
@@ -134,6 +135,7 @@ export default function Home({ posts, postCount }) {
                 "https://www.twitter.com/amdatalakehouse",
                 "https://www.linkedin.com/in/alexmerced",
                 "https://www.youtube.com/@alexmerceddata",
+                "https://www.youtube.com/@AlexMercedCoder",
               ],
               potentialAction: {
                 "@type": "SearchAction",
