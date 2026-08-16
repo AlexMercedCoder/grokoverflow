@@ -61,54 +61,34 @@ const COMMUNITY = [
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <nav className={styles.network} aria-label="The Alex Merced Network">
-        <h2 className={styles.networkTitle}>The Alex Merced Network</h2>
-        <div className={styles.networkGrid}>
-          {NETWORK.map((group) => (
-            <div key={group.title}>
-              <h3 className={styles.groupTitle}>{group.title}</h3>
-              <ul className={styles.groupList}>
-                {group.sites.map((site) => (
-                  <li key={site.url}>
-                    <a
-                      href={site.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={styles.link}
-                    >
-                      {site.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+      <nav className={styles.run} aria-label="The Alex Merced Network">
+        <h2 className={styles.runTitle}>The Alex Merced Network</h2>
+        <ul className={styles.runList}>
+          {NETWORK.flatMap((g) => g.sites)
+            .filter((s) => s.url !== "https://grokoverflow.com")
+            .map((site) => (
+              <li key={site.url}>
+                <a href={site.url} target="_blank" rel="noopener noreferrer" className={styles.link}>
+                  {site.label}
+                </a>
+              </li>
+            ))}
+        </ul>
       </nav>
 
-      <nav className={styles.network} aria-label="Events and community">
-        <h2 className={styles.networkTitle}>Events &amp; Community</h2>
-        <div className={styles.networkGrid}>
-          {COMMUNITY.map((group) => (
-            <div key={group.title}>
-              <h3 className={styles.groupTitle}>{group.title}</h3>
-              <ul className={styles.groupList}>
-                {group.sites.map((site) => (
-                  <li key={site.url}>
-                    <a
-                      href={site.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={styles.link}
-                    >
-                      {site.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+      <nav className={styles.run} aria-label="Events and community">
+        <h2 className={styles.runTitle}>Events &amp; Community</h2>
+        <ul className={styles.runList}>
+          {COMMUNITY.flatMap((g) => g.sites)
+            .filter((s) => s.url !== "https://grokoverflow.com")
+            .map((site) => (
+              <li key={site.url}>
+                <a href={site.url} target="_blank" rel="noopener noreferrer" className={styles.link}>
+                  {site.label}
+                </a>
+              </li>
+            ))}
+        </ul>
       </nav>
 
       <div className={styles.base}>
