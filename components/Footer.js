@@ -18,6 +18,8 @@ const NETWORK = [
       { label: "DataLakehouseHub.com", url: "https://datalakehousehub.com" },
       { label: "IcebergLakehouse.com", url: "https://iceberglakehouse.com" },
       { label: "AgenticLakehouse.com", url: "https://agenticlakehouse.com" },
+      { label: "OpenAgenticPlatform.com", url: "https://openagenticplatform.com" },
+      { label: "AlexMercedAI.com", url: "https://www.alexmercedai.com" },
       { label: "SemanticLakehouse.com", url: "https://semanticlakehouse.com" },
       { label: "DataEngnr.com", url: "https://dataengnr.com" },
     ],
@@ -32,6 +34,14 @@ const NETWORK = [
 ];
 
 const COMMUNITY = [
+  {
+      title: "Newsletters",
+      sites: [
+      { label: "AI newsletter, Thursdays", url: "https://amdatalakehouse.substack.com" },
+      { label: "Apache lakehouse newsletter, Fridays", url: "https://amdatalakehouse.substack.com" },
+      { label: "Subscribe on Substack", url: "https://amdatalakehouse.substack.com" },
+      ],
+  },
   {
     title: "Event Calendars",
     sites: [
