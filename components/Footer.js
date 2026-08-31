@@ -31,6 +31,7 @@ const NETWORK = [
     sites: [
       { label: "AlexMerced.blog", url: "https://alexmerced.blog" },
       { label: "IngestThis.com", url: "https://ingestthis.com" },
+      { label: "AlexMercedMusic.com", url: "https://alexmercedmusic.com" },
     ],
   },
 ];
