@@ -7,6 +7,13 @@
       <language>en</language>
       
     <item>
+      <title>Fast Classification Models, LLMs, and the Apache Iceberg Lakehouse</title>
+      <link>https://grokoverflow.com/posts/2026/jev-classification-models-iceberg-lakehouse</link>
+      <guid>https://grokoverflow.com/posts/2026/jev-classification-models-iceberg-lakehouse</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[How fast classification models like Jev alongside open alternatives such as GLiClass compare with LLMs, and how to run both together inside an Apache Iceberg lakehouse.]]></description>
+    </item>
+    <item>
       <title>Agentic Data Architecture</title>
       <link>https://grokoverflow.com/posts/2026/agentic-data-architecture</link>
       <guid>https://grokoverflow.com/posts/2026/agentic-data-architecture</guid>
@@ -138,13 +145,6 @@
       <guid>https://grokoverflow.com/posts/2026/data-team-of-the-agentic-era</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[The case for generalists owning end-to-end data workflows with agents, the counterargument, and how to make the transition work.]]></description>
-    </item>
-    <item>
-      <title>dbt on Iceberg: Incremental Models on Open Tables</title>
-      <link>https://grokoverflow.com/posts/2026/dbt-on-iceberg-incremental-models</link>
-      <guid>https://grokoverflow.com/posts/2026/dbt-on-iceberg-incremental-models</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[How dbt incremental materializations map to Iceberg operations, and the configuration, predicates, and maintenance that keep them healthy.]]></description>
     </item>
     </channel>
   </rss>
