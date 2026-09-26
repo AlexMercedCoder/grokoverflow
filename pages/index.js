@@ -220,7 +220,7 @@ export default function Home({ posts, postCount }) {
               <a href="https://alexmerced.com" target="_blank" rel="noopener noreferrer">
                 Alex Merced
               </a>
-              , Head of Developer Relations at Dremio and author of 35+ books.
+              , Head of Developer Relations at Dremio and author of 77 books.
             </p>
             <p className={styles.heroBody}>
               Guides on web development, data engineering, Apache Iceberg, and
