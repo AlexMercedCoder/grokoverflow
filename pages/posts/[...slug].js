@@ -3,6 +3,7 @@ import matter from "gray-matter";
 
 import { serialize } from 'next-mdx-remote/serialize';
 import { MDXRemote } from 'next-mdx-remote';
+import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 import styles from "../../styles/Post.module.css"
 import Image from "next/image";
@@ -196,7 +197,7 @@ export async function getStaticProps({ params: { slug } }) {
   const readingTime = calculateReadingTime(content);
 
   const mdxSource = await serialize(content, {
-    mdxOptions: { rehypePlugins: [rehypeHighlight] },
+    mdxOptions: { remarkPlugins: [remarkGfm], rehypePlugins: [rehypeHighlight] },
   });
 
   // Calculate related posts
