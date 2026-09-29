@@ -1,3 +1,7 @@
+const fs = require('fs');
+const nodePath = require('path');
+const matter = require('gray-matter');
+
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: 'https://grokoverflow.com',
@@ -25,6 +29,13 @@ module.exports = {
 
     // Blog posts get highest priority
     const isPost = cleanPath.startsWith('/posts/');
+    if (isPost) {
+      const source = nodePath.join(__dirname, 'posts', `${cleanPath.slice('/posts/'.length)}.md`);
+      if (fs.existsSync(source)) {
+        const canonical = matter(fs.readFileSync(source, 'utf8')).data.canonical;
+        if (canonical && !canonical.startsWith('https://grokoverflow.com/')) return null;
+      }
+    }
     // Taxonomy (category/tag/author) listing pages
     const isTaxonomy =
       cleanPath.startsWith('/blog/category/') ||

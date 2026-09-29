@@ -18,7 +18,8 @@ import { calculateReadingTime } from "../../lib/utils";
 // The page for each post
 export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime, currentSlug }) {
   const { title, author, category, date, tags, description } = frontmatter;
-  const canonicalUrl = `https://grokoverflow.com/posts/${currentSlug}`;
+  const pageUrl = `https://grokoverflow.com/posts/${currentSlug}`;
+  const canonicalUrl = /^https:\/\/[^\s]+$/.test(frontmatter.canonical || '') ? frontmatter.canonical : pageUrl;
   const postDescription = description || `"${title}" an article written by ${author || 'Anonymous'} touching on ${(tags || []).join(", ")}`;
   const authorSlug = author ? author.toLowerCase().replace(/ /g, "-") : '';
 
