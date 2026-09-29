@@ -228,7 +228,7 @@ export default function Home({ posts, postCount }) {
               <a href="mailto:alex@grokoverflow.com">alex@grokoverflow.com</a>.
             </p>
             <p className={styles.heroBody}>
-              Developer path: <a href="/posts/2021/02-javascript-basic-reference">JavaScript basics</a> → <a href="/posts/2021/07-crud-with-typescript">a TypeScript CRUD app</a> → <a href="/posts/2021/04-basics-of-react-testing-with-jest">React testing</a>. These archive tutorials reflect their publication dates; check dependency versions before running commands.
+              Developer path: <Link href="/posts/2021/02-javascript-basic-reference">JavaScript basics</Link> → <Link href="/posts/2021/07-crud-with-typescript">a TypeScript CRUD app</Link> → <Link href="/posts/2021/04-basics-of-react-testing-with-jest">React testing</Link>. These archive tutorials reflect their publication dates; check dependency versions before running commands.
             </p>
 
             <div className={styles.heroActions}>
