@@ -68,18 +68,7 @@ function GrokOverflowLogo() {
 function Header(props) {
   return (
     <header className={styles.header}>
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-6DJ8S8YLSG"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-6DJ8S8YLSG');
-        `}
-      </Script>
+      {/* GA4 comes from network/network-head.html via pages/_document.js */}
       <Head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/agate.min.css" />
         {/* Global Social Metadata — canonical is managed per-page */}
@@ -87,7 +76,6 @@ function Header(props) {
         <meta property="og:site_name" content="GrokOverflow" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@alexmercedcoder" />
         <meta name="twitter:creator" content="@alexmercedcoder" />
       </Head>
 
