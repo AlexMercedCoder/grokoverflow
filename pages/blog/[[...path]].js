@@ -146,6 +146,9 @@ export default function Blog({ posts, categories, path }) {
     <main className={styles.main}>
       <Head>
         <title>{meta.title}</title>
+        {path && (path[0] === "tag" || path[0] === "category") && posts.length < 5 && (
+          <meta name="robots" content="noindex, follow" />
+        )}
         <meta name="description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:description" content={meta.description} />

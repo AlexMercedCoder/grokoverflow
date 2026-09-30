@@ -23,6 +23,9 @@ module.exports = {
   // URL-encode all paths to handle multi-word tags/categories with spaces
   // and differentiate priority between posts and taxonomy pages
   transform: async (config, path) => {
+    // Retired site: only the moved homepage stays in the sitemap; every other
+    // URL 301s (netlify.toml).
+    if (path.split('?')[0] !== '/') return null;
     // Strip any query string just in case
     const cleanPath = path.split('?')[0];
     const encodedLoc = encodeURI(`https://grokoverflow.com${cleanPath}`);

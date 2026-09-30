@@ -68,11 +68,7 @@ export default function Post({ frontmatter, mdxSource, relatedPosts, readingTime
                  "@type": "WebPage",
                  "@id": canonicalUrl
                },
-               publisher: {
-                 "@type": "Person",
-                 name: "Alex Merced",
-                 url: "https://alexmercedcoder.dev"
-               },
+               publisher: { "@id": "https://alexmerced.com/#alexmerced" },
                author: author ? {
                  "@type": "Person",
                  name: author,

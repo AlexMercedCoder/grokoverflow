@@ -1,418 +1,78 @@
 import Head from "next/head";
-import Link from "next/link";
-import fs from "fs";
-import matter from "gray-matter";
 import styles from "../styles/Home.module.css";
 
-const MUST_READS = [
+// GrokOverflow is retired as an article site (decision D1, 2026-09-29). Every post
+// now 301s to its canonical copy (netlify.toml); this page points readers on.
+const DESTINATIONS = [
   {
-    title: "The Semantic Layer: The Definitive Guide",
-    description:
-      "Understand how a semantic layer unifies business logic, accelerates self-service analytics, and becomes the foundation of AI-ready data architectures.",
-    url: "https://www.dremio.com/blog/semantic-layer-the-definitive-guide/",
-    tag: "Semantic Layer",
+    title: "Alex Merced's Lakehouse Blog",
+    url: "https://iceberglakehouse.com/",
+    blurb: "Apache Iceberg, lakehouse catalogs, table formats, and data engineering reference guides.",
   },
   {
-    title: "Apache Polaris: The Catalog Standard for Lakehouses and AI",
-    description:
-      "Learn how Apache Polaris is establishing a universal open catalog standard that lets any engine read and write Apache Iceberg tables without vendor lock-in.",
-    url: "https://www.dremio.com/blog/apache-polaris-the-catalog-standard-for-lakehouses-and-ai/",
-    tag: "Apache Polaris",
+    title: "Data Lakehouse Hub",
+    url: "https://datalakehousehub.com/",
+    blurb: "Lakehouse news and roundups, agentic AI, AI coding agent guides, and community events.",
   },
   {
-    title: "What Are Table Formats and Why Were They Needed?",
-    description:
-      "Trace the evolution from raw Parquet files to modern table formats like Apache Iceberg — the innovation that unlocked ACID transactions on object storage.",
-    url: "https://www.dremio.com/blog/what-are-table-formats-and-why-were-they-needed/",
-    tag: "Table Formats",
-  },
-  {
-    title: "What Is Dremio?",
-    description:
-      "A comprehensive overview of Dremio's Intelligent Lakehouse Platform — how reflections, semantic layers, and multi-engine federation work together.",
-    url: "https://www.dremio.com/blog/what-is-dremio/",
-    tag: "Dremio",
-  },
-  {
-    title: "What Apache Iceberg Native Actually Means",
-    description:
-      "Cut through the marketing: discover what it truly means to be Apache Iceberg-native versus merely Iceberg-compatible, and why the distinction matters.",
-    url: "https://www.dremio.com/blog/what-apache-iceberg-native-actually-means/",
-    tag: "Apache Iceberg",
-  },
-  {
-    title: "Open Source and the Data Lakehouse",
-    description:
-      "Explore how open-source projects — Iceberg, Parquet, Arrow, and Polaris — form an interoperable stack that keeps your data free from proprietary control.",
-    url: "https://www.dremio.com/blog/open-source-and-the-data-lakehouse/",
-    tag: "Open Source",
-  },
-  {
-    title: "What Is Agentic Analytics?",
-    description:
-      "Discover how AI agents autonomously query, reason over, and act on lakehouse data — fundamentally changing how organizations derive insight at scale.",
-    url: "https://www.dremio.com/blog/what-is-agentic-analytics/",
-    tag: "Agentic AI",
-  },
-  {
-    title: "The Definitive Guide to the Data Lakehouse",
-    description:
-      "The canonical end-to-end guide: what a data lakehouse is, how it compares to data warehouses and data lakes, and how to architect one for your organization.",
-    url: "https://www.dremio.com/blog/definitive-guide-to-the-data-lakehouse/",
-    tag: "Lakehouse",
-  },
-  {
-    title: "How Dremio Keeps Agentic Analytics Fast Without Manual Tuning",
-    description:
-      "Learn how Dremio's autonomous optimization layer — reflections, compaction, and vectorized execution — keeps AI agent queries fast without manual DBA work.",
-    url: "https://www.dremio.com/blog/how-dremio-keeps-agentic-analytics-fast-without-manual-tuning/",
-    tag: "Performance",
+    title: "Coding Tutorials Blog",
+    url: "https://tuts.alexmercedcoder.dev/",
+    blurb: "Programming tutorials: JavaScript, React, Node.js, Python, Ruby, Go, Rust, and more.",
   },
 ];
 
-const SOCIAL_LINKS = [
-  { label: "GitHub", url: "https://github.com/alexmercedcoder" },
-  { label: "LinkedIn", url: "https://www.linkedin.com/in/alexmerced" },
-  { label: "YouTube (Data)", url: "https://www.youtube.com/@alexmerceddata" },
-  { label: "YouTube (Dev)", url: "https://www.youtube.com/@alexmercedcoder" },
-  { label: "BlueSky", url: "https://bsky.app/profile/alextalksdatalakehouses.fyi" },
-  { label: "Twitter/X", url: "https://twitter.com/amdatalakehouse" },
-  { label: "Mastodon", url: "https://me.dm/@thealexmerced" },
-  { label: "TikTok", url: "https://www.tiktok.com/@alexmercedcoder" },
-  { label: "Instagram", url: "https://www.instagram.com/alexmercedcoder" },
-  { label: "Newsletter", url: "https://amdatalakehouse.substack.com/" },
-  { label: "Tech Podcast", url: "https://open.spotify.com/show/2PRDrWVpgDvKxN6n1oUsJF" },
-  { label: "All Books", url: "https://books.alexmerced.com" },
-  { label: "DataLakehouseHub", url: "https://main.datalakehousehub.com" },
-  { label: "DataEngnr.com", url: "https://dataengnr.com" },
-  { label: "Buy Me a Coffee", url: "https://buymeacoffee.com/alexmerced" },
-];
+const DESCRIPTION =
+  "GrokOverflow has moved. Alex Merced's articles now live at Alex Merced's Lakehouse Blog, Data Lakehouse Hub, and the Coding Tutorials Blog.";
 
-export default function Home({ posts, postCount }) {
+export default function Home() {
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       <Head>
-        <title>GrokOverflow - tutorials, podcasts and videos for developers</title>
-        <meta
-          name="description"
-          content="GrokOverflow is a developer education hub by Alex Merced, featuring tutorials, podcasts, and videos covering web development, data engineering, Apache Iceberg, AI, and more."
-        />
-        <meta property="og:title" content="GrokOverflow - Developer Tutorials &amp; Content" />
-        <meta property="og:description" content="Tutorials, podcasts, and videos for developers by Alex Merced." />
-        <meta property="og:image" content="https://grokoverflow.com/images/banner.png" />
+        <title>GrokOverflow has moved | Alex Merced</title>
+        <meta name="description" content={DESCRIPTION} />
+        <meta property="og:title" content="GrokOverflow has moved" />
+        <meta property="og:description" content={DESCRIPTION} />
         <meta property="og:url" content="https://grokoverflow.com/" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="GrokOverflow - Developer Tutorials &amp; Content" />
-        <meta name="twitter:description" content="Tutorials, podcasts, and videos for developers by Alex Merced." />
-        <meta name="twitter:image" content="https://grokoverflow.com/images/banner.png" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="GrokOverflow has moved" />
+        <meta name="twitter:description" content={DESCRIPTION} />
         <link rel="canonical" href="https://grokoverflow.com/" />
         <link rel="icon" href="/favicon.ico" />
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "WebSite",
-              name: "GrokOverflow",
+              "@type": "WebPage",
+              name: "GrokOverflow has moved",
               url: "https://grokoverflow.com/",
-              description:
-                "Developer education hub featuring tutorials, podcasts, and videos on web development, data engineering, Apache Iceberg, AI, and more.",
-              author: {
-                "@type": "Person",
-                name: "Alex Merced",
-                url: "https://alexmercedcoder.dev",
-                sameAs: [
-                  "https://www.twitter.com/amdatalakehouse",
-                  "https://www.linkedin.com/in/alexmerced",
-                  "https://www.youtube.com/@alexmerceddata",
-                  "https://www.youtube.com/@AlexMercedCoder",
-                  "https://www.github.com/alexmercedcoder",
-                  "https://bsky.app/profile/alextalksdatalakehouses.fyi",
-                ],
-              },
-              sameAs: [
-                "https://www.twitter.com/amdatalakehouse",
-                "https://www.linkedin.com/in/alexmerced",
-                "https://www.youtube.com/@alexmerceddata",
-                "https://www.youtube.com/@AlexMercedCoder",
-              ],
-              potentialAction: {
-                "@type": "SearchAction",
-                target: {
-                  "@type": "EntryPoint",
-                  urlTemplate:
-                    "https://grokoverflow.com/blog?q={search_term_string}",
-                },
-                "query-input": "required name=search_term_string",
-              },
+              description: DESCRIPTION,
+              author: { "@id": "https://alexmerced.com/#alexmerced" },
             }),
           }}
         />
       </Head>
 
-      <main className={styles.main}>
-
-        {/* ── Hero ── */}
-        <section className={styles.hero}>
-          <svg className={styles.heroViz} viewBox="0 0 1440 820" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
-            <defs>
-              <linearGradient id="go-fade" x1="0" y1="60" x2="1440" y2="60" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stopColor="#fff" />
-                <stop offset="0.072" stopColor="#fff" />
-                <stop offset="0.13" stopColor="#000" />
-                <stop offset="0.87" stopColor="#000" />
-                <stop offset="0.928" stopColor="#fff" />
-                <stop offset="1" stopColor="#fff" />
-              </linearGradient>
-              <mask id="go-mask"><rect width="1440" height="820" fill="url(#go-fade)" /></mask>
-            </defs>
-
-            <g mask="url(#go-mask)">
-              {/* the shop robot, mascot of the developer's playroom */}
-              <g className={styles.bot}>
-                <line className={styles.botStroke} x1="58" y1="360" x2="58" y2="344" />
-                <circle className={styles.botBulb} cx="58" cy="337" r="5" />
-                <rect className={styles.botStroke} x="30" y="360" width="56" height="44" rx="10" />
-                <g className={styles.botEyes}>
-                  <circle cx="46" cy="382" r="4.5" />
-                  <circle cx="70" cy="382" r="4.5" />
-                </g>
-                <rect className={styles.botStroke} x="36" y="412" width="44" height="34" rx="8" />
-                <line className={styles.botStroke} x1="36" y1="426" x2="20" y2="418" />
-                <g className={styles.botArm}>
-                  <line className={styles.botStroke} x1="80" y1="426" x2="98" y2="416" />
-                </g>
-                <line className={styles.botStroke} x1="48" y1="446" x2="48" y2="458" />
-                <line className={styles.botStroke} x1="68" y1="446" x2="68" y2="458" />
-              </g>
-
-              {/* measurement bracket: playful precision */}
-              <g className={styles.botMeasure}>
-                <path d="M112 360 H120 V458 H112" />
-                <path d="M120 409 H130" />
-              </g>
-
-              {/* right gutter: a stack of build ticks running green */}
-              <g className={styles.ticks}>
-                <path d="M1352 250 l7 7 l13 -14" style={{ animationDelay: '-0.2s' }} />
-                <path d="M1352 300 l7 7 l13 -14" style={{ animationDelay: '-1.1s' }} />
-                <path d="M1352 350 l7 7 l13 -14" style={{ animationDelay: '-2s' }} />
-                <path d="M1352 400 l7 7 l13 -14" style={{ animationDelay: '-2.9s' }} />
-              </g>
-              <g className={styles.tickRules}>
-                <line x1="1290" y1="332" x2="1390" y2="332" />
-                <line x1="1290" y1="382" x2="1390" y2="382" />
-                <line x1="1290" y1="432" x2="1390" y2="432" />
-              </g>
-            </g>
-          </svg>
-
-          <div className={styles.heroCopy}>
-            <p className={styles.eyebrow}>Developer Education Hub</p>
-            <h1 className={styles.heroTitle}>
-              Tutorials for developers who
-              {" "}
-              <span className={styles.heroAccent}>read the source</span>.
-            </h1>
-            <p className={styles.heroSub}>
-              Written by{" "}
-              <a href="https://alexmerced.com" target="_blank" rel="noopener noreferrer">
-                Alex Merced
-              </a>
-              , Head of Developer Relations at Dremio and author of 77 books.
-            </p>
-            <p className={styles.heroBody}>
-              Guides on web development, data engineering, Apache Iceberg, and
-              agentic AI. Guest submissions are welcome. Pitch an idea at{" "}
-              <a href="mailto:alex@grokoverflow.com">alex@grokoverflow.com</a>.
-            </p>
-            <p className={styles.heroBody}>
-              Developer path: <Link href="/posts/2021/02-javascript-basic-reference">JavaScript basics</Link> → <Link href="/posts/2021/07-crud-with-typescript">a TypeScript CRUD app</Link> → <Link href="/posts/2021/04-basics-of-react-testing-with-jest">React testing</Link>. These archive tutorials reflect their publication dates; check dependency versions before running commands.
-            </p>
-
-            <div className={styles.heroActions}>
-              <Link href="/blog" className={styles.btnPrimary}>
-                Read the blog
-              </Link>
-              <Link href="/video" className={styles.btnGhost}>
-                Watch the videos
-              </Link>
-            </div>
-
-            <dl className={styles.heroStats}>
-              <div>
-                <dt>{postCount}+</dt>
-                <dd>Articles</dd>
-              </div>
-              <div>
-                <dt>35+</dt>
-                <dd>Books published</dd>
-              </div>
-              <div>
-                <dt>Free</dt>
-                <dd>No paywall</dd>
-              </div>
-            </dl>
-          </div>
-
-          {/* Terminal card: the Mux motif, rendered as an actual object rather
-              than just a card style borrowed for text. */}
-          <div className={styles.terminal} aria-hidden="true">
-            <div className={styles.terminalBar}>
-              <span className={styles.dot} data-dot="r" />
-              <span className={styles.dot} data-dot="y" />
-              <span className={styles.dot} data-dot="g" />
-              <span className={styles.terminalTitle}>grokoverflow ~ %</span>
-            </div>
-            <pre className={styles.terminalBody}>
-{`$ whoami
-alex merced // devrel, dremio
-
-$ ls topics/
-apache-iceberg/   data-engineering/
-agentic-ai/       web-development/
-python/           javascript/
-
-$ cat mission.txt
-Explain the hard parts properly,
-then show the code that proves it.
-
-$ _`}
-            </pre>
-          </div>
-        </section>
-
-        {/* ── Must Reads ── */}
-        <section className={styles.mustReads}>
-          <h2 className={styles.sectionHeading}>
-            Must Reads — Data Lakehouses &amp; Agentic Analytics
-          </h2>
-          <p className={styles.sectionSub}>
-            Authoritative guides from the Dremio blog on building intelligent,
-            open lakehouse architectures.
-          </p>
-          <div className={styles.mustReadsGrid}>
-            {MUST_READS.map((article) => (
-              <a
-                key={article.url}
-                href={article.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.mustReadCard}
-              >
-                <span className={styles.mustReadTag}>{article.tag}</span>
-                <h3 className={styles.mustReadTitle}>{article.title}</h3>
-                <p className={styles.mustReadDesc}>{article.description}</p>
-                <span className={styles.mustReadCta}>Read on Dremio.com →</span>
-              </a>
-            ))}
-          </div>
-        </section>
-
-        {/* ── Recent Blog Posts ── */}
-        <section className={styles.recentBlogs}>
-          <h2 className={styles.sectionHeading}>Recent Articles &amp; Tutorials</h2>
-          <p className={styles.sectionSub}>
-            Stay up to date with my latest guides, walkthroughs, and deep dives on data lakehouses, web development, and AI.
-          </p>
-          <div className={styles.recentGrid}>
-            {posts && posts.map((post) => (
-              <Link
-                key={post.slug}
-                href={`/posts/${post.slug}`}
-                className={styles.blogCard}
-              >
-                <div className={styles.blogMeta}>
-                  {post.frontmatter.category && (
-                    <span className={styles.blogTag}>{post.frontmatter.category}</span>
-                  )}
-                  {post.frontmatter.date && (
-                    <span className={styles.blogDate}>{post.frontmatter.date}</span>
-                  )}
-                </div>
-                <h3 className={styles.blogTitle}>{post.frontmatter.title}</h3>
-                <p className={styles.blogDesc}>{post.frontmatter.description}</p>
-                <span className={styles.blogCta}>Read Article →</span>
-              </Link>
-            ))}
-          </div>
-          <div className={styles.viewAllContainer}>
-            <Link href="/blog" className={styles.viewAllButton}>
-              View All Posts
-            </Link>
-          </div>
-        </section>
-
-        {/* ── Connect ── */}
-        <section className={styles.connectSection}>
-          <h2 className={styles.sectionHeading}>Connect with Alex</h2>
-          <ul className={styles.socialList}>
-            {SOCIAL_LINKS.map((link) => (
-              <li key={link.url}>
-                <a
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.socialLink}
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-      </main>
-    </div>
+      <section className={styles.moved}>
+        <h1>GrokOverflow has moved</h1>
+        <p>
+          GrokOverflow was one of Alex Merced&apos;s article sites. Every article it
+          carried now lives on one of the sites below, and old links redirect
+          to the right copy automatically.
+        </p>
+        <ul className={styles.movedList}>
+          {DESTINATIONS.map((d) => (
+            <li key={d.url}>
+              <a href={d.url}>{d.title}</a>
+              <span>{d.blurb}</span>
+            </li>
+          ))}
+        </ul>
+        <p>
+          More about Alex: <a href="https://alexmerced.com/">alexmerced.com</a>.
+          Books: <a href="https://books.alexmerced.com/">books.alexmerced.com</a>.
+        </p>
+      </section>
+    </main>
   );
-}
-
-// Get the 6 most recent posts for the homepage
-export async function getStaticProps() {
-  const files = fs.readdirSync("posts");
-  let posts = [];
-
-  const addPost = (fileName) => {
-    const slug = fileName.replace(".md", "");
-    const readFile = fs.readFileSync(`posts/${fileName}`, "utf-8");
-    const { data: frontmatter } = matter(readFile);
-
-    posts.push({
-      slug,
-      frontmatter,
-    });
-  };
-
-  files.forEach((fileName) => {
-    if (!fileName.includes(".md")) {
-      const subfiles = fs.readdirSync(`posts/${fileName}`);
-
-      subfiles.forEach((f) => {
-        addPost(`${fileName}/${f}`);
-      });
-
-      return true;
-    }
-
-    addPost(fileName);
-  });
-
-  posts.sort(
-    (x, y) =>
-      new Date(y.frontmatter.date).getTime() -
-      new Date(x.frontmatter.date).getTime()
-  );
-
-  const recentPosts = posts.slice(0, 6);
-
-  // Rounded down so the figure stays honest as the archive grows.
-  const postCount = Math.floor(posts.length / 25) * 25;
-
-  return {
-    props: {
-      posts: recentPosts,
-      postCount,
-    },
-  };
 }
