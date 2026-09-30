@@ -8,8 +8,12 @@ tags:
   - Javascript
   - Functional Programming
   - Computer Science
+canonical: https://tuts.alexmercedcoder.dev/2024/04-functional-programming-in-javascript/
 ---
  
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2024/04-functional-programming-in-javascript/).
+
  [Subscribe to My Coding Youtube Channel](https://www.youtube.com/@alexmercedcoder)
 
  [Subscribe to my Data Youtube Channel](https://www.youtube.com/@alexmerceddata)

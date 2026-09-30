@@ -6,7 +6,11 @@ category: "javascript"
 tags:
   - javascript
   - react
+canonical: https://tuts.alexmercedcoder.dev/2021/10/router_5_6/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/10/router_5_6/).
+
 ![Comparing React Router 5, 6, and React Location](https://i.imgur.com/YxqmEmR.jpg)
 
 Recently React Router released version 6 which created a lot of confusion as several aspects of its API are quite different. Also, Tanstack released React-Location, an entrant to React Routing space from the creators of beloved libraries like React-Query, React-Table, React-Charts, etc. So let's see how we'd install and do common routing tasks with all three.

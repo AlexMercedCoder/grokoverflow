@@ -6,7 +6,10 @@ category: "computer science"
 tags:
   - design patterns
   - computer science
+canonical: https://tuts.alexmercedcoder.dev/2021/1/depinject/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/depinject/).
 
 - [Watch My Video Explanation](https://youtu.be/qGVJVqHNTNo)
 

@@ -7,7 +7,10 @@ tags:
     - react
     - frontend
     - javascript
+canonical: https://tuts.alexmercedcoder.dev/2020/reactimages/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/reactimages/).
 
 **Watch My Intro to React Video Playlist Here: https://www.youtube.com/playlist?list=PLY6oTPmKnKbb5sh681mrY7u3Hm1g5ecze**
 

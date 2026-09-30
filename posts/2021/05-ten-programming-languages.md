@@ -9,7 +9,10 @@ tags:
   - ruby
   - python
   - php
+canonical: https://tuts.alexmercedcoder.dev/2021/6/10-programming-languages/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/6/10-programming-languages/).
 
 Using the below you can see the basics of 10 different languages. For most of these langauges you should be able to try them out by [generating a REPL](https//www.repl.it).
 

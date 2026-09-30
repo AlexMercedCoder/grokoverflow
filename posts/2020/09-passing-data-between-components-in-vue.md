@@ -8,7 +8,10 @@ tags:
     - vue
     - javascript
     - backend
+canonical: https://tuts.alexmercedcoder.dev/2020/vueprops/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/vueprops/).
 
 ## The dilemma
 

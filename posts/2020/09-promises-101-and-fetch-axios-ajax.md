@@ -6,7 +6,10 @@ category: "javascript"
 tags:
     - javascript
     - ajax
+canonical: https://tuts.alexmercedcoder.dev/2020/promises/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/promises/).
 
 ## What is the problem?
 

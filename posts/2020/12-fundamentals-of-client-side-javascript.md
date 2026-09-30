@@ -6,7 +6,10 @@ category: "javascript"
 tags:
   - frontend
   - javascript
+canonical: https://tuts.alexmercedcoder.dev/2020/clientsidejsfun/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/clientsidejsfun/).
 
 ## Why read this?
 

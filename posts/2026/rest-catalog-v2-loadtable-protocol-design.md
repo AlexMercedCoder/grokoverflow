@@ -9,7 +9,11 @@ tags:
   - "client capabilities"
   - "Iceberg REST catalog"
   - "open catalog contracts"
+canonical: https://iceberglakehouse.com/posts/rest-catalog-v2-loadtable-protocol-design/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/rest-catalog-v2-loadtable-protocol-design/).
+
 REST Catalog V2 LoadTable work matters because clients and catalogs need explicit contracts, not optimistic assumptions. For lakehouse platform teams standardizing catalog access, the useful question is what changes in production and what simply sounds current.
 
 ![REST catalog capability negotiation architecture map](/images/2026/week22-june-2026/rest-catalog-v2-loadtable-protocol-design-diagram-1.png)

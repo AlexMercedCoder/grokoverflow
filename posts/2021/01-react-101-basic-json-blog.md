@@ -7,7 +7,10 @@ tags:
   - react
   - javascript
   - frontend
+canonical: https://tuts.alexmercedcoder.dev/2021/1/reactjsonblog/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/reactjsonblog/).
 
 ## Our Goal
 

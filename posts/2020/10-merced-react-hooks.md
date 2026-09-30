@@ -7,7 +7,10 @@ tags:
     - javascript
     - react
     - frontend
+canonical: https://tuts.alexmercedcoder.dev/2020/merced-react-hooks/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/merced-react-hooks/).
 
 **merced-react-hooks VIDEO PLAYLIST:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbYurl9-_fSMY4X6DZ1sx39s
 

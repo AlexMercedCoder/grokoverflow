@@ -7,7 +7,11 @@ tags:
   - data engineering
   - best practices
   - pipelines
+canonical: https://iceberglakehouse.com/posts/2026-02-debp-de-best-practices-checklist/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-debp-de-best-practices-checklist/).
+
 ![Comprehensive data engineering checklist organized by categories with status indicators](/images/2026/debp/10-de-best-practices-checklist/de-checklist.png)
 
 Best practices documents are easy to write and hard to use. They list principles without context, advice without prioritization, and rules without explaining when to break them. This one is different. It's a practical, tool-agnostic checklist organized by the categories that matter most : with each item tied to a specific outcome.

@@ -7,7 +7,11 @@ tags:
   - semantic layer
   - bi
   - governance
+canonical: https://iceberglakehouse.com/posts/2026-02-sl-headless-bi-semantic-layer/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-sl-headless-bi-semantic-layer/).
+
 ![Headless BI : one semantic layer serving all consumers](/images/2026/semantic_layer_seo/08-headless-bi-semantic-layer/headless-bi.png)
 
 Your organization uses Tableau for executive dashboards, Power BI for operational reports, and Python notebooks for data science. Revenue is defined in Tableau's calculated field, Power BI's DAX measure, and a SQL query inside a Jupyter notebook. Three tools. Three definitions. None of them match.

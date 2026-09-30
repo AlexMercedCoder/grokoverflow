@@ -8,7 +8,10 @@ tags:
   - tooling
   - javascript
   - deno
+canonical: https://tuts.alexmercedcoder.dev/2021/5/deno_ts_api/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/5/deno_ts_api/).
 
 - In this tutorial, I'm using Deno version 1.9.2
 - If unfamiliar with Deno [watch my intro Server-Side JS Video](https://youtu.be/nWjBkjyEJyY)

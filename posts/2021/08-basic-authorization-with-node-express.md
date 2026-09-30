@@ -7,7 +7,10 @@ tags:
   - javascript
   - backend
   - authentication
+canonical: https://tuts.alexmercedcoder.dev/2021/8/basic_auth_express_mongo/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/8/basic_auth_express_mongo/).
 
 [REPO OF CODE FROM THIS LESSON HERE AS A TEMPLATE](https://github.com/AlexMercedCoder/Express-Mongo-Auth-Template)
 

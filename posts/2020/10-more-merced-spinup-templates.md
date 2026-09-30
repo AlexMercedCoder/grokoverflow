@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "tooling"
 tags:
   - tooling
+canonical: https://tuts.alexmercedcoder.dev/2020/morespinuptemplates/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/morespinuptemplates/).
 
 **To See me list my prior templates go here**: https://tuts.alexmercedcoder.dev/2020/mercedspinuptut/
 

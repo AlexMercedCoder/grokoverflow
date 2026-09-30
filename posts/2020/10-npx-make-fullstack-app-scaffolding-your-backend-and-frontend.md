@@ -6,7 +6,10 @@ category: "tooling"
 tags:
   - backend
   - frontend
+canonical: https://tuts.alexmercedcoder.dev/2020/make-fullstack-app/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/make-fullstack-app/).
 
 ## Why?
 

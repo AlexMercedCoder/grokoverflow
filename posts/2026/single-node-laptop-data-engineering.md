@@ -10,7 +10,10 @@ tags:
   - apache arrow
   - data lakehouse
   - python
+canonical: https://iceberglakehouse.com/posts/2026-05-23-single-node-data-engineering-duckdb-datafusion-polars-lakesail/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-23-single-node-data-engineering-duckdb-datafusion-polars-lakesail/).
 
 For the past decade, data engineering was synonymous with distributed clusters. If your dataset exceeded a few gigabytes, standard practice dictated spinning up an Apache Spark cluster on AWS EMR or Databricks. This distributed paradigm introduced massive operational complexity: managing JVM configurations, allocating executors, tuning shuffle partitions, and paying a substantial "serialization tax" to move data across network sockets and language runtimes.
 

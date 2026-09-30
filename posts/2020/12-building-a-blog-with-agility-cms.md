@@ -7,7 +7,10 @@ tags:
     - javascript
     - jamstack
     - headless cms
+canonical: https://tuts.alexmercedcoder.dev/2020/agilitycmsblog/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/agilitycmsblog/).
 
 ## What is a Headless CMS
 

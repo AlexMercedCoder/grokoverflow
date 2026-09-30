@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "branding"
 tags:
   - branding
+canonical: https://tuts.alexmercedcoder.dev/2020/branding/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/branding/).
 
 ## Why do you need a brand?
 

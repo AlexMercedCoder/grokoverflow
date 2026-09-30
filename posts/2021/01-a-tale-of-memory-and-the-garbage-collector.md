@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "computer science"
 tags:
   - computer science
+canonical: https://tuts.alexmercedcoder.dev/2021/1/garbagecollector/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/garbagecollector/).
 
 ## It all starts with memory
 

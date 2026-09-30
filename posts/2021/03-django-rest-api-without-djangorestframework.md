@@ -7,7 +7,10 @@ tags:
   - backend
   - other languages
   - python
+canonical: https://tuts.alexmercedcoder.dev/2021/3/puredjangoapi/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/3/puredjangoapi/).
 
 **Find tutorials for django at my website, devNursery.com**
 

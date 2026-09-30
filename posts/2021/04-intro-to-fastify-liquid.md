@@ -7,7 +7,10 @@ tags:
   - javascript
   - node
   - backend
+canonical: https://tuts.alexmercedcoder.dev/2021/4/fastify_web_server/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/4/fastify_web_server/).
 
 ## What is Fastify
 

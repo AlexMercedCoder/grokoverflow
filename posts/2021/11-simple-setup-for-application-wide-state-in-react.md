@@ -6,7 +6,10 @@ category: "javascript"
 tags:
   - javascript
   - react
+canonical: https://tuts.alexmercedcoder.dev/2021/10/simple_application_wide_state_in_react/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/10/simple_application_wide_state_in_react/).
 
 ![Blog Title Image - React Application Wide State](https://i.imgur.com/shntfak.jpg)
 

@@ -8,7 +8,10 @@ tags:
     - markdown
     - nextjs
     - react
+canonical: https://tuts.alexmercedcoder.dev/2022/3/getting-started-with-scala3/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/3/getting-started-with-scala3/).
 
 ## Why Do you want a markdown blog
 

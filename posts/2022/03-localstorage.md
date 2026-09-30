@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "frontend"
 tags:
   - frontend
+canonical: https://tuts.alexmercedcoder.dev/2022/3/03-localstorage/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/3/03-localstorage/).
 
 ## Web Storage APIs
 

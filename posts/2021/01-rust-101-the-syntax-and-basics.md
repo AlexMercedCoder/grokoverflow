@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "other languages"
 tags:
   - rust
+canonical: https://tuts.alexmercedcoder.dev/2021/1/rust101/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/rust101/).
 
 ## Why do we need another lower-level compiled language?
 

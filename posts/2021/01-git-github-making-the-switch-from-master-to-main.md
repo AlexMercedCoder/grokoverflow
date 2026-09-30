@@ -6,7 +6,10 @@ category: "tooling"
 tags:
   - git
   - tooling
+canonical: https://tuts.alexmercedcoder.dev/2021/1/mastertomain/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/mastertomain/).
 
 ## Why Should I do this?
 

@@ -8,7 +8,10 @@ tags:
   - react
   - frontend
   - javascript
+canonical: https://tuts.alexmercedcoder.dev/2020/reactcheatsheet/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/reactcheatsheet/).
 
 **MY SET OF REACT TUTORIAL VIDEOS** => https://www.youtube.com/playlist?list=PLY6oTPmKnKbba6LlpF7kcnsyWdlwePt_V
 

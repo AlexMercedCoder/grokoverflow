@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "careers"
 tags:
   - careers
+canonical: https://tuts.alexmercedcoder.dev/2022/1/becoming_a_developer_in_2022/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/1/becoming_a_developer_in_2022/).
 
 ## Your Mission if you choose to accept it
 

@@ -8,7 +8,10 @@ tags:
   - frontend
   - backend
   - svelte
+canonical: https://tuts.alexmercedcoder.dev/2021/6/intro_to_sveltekit/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/6/intro_to_sveltekit/).
 
 Kind of like React is a Frontend Framework and Next wraps it in a more robust set of features, the people at Svelte has Sapper (Svelte APP Maker) play the same role of providing Server Side and Static rendering along with file based routing.
 

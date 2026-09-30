@@ -7,7 +7,10 @@ tags:
     - css
     - reference
     - frontend
+canonical: https://tuts.alexmercedcoder.dev/2020/cssguide/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/cssguide/).
 
 ## What is this guide?
 

@@ -10,7 +10,10 @@ tags:
   - small files lakehouse
   - databricks predictive optimization
   - s3 tables maintenance
+canonical: https://iceberglakehouse.com/posts/2026-05-24-automating-table-maintenance/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-automating-table-maintenance/).
 
 # Automating Table Maintenance Before Small Files Accumulate
 

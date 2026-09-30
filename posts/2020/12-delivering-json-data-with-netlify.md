@@ -7,7 +7,10 @@ tags:
     - json
     - netlify
     - api
+canonical: https://tuts.alexmercedcoder.dev/2020/netlifyjsonapi/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/netlifyjsonapi/).
 
 ## Why use JSON to Deliver Data and What is JAMStack
 

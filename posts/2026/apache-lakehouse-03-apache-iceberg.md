@@ -10,7 +10,11 @@ tags:
   - data engineering
   - apache parquet
   - apache arrow
+canonical: https://iceberglakehouse.com/posts/2026-03-07-apache-iceberg/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-03-07-apache-iceberg/).
+
 # What is Apache Iceberg? The Table Format Revolution
 
 *Read the complete Open Source and the Lakehouse series:*

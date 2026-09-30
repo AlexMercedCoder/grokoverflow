@@ -7,7 +7,11 @@ tags:
   - semantic layer
   - bi
   - governance
+canonical: https://iceberglakehouse.com/posts/2026-02-sl-semantic-layer-vs-metrics-layer/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-sl-semantic-layer-vs-metrics-layer/).
+
 ![Semantic layer vs metrics layer : the metrics layer is a subset](/images/2026/semantic_layer_seo/03-semantic-layer-vs-metrics-layer/semantic-vs-metrics.png)
 
 Both terms appear in every modern data architecture diagram. They're used interchangeably in conference talks, Slack threads, and vendor marketing. And almost nobody defines them precisely.

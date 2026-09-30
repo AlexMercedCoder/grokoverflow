@@ -7,7 +7,10 @@ tags:
   - headless cms
   - jamstack
   - tooling
+canonical: https://tuts.alexmercedcoder.dev/2021/1/freeheadless/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/freeheadless/).
 
 ## What is a Headless CMS
 

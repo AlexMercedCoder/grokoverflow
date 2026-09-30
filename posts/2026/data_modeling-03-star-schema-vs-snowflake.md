@@ -7,7 +7,11 @@ tags:
   - data modeling
   - database design
   - analytics
+canonical: https://iceberglakehouse.com/posts/2026-02-dm-star-schema-vs-snowflake/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-dm-star-schema-vs-snowflake/).
+
 ![Star schema with central fact table surrounded by denormalized dimension tables](/images/2026/data_modeling/03-star-schema-vs-snowflake/star-vs-snowflake.png)
 
 Both star schemas and snowflake schemas are dimensional models. They both organize data into fact tables (measurable events) and dimension tables (context about those events). The difference is how they structure the dimensions.

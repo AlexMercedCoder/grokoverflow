@@ -12,7 +12,10 @@ tags:
   - enterprise text-to-sql
   - metricflow
   - metric consistency ai analytics
+canonical: https://iceberglakehouse.com/posts/2026-05-24-semantic-layers-text-to-sql/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-semantic-layers-text-to-sql/).
 
 # Why Semantic Layers Make Enterprise Text-to-SQL Safer
 

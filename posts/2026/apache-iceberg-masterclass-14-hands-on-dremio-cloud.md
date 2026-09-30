@@ -6,8 +6,10 @@ category: Data Engineering
 tags:
   - Data Engineering
   - Architecture
+canonical: https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-14/
 ---
 
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-14/).
 
 {/* Meta Description: A practical walkthrough of creating, querying, and optimizing Iceberg tables on Dremio Cloud, from account setup to AI-powered analytics. */}
 {/* Primary Keyword: Dremio Cloud Apache Iceberg */}

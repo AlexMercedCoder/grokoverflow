@@ -9,7 +9,10 @@ tags:
   - data lakehouse
   - data engineering
   - open source
+canonical: https://datalakehousehub.com/blog/2026-05-apache-iceberg-1-11-0-deep-dive/
 ---
+
+> **Cross-posted.** This article's canonical home is [Data Lakehouse Hub](https://datalakehousehub.com/blog/2026-05-apache-iceberg-1-11-0-deep-dive/).
 
 Apache Iceberg 1.11.0 was officially released on May 19, 2026, marking a major milestone in the evolution of open data lakehouse architectures. While minor point releases often focus on small bug fixes and dependency bumps, this release introduces fundamental structural changes. The community has completed major initiatives to improve security, extend file format capabilities, and optimize query planning overhead.
 

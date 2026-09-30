@@ -10,7 +10,10 @@ tags:
   - polars iceberg sink
   - duckdb-wasm iceberg
   - polars cloud remote execution
+canonical: https://iceberglakehouse.com/posts/2026-05-24-duckdb-polars-iceberg/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-duckdb-polars-iceberg/).
 
 # Using DuckDB and Polars to Query Iceberg Tables
 

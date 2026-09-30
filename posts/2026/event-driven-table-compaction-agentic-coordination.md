@@ -9,7 +9,11 @@ tags:
   - "agentic compaction"
   - "Iceberg maintenance"
   - "table optimization"
+canonical: https://iceberglakehouse.com/posts/event-driven-table-compaction-agentic-coordination/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/event-driven-table-compaction-agentic-coordination/).
+
 Event-driven compaction is valuable when agents coordinate maintenance with workload signals, table health, and commit safety. For lakehouse operators managing file layout and table health, the useful question is what changes in production and what simply sounds current.
 
 ![event-driven compaction architecture map](/images/2026/week22-june-2026/event-driven-table-compaction-agentic-coordination-diagram-1.png)

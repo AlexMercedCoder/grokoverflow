@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "deployment"
 tags:
     - deployment
+canonical: https://tuts.alexmercedcoder.dev/2020/deploy/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/deploy/).
 
 ## And the categories are...
 

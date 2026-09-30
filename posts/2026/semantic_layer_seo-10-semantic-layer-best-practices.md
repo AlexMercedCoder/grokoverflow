@@ -7,7 +7,11 @@ tags:
   - semantic layer
   - bi
   - governance
+canonical: https://iceberglakehouse.com/posts/2026-02-sl-semantic-layer-best-practices/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-sl-semantic-layer-best-practices/).
+
 ![Semantic layer best practices checklist : checks and mistakes](/images/2026/semantic_layer_seo/10-semantic-layer-best-practices/best-practices.png)
 
 Semantic layers don't fail because the technology is wrong. They fail because of design decisions made in the first two weeks : choices that seem reasonable at the time and create compounding problems for months afterward.

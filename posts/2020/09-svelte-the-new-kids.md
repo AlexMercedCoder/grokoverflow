@@ -7,7 +7,10 @@ tags:
     - frontend
     - svelte
     - javascript
+canonical: https://tuts.alexmercedcoder.dev/2020/svelte/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/svelte/).
 
 ## What is Svelte
 

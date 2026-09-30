@@ -7,7 +7,11 @@ tags:
   - data modeling
   - database design
   - analytics
+canonical: https://iceberglakehouse.com/posts/2026-02-dm-what-is-data-modeling/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-dm-what-is-data-modeling/).
+
 ![Data entities connected by relationship lines forming a structured data model](/images/2026/data_modeling/01-what-is-data-modeling/data-modeling-overview.png)
 
 Every database, data warehouse, and data lakehouse starts with the same question: how should this data be organized? Data modeling answers that question by creating a structured blueprint of your data : what it contains, how it relates, and what it means.

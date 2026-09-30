@@ -6,7 +6,10 @@ category: "javascript"
 tags:
   - javascript
   - frontend
+canonical: https://tuts.alexmercedcoder.dev/2021/8/serverside_templating_comback/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/8/serverside_templating_comback/).
 
 One of the biggest recent trends has been to have MORE javascript in your web applications whether that meant doing your backend web server in node/deno or shifting your entire stateful view logic into the client using frontend frameworks like React and Angular.
 

@@ -8,7 +8,10 @@ tags:
   - frontend
   - backend
   - react
+canonical: https://tuts.alexmercedcoder.dev/2021/6/basic_intro_to_nextjs/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/6/basic_intro_to_nextjs/).
 
 Some people will call NextJS a Static Site Generator like GatsbyJS but it's so much more. Essentially NextJS allows you to create an Isomorphic Application, meaning:
 

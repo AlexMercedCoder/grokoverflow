@@ -8,7 +8,10 @@ tags:
   - frontend
   - javascript
   - tooling
+canonical: https://tuts.alexmercedcoder.dev/2021/1/deployreact/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/deployreact/).
 
 ## Creating Your Project
 

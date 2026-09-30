@@ -9,7 +9,11 @@ tags:
   - "streaming SQL"
   - "Iceberg storage"
   - "event-driven lakehouse"
+canonical: https://iceberglakehouse.com/posts/real-time-lakehouse-streaming-sql-cold-iceberg-storage/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/real-time-lakehouse-streaming-sql-cold-iceberg-storage/).
+
 The real-time lakehouse is not one engine. It is a contract between streams, table commits, query paths, and freshness expectations. For data engineers connecting streaming systems to lakehouse analytics, the useful question is what changes in production and what simply sounds current.
 
 ![streaming and Iceberg analytics architecture map](/images/2026/week22-june-2026/real-time-lakehouse-streaming-sql-cold-iceberg-storage-diagram-1.png)

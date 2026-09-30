@@ -7,7 +7,10 @@ tags:
   - tooling
   - github
   - git
+canonical: https://tuts.alexmercedcoder.dev/2021/11/developer_team_work_best_practices/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/11/developer_team_work_best_practices/).
 
 ## The Why?
 

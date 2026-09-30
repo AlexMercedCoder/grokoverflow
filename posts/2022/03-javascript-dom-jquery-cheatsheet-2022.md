@@ -8,7 +8,11 @@ tags:
     - dom
     - jquery
     - frontend
+canonical: https://tuts.alexmercedcoder.dev/2022/3/2022-dom-js-cheatsheet/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/3/2022-dom-js-cheatsheet/).
+
 #### Join the slack and discord community at devNursery.com
 
 [DOM/jQuery Video Playlist](https://youtube.com/playlist?list=PLY6oTPmKnKbaK2r_zkLKf_6iHBW09_Ucc)

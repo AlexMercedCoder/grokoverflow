@@ -7,7 +7,10 @@ tags:
   - react
   - frontend
   - javascript
+canonical: https://tuts.alexmercedcoder.dev/2021/1/understandingreactrouter/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/understandingreactrouter/).
 
 _Note: this article is about React Router 5 and earlier, search for the more recent article on React Router 6 for syntax differences_
 

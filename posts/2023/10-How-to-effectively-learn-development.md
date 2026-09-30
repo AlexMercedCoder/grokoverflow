@@ -5,7 +5,10 @@ author: "Alex Merced"
 title: "How to effectively learn software development"
 date: "2023-10-15T12:12:03.284Z"
 category: "software development"
+canonical: https://tuts.alexmercedcoder.dev/2023/10/10-how-to-effectively-learn-development/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2023/10/10-how-to-effectively-learn-development/).
 
 # Getting Started
 

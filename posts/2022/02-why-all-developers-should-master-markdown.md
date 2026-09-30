@@ -7,7 +7,10 @@ tags:
     - tooling
     - markdown
     - jamstack
+canonical: https://tuts.alexmercedcoder.dev/2022/2/why-all-developers-should-master-markdown/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/2/why-all-developers-should-master-markdown/).
 
 ## What is Markdown
 

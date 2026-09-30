@@ -6,7 +6,10 @@ category: "javascript"
 tags:
   - javascript
   - backend
+canonical: https://tuts.alexmercedcoder.dev/2021/10/express_templating_cheatsheet/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/10/express_templating_cheatsheet/).
 
 # Intro
 

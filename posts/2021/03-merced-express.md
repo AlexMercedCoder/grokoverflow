@@ -7,7 +7,10 @@ tags:
   - backend
   - node
   - javascript
+canonical: https://tuts.alexmercedcoder.dev/2021/3/mercedexpress/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/3/mercedexpress/).
 
 If you've ever used Ruby on Rails it provides many awesome benefits with its command-line interface:
 

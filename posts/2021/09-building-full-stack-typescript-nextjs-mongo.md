@@ -7,7 +7,10 @@ tags:
   - javascript
   - backend
   - frontend
+canonical: https://tuts.alexmercedcoder.dev/2021/9/next_typescript_mongo/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/9/next_typescript_mongo/).
 
 ## What are we going to build
 

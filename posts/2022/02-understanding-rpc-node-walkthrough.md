@@ -7,7 +7,10 @@ tags:
     - backend
     - api
     - node
+canonical: https://tuts.alexmercedcoder.dev/2022/2/grpc-world-protocols/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/2/grpc-world-protocols/).
 
 ## The World of Protocols
 

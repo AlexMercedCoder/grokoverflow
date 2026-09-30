@@ -6,7 +6,10 @@ author: "Alex Merced"
 category: "Javascript"
 tags:
   - Javascript
+canonical: https://tuts.alexmercedcoder.dev/2024/02-understanding_javascript_promises_in-depth/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2024/02-understanding_javascript_promises_in-depth/).
 
 [Subscribe to My Youtube Channel](https://www.youtube.com/@alexmercedcoder)
 

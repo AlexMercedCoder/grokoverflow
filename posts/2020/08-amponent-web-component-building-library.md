@@ -7,7 +7,10 @@ tags:
   - javascript
   - web components
   - frontend
+canonical: https://tuts.alexmercedcoder.dev/2020/amponenttut/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/amponenttut/).
 
 ## What is AMPonent?
 

@@ -8,7 +8,10 @@ tags:
   - django
   - python
   - reference
+canonical: https://tuts.alexmercedcoder.dev/2020/djangoreference/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/djangoreference/).
 
 #### Other Useful Python Articles:
 

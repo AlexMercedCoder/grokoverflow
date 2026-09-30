@@ -7,7 +7,10 @@ tags:
   - frontend
   - web components
   - javascript
+canonical: https://tuts.alexmercedcoder.dev/2020/webcomp2/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/webcomp2/).
 
 ## What is a Web Component
 

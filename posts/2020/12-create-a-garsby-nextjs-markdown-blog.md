@@ -8,7 +8,10 @@ tags:
     - markdown
     - nextjs
     - gatsby
+canonical: https://tuts.alexmercedcoder.dev/2020/gatsbynext/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/gatsbynext/).
 
 ## Why a Markdown Blog
 

@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "javascript"
 tags:
   - javascript
+canonical: https://tuts.alexmercedcoder.dev/2021/2/javascripttricks/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/2/javascripttricks/).
 
 **Learn more Javascript with my Javascript Video Playlist => [Javascript Playlist](https://www.youtube.com/playlist?list=PLY6oTPmKnKbZDZ9cRrRby4Wnr4GIJj5O3)**
 

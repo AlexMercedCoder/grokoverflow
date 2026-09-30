@@ -4,9 +4,13 @@ date: "2021-01-04"
 author: "Alex Merced"
 category: "other languages"
 tags:
-	- other languages
+    - other languages
     - golang
+canonical: https://tuts.alexmercedcoder.dev/2021/1/golang101/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/golang101/).
+
 
 ## Why do we need another lower-level compiled language?
 

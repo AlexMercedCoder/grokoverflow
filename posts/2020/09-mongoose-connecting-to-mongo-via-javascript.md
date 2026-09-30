@@ -8,7 +8,10 @@ tags:
     - mongoose
     - javascript
     - backend
+canonical: https://tuts.alexmercedcoder.dev/2020/mongoose/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/mongoose/).
 
 ## What is Mongo and Mongoose?
 

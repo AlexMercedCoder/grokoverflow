@@ -10,7 +10,11 @@ tags:
   - "lineage"
   - "data quality"
   - "semantic governance"
+canonical: https://iceberglakehouse.com/posts/context-layer-semantic-lineage-quality-ai-agents/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/context-layer-semantic-lineage-quality-ai-agents/).
+
 A semantic layer is necessary, but agents also need lineage, quality, freshness, compliance, and ownership context. For data governance and AI platform leaders, the useful question is what changes in production and what simply sounds current.
 
 ![AI context layer architecture map](/images/2026/week22-june-2026/context-layer-semantic-lineage-quality-ai-agents-diagram-1.png)

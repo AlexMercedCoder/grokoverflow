@@ -6,7 +6,10 @@ category: "frontend"
 tags:
     - frontend
     - web components
+canonical: https://tuts.alexmercedcoder.dev/2020/stenciljs/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/stenciljs/).
 
 **STENCIL VIDEO PLAYLIST:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbazpUTMcGmvMtgU5sr0Ip-V
 

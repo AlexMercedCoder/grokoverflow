@@ -8,7 +8,10 @@ tags:
   - express
   - koa
   - fastify
+canonical: https://tuts.alexmercedcoder.dev/2021/7/full_crud_with_typescript/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/7/full_crud_with_typescript/).
 
 Using Typescript for development for frontend and backend development keep growing. Typescript allows for better IDE hints and less runtime errors due to type errors with its typing system. On top of that Typescript makes popular OOP patterns like dependency injection more applicable vs when typing doesn't exist like in plain javascript. (In DI, you use typing in class constructor to instantiate and inject services throughout your application)
 

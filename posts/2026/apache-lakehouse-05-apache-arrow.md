@@ -10,7 +10,11 @@ tags:
   - data engineering
   - apache parquet
   - apache arrow
+canonical: https://iceberglakehouse.com/posts/2026-03-07-apache-arrow/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-03-07-apache-arrow/).
+
 # What is Apache Arrow? Erasing the Serialization Tax
 
 *Read the complete Open Source and the Lakehouse series:*

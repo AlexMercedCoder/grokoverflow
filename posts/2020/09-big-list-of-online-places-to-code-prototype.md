@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "tooling"
 tags:
     - tooling
+canonical: https://tuts.alexmercedcoder.dev/2020/onlinecodeplaygrounds/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/onlinecodeplaygrounds/).
 
 Across the internet that has always been many code playgrounds, places we can practice basic coding drills. Nowadays we have even more robus online coding tools that allow us to even build whole applications online. This is meant to be a list of such tools.
 

@@ -6,7 +6,10 @@ category: "javascript"
 tags:
     - javascript
     - data types
+canonical: https://tuts.alexmercedcoder.dev/2020/10jsobjects/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/10jsobjects/).
 
 **My Javascript Playlist:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbZDZ9cRrRby4Wnr4GIJj5O3
 

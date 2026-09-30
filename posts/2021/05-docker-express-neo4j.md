@@ -7,7 +7,10 @@ tags:
   - docker
   - tooling
   - database
+canonical: https://tuts.alexmercedcoder.dev/2021/5/docker_express_neo4j/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/5/docker_express_neo4j/).
 
 ## Previous Content on Docker
 

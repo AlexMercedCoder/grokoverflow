@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "tooling"
 tags:
     - careers
+canonical: https://tuts.alexmercedcoder.dev/2022/2/create-a-dev-environment-with-docker/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/2/create-a-dev-environment-with-docker/).
 
 [VIDEO OVERVIEW OF USING DOCKER IMAGE FROM DOCKER HUB](https://youtu.be/mN5UHsMNm4U)
 [Repo with Docker/docker-compose.yml](https://github.com/AlexMercedCoder/ez-developer-environment/blob/main/Dockerfile)

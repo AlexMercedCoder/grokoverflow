@@ -7,7 +7,10 @@ tags:
   - bosque
   - microsoft
   - other languages
+canonical: https://tuts.alexmercedcoder.dev/2021/1/bosqueenvironment/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/bosqueenvironment/).
 
 ## What is Bosque?
 

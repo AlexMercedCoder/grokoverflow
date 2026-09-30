@@ -7,7 +7,10 @@ tags:
   - serverless
   - deployment
   - backend
+canonical: https://tuts.alexmercedcoder.dev/2021/1/netlifyfunctions/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/netlifyfunctions/).
 
 ## Context
 

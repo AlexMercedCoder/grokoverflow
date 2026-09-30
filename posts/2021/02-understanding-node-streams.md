@@ -6,7 +6,10 @@ category: "javascript"
 tags:
   - javascript
   - node
+canonical: https://tuts.alexmercedcoder.dev/2021/2/streams/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/2/streams/).
 
 ## What are Streams?
 

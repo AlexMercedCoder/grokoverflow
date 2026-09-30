@@ -6,8 +6,10 @@ category: Data Engineering
 tags:
   - Data Engineering
   - Architecture
+canonical: https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-15/
 ---
 
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-15/).
 
 {/* Meta Description: Migrate to Iceberg from Hive, data warehouses, or raw files using in-place migration, full rewrite, or the zero-downtime view swap pattern. */}
 {/* Primary Keyword: migrating to Apache Iceberg */}

@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "javascript"
 tags:
   - javascript
+canonical: https://tuts.alexmercedcoder.dev/2021/9/js_pattern_matching/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/9/js_pattern_matching/).
 
 ## Conditionals in Javscript
 

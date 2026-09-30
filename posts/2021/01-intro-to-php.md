@@ -7,7 +7,10 @@ tags:
   - php
   - backend
   - other languages
+canonical: https://tuts.alexmercedcoder.dev/2021/1/introtophp/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/introtophp/).
 
 ## What is PHP?
 

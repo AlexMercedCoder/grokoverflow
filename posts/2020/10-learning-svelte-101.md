@@ -7,7 +7,10 @@ tags:
     - frontend
     - svelte
     - javascript
+canonical: https://tuts.alexmercedcoder.dev/2020/svelte101/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/svelte101/).
 
 **This tutorial will be using this codesandbox, so open it up and fork it**: https://codesandbox.io/s/welcome-to-svelte-is0hb
 

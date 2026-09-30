@@ -7,7 +7,11 @@ tags:
   - data modeling
   - database design
   - analytics
+canonical: https://iceberglakehouse.com/posts/2026-02-dm-dimensional-modeling/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-dm-dimensional-modeling/).
+
 ![Dimensional model showing a central fact table connected to surrounding dimension tables](/images/2026/data_modeling/05-dimensional-modeling/dimensional-modeling.png)
 
 Dimensional modeling is the most widely used approach for organizing analytics data. Developed by Ralph Kimball, it structures data into two types of tables: facts (what happened) and dimensions (the context around what happened). The technique optimizes for query speed and business readability, not for storage efficiency or transactional integrity.

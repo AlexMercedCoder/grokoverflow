@@ -7,7 +7,11 @@ tags:
   - javascript
   - backend
   - database
+canonical: https://tuts.alexmercedcoder.dev/2021/11/mongo_mongoose_data_relationships/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/11/mongo_mongoose_data_relationships/).
+
 ![Title Image](https://i.imgur.com/tleNmhh.jpg)
 
 #### Pre-requisites:

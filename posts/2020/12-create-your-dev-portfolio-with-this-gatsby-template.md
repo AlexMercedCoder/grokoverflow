@@ -6,7 +6,10 @@ category: "jamstack"
 tags:
     - gatsby
     - javascript
+canonical: https://tuts.alexmercedcoder.dev/2020/gatsbyportfolio/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/gatsbyportfolio/).
 
 ## create-markdown-blog
 

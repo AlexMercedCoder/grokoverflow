@@ -10,7 +10,10 @@ tags:
   - iceberg row lineage
   - iceberg version 3
   - cdc lakehouse pipeline
+canonical: https://iceberglakehouse.com/posts/2026-05-24-iceberg-cdc-pipelines/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-iceberg-cdc-pipelines/).
 
 # What Iceberg V3 Advances Mean for CDC Pipelines
 

@@ -7,7 +7,10 @@ tags:
   - javascript
   - node
   - backend
+canonical: https://tuts.alexmercedcoder.dev/2021/3/expresstemplatingintro/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/3/expresstemplatingintro/).
 
 Express is by far the most popular backend web framework in the NodeJS world. It is a right of passage for every javascript developer to learn how to create full-stack applications and APIs. 
 

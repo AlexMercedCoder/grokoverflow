@@ -7,7 +7,10 @@ tags:
   - serverless
   - javascript
   - deployment
+canonical: https://tuts.alexmercedcoder.dev/2021/1/vercelfunctions/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/vercelfunctions/).
 
 ## Context
 

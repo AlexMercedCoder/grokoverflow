@@ -7,7 +7,10 @@ category: "Rust"
 tags:
   - programming
   - rust
+canonical: https://tuts.alexmercedcoder.dev/2024/2024-09-getting-started-with-rust/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2024/2024-09-getting-started-with-rust/).
 
 [Follow me on Twitter](https://www.twitter.com/alexmercedcoder)
 [Subscribe on Youtube](https://www.youtube.com/@alexmercedcoder)

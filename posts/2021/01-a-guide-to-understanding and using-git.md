@@ -6,7 +6,10 @@ category: "tooling"
 tags:
   - git
   - tooling
+canonical: https://tuts.alexmercedcoder.dev/2021/1/guidetogit/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/guidetogit/).
 
 - [VIDEO: Intro to Git](https://www.youtube.com/watch?v=L4zbgo7KFoA&list=PLY6oTPmKnKbYjGEm9nLowExbgkI-epIgg&index=7&t=9s)
 - [VIDEO: Working with Git Remotes](https://www.youtube.com/watch?v=TOsVVxXdtu8&list=PLY6oTPmKnKbYjGEm9nLowExbgkI-epIgg&index=9&t=2s)

@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "careers"
 tags:
   - careers
+canonical: https://tuts.alexmercedcoder.dev/2021/1/developerguide/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/developerguide/).
 
 ## Reasons to Become a Developer
 

@@ -10,7 +10,10 @@ tags:
     - angular
     - vue
     - svelte
+canonical: https://tuts.alexmercedcoder.dev/2020/todoreactangularvue/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/todoreactangularvue/).
 
 ## Why are we doing this?
 

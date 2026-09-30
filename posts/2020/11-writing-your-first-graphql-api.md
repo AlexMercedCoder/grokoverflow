@@ -6,7 +6,10 @@ category: "backend"
 tags:
     - backend
     - graphql
+canonical: https://tuts.alexmercedcoder.dev/2020/graphql/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/graphql/).
 
 ## What is GraphQL?
 

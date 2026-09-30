@@ -7,7 +7,10 @@ tags:
   - react
   - frontend
   - javascript
+canonical: https://tuts.alexmercedcoder.dev/2021/1/reactdataflowguide/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/reactdataflowguide/).
 
 ## What is the VirtualDOM
 

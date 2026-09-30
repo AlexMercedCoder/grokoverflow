@@ -6,7 +6,10 @@ category: "backend"
 tags:
   - backend
   - python
+canonical: https://tuts.alexmercedcoder.dev/2021/12/masonite_python_authentication_one_to_many/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/12/masonite_python_authentication_one_to_many/).
 
 ## To Get Started with Masonite, Start Here
 

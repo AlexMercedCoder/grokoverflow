@@ -7,7 +7,11 @@ tags:
   - data modeling
   - database design
   - analytics
+canonical: https://iceberglakehouse.com/posts/2026-02-dm-denormalization-when-why/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-dm-denormalization-when-why/).
+
 ![Normalized model with many interconnected tables vs. denormalized wide flat table](/images/2026/data_modeling/08-denormalization-when-why/denormalization-overview.png)
 
 Normalization is the first rule taught in database design. Eliminate redundancy. Store each fact once. Use foreign keys. It's the right rule for transactional systems. And it's the wrong rule for most analytics workloads.

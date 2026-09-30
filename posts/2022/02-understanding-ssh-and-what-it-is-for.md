@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "tooling"
 tags:
     - tooling
+canonical: https://tuts.alexmercedcoder.dev/2022/2/understanding-ssh/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/2/understanding-ssh/).
 
 ## What is SSH
 

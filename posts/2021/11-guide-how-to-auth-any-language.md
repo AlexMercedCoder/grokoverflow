@@ -8,7 +8,10 @@ tags:
   - backend
   - authentication
   - other languages
+canonical: https://tuts.alexmercedcoder.dev/2021/11/how_to_implement_authorization_master_guide/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/11/how_to_implement_authorization_master_guide/).
 
 ![Title Image](https://i.imgur.com/XbV0EzX.jpg)
 

@@ -6,7 +6,10 @@ category: "javascript"
 tags:
   - javascript
   - ajax
+canonical: https://tuts.alexmercedcoder.dev/2021/8/frontend_ajax_call_how_to/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/8/frontend_ajax_call_how_to/).
 
 ## What is AJAX?
 

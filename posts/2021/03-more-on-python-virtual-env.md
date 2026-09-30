@@ -6,7 +6,10 @@ category: "python"
 tags:
   - python
   - tooling
+canonical: https://tuts.alexmercedcoder.dev/2021/3/rivisitingpyenv/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/3/rivisitingpyenv/).
 
 **My Original Article on [Virtual Environments](https://tuts.alexmercedcoder.dev/2021/1/pythonvirtualenv/)**
 

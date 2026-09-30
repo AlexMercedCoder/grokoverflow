@@ -11,7 +11,10 @@ tags:
   - substrait plan format
   - arrow ipc
   - embedded analytics engine
+canonical: https://iceberglakehouse.com/posts/2026-05-24-composable-query-engines/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-composable-query-engines/).
 
 # Building Composable Query Engines with Rust Runtimes
 

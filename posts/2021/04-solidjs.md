@@ -6,7 +6,10 @@ category: "frontend"
 tags:
   - frontend
   - javascript
+canonical: https://tuts.alexmercedcoder.dev/2021/4/solidjs/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/4/solidjs/).
 
 React is by far the biggest frontend Javascript framework in modern web development. Although, Svelte has been growing steadily in popularity over the last few years. What makes Svelte so special.
 

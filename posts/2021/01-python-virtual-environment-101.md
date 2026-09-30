@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "python"
 tags:
   - python
+canonical: https://tuts.alexmercedcoder.dev/2021/1/pythonvirtualenv/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/pythonvirtualenv/).
 
 ## Why do we care?
 

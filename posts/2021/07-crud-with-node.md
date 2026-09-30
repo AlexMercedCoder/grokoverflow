@@ -7,7 +7,10 @@ tags:
   - javascript
   - node
   - backend
+canonical: https://tuts.alexmercedcoder.dev/2021/7/full_crud_with_vanilla_node/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/7/full_crud_with_vanilla_node/).
 
 In this tutorial we once again create a full CRUD api without a database. In this article we won't use a pre-existing framework but the standard node libraries that underpin all our favorite frameworks.
 

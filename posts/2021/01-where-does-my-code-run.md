@@ -6,7 +6,10 @@ category: "tooling"
 tags:
   - tooling
   - computer science
+canonical: https://tuts.alexmercedcoder.dev/2021/1/wheredoesmycoderun/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/wheredoesmycoderun/).
 
 ## Machine Code
 

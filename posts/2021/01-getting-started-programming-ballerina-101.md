@@ -7,7 +7,10 @@ tags:
   - ballerina
   - other languages
   - jvm
+canonical: https://tuts.alexmercedcoder.dev/2021/1/ballerina101/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/ballerina101/).
 
 ## What is Ballerina?
 

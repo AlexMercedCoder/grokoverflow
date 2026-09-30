@@ -8,7 +8,10 @@ tags:
   - tooling
   - git
   - bash
+canonical: https://tuts.alexmercedcoder.dev/2021/2/clireference2021/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/2/clireference2021/).
 
 ---
 # Bash Terminal

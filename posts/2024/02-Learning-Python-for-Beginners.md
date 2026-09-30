@@ -6,7 +6,10 @@ author: "Alex Merced"
 category: "Python"
 tags:
   - python
+canonical: https://tuts.alexmercedcoder.dev/2024/02-learning-python-for-beginners/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2024/02-learning-python-for-beginners/).
 
 [Subscribe to my youtube channel](https://www.youtube.com/@alexmercedcoder)
 

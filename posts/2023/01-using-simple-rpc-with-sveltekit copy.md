@@ -9,7 +9,10 @@ category: "javascript"
 date: "2023-01-02T12:12:03.284Z"
 description: "Easy to use RPC in your SvelteKit Application"
 
+canonical: https://tuts.alexmercedcoder.dev/2023/1/01-using-simple-rpc-with-sveltekit/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2023/1/01-using-simple-rpc-with-sveltekit/).
 
 SvelteKit is the official SvelteKit meta framework in the vein of Next/Remix for React, Nuxt for Vue, Analog for Angular and Solid-Start for Solid.
 

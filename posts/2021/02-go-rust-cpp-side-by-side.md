@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "other languages"
 tags:
   - other languages
+canonical: https://tuts.alexmercedcoder.dev/2021/2/gorustcpp/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/2/gorustcpp/).
 
 ## Why?
 

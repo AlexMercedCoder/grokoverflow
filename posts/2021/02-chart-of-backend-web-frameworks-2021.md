@@ -9,7 +9,10 @@ tags:
   - php
   - ruby
   - python
+canonical: https://tuts.alexmercedcoder.dev/2021/2/2021backendframeworks/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/2/2021backendframeworks/).
 
 **Find tutorials for many of these frameworks at my website, devNursery.com**
 

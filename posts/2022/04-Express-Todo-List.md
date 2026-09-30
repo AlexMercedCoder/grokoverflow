@@ -8,7 +8,10 @@ tags:
   - backend
   - javascript
   - node
+canonical: https://tuts.alexmercedcoder.dev/2022/4/04-2022-expressjs-cheatsheet/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/4/04-2022-expressjs-cheatsheet/).
 
 ## What is a Web Server?
 

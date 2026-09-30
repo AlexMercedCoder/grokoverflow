@@ -6,7 +6,10 @@ author: "Alex Merced"
 category: "javascript"
 tags:
   - javascript
+canonical: https://tuts.alexmercedcoder.dev/2022/5/05-making-multiple-api-calls-in-javascript/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2022/5/05-making-multiple-api-calls-in-javascript/).
 
 (all examples will use the browser native fetch function using async/await syntax)
 

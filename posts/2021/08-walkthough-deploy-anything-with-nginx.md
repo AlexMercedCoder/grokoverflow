@@ -6,7 +6,10 @@ category: "deployment"
 tags:
   - deployment
   - tooling
+canonical: https://tuts.alexmercedcoder.dev/2021/8/deploy_anything_with_nginx/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/8/deploy_anything_with_nginx/).
 
 ## Purpose of this article
 

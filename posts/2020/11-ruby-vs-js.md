@@ -7,7 +7,10 @@ tags:
     - ruby
     - javascript
     - reference
+canonical: https://tuts.alexmercedcoder.dev/2020/rubyvjs/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/rubyvjs/).
 
 **My Learning Ruby Video Playlist:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbZp8Kh6jS5A6j-6H2kGY12e
 

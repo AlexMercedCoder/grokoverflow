@@ -8,7 +8,10 @@ tags:
     - javascript
     - frontend
     - reference
+canonical: https://tuts.alexmercedcoder.dev/2020/reacthooks/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/reacthooks/).
 
 ## What are React Hooks?
 

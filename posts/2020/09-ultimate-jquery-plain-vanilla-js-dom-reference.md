@@ -6,7 +6,10 @@ category: "frontend"
 tags:
     - jquery
     - javascript
+canonical: https://tuts.alexmercedcoder.dev/2020/jquery/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/jquery/).
 
 ## What is jQuery
 

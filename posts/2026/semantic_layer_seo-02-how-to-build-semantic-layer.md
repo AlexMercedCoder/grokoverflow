@@ -7,7 +7,11 @@ tags:
   - semantic layer
   - bi
   - governance
+canonical: https://iceberglakehouse.com/posts/2026-02-sl-how-to-build-semantic-layer/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-sl-how-to-build-semantic-layer/).
+
 ![Building a semantic layer : Bronze, Silver, and Gold tiers](/images/2026/semantic_layer_seo/02-how-to-build-semantic-layer/build-semantic-layer.png)
 
 Most teams start building a semantic layer the wrong way: they open their BI tool, create a few calculated fields, and call it done. Six months later, three dashboards define "churn" differently, nobody trusts the numbers, and the data team is debugging metric discrepancies instead of building new features.

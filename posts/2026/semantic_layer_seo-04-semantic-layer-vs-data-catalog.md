@@ -7,7 +7,11 @@ tags:
   - semantic layer
   - bi
   - governance
+canonical: https://iceberglakehouse.com/posts/2026-02-sl-semantic-layer-vs-data-catalog/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-sl-semantic-layer-vs-data-catalog/).
+
 ![Data catalog and semantic layer : complementary systems bridged together](/images/2026/semantic_layer_seo/04-semantic-layer-vs-data-catalog/catalog-vs-semantic.png)
 
 "We already have a data catalog, so we don't need a semantic layer." This is one of the most common misconceptions in modern data architecture. Catalogs and semantic layers both deal with metadata. They both improve data accessibility. But they solve fundamentally different problems.

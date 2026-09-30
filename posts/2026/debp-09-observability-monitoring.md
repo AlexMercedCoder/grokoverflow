@@ -7,7 +7,11 @@ tags:
   - data engineering
   - best practices
   - pipelines
+canonical: https://iceberglakehouse.com/posts/2026-02-debp-observability-monitoring/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-debp-observability-monitoring/).
+
 ![Pipeline observability dashboard showing metrics, logs, and data lineage](/images/2026/debp/09-observability-monitoring/observability-dashboard.png)
 
 An analyst messages you on Slack: "The revenue numbers look wrong. Is the pipeline broken?" You check the orchestrator : all green. You check the target table,  data loaded this morning. You check the row count : looks normal. Forty-five minutes later, you discover that a source API returned empty responses for one region, and the pipeline happily loaded zero rows for that region without alerting anyone.

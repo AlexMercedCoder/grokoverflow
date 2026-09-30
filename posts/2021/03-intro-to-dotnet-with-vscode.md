@@ -6,7 +6,10 @@ category: "backend"
 tags:
   - other languages
   - backend
+canonical: https://tuts.alexmercedcoder.dev/2021/3/dotnet5/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/3/dotnet5/).
 
 .Net is Microsoft's platform for application development and for a long time it has been a "Windows Only" platform. With .Net 5, Microsoft is going cross-platform enabling dotnet development in Linux and MacOS. This makes sense since Microsoft's bread and butter is no longer operating systems but the cloud, and more developers using their development platform will increase the added value of their cloud platform.
 

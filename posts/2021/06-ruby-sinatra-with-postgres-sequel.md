@@ -6,7 +6,10 @@ category: "ruby"
 tags:
   - ruby
   - backend
+canonical: https://tuts.alexmercedcoder.dev/2021/6/using_ruby_sinatra_with_postgres/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/6/using_ruby_sinatra_with_postgres/).
 
 In Ruby on Rails we use ActiveRecord as our ORM (Object Relationship Mapper). Sinatra, being a minimalist framework is unopinionated about what Ruby ORM you use to work with to connect to the database of your choice. We will use the ORM, sequel, to connect our small application to a database.
 

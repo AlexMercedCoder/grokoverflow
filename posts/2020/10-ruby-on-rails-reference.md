@@ -7,7 +7,11 @@ tags:
     - reference
     - ruby
     - rails
+canonical: https://tuts.alexmercedcoder.dev/2020/ruby%20on%20rails/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/ruby%20on%20rails/).
+
 **My Learning Ruby on Rails Video Playlist:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbYlAqVHgzZl5lou54bizdbV
 
 ## Gems

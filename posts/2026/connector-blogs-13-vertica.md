@@ -7,7 +7,11 @@ tags:
   - dremio
   - connectors
   - data integration
+canonical: https://iceberglakehouse.com/posts/2026-03-connector-vertica/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-03-connector-vertica/).
+
 Vertica is a columnar analytics database engineered for fast aggregate queries on large datasets. It was built from the ground up for analytical workloads : column-oriented storage, massively parallel processing, and automatic database design optimization. Organizations running Vertica typically have years of investment in analytics infrastructure: curated schemas, optimized projections, and sophisticated workloads that depend on Vertica's high-performance query engine.
 
 But Vertica has limitations that become more painful as data ecosystems grow. Licensing costs scale with data volume. Federation with non-Vertica sources requires complex ETL. And connecting Vertica data to modern cloud tools, AI platforms, and cross-cloud architectures requires exporting data or building custom connectors.

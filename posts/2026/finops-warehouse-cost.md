@@ -11,7 +11,10 @@ tags:
   - focus billing data
   - data warehouse cost attribution
   - chargeback showback analytics
+canonical: https://iceberglakehouse.com/posts/2026-05-24-finops-warehouse-cost/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-05-24-finops-warehouse-cost/).
 
 # FinOps for Data Warehouses with Open Billing Data
 

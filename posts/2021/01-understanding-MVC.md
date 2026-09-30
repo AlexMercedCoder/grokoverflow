@@ -6,7 +6,10 @@ category: "computer science"
 tags:
   - backend
   - computer science
+canonical: https://tuts.alexmercedcoder.dev/2021/1/mvc/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/mvc/).
 
 ## Why Does MVC Matter?
 

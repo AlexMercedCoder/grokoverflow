@@ -6,7 +6,10 @@ category: "javascript"
 tags:
   - javascript
   - react
+canonical: https://tuts.alexmercedcoder.dev/2021/10/my_first_react_app_2021_to_react_app/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/10/my_first_react_app_2021_to_react_app/).
 
 ## Before Starting this tutorial
 

@@ -7,7 +7,10 @@ tags:
     - frontend
     - vue
     - javascript
+canonical: https://tuts.alexmercedcoder.dev/2020/vue-tut/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/vue-tut/).
 
 **VUE VIDEO PLAYLIST:** https://www.youtube.com/playlist?list=PLY6oTPmKnKbbsEAIDfFAlhAVbSCIt2Bxx
 

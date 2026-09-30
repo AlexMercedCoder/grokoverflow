@@ -8,7 +8,10 @@ tags:
     - express
     - node
     - javascript
+canonical: https://tuts.alexmercedcoder.dev/2020/introtoexpress/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/introtoexpress/).
 
 **Watch My Intro to Express Video Playlist Here: https://www.youtube.com/playlist?list=PLY6oTPmKnKbamIu4uuDJ3QNNDU1SoOkjl**
 

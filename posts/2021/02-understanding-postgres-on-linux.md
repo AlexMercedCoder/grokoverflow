@@ -6,7 +6,10 @@ category: "database"
 tags:
   - database
   - postgres
+canonical: https://tuts.alexmercedcoder.dev/2021/2/linuxpostgres/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/2/linuxpostgres/).
 
 ## Installing Postgres
 

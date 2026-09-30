@@ -7,7 +7,10 @@ tags:
     - crud
     - javascript
     - frontend
+canonical: https://tuts.alexmercedcoder.dev/2020/frontendcrudpvjs/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/frontendcrudpvjs/).
 
 ## Our Mission
 

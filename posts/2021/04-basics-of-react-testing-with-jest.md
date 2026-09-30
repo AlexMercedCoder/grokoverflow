@@ -7,7 +7,10 @@ tags:
   - javascript
   - node
   - testing
+canonical: https://tuts.alexmercedcoder.dev/2021/4/react_jest_testing_basics/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/4/react_jest_testing_basics/).
 
 [MY VIDEO ON REACT TESTING](https://youtu.be/Qpp67fEqtxo)
 ## Why Testing Matters

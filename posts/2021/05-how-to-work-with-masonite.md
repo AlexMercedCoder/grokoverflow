@@ -6,7 +6,10 @@ category: "python"
 tags:
   - python
   - backend
+canonical: https://tuts.alexmercedcoder.dev/2021/5/masonite-python-web-framework-101/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/5/masonite-python-web-framework-101/).
 
 We all love Ruby on Rails and how easy it makes creating APIs and websites. In python, Django has generally been the main batteries included framework used for many projects. The problem is Django has a lot of quirks that make its patterns quite different than the more railsesque approach frameworks for other languages have taken. Masonite provides a much more rails like experience in the Python language, let's try it out!
 

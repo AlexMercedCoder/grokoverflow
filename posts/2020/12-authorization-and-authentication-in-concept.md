@@ -8,7 +8,10 @@ tags:
     - authentication
     - authorization
     - jwt
+canonical: https://tuts.alexmercedcoder.dev/2020/authconcept/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/authconcept/).
 
 ## What is Authentication and Authorization?
 

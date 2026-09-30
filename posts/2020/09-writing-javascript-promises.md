@@ -7,7 +7,10 @@ tags:
   - frontend
   - typescript
   - javascript
+canonical: https://tuts.alexmercedcoder.dev/2020/writingpromises/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/writingpromises/).
 
 To read my previous article explaining promises, go here:
 https://tuts.alexmercedcoder.dev/2020/promises/

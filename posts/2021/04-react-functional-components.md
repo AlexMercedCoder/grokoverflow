@@ -7,7 +7,10 @@ tags:
   - frontend
   - react
   - javascript
+canonical: https://tuts.alexmercedcoder.dev/2021/4/react_functional_reference/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/4/react_functional_reference/).
 
 [I will Continue to Expand on Guide in this Gist](https://gist.github.com/AlexMercedCoder/b4d86790176f2f5c7b374235cf3dc23c)
 

@@ -7,7 +7,10 @@ tags:
   - javascript
   - backend
   - typescript
+canonical: https://tuts.alexmercedcoder.dev/2021/5/foalts-typescript-web-framework/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/5/foalts-typescript-web-framework/).
 
 Bottom Line, like bow-ties... Typescript is cool!
 

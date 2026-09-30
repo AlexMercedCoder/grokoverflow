@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "tooling"
 tags:
   - tooling
+canonical: https://tuts.alexmercedcoder.dev/2021/2/makesfiles/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/2/makesfiles/).
 
 ## The beauty of scripting and automation
 

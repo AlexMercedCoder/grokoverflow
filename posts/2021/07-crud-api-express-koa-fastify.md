@@ -8,7 +8,10 @@ tags:
   - express
   - koa
   - fastify
+canonical: https://tuts.alexmercedcoder.dev/2021/7/full_crud_with_nodejs/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/7/full_crud_with_nodejs/).
 
 NodeJS is an amazing tool that allows us to bring Javascript to backend development. When it comes to creating web servers, there are dozens of frameworks in the Node ecosystem. The most popular minimalist unopinionated frameworks are Express, Koa and Fastify. In this tutorial we will build a basic API that follows RESTful conventions with each one. We will not be using a database but instead an array of objects to simulate data from a database so we can focus on the RESTful patterns.
 

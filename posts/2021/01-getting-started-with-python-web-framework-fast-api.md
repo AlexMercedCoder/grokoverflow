@@ -6,7 +6,10 @@ category: "backend"
 tags:
   - backend
   - python
+canonical: https://tuts.alexmercedcoder.dev/2021/1/fastapi/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/1/fastapi/).
 
 ## Python Web Frameworks
 

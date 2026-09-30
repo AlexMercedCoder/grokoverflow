@@ -7,7 +7,10 @@ tags:
     - frontend
     - react
     - javascript
+canonical: https://tuts.alexmercedcoder.dev/2020/taskrunner/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/taskrunner/).
 
 ## What is the story?
 

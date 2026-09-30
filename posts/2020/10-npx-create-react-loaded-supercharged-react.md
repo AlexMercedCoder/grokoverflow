@@ -7,7 +7,10 @@ tags:
     - react
     - frontend
     - web development
+canonical: https://tuts.alexmercedcoder.dev/2020/createreactloaded/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/createreactloaded/).
 
 ## React Templates
 

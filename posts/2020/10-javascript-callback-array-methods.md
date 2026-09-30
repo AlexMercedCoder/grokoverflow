@@ -5,7 +5,10 @@ author: "Alex Merced"
 category: "javascript"
 tags:
     - javascript
+canonical: https://tuts.alexmercedcoder.dev/2020/arraymethods/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/arraymethods/).
 
 ## Array Callback Methods
 

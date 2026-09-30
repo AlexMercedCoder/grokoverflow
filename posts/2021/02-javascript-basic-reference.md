@@ -6,7 +6,10 @@ category: "reference"
 tags:
   - javascript
   - reference
+canonical: https://tuts.alexmercedcoder.dev/2021/2/jsreference/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/2/jsreference/).
 
 ## Declaring Variables
 

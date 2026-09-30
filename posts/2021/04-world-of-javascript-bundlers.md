@@ -7,7 +7,10 @@ tags:
   - javascript
   - node
   - tooling
+canonical: https://tuts.alexmercedcoder.dev/2021/4/javascript_bundlers/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/4/javascript_bundlers/).
 
 ## Problem #1 - Too Many Script Tags
 

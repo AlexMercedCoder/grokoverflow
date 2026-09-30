@@ -10,7 +10,11 @@ tags:
   - data engineering
   - apache parquet
   - apache arrow
+canonical: https://iceberglakehouse.com/posts/2026-03-07-agentic-analytics/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-03-07-agentic-analytics/).
+
 # Agentic Analytics on the Apache Lakehouse
 
 *Read the complete Open Source and the Lakehouse series:*

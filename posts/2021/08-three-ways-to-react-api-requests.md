@@ -7,7 +7,10 @@ tags:
   - javascript
   - ajax
   - react
+canonical: https://tuts.alexmercedcoder.dev/2021/8/api_calls_react/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/8/api_calls_react/).
 
 When working with React there are several things that can be particularly annoying to deal with...
 

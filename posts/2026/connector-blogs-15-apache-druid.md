@@ -9,7 +9,11 @@ tags:
   - dremio
   - connectors
   - data integration
+canonical: https://iceberglakehouse.com/posts/2026-03-connector-apache-druid/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-03-connector-apache-druid/).
+
 Apache Druid is a real-time analytics database designed for sub-second queries on high-ingestion-rate event data. Clickstream analytics, application monitoring, IoT telemetry, and ad-tech workloads rely on Druid's columnar storage and inverted indexes for instantaneous queries.
 
 Dremio Cloud connects to Druid as a federated data source, giving you the ability to join Druid event data with relational databases, data lakes, and cloud warehouses. Dremio adds governance (column masking, row-level filtering), Reflection-based acceleration, and AI capabilities (AI Agent, MCP Server, AI SQL Functions) that Druid doesn't provide natively.

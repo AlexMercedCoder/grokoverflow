@@ -7,7 +7,10 @@ tags:
   - javascript
   - backend
   - graphql
+canonical: https://tuts.alexmercedcoder.dev/2021/11/creating_a_habit_tracker_graphql_hasura/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/11/creating_a_habit_tracker_graphql_hasura/).
 
 ## What is GraphQL?
 

@@ -6,8 +6,10 @@ category: Data Engineering
 tags:
   - Data Engineering
   - Architecture
+canonical: https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-03/
 ---
 
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-04-29-iceberg-masterclass-03/).
 
 {/* Meta Description: Iceberg's three-layer metadata tree eliminates directory listing and enables multi-level data skipping. Here is how scan planning actually works. */}
 {/* Primary Keyword: Apache Iceberg metadata performance */}

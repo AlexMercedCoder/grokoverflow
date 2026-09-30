@@ -6,7 +6,10 @@ category: "jamstack"
 tags:
   - javascript
   - frontend
+canonical: https://tuts.alexmercedcoder.dev/2021/8/js_jquery_cheatsheet/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2021/8/js_jquery_cheatsheet/).
 
 While for larger projects using one of the main frontend frameworks is usually the way to go:
 

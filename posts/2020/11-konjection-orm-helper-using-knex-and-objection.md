@@ -8,7 +8,10 @@ tags:
     - backend
     - mongo
     - database
+canonical: https://tuts.alexmercedcoder.dev/2020/konjection/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/konjection/).
 
 **Konjection Tutorial Video:** https://youtu.be/zfp7D_MB9c0
 

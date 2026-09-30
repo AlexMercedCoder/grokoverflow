@@ -7,7 +7,11 @@ tags:
   - data engineering
   - best practices
   - pipelines
+canonical: https://iceberglakehouse.com/posts/2026-02-debp-partition-and-organize/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/2026-02-debp-partition-and-organize/).
+
 ![Table data split into partitions by date with query scanning only the relevant partition](/images/2026/debp/07-partition-and-organize/partition-overview.png)
 
 A table with 500 million rows takes 45 seconds to query. After partitioning it by date, the same query : filtering on a single day,  returns in 2 seconds. The SQL didn't change. The data didn't change. The only thing that changed was how the data was organized on disk.

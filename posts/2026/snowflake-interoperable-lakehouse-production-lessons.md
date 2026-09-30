@@ -9,7 +9,11 @@ tags:
   - "Iceberg interoperability"
   - "open tables"
   - "multi-engine lakehouse"
+canonical: https://iceberglakehouse.com/posts/snowflake-interoperable-lakehouse-production-lessons/
 ---
+
+> **Cross-posted.** This article's canonical home is [Alex Merced's Lakehouse Blog](https://iceberglakehouse.com/posts/snowflake-interoperable-lakehouse-production-lessons/).
+
 Interoperable lakehouse announcements matter when they change production contracts, not just import and export narratives. For platform teams planning multi-engine lakehouse access, the useful question is what changes in production and what simply sounds current.
 
 ![interoperable lakehouse operations architecture map](/images/2026/week22-june-2026/snowflake-interoperable-lakehouse-production-lessons-diagram-1.png)

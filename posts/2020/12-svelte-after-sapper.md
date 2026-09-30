@@ -7,7 +7,10 @@ tags:
     - javascript
     - svelte
     - jamstack
+canonical: https://tuts.alexmercedcoder.dev/2020/postsapper/
 ---
+
+> **Cross-posted.** This article's canonical home is [Coding Tutorials Blog](https://tuts.alexmercedcoder.dev/2020/postsapper/).
 
 ## What is the story?
 
